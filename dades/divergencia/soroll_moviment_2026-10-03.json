@@ -1,0 +1,3860 @@
+{
+ "eina": "eines/soroll_en_moviment.py",
+ "pla": "documentacio/pla-analisi-caos.md",
+ "que_es": "soroll de seguiment EN MOVIMENT (0,1-10 s despres de l'amollada), de la variacio de les llargades de les barres passada pel filtre de la conversio, en la norma de mesures.distancia_fases; nomes veu l'error al llarg de la barra; sense el biaix de theta1",
+ "finestra_s": [
+  0.1,
+  10.0
+ ],
+ "omega0_rad_s": 8.058397913568252,
+ "per_presa": {
+  "45_1": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    45.227995422525844,
+    43.99343024948594
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.876474601781205e-10,
+     "theta1": 4.998146341250731e-11,
+     "theta2": 4.719140627047716e-10,
+     "omega1": 4.913732976170541e-10,
+     "omega2": 4.880466493171205e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.07700783613417723,
+     0.3140045462455049,
+     0.3098767950314724,
+     0.6486540404082252
+    ],
+    "sigma_d_graus": 0.7882288716647001
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.06383346797346719,
+     0.18833255010373878,
+     0.30475686335412727,
+     0.5958192367741265
+    ],
+    "sigma_d_graus": 0.6981555483799049
+   },
+   "fraccio_geometrica": [
+    0.2640159930330409,
+    0.6217327007695626
+   ],
+   "lag1": [
+    0.771834270948551,
+    0.9188811415133187
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.07192263080540956,
+    0.19583564316906868
+   ],
+   "esperat_si_blanc_graus": [
+    0.030072362674856717,
+    0.08188299593736648,
+    0.4053845011320101,
+    1.1038074333619639
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 0.971017563347414,
+     "sigma_d_sense_geometria_graus": 0.9490343141226897,
+     "omega_mediana_rad_s": [
+      1.976140572552893,
+      7.714822332588762
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.8148385610768958,
+     "sigma_d_sense_geometria_graus": 0.7675173691846506,
+     "omega_mediana_rad_s": [
+      2.1973330004789937,
+      6.312024733031758
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.7440248919155212,
+     "sigma_d_sense_geometria_graus": 0.6306524186053603,
+     "omega_mediana_rad_s": [
+      2.361374666072979,
+      5.44197016914073
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.038475040214732956,
+    0.05343274441092939
+   ],
+   "rapid_de_llarg_graus": [
+    0.03161091448692085,
+    0.05118061272371316
+   ]
+  },
+  "45_2": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    44.018530287172204,
+    42.16404371605587
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.947767041684784e-10,
+     "theta1": 4.999878289169146e-11,
+     "theta2": 4.86167655981774e-10,
+     "omega1": 4.913646996749358e-10,
+     "omega2": 4.945716457763663e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.05227422066283633,
+     0.3420473793810076,
+     0.3127193778141636,
+     0.8571909583198165
+    ],
+    "sigma_d_graus": 0.9758579569655846
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.042184967309333105,
+     0.15547591928904236,
+     0.3076013510554338,
+     0.7806844521974219
+    ],
+    "sigma_d_graus": 0.8544232780183245
+   },
+   "fraccio_geometrica": [
+    0.25022792766559343,
+    0.7554813265402252
+   ],
+   "lag1": [
+    0.6090072253662505,
+    0.8373928449139695
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.05344747873090242,
+    0.17333739071041357
+   ],
+   "esperat_si_blanc_graus": [
+    0.022347513521870477,
+    0.07247600400853015,
+    0.3012521741345303,
+    0.9770014797747026
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 2.0915576625773618,
+     "sigma_d_sense_geometria_graus": 2.026982383361524,
+     "omega_mediana_rad_s": [
+      2.07782950835689,
+      7.199170651315196
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.8332401434361986,
+     "sigma_d_sense_geometria_graus": 0.6824585972504692,
+     "omega_mediana_rad_s": [
+      2.1049074216562373,
+      6.467129758867776
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.7644919801124815,
+     "sigma_d_sense_geometria_graus": 0.6104852828238106,
+     "omega_mediana_rad_s": [
+      2.300138457231446,
+      5.27681974903064
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.037550580793313554,
+    0.0575959861253716
+   ],
+   "rapid_de_llarg_graus": [
+    0.031371358307045044,
+    0.0724635104860209
+   ]
+  },
+  "45_3": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    44.67668656839388,
+    43.635319509471806
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.6176209927027606e-10,
+     "theta1": 4.999700653485206e-11,
+     "theta2": 4.806396255614682e-10,
+     "omega1": 4.927157776456569e-10,
+     "omega2": 4.918554783502473e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.05888868938954886,
+     0.2887315506397887,
+     0.33255935227573313,
+     0.6265941780629339
+    ],
+    "sigma_d_graus": 0.7681469734636038
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.045078042422284845,
+     0.12410239331040081,
+     0.32083110972826073,
+     0.5210176742596587
+    ],
+    "sigma_d_graus": 0.6259596247318239
+   },
+   "fraccio_geometrica": [
+    0.31500732680443366,
+    0.7923761120835373
+   ],
+   "lag1": [
+    0.6075317590699214,
+    0.848756476969734
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.05584872323036879,
+    0.13337969739883745
+   ],
+   "esperat_si_blanc_graus": [
+    0.02335152428524659,
+    0.05576885312347054,
+    0.3147864374855243,
+    0.7517829835409121
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 1.0399915707504177,
+     "sigma_d_sense_geometria_graus": 0.8522720093001781,
+     "omega_mediana_rad_s": [
+      2.0566721347475685,
+      7.460329936881639
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.8113183257441965,
+     "sigma_d_sense_geometria_graus": 0.6581815771803291,
+     "omega_mediana_rad_s": [
+      2.1822809968710377,
+      6.63140644566487
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.7106634368865417,
+     "sigma_d_sense_geometria_graus": 0.5799428568998084,
+     "omega_mediana_rad_s": [
+      2.345992327233697,
+      5.405011324594517
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.038173417337896476,
+    0.05559060565430227
+   ],
+   "rapid_de_llarg_graus": [
+    0.03385369819641235,
+    0.049007614233485125
+   ]
+  },
+  "45_4": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    44.31731314972041,
+    43.26997690189711
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.921280930743297e-10,
+     "theta1": 4.999264890948041e-11,
+     "theta2": 4.74140007561308e-10,
+     "omega1": 4.951651805248401e-10,
+     "omega2": 4.868780230564974e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.05198116963962241,
+     0.292686269812651,
+     0.3042019283992487,
+     0.6158439823522106
+    ],
+    "sigma_d_graus": 0.7484450002339509
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.04319456706852879,
+     0.12739965783261403,
+     0.2995647514625325,
+     0.5091931866281474
+    ],
+    "sigma_d_graus": 0.60589865907381
+   },
+   "fraccio_geometrica": [
+    0.2192684903059966,
+    0.7888916706977886
+   ],
+   "lag1": [
+    0.6128969213882984,
+    0.860464575759078
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.05459742506515597,
+    0.1363372324088806
+   ],
+   "esperat_si_blanc_graus": [
+    0.022828330238848712,
+    0.05700546063420294,
+    0.30773664316296434,
+    0.7684604574220861
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 0.8374319614460529,
+     "sigma_d_sense_geometria_graus": 0.7069989109979363,
+     "omega_mediana_rad_s": [
+      1.9834582376290752,
+      7.4718582150778765
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.8150877845904827,
+     "sigma_d_sense_geometria_graus": 0.6616956429044001,
+     "omega_mediana_rad_s": [
+      2.142411685516018,
+      6.5122211195894195
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.7143332582817448,
+     "sigma_d_sense_geometria_graus": 0.5740372028777264,
+     "omega_mediana_rad_s": [
+      2.3075716193432725,
+      5.330151572624173
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.03724443466503747,
+    0.05466247089313842
+   ],
+   "rapid_de_llarg_graus": [
+    0.032579672784844756,
+    0.047004890423099674
+   ]
+  },
+  "45_5": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    44.3137575398016,
+    43.796866375014694
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.982965692966435e-10,
+     "theta1": 4.9994758333227196e-11,
+     "theta2": 4.925035737247922e-10,
+     "omega1": 4.920791570470822e-10,
+     "omega2": 4.953572562338967e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.05769580350538545,
+     0.28464420177293415,
+     0.3097963599197707,
+     0.6209624469416107
+    ],
+    "sigma_d_graus": 0.7522760613473857
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.04390946783296797,
+     0.13026376771560838,
+     0.30245695551838403,
+     0.52238992355904
+    ],
+    "sigma_d_graus": 0.6190865308842616
+   },
+   "fraccio_geometrica": [
+    0.31279109894728085,
+    0.7674578469141838
+   ],
+   "lag1": [
+    0.6028570807511917,
+    0.8583604818682283
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.05546737728554053,
+    0.13936311485579214
+   ],
+   "esperat_si_blanc_graus": [
+    0.02319207553554097,
+    0.05827064564392818,
+    0.3126371883116154,
+    0.7855084288295998
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 0.8657042416305534,
+     "sigma_d_sense_geometria_graus": 0.7428383219581531,
+     "omega_mediana_rad_s": [
+      2.0323332816841786,
+      7.594475097274591
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.7957088456311908,
+     "sigma_d_sense_geometria_graus": 0.6885602288967695,
+     "omega_mediana_rad_s": [
+      2.1893463743709987,
+      6.261732728957265
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.7222774002668622,
+     "sigma_d_sense_geometria_graus": 0.5795091958373548,
+     "omega_mediana_rad_s": [
+      2.3048690896087445,
+      5.334756257211539
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.03751379865857005,
+    0.05354101087785316
+   ],
+   "rapid_de_llarg_graus": [
+    0.033012945163208185,
+    0.048056479670995134
+   ]
+  },
+  "45_6": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    45.33387609219826,
+    43.38650164344236
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.896520564604101e-10,
+     "theta1": 4.999256564275356e-11,
+     "theta2": 4.89028424990274e-10,
+     "omega1": 4.936525105115369e-10,
+     "omega2": 4.934192339538188e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.06687817831654773,
+     0.30046678598786936,
+     0.3312721738852257,
+     0.6312946496946721
+    ],
+    "sigma_d_graus": 0.7765482394163172
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.04788314464866467,
+     0.13512685195248672,
+     0.32701812318014767,
+     0.5283184309774754
+    ],
+    "sigma_d_graus": 0.6376623550585387
+   },
+   "fraccio_geometrica": [
+    0.38610940111190983,
+    0.7777536954114875
+   ],
+   "lag1": [
+    0.6555040965814617,
+    0.8740666447477045
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.05886917852741386,
+    0.14349908230389763
+   ],
+   "esperat_si_blanc_graus": [
+    0.024614440089615348,
+    0.059999980509991994,
+    0.33181891432031324,
+    0.808839377194081
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 0.9477823066551814,
+     "sigma_d_sense_geometria_graus": 0.8441900866410216,
+     "omega_mediana_rad_s": [
+      2.0000060023595,
+      7.719998118068634
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.8226702294226613,
+     "sigma_d_sense_geometria_graus": 0.7022104108000272,
+     "omega_mediana_rad_s": [
+      2.1506103183331002,
+      6.223908179488767
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.7360698693199073,
+     "sigma_d_sense_geometria_graus": 0.585237982150393,
+     "omega_mediana_rad_s": [
+      2.3137027914477852,
+      5.3106982159712475
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.03645135175467523,
+    0.05399484821723954
+   ],
+   "rapid_de_llarg_graus": [
+    0.03323872440726448,
+    0.04635531497410914
+   ]
+  },
+  "45_8": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    43.91425860903924,
+    43.9057231708215
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.922338854364408e-10,
+     "theta1": 4.9996673467944674e-11,
+     "theta2": 4.960372697447043e-10,
+     "omega1": 4.796910482465965e-10,
+     "omega2": 4.942354443417041e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.0661177383268671,
+     0.4134573240589256,
+     0.34973446685373816,
+     0.7447436468751085
+    ],
+    "sigma_d_graus": 0.9231878525011755
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.05172363930318396,
+     0.14972064759090475,
+     0.3386240737710521,
+     0.6019505538498734
+    ],
+    "sigma_d_graus": 0.7085918005419467
+   },
+   "fraccio_geometrica": [
+    0.2945461427820484,
+    0.8552840379638152
+   ],
+   "lag1": [
+    0.6424814523493717,
+    0.8853504455747637
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.06379312485334653,
+    0.15853341075385488
+   ],
+   "esperat_si_blanc_graus": [
+    0.02667324547599783,
+    0.06628614903104149,
+    0.3595646058580556,
+    0.8935602932774774
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 1.1145540377986067,
+     "sigma_d_sense_geometria_graus": 0.9294359844031672,
+     "omega_mediana_rad_s": [
+      1.9295959939099565,
+      7.672108146703952
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.9941668080127737,
+     "sigma_d_sense_geometria_graus": 0.7439967132240036,
+     "omega_mediana_rad_s": [
+      2.1147612186318447,
+      6.443158289392562
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.8716933147975893,
+     "sigma_d_sense_geometria_graus": 0.6640918580650427,
+     "omega_mediana_rad_s": [
+      2.299095878900125,
+      5.1887062860197055
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.03784196390843429,
+    0.05513365939807692
+   ],
+   "rapid_de_llarg_graus": [
+    0.03597816460635875,
+    0.05045557378496597
+   ]
+  },
+  "45_9": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    45.31120302065328,
+    44.83139415992222
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.883878644013525e-10,
+     "theta1": 4.9998671869389e-11,
+     "theta2": 4.823604515810293e-10,
+     "omega1": 4.897082176432399e-10,
+     "omega2": 4.889929203744999e-10
+    }
+   },
+   "mostres": 2376,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.3620217325834357,
+     0.44011384644391244,
+     0.6060538355003976,
+     1.001755225082876
+    ],
+    "sigma_d_graus": 1.3021423559657197
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.152086035500592,
+     0.27758832558419033,
+     0.5199040069028824,
+     0.9625221943991382
+    ],
+    "sigma_d_graus": 1.1388303612915869
+   },
+   "fraccio_geometrica": [
+    0.8128077847338442,
+    0.5864187377107763
+   ],
+   "lag1": [
+    0.9346153805570238,
+    0.9403806387156529
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.15763963380068138,
+    0.28677128755421427
+   ],
+   "esperat_si_blanc_graus": [
+    0.06591244211313159,
+    0.11990509895832843,
+    0.8885237141099215,
+    1.6163643835910342
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 1.4930171502834353,
+     "sigma_d_sense_geometria_graus": 1.0843203465033855,
+     "omega_mediana_rad_s": [
+      2.179189702010882,
+      7.521096515079657
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 1.400159083952801,
+     "sigma_d_sense_geometria_graus": 1.2937562092759287,
+     "omega_mediana_rad_s": [
+      2.2073686884804915,
+      6.310098451782629
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 1.2420960099437595,
+     "sigma_d_sense_geometria_graus": 1.094423690819099,
+     "omega_mediana_rad_s": [
+      2.3394093458673417,
+      5.146695347172022
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.04621668810837179,
+    0.06989095990364035
+   ],
+   "rapid_de_llarg_graus": [
+    0.03912880283596545,
+    0.06688950971920178
+   ]
+  },
+  "45_10": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    43.899559875278435,
+    44.57628951735049
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.818611034639551e-10,
+     "theta1": 4.9994258732866115e-11,
+     "theta2": 4.672142760188224e-10,
+     "omega1": 4.891083673181192e-10,
+     "omega2": 4.961132559402637e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.07294238999443999,
+     0.3760111004040545,
+     0.398037483312829,
+     0.7463582301966776
+    ],
+    "sigma_d_graus": 0.9285415369220141
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.07134666476620316,
+     0.18732257653235937,
+     0.3966002238079292,
+     0.6298503442909577
+    ],
+    "sigma_d_graus": 0.7708328534643033
+   },
+   "fraccio_geometrica": [
+    0.033200487081302965,
+    0.7374022712826616
+   ],
+   "lag1": [
+    0.7459507025475689,
+    0.9197439292509983
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.08199845224158676,
+    0.1945759563450271
+   ],
+   "esperat_si_blanc_graus": [
+    0.03428527525998738,
+    0.08135629441650849,
+    0.4621756493166609,
+    1.0967069073477547
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 1.4115715458585212,
+     "sigma_d_sense_geometria_graus": 1.2341559364085484,
+     "omega_mediana_rad_s": [
+      1.988739085365687,
+      7.508964270075383
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.9630822588865231,
+     "sigma_d_sense_geometria_graus": 0.8400474274366708,
+     "omega_mediana_rad_s": [
+      2.1592428985101977,
+      6.406720281221997
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.8322860463032044,
+     "sigma_d_sense_geometria_graus": 0.6648134840923209,
+     "omega_mediana_rad_s": [
+      2.312462823623135,
+      5.308114236292033
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.04236727625347217,
+    0.0577659630932357
+   ],
+   "rapid_de_llarg_graus": [
+    0.038909326536066366,
+    0.05046195723840141
+   ]
+  },
+  "45_11": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    44.226392087222514,
+    43.91132983213702
+   ],
+   "remostrejada": true,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.878595427682428e-10,
+     "theta1": 4.9999088203023234e-11,
+     "theta2": 4.911457376528036e-10,
+     "omega1": 4.926963921253899e-10,
+     "omega2": 4.89048404200571e-10
+    }
+   },
+   "mostres": 2372,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.04761232953850446,
+     0.2614465840511347,
+     0.11339563111451548,
+     0.5907393448871131
+    ],
+    "sigma_d_graus": 0.6576114300934899
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.04483745130235834,
+     0.15586367337809795,
+     0.10983196591169851,
+     0.5592433832518277
+    ],
+    "sigma_d_graus": 0.5925538829213634
+   },
+   "fraccio_geometrica": [
+    0.10727962700289306,
+    0.6275991946739863
+   ],
+   "lag1": [
+    0.9361359891993671,
+    0.9252741808382838
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.04621897460527074,
+    0.16168989435346756
+   ],
+   "esperat_si_blanc_graus": [
+    0.019325124112189094,
+    0.06760594112598876,
+    0.2602786698338198,
+    0.9105444460269817
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 0.859241681721185,
+     "sigma_d_sense_geometria_graus": 0.7989185559031649,
+     "omega_mediana_rad_s": [
+      2.066130553104357,
+      7.304015514109654
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 0.7048533100296663,
+     "sigma_d_sense_geometria_graus": 0.7083907330450837,
+     "omega_mediana_rad_s": [
+      2.140978662163938,
+      6.378409511120395
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 0.6108498074211612,
+     "sigma_d_sense_geometria_graus": 0.520016403208306,
+     "omega_mediana_rad_s": [
+      2.261982523547358,
+      5.2786353360507885
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.016724562657047137,
+    0.04693986630778997
+   ],
+   "rapid_de_llarg_graus": [
+    0.01088814828685967,
+    0.04107871910928281
+   ]
+  },
+  "45_12": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    47.126519684474545,
+    43.909743137250175
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.767690260751623e-10,
+     "theta1": 4.9992482376026715e-11,
+     "theta2": 4.830036509973361e-10,
+     "omega1": 4.92465975084046e-10,
+     "omega2": 4.916568411665912e-10
+    }
+   },
+   "mostres": 2373,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.33017231981515666,
+     0.656587198340328,
+     0.5922092943651135,
+     0.9970152040089206
+    ],
+    "sigma_d_graus": 1.3729062878266305
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.12518733512991045,
+     0.3046459653681943,
+     0.5085611336957451,
+     0.8901837313007913
+    ],
+    "sigma_d_graus": 1.0768205678155245
+   },
+   "fraccio_geometrica": [
+    0.8444164187842457,
+    0.7774332973412993
+   ],
+   "lag1": [
+    0.9186701291339959,
+    0.9604565922245454
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.13113410148314578,
+    0.31120424694238585
+   ],
+   "esperat_si_blanc_graus": [
+    0.05482992230236968,
+    0.13012103249292153,
+    0.7384710958557115,
+    1.7525215689530806
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 1.6273960020447165,
+     "sigma_d_sense_geometria_graus": 1.321689885671071,
+     "omega_mediana_rad_s": [
+      2.34676590827289,
+      7.433517375714227
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 1.3969110419541275,
+     "sigma_d_sense_geometria_graus": 1.1402148111096597,
+     "omega_mediana_rad_s": [
+      2.293180714713517,
+      6.664774532478283
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 1.3245499038938557,
+     "sigma_d_sense_geometria_graus": 1.0212388038356537,
+     "omega_mediana_rad_s": [
+      2.383657664327458,
+      5.407771298753492
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.04311731866825406,
+    0.06389636930729412
+   ],
+   "rapid_de_llarg_graus": [
+    0.035698176044539495,
+    0.05895398260259309
+   ]
+  },
+  "45_13": {
+   "grup": "45",
+   "angles_amollada_graus": [
+    45.84347800483662,
+    41.91295198966715
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.905501112257484e-10,
+     "theta1": 4.999251013160233e-11,
+     "theta2": 4.94704415209641e-10,
+     "omega1": 4.897480244543179e-10,
+     "omega2": 4.921093567851755e-10
+    }
+   },
+   "mostres": 2373,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.5267775812664816,
+     0.6867968621815905,
+     0.7162821979190089,
+     1.1477302524332236
+    ],
+    "sigma_d_graus": 1.6060913639745282
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.18814240628356316,
+     0.4388462028163811,
+     0.5407274296686434,
+     1.0149205882060424
+    ],
+    "sigma_d_graus": 1.2451640487618818
+   },
+   "fraccio_geometrica": [
+    0.8673627398916967,
+    0.5845809052175914
+   ],
+   "lag1": [
+    0.959753590994546,
+    0.9712994123813157
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.19241878934653361,
+    0.44543296870277066
+   ],
+   "esperat_si_blanc_graus": [
+    0.08045433758313791,
+    0.18624488053571475,
+    1.0835898412707154,
+    2.5084174029602067
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 2.114116815966187,
+     "sigma_d_sense_geometria_graus": 1.4994891830652513,
+     "omega_mediana_rad_s": [
+      2.0278566485935254,
+      7.40228509187781
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 1.778493428384299,
+     "sigma_d_sense_geometria_graus": 1.1915312845204855,
+     "omega_mediana_rad_s": [
+      2.190317865661712,
+      6.536379347321672
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 1.4613297402039291,
+     "sigma_d_sense_geometria_graus": 1.2129295709427208,
+     "omega_mediana_rad_s": [
+      2.303604943536845,
+      5.3498138356998215
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.04896840828198138,
+    0.0779717317826913
+   ],
+   "rapid_de_llarg_graus": [
+    0.03743174162825166,
+    0.07240250599841694
+   ]
+  },
+  "90_1": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    92.19857348756727,
+    91.1846706391632
+   ],
+   "remostrejada": true,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.946879812799611e-10,
+     "theta1": 4.745750629194233e-10,
+     "theta2": 4.900173241162907e-10,
+     "omega1": 4.936896537665218e-10,
+     "omega2": 4.953895563107227e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.45855102447006146,
+     0.8885035955349215,
+     1.356324433728364,
+     2.3706555071354147
+    ],
+    "sigma_d_graus": 2.908492940400761
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.3875630160033071,
+     0.6057696827214349,
+     1.3605096632187712,
+     2.080891526882723
+    ],
+    "sigma_d_graus": 2.5880993200111106
+   },
+   "fraccio_geometrica": [
+    0.2728433156537845,
+    0.5218100265471406
+   ],
+   "lag1": [
+    0.9391692018287424,
+    0.9475250379393324
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.40012148190454344,
+    0.6224146799023094
+   ],
+   "esperat_si_blanc_graus": [
+    0.16729919613743516,
+    0.26024465148971293,
+    2.2552465036341585,
+    3.5081808754150723
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.479913439941374,
+     "sigma_d_sense_geometria_graus": 3.473086036332824,
+     "omega_mediana_rad_s": [
+      7.427813195299253,
+      15.285791499439581
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 3.653063461769318,
+     "sigma_d_sense_geometria_graus": 3.43320176537973,
+     "omega_mediana_rad_s": [
+      5.592346525851617,
+      18.115659051173296
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.5600453482562924,
+     "sigma_d_sense_geometria_graus": 2.1288494127946787,
+     "omega_mediana_rad_s": [
+      5.452979756716106,
+      7.538607921291474
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.11476367358144837,
+    0.12600605736939097
+   ],
+   "rapid_de_llarg_graus": [
+    0.09295543243410574,
+    0.13108120210106358
+   ]
+  },
+  "90_2": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    92.41527182661581,
+    89.83289417790003
+   ],
+   "remostrejada": true,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.937120855093796e-10,
+     "theta1": 4.823561023006484e-10,
+     "theta2": 4.734720869278455e-10,
+     "omega1": 4.971025455720308e-10,
+     "omega2": 4.917267263306199e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 22,
+   "total": {
+    "components_graus": [
+     1.16499287948158,
+     0.7691829275561982,
+     1.5389410638387482,
+     2.439414922847002
+    ],
+    "sigma_d_graus": 3.204361956624827
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.5759651894992982,
+     0.5602423895623694,
+     0.9929589264347787,
+     2.186569808423251
+    ],
+    "sigma_d_graus": 2.5323235163130553
+   },
+   "fraccio_geometrica": [
+    0.7534542154831435,
+    0.45331563059569246
+   ],
+   "lag1": [
+    0.9893129737607849,
+    0.9423183031352346
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.579320095325596,
+    0.5790183355351075
+   ],
+   "esperat_si_blanc_graus": [
+    0.24222590047628728,
+    0.24209972836941857,
+    3.2652880355282767,
+    3.2635871923477344
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.694046746825923,
+     "sigma_d_sense_geometria_graus": 3.0143925415258095,
+     "omega_mediana_rad_s": [
+      7.440167540310856,
+      15.020924693867574
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 3.901658657096704,
+     "sigma_d_sense_geometria_graus": 3.063517659023581,
+     "omega_mediana_rad_s": [
+      6.001285578673943,
+      18.857855974749583
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.895002316122341,
+     "sigma_d_sense_geometria_graus": 2.28272987438672,
+     "omega_mediana_rad_s": [
+      3.68181161326975,
+      11.592307806488947
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.06573490998609718,
+    0.11903064938477972
+   ],
+   "rapid_de_llarg_graus": [
+    0.05597821312980915,
+    0.13409685983288525
+   ]
+  },
+  "90_3": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    91.72140856350015,
+    89.23578896190185
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.805382355046639e-10,
+     "theta1": 4.9022125425964e-10,
+     "theta2": 4.85738677604376e-10,
+     "omega1": 4.95184182209498e-10,
+     "omega2": 4.950361021527793e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.6384168826707123,
+     1.1830496523801288,
+     1.144622497387782,
+     2.4358730276835407
+    ],
+    "sigma_d_graus": 3.008458187277689
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.44261601836444564,
+     0.7880900501389698,
+     1.026400669995617,
+     1.8878358168901843
+    ],
+    "sigma_d_graus": 2.3311836636656755
+   },
+   "fraccio_geometrica": [
+    0.513010664985843,
+    0.552593338854154
+   ],
+   "lag1": [
+    0.9766473144347367,
+    0.9843547435911268
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.44833339619357215,
+    0.7941656089850198
+   ],
+   "esperat_si_blanc_graus": [
+    0.18745761019310858,
+    0.3320573225680682,
+    2.5269818330295117,
+    4.4762270296176885
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.0212265016557684,
+     "sigma_d_sense_geometria_graus": 3.2644420574368898,
+     "omega_mediana_rad_s": [
+      7.555451793519503,
+      14.84182415360452
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 3.4831879351552613,
+     "sigma_d_sense_geometria_graus": 2.4933012264539056,
+     "omega_mediana_rad_s": [
+      7.535500118285628,
+      9.924978998023775
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.8390264696304515,
+     "sigma_d_sense_geometria_graus": 2.111972920298586,
+     "omega_mediana_rad_s": [
+      5.639352495947971,
+      8.884043949849996
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.06869713046545582,
+    0.09118395656823033
+   ],
+   "rapid_de_llarg_graus": [
+    0.06589123393220231,
+    0.08908756686062264
+   ]
+  },
+  "90_4": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    92.90992966783028,
+    90.78379934270122
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.969382057898543e-10,
+     "theta1": 4.5960370075551424e-10,
+     "theta2": 4.846882503748859e-10,
+     "omega1": 4.892067712801467e-10,
+     "omega2": 4.890575275472155e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.5129630929937717,
+     0.6426387621186749,
+     1.371413966481498,
+     1.9035827792669198
+    ],
+    "sigma_d_graus": 2.4860650390392536
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.4492681713758846,
+     0.5237004338017315,
+     1.3158349976732113,
+     1.7074940842754818
+    ],
+    "sigma_d_graus": 2.263418172391699
+   },
+   "fraccio_geometrica": [
+    0.22793215853721804,
+    0.32730735374485254
+   ],
+   "lag1": [
+    0.9715956450823435,
+    0.9620425050287054
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.4560227547738899,
+    0.5342916438743732
+   ],
+   "esperat_si_blanc_graus": [
+    0.19067269253054367,
+    0.22339855910174866,
+    2.5703275807870942,
+    3.01148250620806
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 2.6358102119848845,
+     "sigma_d_sense_geometria_graus": 2.5979185533983844,
+     "omega_mediana_rad_s": [
+      8.066944158519597,
+      14.10206080350622
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 3.563918273909138,
+     "sigma_d_sense_geometria_graus": 3.260070594358401,
+     "omega_mediana_rad_s": [
+      4.605658521935873,
+      19.1539311511674
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.0463030031931084,
+     "sigma_d_sense_geometria_graus": 1.818586024391925,
+     "omega_mediana_rad_s": [
+      3.434589199020774,
+      11.435282665821692
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.08002247635594938,
+    0.09723826283218298
+   ],
+   "rapid_de_llarg_graus": [
+    0.06855765507147718,
+    0.0968156327896737
+   ]
+  },
+  "90_5": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    93.68897894947519,
+    90.92912255304114
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.812811711194048e-10,
+     "theta1": 4.842182906286388e-10,
+     "theta2": 3.9364381155970665e-10,
+     "omega1": 4.956170418588419e-10,
+     "omega2": 4.900583336466033e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.5073899994181648,
+     0.7030085299935205,
+     1.32541049877153,
+     1.9536211176031286
+    ],
+    "sigma_d_graus": 2.514958064491714
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.4724593488598083,
+     0.6646218005981265,
+     1.2781358292386813,
+     1.916191356273576
+    ],
+    "sigma_d_graus": 2.443432112008956
+   },
+   "fraccio_geometrica": [
+    0.1298673865982627,
+    0.10350275907696393
+   ],
+   "lag1": [
+    0.974420741849514,
+    0.9728535102939184
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.4788367270796634,
+    0.6745189052928847
+   ],
+   "esperat_si_blanc_graus": [
+    0.20021169355915672,
+    0.2820305225749515,
+    2.698914196811048,
+    3.801856763609414
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.839021273619827,
+     "sigma_d_sense_geometria_graus": 3.771546155261136,
+     "omega_mediana_rad_s": [
+      8.136724969578468,
+      14.678453383663674
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 3.2658794434730494,
+     "sigma_d_sense_geometria_graus": 3.15217193085218,
+     "omega_mediana_rad_s": [
+      5.956798426512281,
+      12.901984394471427
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 1.9892630613926996,
+     "sigma_d_sense_geometria_graus": 1.9228522419314014,
+     "omega_mediana_rad_s": [
+      3.8434087357291404,
+      10.527332021115228
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07023098288523767,
+    0.10053948939690671
+   ],
+   "rapid_de_llarg_graus": [
+    0.06783613019141725,
+    0.10123882722892445
+   ]
+  },
+  "90_6": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    92.22086246253033,
+    88.61779909049649
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.829193530454941e-10,
+     "theta1": 4.957945665410301e-10,
+     "theta2": 4.416179955139165e-10,
+     "omega1": 4.888734150980241e-10,
+     "omega2": 4.80125580325577e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.5314413945802695,
+     1.0241668827447796,
+     1.2128961809519587,
+     2.033523099054377
+    ],
+    "sigma_d_graus": 2.6339478164421073
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.2865723076899313,
+     0.5959633709718314,
+     0.9571646993077338,
+     1.580710910954421
+    ],
+    "sigma_d_graus": 1.9626785963794635
+   },
+   "fraccio_geometrica": [
+    0.6965144792554374,
+    0.655455600489012
+   ],
+   "lag1": [
+    0.9463393427585666,
+    0.9729286049306158
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.29544582529084995,
+    0.6040158766651819
+   ],
+   "esperat_si_blanc_graus": [
+    0.12353210539471174,
+    0.2525517253893427,
+    1.6652527358730853,
+    3.4044789434316147
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 2.4815686097332947,
+     "sigma_d_sense_geometria_graus": 2.6036320400230055,
+     "omega_mediana_rad_s": [
+      7.139490492591536,
+      15.658127825255285
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 2.722117686283046,
+     "sigma_d_sense_geometria_graus": 2.2380763253221105,
+     "omega_mediana_rad_s": [
+      7.629303358089238,
+      9.240760884061984
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.6174082143913826,
+     "sigma_d_sense_geometria_graus": 1.7628587289457442,
+     "omega_mediana_rad_s": [
+      6.9780962154227355,
+      9.07798967297424
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.06651608383203347,
+    0.09303189398782218
+   ],
+   "rapid_de_llarg_graus": [
+    0.06602332381871975,
+    0.09087658771456114
+   ]
+  },
+  "90_7": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    94.71520202340427,
+    91.29842284366738
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.6316201806494525e-10,
+     "theta1": 4.964397203109886e-10,
+     "theta2": 4.74421459489759e-10,
+     "omega1": 4.928054887979126e-10,
+     "omega2": 4.885686558853498e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.3506628067709887,
+     0.8134820138221558,
+     1.0376630613580056,
+     1.9596409661757133
+    ],
+    "sigma_d_graus": 2.387813798453642
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.3336736225434417,
+     0.6430631360848074,
+     1.0125855000390551,
+     1.7611632826767236
+    ],
+    "sigma_d_graus": 2.156824931817714
+   },
+   "fraccio_geometrica": [
+    0.09060442997771567,
+    0.36973987247307705
+   ],
+   "lag1": [
+    0.9574536173096585,
+    0.9775990128371151
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.34140966368130415,
+    0.6506295304073115
+   ],
+   "esperat_si_blanc_graus": [
+    0.14275055169634895,
+    0.27204187313888917,
+    1.924332216536189,
+    3.6672288443520222
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 2.688762970553391,
+     "sigma_d_sense_geometria_graus": 2.784383192601497,
+     "omega_mediana_rad_s": [
+      7.162782242887699,
+      15.510329867778818
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 2.4695472836622794,
+     "sigma_d_sense_geometria_graus": 2.1941728609279045,
+     "omega_mediana_rad_s": [
+      5.996913769735544,
+      12.068720775230965
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.3155835743685076,
+     "sigma_d_sense_geometria_graus": 2.0420706190455125,
+     "omega_mediana_rad_s": [
+      4.6573610271949155,
+      9.19250657079347
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.0650833481616362,
+    0.08782034931868374
+   ],
+   "rapid_de_llarg_graus": [
+    0.06570899414747557,
+    0.08806024668724251
+   ]
+  },
+  "90_8": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    93.37966232661842,
+    90.45345250450939
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.95274052988034e-10,
+     "theta1": 4.939819756143429e-10,
+     "theta2": 4.3140210924093225e-10,
+     "omega1": 4.874646249988878e-10,
+     "omega2": 4.990245920907215e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.493703459392036,
+     0.6676928608388898,
+     1.1253959853791653,
+     1.8786419334847733
+    ],
+    "sigma_d_graus": 2.342086356304104
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.3614126489389596,
+     0.6358656900816945,
+     1.010221443823652,
+     1.8298785318455348
+    ],
+    "sigma_d_graus": 2.2144857383840746
+   },
+   "fraccio_geometrica": [
+    0.45563532460934475,
+    0.09101120676228924
+   ],
+   "lag1": [
+    0.9669170387360992,
+    0.9745174031161902
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.36789492335873186,
+    0.6443655740411871
+   ],
+   "esperat_si_blanc_graus": [
+    0.15382459509045485,
+    0.26942278140778686,
+    2.073624979573628,
+    3.63194071315361
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.0779857657722784,
+     "sigma_d_sense_geometria_graus": 2.892885738590587,
+     "omega_mediana_rad_s": [
+      8.300361748202715,
+      14.808172615725619
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 3.137437669405632,
+     "sigma_d_sense_geometria_graus": 3.0957277467453377,
+     "omega_mediana_rad_s": [
+      5.524466313187304,
+      19.20619128154931
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 1.9163756415909754,
+     "sigma_d_sense_geometria_graus": 1.7488580166886782,
+     "omega_mediana_rad_s": [
+      4.072614211527077,
+      11.09656696886725
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07289203515598912,
+    0.09225356120858612
+   ],
+   "rapid_de_llarg_graus": [
+    0.06300703853955196,
+    0.09416534030058751
+   ]
+  },
+  "90_9": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    93.77778205056507,
+    90.38798757869702
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.93154722350392e-10,
+     "theta1": 4.979782530729201e-10,
+     "theta2": 4.5204920391888335e-10,
+     "omega1": 4.972450149887588e-10,
+     "omega2": 4.90175240035374e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.46421219305929556,
+     0.6479993059275704,
+     1.092481086734009,
+     1.782023670820165
+    ],
+    "sigma_d_graus": 2.237078306385906
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.38175876441477946,
+     0.5349249195182498,
+     1.0195917380901003,
+     1.610927982410141
+    ],
+    "sigma_d_graus": 2.0165665624081703
+   },
+   "fraccio_geometrica": [
+    0.317115639964087,
+    0.31220588975762453
+   ],
+   "lag1": [
+    0.9716256461945523,
+    0.9715725864551795
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.38762559486661985,
+    0.5430785994269303
+   ],
+   "esperat_si_blanc_graus": [
+    0.16207440329072778,
+    0.22707256978830534,
+    2.1848156497564855,
+    3.0610120662544715
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.154504836127356,
+     "sigma_d_sense_geometria_graus": 3.2212595257079135,
+     "omega_mediana_rad_s": [
+      7.183777977335312,
+      15.798769278697456
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 2.637685926794829,
+     "sigma_d_sense_geometria_graus": 2.3500993563512496,
+     "omega_mediana_rad_s": [
+      5.436104046417304,
+      13.346487380091816
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 1.9356695892982791,
+     "sigma_d_sense_geometria_graus": 1.6601858156820635,
+     "omega_mediana_rad_s": [
+      5.475317911059373,
+      8.560386238922547
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07350223053357659,
+    0.08422145452820178
+   ],
+   "rapid_de_llarg_graus": [
+    0.061475439910026373,
+    0.08497181913239943
+   ]
+  },
+  "90_10": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    93.12370231248956,
+    91.41135124945373
+   ],
+   "remostrejada": true,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.886642758649505e-10,
+     "theta1": 4.852016457063546e-10,
+     "theta2": 4.760377079454413e-10,
+     "omega1": 4.906020658419022e-10,
+     "omega2": 4.925041937329344e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     0.6583001078067444,
+     0.6664033768189446,
+     1.2235536040785169,
+     1.9007097806266
+    ],
+    "sigma_d_graus": 2.446882421530959
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.4359307161341103,
+     0.46678624678238106,
+     1.0356671478114556,
+     1.619058201660648
+    ],
+    "sigma_d_graus": 2.0253100727727857
+   },
+   "fraccio_geometrica": [
+    0.5558540684391919,
+    0.49819747979620554
+   ],
+   "lag1": [
+    0.9796673003117171,
+    0.9583546934104745
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.4409620774767325,
+    0.4775489069190795
+   ],
+   "esperat_si_blanc_graus": [
+    0.18437550700302213,
+    0.19967322889934952,
+    2.4854868908952192,
+    2.691708898644108
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.5275534479462727,
+     "sigma_d_sense_geometria_graus": 3.2528225663674037,
+     "omega_mediana_rad_s": [
+      7.372697801596059,
+      15.496763264852543
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 2.555319527453897,
+     "sigma_d_sense_geometria_graus": 2.058608913148668,
+     "omega_mediana_rad_s": [
+      7.039163446823259,
+      10.193829595747758
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.2176121271547915,
+     "sigma_d_sense_geometria_graus": 1.7700597423360522,
+     "omega_mediana_rad_s": [
+      6.469184739238965,
+      8.307164917665219
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07420346159855072,
+    0.08851103346777725
+   ],
+   "rapid_de_llarg_graus": [
+    0.06050933977615455,
+    0.0927500648768588
+   ]
+  },
+  "90_11": {
+   "grup": "90",
+   "angles_amollada_graus": [
+    91.59303301502185,
+    89.60950406422693
+   ],
+   "remostrejada": true,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.935516153864652e-10,
+     "theta1": 4.711317460075877e-10,
+     "theta2": 4.066473607617608e-10,
+     "omega1": 4.971684658947125e-10,
+     "omega2": 4.925038557645967e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 13,
+   "total": {
+    "components_graus": [
+     0.4699740499390138,
+     0.5611992327931504,
+     1.2524925724268148,
+     1.8223995619581854
+    ],
+    "sigma_d_graus": 2.3293127728824707
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.408158885801761,
+     0.41669584030836265,
+     1.2509743848145038,
+     1.600201726723092
+    ],
+    "sigma_d_graus": 2.113246691008605
+   },
+   "fraccio_geometrica": [
+    0.23762560463610527,
+    0.42981113576314856
+   ],
+   "lag1": [
+    0.9577033144057909,
+    0.9278808395229348
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.41731713438037427,
+    0.433250929972922
+   ],
+   "esperat_si_blanc_graus": [
+    0.17448905963232123,
+    0.18115131425899836,
+    2.3521732986067136,
+    2.4419828114461435
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 3.05820908820612,
+     "sigma_d_sense_geometria_graus": 3.152327216832805,
+     "omega_mediana_rad_s": [
+      7.513995164325072,
+      15.52368931111841
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 2.5366621833918463,
+     "sigma_d_sense_geometria_graus": 2.2958319188600615,
+     "omega_mediana_rad_s": [
+      6.4236066745214275,
+      12.154073152491165
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 2.150251737340471,
+     "sigma_d_sense_geometria_graus": 1.8769266770927124,
+     "omega_mediana_rad_s": [
+      3.3804223852377406,
+      12.36260666810756
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.09923643404178267,
+    0.10030568830960197
+   ],
+   "rapid_de_llarg_graus": [
+    0.07997426906317427,
+    0.10952166835082632
+   ]
+  },
+  "150_1": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    151.17043523364794,
+    153.6400346201676
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.894502364252736e-10,
+     "theta1": 4.859547033958736e-10,
+     "theta2": 4.38121722545253e-10,
+     "omega1": 4.916548503053347e-10,
+     "omega2": 4.929708143084884e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.7529769625568494,
+     1.5899992668971563,
+     2.739620301927518,
+     4.114407575220471
+    ],
+    "sigma_d_graus": 5.480410111821336
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.91723456592296,
+     1.3258183203952651,
+     2.045701497697843,
+     3.382200059516204
+    ],
+    "sigma_d_graus": 4.268874011714825
+   },
+   "fraccio_geometrica": [
+    0.7233149782973877,
+    0.30296363432679374
+   ],
+   "lag1": [
+    0.9869026770360855,
+    0.9904239102941149
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.924022701096236,
+    1.332097275071366
+   ],
+   "esperat_si_blanc_graus": [
+    0.38635330042844773,
+    0.5569778514153223,
+    5.208222775421812,
+    7.508321341968257
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 6.534081057105706,
+     "sigma_d_sense_geometria_graus": 4.912116411634628,
+     "omega_mediana_rad_s": [
+      9.775748924559974,
+      10.587922950154073
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 7.677637222556042,
+     "sigma_d_sense_geometria_graus": 5.91022372267929,
+     "omega_mediana_rad_s": [
+      8.694598328936927,
+      18.581761403889047
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.404500450327787,
+     "sigma_d_sense_geometria_graus": 3.4816541575239093,
+     "omega_mediana_rad_s": [
+      5.762834587967978,
+      14.185413326609648
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.08700168815236703,
+    0.1065493584374248
+   ],
+   "rapid_de_llarg_graus": [
+    0.09692934000575043,
+    0.10291163632510943
+   ]
+  },
+  "150_2": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    152.75055915401927,
+    154.90367306974946
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.929033829195443e-10,
+     "theta1": 4.71750511321156e-10,
+     "theta2": 4.909520753635125e-10,
+     "omega1": 4.954415350222346e-10,
+     "omega2": 4.923329078062561e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     2.0909416698743275,
+     1.198329997448549,
+     3.0547449048015243,
+     2.9988446643204503
+    ],
+    "sigma_d_graus": 4.9124909774712044
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.8140916650235266,
+     1.12581564790608,
+     1.9886777452455822,
+     2.963761238704136
+    ],
+    "sigma_d_graus": 3.8300033898955093
+   },
+   "fraccio_geometrica": [
+    0.8473249427923818,
+    0.11607568585799755
+   ],
+   "lag1": [
+    0.9918192531533857,
+    0.9881620809805488
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.8175793842804912,
+    1.131951425978135
+   ],
+   "esperat_si_blanc_graus": [
+    0.34184711382553784,
+    0.4732926678451728,
+    4.608207402047106,
+    6.380135116225787
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 6.009516046271734,
+     "sigma_d_sense_geometria_graus": 4.196748406404797,
+     "omega_mediana_rad_s": [
+      9.637298953409422,
+      11.484344501294556
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 6.098206790830275,
+     "sigma_d_sense_geometria_graus": 4.618818630139593,
+     "omega_mediana_rad_s": [
+      8.057649267165647,
+      14.055839197066733
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.1317903820821185,
+     "sigma_d_sense_geometria_graus": 3.479783848262276,
+     "omega_mediana_rad_s": [
+      6.450801811828708,
+      14.30219001412729
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.06908583105763938,
+    0.10365894265189855
+   ],
+   "rapid_de_llarg_graus": [
+    0.06093792891025916,
+    0.09911380424009514
+   ]
+  },
+  "150_3": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    153.71120932823948,
+    155.98152806349944
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.95350448105079e-10,
+     "theta1": 4.910566991906355e-10,
+     "theta2": 4.88695236921587e-10,
+     "omega1": 4.958424180076082e-10,
+     "omega2": 4.924262354563257e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.512595118352029,
+     1.4029518620130619,
+     2.716586000384707,
+     3.5771121333597846
+    ],
+    "sigma_d_graus": 4.942852276904932
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.8109901125208068,
+     1.341463529037295,
+     2.163174529625858,
+     3.6515914404788927
+    ],
+    "sigma_d_graus": 4.524452835000545
+   },
+   "fraccio_geometrica": [
+    0.7094383741768853,
+    0.0847092063034065
+   ],
+   "lag1": [
+    0.9869372567071357,
+    0.9900779221637639
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.8172032280917729,
+    1.3481298728773918
+   ],
+   "esperat_si_blanc_graus": [
+    0.3416898350218727,
+    0.5636814173227954,
+    4.606121893246804,
+    7.598661274136859
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 7.042455584744936,
+     "sigma_d_sense_geometria_graus": 6.763846841778243,
+     "omega_mediana_rad_s": [
+      9.604775608323184,
+      10.50225298732408
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 5.87953673223338,
+     "sigma_d_sense_geometria_graus": 5.113424884129048,
+     "omega_mediana_rad_s": [
+      7.931569280733524,
+      10.517155281983559
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.198879120151862,
+     "sigma_d_sense_geometria_graus": 3.8864862273141387,
+     "omega_mediana_rad_s": [
+      4.91314955680798,
+      16.88965393792148
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.08097000214139248,
+    0.10795862002784953
+   ],
+   "rapid_de_llarg_graus": [
+    0.0827313563584078,
+    0.10517963818386321
+   ]
+  },
+  "150_4": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    153.07689686327907,
+    155.87843301722413
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.835331896294717e-10,
+     "theta1": 4.90633378205925e-10,
+     "theta2": 4.886791810000025e-10,
+     "omega1": 4.919400433853195e-10,
+     "omega2": 4.876638250233601e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.872081602632586,
+     1.435613443890255,
+     2.7017463817373812,
+     3.216784554828418
+    ],
+    "sigma_d_graus": 4.8179676078827605
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.8378808436824225,
+     1.369135414578703,
+     1.8768099438882222,
+     3.1352942531877646
+    ],
+    "sigma_d_graus": 3.9911228634575378
+   },
+   "fraccio_geometrica": [
+    0.7985674381659422,
+    0.08987569078602098
+   ],
+   "lag1": [
+    0.9926204247783941,
+    0.9914564733184784
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.8408827249816974,
+    1.374544298988399
+   ],
+   "esperat_si_blanc_graus": [
+    0.3515907300594662,
+    0.5747258437149216,
+    4.739554359542747,
+    7.747486339188256
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 5.988662210794192,
+     "sigma_d_sense_geometria_graus": 4.659870413921783,
+     "omega_mediana_rad_s": [
+      8.720277575916786,
+      11.339036239849385
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 5.805179508082192,
+     "sigma_d_sense_geometria_graus": 4.832639772236745,
+     "omega_mediana_rad_s": [
+      7.740902094717907,
+      17.091796542854276
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.2045896792306205,
+     "sigma_d_sense_geometria_graus": 3.593524827144196,
+     "omega_mediana_rad_s": [
+      6.863878924872794,
+      13.513916803513553
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.09094296140981308,
+    0.0988726857325852
+   ],
+   "rapid_de_llarg_graus": [
+    0.05884610163091543,
+    0.10139135134296857
+   ]
+  },
+  "150_5": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    153.25166732544344,
+    153.86449633680493
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.991678347461108e-10,
+     "theta1": 4.886208390643558e-10,
+     "theta2": 4.814381469958887e-10,
+     "omega1": 4.955272492836913e-10,
+     "omega2": 4.934840982368167e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.8463125980324155,
+     1.5572646803742047,
+     2.8004557549414955,
+     3.1561910949253074
+    ],
+    "sigma_d_graus": 4.8618965597249115
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.759373893888687,
+     1.490436699694482,
+     1.7689068414907116,
+     3.2244574673459914
+    ],
+    "sigma_d_graus": 4.040322714723642
+   },
+   "fraccio_geometrica": [
+    0.8295709424972375,
+    0.08345846558553927
+   ],
+   "lag1": [
+    0.9912966396469349,
+    0.9939724417570306
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.7628634982737236,
+    1.494482749720578
+   ],
+   "esperat_si_blanc_graus": [
+    0.3189692525787288,
+    0.6248746292736284,
+    4.299811292944857,
+    8.423517207077204
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 6.576278808067465,
+     "sigma_d_sense_geometria_graus": 4.77424226593856,
+     "omega_mediana_rad_s": [
+      9.807630423424836,
+      10.675481659416132
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 5.603796317159612,
+     "sigma_d_sense_geometria_graus": 4.881395156520292,
+     "omega_mediana_rad_s": [
+      7.860394788288258,
+      11.454480587069213
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.252982918805101,
+     "sigma_d_sense_geometria_graus": 3.6250254086944986,
+     "omega_mediana_rad_s": [
+      7.067329333025302,
+      10.523525214872677
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07299726657485456,
+    0.09956006144496
+   ],
+   "rapid_de_llarg_graus": [
+    0.05970370477485269,
+    0.0899474125076693
+   ]
+  },
+  "150_6": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    154.41860599771556,
+    154.3813569228343
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.819384274057237e-10,
+     "theta1": 4.57752288221853e-10,
+     "theta2": 4.768207926905987e-10,
+     "omega1": 4.931059206932564e-10,
+     "omega2": 4.895788868143801e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     2.0425185342955916,
+     1.577676837139684,
+     2.9662374502439217,
+     3.259535601710955
+    ],
+    "sigma_d_graus": 5.107257886130173
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.7735038105381771,
+     1.4498784607490671,
+     1.797109566886683,
+     3.283705495345597
+    ],
+    "sigma_d_graus": 4.088126743561124
+   },
+   "fraccio_geometrica": [
+    0.8554663256656584,
+    0.15453512646801282
+   ],
+   "lag1": [
+    0.9911850790701789,
+    0.9931313387688454
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.7770822631787441,
+    1.4546544557068473
+   ],
+   "esperat_si_blanc_graus": [
+    0.32491441685072514,
+    0.6082215829530305,
+    4.379943692249068,
+    8.199009177757647
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 6.92745323777665,
+     "sigma_d_sense_geometria_graus": 4.936339732376224,
+     "omega_mediana_rad_s": [
+      9.788648307427161,
+      11.199680375345059
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 6.611165682052886,
+     "sigma_d_sense_geometria_graus": 5.132937965000353,
+     "omega_mediana_rad_s": [
+      8.181350710540265,
+      17.035859447506084
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.179538017019673,
+     "sigma_d_sense_geometria_graus": 3.5485388588301157,
+     "omega_mediana_rad_s": [
+      6.098903079753134,
+      12.698766458873493
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07636488792748967,
+    0.0990322472726491
+   ],
+   "rapid_de_llarg_graus": [
+    0.061626938120329114,
+    0.09332660351071972
+   ]
+  },
+  "150_7": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    152.18842954501915,
+    155.7937817115572
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.5730501903790787e-10,
+     "theta1": 4.91961636539185e-10,
+     "theta2": 4.946174809435384e-10,
+     "omega1": 4.920043189155222e-10,
+     "omega2": 4.973308936764712e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     2.0327058429597256,
+     1.7573703630005166,
+     2.914375784686369,
+     3.4471302219845716
+    ],
+    "sigma_d_graus": 5.253240582577659
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.7820360579302684,
+     1.5832954144455784,
+     1.837130041245377,
+     3.3154854720399336
+    ],
+    "sigma_d_graus": 4.181613978963339
+   },
+   "fraccio_geometrica": [
+    0.8508502450936895,
+    0.1875285145549198
+   ],
+   "lag1": [
+    0.9914736122062895,
+    0.9941576783582285
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.785548896217294,
+    1.5875647811210993
+   ],
+   "esperat_si_blanc_graus": [
+    0.3284544939657998,
+    0.6637941817905858,
+    4.427688001333589,
+    8.948190961196753
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 6.702355338524085,
+     "sigma_d_sense_geometria_graus": 5.233820024430256,
+     "omega_mediana_rad_s": [
+      9.72970895183597,
+      11.26258547171993
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 6.739531109189076,
+     "sigma_d_sense_geometria_graus": 5.5386031705906085,
+     "omega_mediana_rad_s": [
+      8.016176465211442,
+      20.589616105363262
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.441904979301209,
+     "sigma_d_sense_geometria_graus": 3.506613038144028,
+     "omega_mediana_rad_s": [
+      5.821781962006575,
+      12.371177889727328
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07807897430851224,
+    0.10379913645116004
+   ],
+   "rapid_de_llarg_graus": [
+    0.061196697168412445,
+    0.09434306685432553
+   ]
+  },
+  "150_8": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    152.53752333308452,
+    156.26046030476206
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.840268760125772e-10,
+     "theta1": 4.845417685375953e-10,
+     "theta2": 4.3992242977247134e-10,
+     "omega1": 4.930360224795844e-10,
+     "omega2": 4.946867782073124e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.498187385765422,
+     1.8352746755403533,
+     2.2225659618742073,
+     3.7968891639132
+    ],
+    "sigma_d_graus": 4.996895571799523
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.8412018299656984,
+     1.7097052242014403,
+     1.6983308802235304,
+     3.711470323596613
+    ],
+    "sigma_d_graus": 4.504448047658948
+   },
+   "fraccio_geometrica": [
+    0.6831797006421265,
+    0.13154868406614206
+   ],
+   "lag1": [
+    0.9932228801266343,
+    0.994756556185861
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.8443518606354407,
+    1.7135524665624604
+   ],
+   "esperat_si_blanc_graus": [
+    0.353041248545503,
+    0.7164722794453982,
+    4.759108163174362,
+    9.658273892483294
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 5.797812149957295,
+     "sigma_d_sense_geometria_graus": 5.674596606244914,
+     "omega_mediana_rad_s": [
+      9.89955662274426,
+      10.351304955765938
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 6.107571324248382,
+     "sigma_d_sense_geometria_graus": 5.517383554805453,
+     "omega_mediana_rad_s": [
+      8.127508756640651,
+      15.626840096737396
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.396448767289383,
+     "sigma_d_sense_geometria_graus": 3.936192522733495,
+     "omega_mediana_rad_s": [
+      4.975506261242081,
+      15.64885453872165
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07482794574465583,
+    0.1100216879199481
+   ],
+   "rapid_de_llarg_graus": [
+    0.060419898906385064,
+    0.08814325061981333
+   ]
+  },
+  "150_9": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    155.08776652926883,
+    155.78833190889725
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.885416960762401e-10,
+     "theta1": 4.675955218780238e-10,
+     "theta2": 4.942004752110655e-10,
+     "omega1": 4.862008722242329e-10,
+     "omega2": 4.971512959134554e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.6649998887529895,
+     1.7244021964561405,
+     2.186179656799123,
+     3.9964044354765305
+    ],
+    "sigma_d_graus": 5.147467092501811
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.3328189533868222,
+     1.6095164174818557,
+     1.2137745611346864,
+     3.673058531515104
+    ],
+    "sigma_d_graus": 4.203084488214664
+   },
+   "fraccio_geometrica": [
+    0.9583814685781172,
+    0.12847950545187903
+   ],
+   "lag1": [
+    0.9635806142249156,
+    0.9941369075676718
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.339960747324845,
+    1.613568694989084
+   ],
+   "esperat_si_blanc_graus": [
+    0.14214472933322014,
+    0.6746669643910932,
+    1.9161568711103,
+    9.094728630412842
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 5.388501560023333,
+     "sigma_d_sense_geometria_graus": 3.8471100955025492,
+     "omega_mediana_rad_s": [
+      10.119927733653057,
+      9.561172695450587
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 5.347450357565934,
+     "sigma_d_sense_geometria_graus": 3.9053860134861975,
+     "omega_mediana_rad_s": [
+      8.801162070770882,
+      10.0997928614081
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 4.939990069532832,
+     "sigma_d_sense_geometria_graus": 4.322723853732926,
+     "omega_mediana_rad_s": [
+      4.957965125639819,
+      17.015736797707632
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07460242286998373,
+    0.11412954226184575
+   ],
+   "rapid_de_llarg_graus": [
+    0.062407111269909346,
+    0.09084232164796975
+   ]
+  },
+  "150_10": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    153.9320624420915,
+    154.43605451063382
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.933790704119957e-10,
+     "theta1": 4.969641670521591e-10,
+     "theta2": 4.602474640610405e-10,
+     "omega1": 4.923413441013906e-10,
+     "omega2": 4.898712820674639e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.7273276349398066,
+     1.1512243066085062,
+     2.3676258849590477,
+     2.6030336710113042
+    ],
+    "sigma_d_graus": 4.08539040803932
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.36370631280639487,
+     1.0699060758536771,
+     1.0486610024228458,
+     2.296287174460968
+    ],
+    "sigma_d_graus": 2.7657921069234868
+   },
+   "fraccio_geometrica": [
+    0.9542944008071161,
+    0.13568074391657647
+   ],
+   "lag1": [
+    0.9725784319475497,
+    0.9919645160854741
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.3695749652101209,
+    1.074173277124226
+   ],
+   "esperat_si_blanc_graus": [
+    0.15452705587780566,
+    0.4491344101791321,
+    2.08307599358987,
+    6.054480896077635
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 5.198940369781375,
+     "sigma_d_sense_geometria_graus": 2.939157460375561,
+     "omega_mediana_rad_s": [
+      9.964029337842714,
+      10.173771343386907
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 4.993911853939876,
+     "sigma_d_sense_geometria_graus": 3.2108610789116607,
+     "omega_mediana_rad_s": [
+      7.526021463604131,
+      15.883549309630062
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 3.469415528594219,
+     "sigma_d_sense_geometria_graus": 2.5949554167613513,
+     "omega_mediana_rad_s": [
+      7.502951398071955,
+      11.145182838571372
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.0710949890599403,
+    0.08822000455108651
+   ],
+   "rapid_de_llarg_graus": [
+    0.05862223739872871,
+    0.08250968242249108
+   ]
+  },
+  "150_11": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    153.72050866243757,
+    154.54506030411522
+   ],
+   "remostrejada": false,
+   "marca_corregida": false,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.873742423576473e-10,
+     "theta1": 4.784712926741063e-10,
+     "theta2": 4.879570620923364e-10,
+     "omega1": 4.887355055630701e-10,
+     "omega2": 4.963706535809544e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.5539015812254906,
+     1.246117168982185,
+     2.0148379642876875,
+     3.0775094778529017
+    ],
+    "sigma_d_graus": 4.183067622161593
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.3573364118212527,
+     1.2198526243908254,
+     1.1972275841984876,
+     2.9387642039743027
+    ],
+    "sigma_d_graus": 3.4183941655948535
+   },
+   "fraccio_geometrica": [
+    0.9454264978702939,
+    0.04159534411628407
+   ],
+   "lag1": [
+    0.9704394912328677,
+    0.9918334616585711
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.36336312245387226,
+    1.2245389655924652
+   ],
+   "esperat_si_blanc_graus": [
+    0.15192975394163902,
+    0.5120054629595221,
+    2.0480731254060136,
+    6.902035984019767
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 5.140793172993169,
+     "sigma_d_sense_geometria_graus": 3.563657111492618,
+     "omega_mediana_rad_s": [
+      9.796774212668476,
+      10.831778997851698
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 5.269704724534374,
+     "sigma_d_sense_geometria_graus": 4.024040696897485,
+     "omega_mediana_rad_s": [
+      8.460911935446095,
+      14.221997555004911
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 3.567192135312309,
+     "sigma_d_sense_geometria_graus": 3.1941127989232703,
+     "omega_mediana_rad_s": [
+      6.629474925483239,
+      13.834633380259945
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.06701441806252274,
+    0.09946300839369367
+   ],
+   "rapid_de_llarg_graus": [
+    0.05743065152632665,
+    0.0868369014953626
+   ]
+  },
+  "150_12": {
+   "grup": "150",
+   "angles_amollada_graus": [
+    152.57088557687518,
+    153.48924920263147
+   ],
+   "remostrejada": false,
+   "marca_corregida": true,
+   "r0": {
+    "ok": true,
+    "mostres_iguals": true,
+    "finestra_igual": true,
+    "fps_relatiu": 0.0,
+    "marca_igual": true,
+    "desviacio_relativa_maxima": {
+     "t": 4.942794752461546e-10,
+     "theta1": 4.889158140688945e-10,
+     "theta2": 4.845492781092424e-10,
+     "omega1": 4.890098292692324e-10,
+     "omega2": 4.895952188995034e-10
+    }
+   },
+   "mostres": 2375,
+   "forats_a_la_finestra": 0,
+   "total": {
+    "components_graus": [
+     1.4444014295866305,
+     1.3110318520476607,
+     2.293626122965126,
+     3.1077115153378245
+    ],
+    "sigma_d_graus": 4.327088127296089
+   },
+   "sense_geometria": {
+    "components_graus": [
+     0.6665914296213151,
+     1.2633921356465778,
+     1.6970724712555163,
+     2.9565326341479605
+    ],
+    "sigma_d_graus": 3.6961661234221324
+   },
+   "fraccio_geometrica": [
+    0.7849602689359698,
+    0.07102656563200349
+   ],
+   "lag1": [
+    0.9891553072423193,
+    0.991816637550224
+   ],
+   "soroll_cru_per_fotograma_graus": [
+    0.6706967496694473,
+    1.268311650670179
+   ],
+   "esperat_si_blanc_graus": [
+    0.2804323990243998,
+    0.5303077420359195,
+    3.7803549932733205,
+    7.14878711429687
+   ],
+   "per_tram": [
+    {
+     "de_s": 0.1,
+     "fins_s": 1.0,
+     "sigma_d_graus": 5.758107366207538,
+     "sigma_d_sense_geometria_graus": 4.440856730330483,
+     "omega_mediana_rad_s": [
+      9.288896184568959,
+      11.02306582215066
+     ]
+    },
+    {
+     "de_s": 1.0,
+     "fins_s": 3.0,
+     "sigma_d_graus": 5.712889990600982,
+     "sigma_d_sense_geometria_graus": 4.744982078456128,
+     "omega_mediana_rad_s": [
+      8.180098155840884,
+      15.039416652562025
+     ]
+    },
+    {
+     "de_s": 3.0,
+     "fins_s": 10.0,
+     "sigma_d_graus": 3.5703230905510477,
+     "sigma_d_sense_geometria_graus": 3.207689772519218,
+     "omega_mediana_rad_s": [
+      6.631852545904658,
+      11.382650083321437
+     ]
+    }
+   ],
+   "rapid_de_traves_graus": [
+    0.07496825372089004,
+    0.10117770964508412
+   ],
+   "rapid_de_llarg_graus": [
+    0.05987386636352353,
+    0.09255434585373369
+   ]
+  }
+ },
+ "per_grup": {
+  "45": {
+   "preses": [
+    "45_1",
+    "45_2",
+    "45_3",
+    "45_4",
+    "45_5",
+    "45_6",
+    "45_8",
+    "45_9",
+    "45_10",
+    "45_11",
+    "45_12",
+    "45_13"
+   ],
+   "fora_per_r0": [],
+   "sigma_d_presa_total_graus": {
+    "n": 12,
+    "mediana": 0.8557083620829378,
+    "min": 0.6576114300934899,
+    "max": 1.6060913639745282
+   },
+   "sigma_d_presa_sense_geometria_graus": {
+    "n": 12,
+    "mediana": 0.7033736744609258,
+    "min": 0.5925538829213634,
+    "max": 1.2451640487618818
+   },
+   "sigma_d_presa_tram_0.1-1s_graus": {
+    "n": 12,
+    "mediana": 1.077272804274512,
+    "min": 0.8374319614460529,
+    "max": 2.114116815966187
+   },
+   "components_mediana_total_graus": {
+    "theta1": 0.0664979583217074,
+    "theta2": 0.32802596281325624,
+    "omega1/omega0": 0.33191576308047943,
+    "omega2/omega0": 0.6966988436416668
+   },
+   "components_mediana_sense_geometria_graus": {
+    "theta1": 0.049803391975924316,
+    "theta2": 0.15566979633357014,
+    "omega1/omega0": 0.32392461645420423,
+    "omega2/omega0": 0.598884895312
+   },
+   "fraccio_geometrica_mediana": [
+    0.3036686208646646,
+    0.7614695867272046
+   ],
+   "lag1_mediana": [
+    0.7007273995645154,
+    0.9021157935440411
+   ],
+   "parelles": 66,
+   "d0_parella_graus": {
+    "n": 66,
+    "mediana": 1.481133951021779,
+    "min": 0.14399515728226925,
+    "max": 3.564696980516283
+   },
+   "terra_parella_total_graus": {
+    "n": 66,
+    "mediana": 1.2819047103231185,
+    "min": 0.9963045274236204,
+    "max": 2.1129129524397023
+   },
+   "rao_d0_terra_total": {
+    "n": 66,
+    "mediana": 1.080286859171145,
+    "min": 0.1441125079257349,
+    "max": 2.1163130308732314
+   },
+   "fraccio_d0_per_sobre_del_terra_total": 0.5757575757575758,
+   "fraccio_d0_per_sobre_de_3_terres_total": 0.0,
+   "terra_parella_sense_geometria_graus": {
+    "n": 66,
+    "mediana": 1.0847624307252675,
+    "min": 0.8474864537162974,
+    "max": 1.6874146201004092
+   },
+   "rao_d0_terra_sense_geometria": {
+    "n": 66,
+    "mediana": 1.3112871428620458,
+    "min": 0.16802930480982753,
+    "max": 2.5932225185068685
+   },
+   "fraccio_d0_per_sobre_del_terra_sense_geometria": 0.7424242424242424,
+   "fraccio_d0_per_sobre_de_3_terres_sense_geometria": 0.0,
+   "terra_parella_tram_0.1-1s_graus": {
+    "n": 66,
+    "mediana": 1.8090366868925436,
+    "min": 1.1998285534435467,
+    "max": 2.9739037253141007
+   },
+   "rao_d0_terra_tram_0.1-1s": {
+    "n": 66,
+    "mediana": 0.8292078096411226,
+    "min": 0.11805499083143367,
+    "max": 1.628546561257614
+   },
+   "fraccio_d0_per_sobre_del_terra_tram_0.1-1s": 0.25757575757575757,
+   "fraccio_d0_per_sobre_de_3_terres_tram_0.1-1s": 0.0
+  },
+  "90": {
+   "preses": [
+    "90_1",
+    "90_2",
+    "90_3",
+    "90_4",
+    "90_5",
+    "90_6",
+    "90_7",
+    "90_8",
+    "90_9",
+    "90_10",
+    "90_11"
+   ],
+   "fora_per_r0": [],
+   "sigma_d_presa_total_graus": {
+    "n": 11,
+    "mediana": 2.4860650390392536,
+    "min": 2.237078306385906,
+    "max": 3.204361956624827
+   },
+   "sigma_d_presa_sense_geometria_graus": {
+    "n": 11,
+    "mediana": 2.2144857383840746,
+    "min": 1.9626785963794635,
+    "max": 2.5880993200111106
+   },
+   "sigma_d_presa_tram_0.1-1s_graus": {
+    "n": 11,
+    "mediana": 3.0779857657722784,
+    "min": 2.4815686097332947,
+    "max": 3.839021273619827
+   },
+   "components_mediana_total_graus": {
+    "theta1": 0.5073899994181648,
+    "theta2": 0.7030085299935205,
+    "omega1/omega0": 1.2235536040785169,
+    "omega2/omega0": 1.9536211176031286
+   },
+   "components_mediana_sense_geometria_graus": {
+    "theta1": 0.408158885801761,
+    "theta2": 0.5959633709718314,
+    "omega1/omega0": 1.026400669995617,
+    "omega2/omega0": 1.7611632826767236
+   },
+   "fraccio_geometrica_mediana": [
+    0.317115639964087,
+    0.42981113576314856
+   ],
+   "lag1_mediana": [
+    0.9715956450823435,
+    0.9715725864551795
+   ],
+   "parelles": 55,
+   "d0_parella_graus": {
+    "n": 55,
+    "mediana": 1.5955012236520296,
+    "min": 0.39514966677569796,
+    "max": 3.6616217105273066
+   },
+   "terra_parella_total_graus": {
+    "n": 55,
+    "mediana": 3.641798342288059,
+    "min": 3.2295847012914614,
+    "max": 4.3953107072950655
+   },
+   "rao_d0_terra_total": {
+    "n": 55,
+    "mediana": 0.42912781531688104,
+    "min": 0.10385551240930992,
+    "max": 1.0641332085771933
+   },
+   "fraccio_d0_per_sobre_del_terra_total": 0.03636363636363636,
+   "fraccio_d0_per_sobre_de_3_terres_total": 0.0,
+   "terra_parella_sense_geometria_graus": {
+    "n": 55,
+    "mediana": 3.17367946977502,
+    "min": 2.8140092347589705,
+    "max": 3.6209005069891234
+   },
+   "rao_d0_terra_sense_geometria": {
+    "n": 55,
+    "mediana": 0.5050631526737939,
+    "min": 0.125585356618774,
+    "max": 1.25563039945338
+   },
+   "fraccio_d0_per_sobre_del_terra_sense_geometria": 0.07272727272727272,
+   "fraccio_d0_per_sobre_de_3_terres_sense_geometria": 0.0,
+   "terra_parella_tram_0.1-1s_graus": {
+    "n": 55,
+    "mediana": 4.450186977257116,
+    "min": 3.6201765479624664,
+    "max": 5.32766981963417
+   },
+   "rao_d0_terra_tram_0.1-1s": {
+    "n": 55,
+    "mediana": 0.33872603568926074,
+    "min": 0.09154355832065064,
+    "max": 1.0007408752453797
+   },
+   "fraccio_d0_per_sobre_del_terra_tram_0.1-1s": 0.01818181818181818,
+   "fraccio_d0_per_sobre_de_3_terres_tram_0.1-1s": 0.0
+  },
+  "150": {
+   "preses": [
+    "150_1",
+    "150_2",
+    "150_3",
+    "150_4",
+    "150_5",
+    "150_6",
+    "150_7",
+    "150_8",
+    "150_9",
+    "150_10",
+    "150_11",
+    "150_12"
+   ],
+   "fora_per_r0": [],
+   "sigma_d_presa_total_graus": {
+    "n": 12,
+    "mediana": 4.927671627188069,
+    "min": 4.08539040803932,
+    "max": 5.480410111821336
+   },
+   "sigma_d_presa_sense_geometria_graus": {
+    "n": 12,
+    "mediana": 4.064224729142383,
+    "min": 2.7657921069234868,
+    "max": 4.524452835000545
+   },
+   "sigma_d_presa_tram_0.1-1s_graus": {
+    "n": 12,
+    "mediana": 5.999089128532963,
+    "min": 5.140793172993169,
+    "max": 7.042455584744936
+   },
+   "components_mediana_total_graus": {
+    "theta1": 1.740152298748328,
+    "theta2": 1.4964390621322299,
+    "omega1/omega0": 2.709166191061044,
+    "omega2/omega0": 3.2381600782696864
+   },
+   "components_mediana_sense_geometria_graus": {
+    "theta1": 0.7777699342342228,
+    "theta2": 1.355299471807999,
+    "omega1/omega0": 1.7830082041886972,
+    "omega2/omega0": 3.254081481345794
+   },
+   "fraccio_geometrica_mediana": [
+    0.8384479426448097,
+    0.12227759565493829
+   ],
+   "lag1_mediana": [
+    0.9901701931562491,
+    0.9918989888720227
+   ],
+   "parelles": 66,
+   "d0_parella_graus": {
+    "n": 66,
+    "mediana": 1.8134267703684888,
+    "min": 0.2379858497860313,
+    "max": 4.467736084463148
+   },
+   "terra_parella_total_graus": {
+    "n": 66,
+    "mediana": 6.9224345067964155,
+    "min": 5.847090688340341,
+    "max": 7.591536841259114
+   },
+   "rao_d0_terra_total": {
+    "n": 66,
+    "mediana": 0.2767596026252634,
+    "min": 0.04070158348332067,
+    "max": 0.5942141324580688
+   },
+   "fraccio_d0_per_sobre_del_terra_total": 0.0,
+   "fraccio_d0_per_sobre_de_3_terres_total": 0.0,
+   "terra_parella_sense_geometria_graus": {
+    "n": 66,
+    "mediana": 5.68278491472706,
+    "min": 4.397160976140537,
+    "max": 6.384412711456158
+   },
+   "rao_d0_terra_sense_geometria": {
+    "n": 66,
+    "mediana": 0.34957495019761203,
+    "min": 0.0541226148138237,
+    "max": 0.7457711770148889
+   },
+   "fraccio_d0_per_sobre_del_terra_sense_geometria": 0.0,
+   "fraccio_d0_per_sobre_de_3_terres_sense_geometria": 0.0,
+   "terra_parella_tram_0.1-1s_graus": {
+    "n": 66,
+    "mediana": 8.714181000557573,
+    "min": 7.311411314926528,
+    "max": 9.87855197003525
+   },
+   "rao_d0_terra_tram_0.1-1s": {
+    "n": 66,
+    "mediana": 0.22218177271460104,
+    "min": 0.032549919507356126,
+    "max": 0.5275171675885587
+   },
+   "fraccio_d0_per_sobre_del_terra_tram_0.1-1s": 0.0,
+   "fraccio_d0_per_sobre_de_3_terres_tram_0.1-1s": 0.0
+  }
+ }
+}

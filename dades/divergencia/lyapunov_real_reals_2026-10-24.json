@@ -1,0 +1,107 @@
+{
+ "aprovacio": {
+  "data": "2026-10-17",
+  "aprovat_per": "Guillem",
+  "que": "Aplicar a les preses reals els resultats que han passat la validacio (nomes simulacio) de documentacio/pla-analisi-caos.md, «17/10 (segona part)»",
+  "resultat1": [
+   "1,7-3,5"
+  ],
+  "resultat2": [
+   "150"
+  ],
+  "condicio": "la sensibilitat a la friccio DE PROVA del R1 a +-15 % (FR1): ha donat -2,2 %",
+  "validacio": "dades/divergencia/lyapunov_real_validacio2_2026-10-17.json",
+  "friccio_de_prova": "dades/divergencia/lyapunov_real_friccio_de_prova_2026-10-17.json"
+ },
+ "resultat2": {
+  "150": {
+   "lambda": 3.426915018379771,
+   "fraccio_creuen": 1.0,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma_D": [
+     0.3808618884997144
+    ],
+    "p16_84_D": [
+     [
+      3.1774511408988797,
+      3.8088273911528168
+     ]
+    ],
+    "fraccio_exponencial": 0.0
+   },
+   "mc_alineacio": {
+    "desviacio": 0.22460305033295716,
+    "mitjana": 3.516748563504452
+   },
+   "mc_d0": {
+    "0.5": {
+     "mitjana": 3.3783353146141644,
+     "desviacio": 0.1559419072519369
+    },
+    "1": {
+     "mitjana": 3.193714987732228,
+     "desviacio": 0.19429143173980007
+    }
+   },
+   "diagnostic_lambda_D": {
+    "D_graus": [
+     23.799381350848037,
+     28.422620187557843,
+     33.94396377019208,
+     40.53787683292094,
+     48.41271541669954
+    ],
+    "lambda_D": [
+     3.7757201779503524,
+     3.3763403327572115,
+     3.2661254811065903,
+     3.3772726039399803,
+     3.426915018379771
+    ],
+    "fraccio_creuen": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "veredicte": "rang curt",
+    "ratio": 0.9076189062930161,
+    "j_max": 4,
+    "rang_ln": 0.7101029077623093,
+    "lambda_inc": 3.8643363098721637,
+    "parelles": 45,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 3.4444747228267807
+   },
+   "D_estrella_graus": 48.41271541669954,
+   "parelles": 45
+  }
+ },
+ "resultat1": {
+  "1,7-3,5": {
+   "parelles": 912,
+   "tirs": 23,
+   "ok": true,
+   "lambda": 2.1805704518511053,
+   "creixement_ln": 1.4510921797991607,
+   "finestra_s": [
+    0.1,
+    0.6833333333333333
+   ],
+   "motiu": null,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma": 0.8897262190079983,
+    "sense_lambda": 2
+   },
+   "grups_de_les_parelles": [
+    "150-150",
+    "150-90",
+    "90-150",
+    "90-90"
+   ]
+  }
+ }
+}

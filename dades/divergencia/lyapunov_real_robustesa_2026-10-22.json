@@ -1,0 +1,112 @@
+{
+ "que_es": "ROBUSTESA del R1 (E/E_v2 1,7-3,5) a les preses reals, real contra real (pla, 22/10)",
+ "principal": 2.1790057997916237,
+ "principal_refet": 2.1790057997916237,
+ "variants": {
+  "parelles 90-90": {
+   "lambda": 2.7084083724119767,
+   "sigma": 2.6524160076818255,
+   "parelles": 90,
+   "tirs": 10,
+   "creixement_ln": 1.3863515613869049,
+   "finestra_s": [
+    0.1,
+    0.55
+   ],
+   "avaluable": false,
+   "compatible": null
+  },
+  "parelles 150-150": {
+   "lambda": 1.8016900713030437,
+   "sigma": 1.6674173110877326,
+   "parelles": 282,
+   "tirs": 12,
+   "creixement_ln": 1.5794376891835495,
+   "finestra_s": [
+    0.1,
+    0.8875
+   ],
+   "avaluable": true,
+   "compatible": true
+  },
+  "parelles creuades 90-150": {
+   "lambda": 2.0276929668244774,
+   "sigma": 1.2570187139554405,
+   "parelles": 541,
+   "tirs": 23,
+   "creixement_ln": 1.393110571459257,
+   "finestra_s": [
+    0.1,
+    0.7
+   ],
+   "avaluable": true,
+   "compatible": true
+  },
+  "subfranja 1,7-2,5": {
+   "lambda": 1.3971404526895075,
+   "sigma": 1.0432748719230422,
+   "parelles": 592,
+   "tirs": 23,
+   "creixement_ln": 1.4584355610640254,
+   "finestra_s": [
+    0.1,
+    0.9375
+   ],
+   "avaluable": true,
+   "compatible": true
+  },
+  "subfranja 2,5-3,5": {
+   "lambda": 2.982829530765722,
+   "sigma": 1.4257216364123941,
+   "parelles": 297,
+   "tirs": 23,
+   "creixement_ln": 1.3853052785288211,
+   "finestra_s": [
+    0.1,
+    0.5708333333333333
+   ],
+   "avaluable": true,
+   "compatible": true
+  },
+  "d0 a [3; 4,5] x terra": {
+   "lambda": 1.5744869250815663,
+   "sigma": 1.1337065562700908,
+   "parelles": 501,
+   "tirs": 23,
+   "creixement_ln": 1.6263934856192859,
+   "finestra_s": [
+    0.1,
+    1.0125
+   ],
+   "avaluable": true,
+   "compatible": true
+  },
+  "d0 a [4,5; 6] x terra": {
+   "lambda": 2.012724042079715,
+   "sigma": 0.8948918509946611,
+   "parelles": 814,
+   "tirs": 23,
+   "creixement_ln": 1.2994669937532892,
+   "finestra_s": [
+    0.1,
+    0.675
+   ],
+   "avaluable": true,
+   "compatible": true
+  },
+  "1,0 s entre tirs": {
+   "lambda": 2.215905535245012,
+   "sigma": 1.112644358545677,
+   "parelles": 777,
+   "tirs": 23,
+   "creixement_ln": 1.4334075665292223,
+   "finestra_s": [
+    0.1,
+    0.675
+   ],
+   "avaluable": true,
+   "compatible": true
+  }
+ },
+ "veredicte": "robust"
+}

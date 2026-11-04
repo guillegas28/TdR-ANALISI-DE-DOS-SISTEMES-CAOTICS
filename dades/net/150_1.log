@@ -1,0 +1,19 @@
+Llegint dades/video/tracker/150/150_1.trk
+  tres pistes: Fix, Rodament, Extrem   20101 fotogrames a 239.90 fps
+  vertical    +0.511 graus (estable a 0.001, residu 0.7 px)
+  articulacio +7.7 px de costat, al repos = +2.29 graus de theta1  (mesurat, NO corregit)
+  marca       +11.6 px = +7.3 mm al llarg de la barra 1 (+ = mes enlla del pivot 2): fins a 2.90 graus a theta2 -> NO ES A L'EIX (criteri 1 mm)
+              rao marca-gomet / L1 1.084, amb la marca a l'eix 1.198; vibracio 8.00 -> 5.07 px
+              CORREGIDA: moguda +11.58 px cap al centre del cargol; tornada a mesurar, queda a +0.000 px
+  soroll      les barres varien 3.6 i 5.2 px = 1.09 i 1.30 graus d'angle
+  pivot       es mou 8.9 px com a molt (primer segon 5.1, ultim 0.95)
+  el fix      cobreix de +0.40 a 83.78 s de la presa, que va de 0.00 a 83.78
+     ATENCIO: el punt fix no es quiet. Si es al principi, es que el
+     seguidor el perd mentre s'amolla, i aquells fotogrames no valen.
+  fps = 239.90   finestra Savitzky-Golay = 13 mostres (54 ms)
+
+Desat: dades\net\150_1.csv
+  amollada a 0.3016 s +- 5.6 ms, amb 302 ms de repos abans: arrenca del repos
+  durada 83.78 s, 20101 mostres
+  angles inicials: 151.15 / 153.63 graus
+  recorregut de theta1: -138 a 158 graus

@@ -1,0 +1,54 @@
+{
+  "_que_es": "Qui, quan i les comprovacions del muntatge abans de tirar. S'omple a ma. Tolerancies: E1 100 +- 0,5 mm; E2 cada imant a <= 1 mm del seu cercle i les distancies 86,6 +- 1 mm; E3 la massa en repos al centre a <= 1 mm de la creu; E4 la d0 2,0 +- 0,1 cm.",
+  "data": "2026-11-03",
+  "qui": "Guillem",
+  "imant_fisic_a_cada_cercle": {
+    "1": null,
+    "2": null,
+    "3": null
+  },
+  "E1_regla_mm": null,
+  "E2_desviacio_imants_mm": {
+    "1": null,
+    "2": null,
+    "3": null
+  },
+  "E2_distancies_mm": {
+    "1-2": null,
+    "2-3": null,
+    "3-1": null
+  },
+  "E3_origen_mm": null,
+  "E4_d0_cm": null,
+  "observacio_repos_mm": {
+    "1": null,
+    "2": null,
+    "3": null
+  },
+  "notes": "La quadricula es va tirar el 03/11/2026, un tir per cel.la (en Guillem). Les cel.les N i P encara no s'han tirat.",
+  "decisio_avaluable": {
+    "data": "2026-11-03",
+    "qui": "Guillem",
+    "text": "S'avalua igualment: les dades serveixen. Primer va dir que quedava no avaluable, i despres, que si que ho sigui.",
+    "_es_un_canvi_despres_de_tirar": "Si. El criteri escrit abans demanava E1-E4 mesurades amb numeros; es van fer a ull, i la d0 va donar 1,8-2,0 cm (tolerancia 2,0 +- 0,1)."
+  },
+  "comprovacions_dites": {
+    "_que_es": "El que en Guillem va dir de les comprovacions el 03/11, despres de tirar. Cap no es va mesurar amb un numero, i per aixo els camps E de dalt es queden buits: no s'inventa cap valor.",
+    "E1": "es compleix",
+    "E2": "a ull diria que si, una mica diferent: el muntatge no es 100 % perfecte",
+    "E3": "a ull si",
+    "E4": "mes o menys si, 2 / 1,8 cm (la tolerancia escrita es 2,0 +- 0,1 cm)",
+    "ordre_dels_tirs": "segons el moment, en ordre aleatori (no del tot el del full de tirs)"
+  },
+  "quadricula_font": {
+    "foto": "magnetic/dades/quadricula_foto.png",
+    "colors_del_full": {
+      "groc": 1,
+      "vermell": 2,
+      "blau": 3,
+      "gris (llapis)": 0
+    },
+    "transcripcio": "feta per Claude mirant la foto el 03/11/2026, amb la lectura dels colors i de les cel.les F02C02, F02C03 i F07C07 que va dir en Guillem; esborranys/cua_31-10/_transcriu_quadricula.py",
+    "transcripcio_confirmada": "si, en Guillem el 03/11/2026"
+  }
+}

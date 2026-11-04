@@ -1,0 +1,543 @@
+{
+ "_que_es": "ANALISI POSTERIOR, NO FIRMADA (documentacio/pla-d4-experiment1.md, «L'analisi posterior»): cap on van els tirs, amb una tolerancia gran. Es va pensar despres de veure que la Y firmada no es concloent.",
+ "t_fins_s": 3.0,
+ "D_graus": [
+  10.0,
+  5.0,
+  20.0
+ ],
+ "per_grup": {
+  "45": {
+   "per_tir": {
+    "45_1": {
+     "10": {
+      "t_tir_s": 0.7767594949130388,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 1.3103162609130388,
+      "membres_que_no_se_separen": 26
+     },
+     "5": {
+      "t_tir_s": 0.3265709739130389,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.9143170989130387,
+      "membres_que_no_se_separen": 6
+     },
+     "20": {
+      "t_tir_s": 1.247790076913039,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 1.3770108559130387,
+      "membres_que_no_se_separen": 60
+     }
+    },
+    "45_2": {
+     "10": {
+      "t_tir_s": 2.47037098781164,
+      "percentil": 0.66,
+      "t_membres_mediana_s": 1.28654570481164,
+      "membres_que_no_se_separen": 58
+     },
+     "5": {
+      "t_tir_s": 0.32364556381164,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.9093056063116398,
+      "membres_que_no_se_separen": 16
+     },
+     "20": {
+      "t_tir_s": 2.92055806681164,
+      "percentil": 0.3,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 140
+     }
+    },
+    "45_3": {
+     "10": {
+      "t_tir_s": 2.0218248306495914,
+      "percentil": 0.665,
+      "t_membres_mediana_s": 1.2777652821495913,
+      "membres_que_no_se_separen": 44
+     },
+     "5": {
+      "t_tir_s": 1.8759308016495915,
+      "percentil": 0.865,
+      "t_membres_mediana_s": 0.8984408061495914,
+      "membres_que_no_se_separen": 9
+     },
+     "20": {
+      "t_tir_s": 2.9513782156495916,
+      "percentil": 0.3,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 140
+     }
+    },
+    "45_4": {
+     "10": {
+      "t_tir_s": 2.030795048512187,
+      "percentil": 0.545,
+      "t_membres_mediana_s": 1.2929953855121874,
+      "membres_que_no_se_separen": 63
+     },
+     "5": {
+      "t_tir_s": 1.9891114515121875,
+      "percentil": 0.81,
+      "t_membres_mediana_s": 0.9178430145121874,
+      "membres_que_no_se_separen": 14
+     },
+     "20": {
+      "t_tir_s": 2.964507616512187,
+      "percentil": 0.21,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 158
+     }
+    },
+    "45_5": {
+     "10": {
+      "t_tir_s": 2.028128970671421,
+      "percentil": 0.64,
+      "t_membres_mediana_s": 1.2778172386714213,
+      "membres_que_no_se_separen": 49
+     },
+     "5": {
+      "t_tir_s": 1.9947817826714214,
+      "percentil": 0.85,
+      "t_membres_mediana_s": 0.9026613716714211,
+      "membres_que_no_se_separen": 12
+     },
+     "20": {
+      "t_tir_s": 2.9826922306714208,
+      "percentil": 0.25,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 150
+     }
+    },
+    "45_6": {
+     "10": {
+      "t_tir_s": 1.2167136268155638,
+      "percentil": 0.435,
+      "t_membres_mediana_s": 1.295911345815564,
+      "membres_que_no_se_separen": 36
+     },
+     "5": {
+      "t_tir_s": 0.3246972068155638,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.9040910498155639,
+      "membres_que_no_se_separen": 8
+     },
+     "20": {
+      "t_tir_s": 2.9423902508155635,
+      "percentil": 0.575,
+      "t_membres_mediana_s": 1.3626041618155638,
+      "membres_que_no_se_separen": 85
+     }
+    },
+    "45_8": {
+     "10": {
+      "t_tir_s": 1.983327581517805,
+      "percentil": 0.49,
+      "t_membres_mediana_s": 2.2751154415178045,
+      "membres_que_no_se_separen": 34
+     },
+     "5": {
+      "t_tir_s": 1.8249284575178053,
+      "percentil": 0.78,
+      "t_membres_mediana_s": 0.912049295517805,
+      "membres_que_no_se_separen": 12
+     },
+     "20": {
+      "t_tir_s": null,
+      "percentil": 0.74,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 104
+     }
+    },
+    "45_9": {
+     "10": {
+      "t_tir_s": 0.9324851567144186,
+      "percentil": 0.135,
+      "t_membres_mediana_s": 2.2622024427144187,
+      "membres_que_no_se_separen": 27
+     },
+     "5": {
+      "t_tir_s": 0.8699592657144184,
+      "percentil": 0.2125,
+      "t_membres_mediana_s": 0.9074748007144184,
+      "membres_que_no_se_separen": 10
+     },
+     "20": {
+      "t_tir_s": 1.9912569147144186,
+      "percentil": 0.02,
+      "t_membres_mediana_s": 2.9791659957144185,
+      "membres_que_no_se_separen": 79
+     }
+    },
+    "45_10": {
+     "10": {
+      "t_tir_s": 1.2011153505731111,
+      "percentil": 0.35,
+      "t_membres_mediana_s": 1.296988869573111,
+      "membres_que_no_se_separen": 45
+     },
+     "5": {
+      "t_tir_s": 0.284064298573111,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.9093263795731108,
+      "membres_que_no_se_separen": 9
+     },
+     "20": {
+      "t_tir_s": 2.9310071065731114,
+      "percentil": 0.485,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 103
+     }
+    },
+    "45_11": {
+     "10": {
+      "t_tir_s": 2.4075833817385224,
+      "percentil": 0.675,
+      "t_membres_mediana_s": 1.291548545238523,
+      "membres_que_no_se_separen": 61
+     },
+     "5": {
+      "t_tir_s": 0.6553043847385225,
+      "percentil": 0.01,
+      "t_membres_mediana_s": 0.9056299557385228,
+      "membres_que_no_se_separen": 13
+     },
+     "20": {
+      "t_tir_s": 2.9332670807385224,
+      "percentil": 0.41,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 118
+     }
+    },
+    "45_12": {
+     "10": {
+      "t_tir_s": 0.9368162628806777,
+      "percentil": 0.22,
+      "t_membres_mediana_s": 1.2789282038806775,
+      "membres_que_no_se_separen": 45
+     },
+     "5": {
+      "t_tir_s": 0.8742348098806777,
+      "percentil": 0.2475,
+      "t_membres_mediana_s": 0.9034394878806776,
+      "membres_que_no_se_separen": 12
+     },
+     "20": {
+      "t_tir_s": 1.2997886878806775,
+      "percentil": 0.1125,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 153
+     }
+    },
+    "45_13": {
+     "10": {
+      "t_tir_s": 0.837598812764538,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 1.309046200764538,
+      "membres_que_no_se_separen": 60
+     },
+     "5": {
+      "t_tir_s": 0.3452909207645378,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.916868727764538,
+      "membres_que_no_se_separen": 15
+     },
+     "20": {
+      "t_tir_s": 2.598225341764538,
+      "percentil": 0.415,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 117
+     }
+    }
+   },
+   "per_D": {
+    "10": {
+     "n": 12,
+     "mediana": 0.4625,
+     "interval_95": [
+      0.1775,
+      0.65
+     ],
+     "per_sota_de_0_1": 2,
+     "lectura": "compatible amb el feix, amb molt poca precisio"
+    },
+    "5": {
+     "n": 12,
+     "mediana": 0.11125,
+     "interval_95": [
+      0.0,
+      0.795
+     ],
+     "per_sota_de_0_1": 6,
+     "lectura": "compatible amb el feix, amb molt poca precisio"
+    },
+    "20": {
+     "n": 12,
+     "mediana": 0.3,
+     "interval_95": [
+      0.16125,
+      0.44999999999999996
+     ],
+     "per_sota_de_0_1": 2,
+     "lectura": "els tirs reals se separen abans que el feix"
+    }
+   }
+  },
+  "90": {
+   "per_tir": {
+    "90_1": {
+     "10": {
+      "t_tir_s": 0.6088912124661174,
+      "percentil": 0.455,
+      "t_membres_mediana_s": 0.6255648394661173,
+      "membres_que_no_se_separen": 16
+     },
+     "5": {
+      "t_tir_s": 0.28792389456611733,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5567861279661174,
+      "membres_que_no_se_separen": 1
+     },
+     "20": {
+      "t_tir_s": 0.6797541264661173,
+      "percentil": 0.125,
+      "t_membres_mediana_s": 1.8594132294661174,
+      "membres_que_no_se_separen": 27
+     }
+    },
+    "90_2": {
+     "10": {
+      "t_tir_s": 0.5140169940628991,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.6182269812628991,
+      "membres_que_no_se_separen": 36
+     },
+     "5": {
+      "t_tir_s": 0.30142862016289906,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5515325894628991,
+      "membres_que_no_se_separen": 7
+     },
+     "20": {
+      "t_tir_s": 0.647405777662899,
+      "percentil": 0.015,
+      "t_membres_mediana_s": 2.5794589405628994,
+      "membres_que_no_se_separen": 73
+     }
+    },
+    "90_3": {
+     "10": {
+      "t_tir_s": 0.4124881149481099,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 1.8297500579481099,
+      "membres_que_no_se_separen": 12
+     },
+     "5": {
+      "t_tir_s": 0.30410926044810993,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5604669354481099,
+      "membres_que_no_se_separen": 5
+     },
+     "20": {
+      "t_tir_s": 0.6209089889481099,
+      "percentil": 0.01,
+      "t_membres_mediana_s": 2.08193931544811,
+      "membres_que_no_se_separen": 41
+     }
+    },
+    "90_4": {
+     "10": {
+      "t_tir_s": 0.32638446462523174,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.6244256737252317,
+      "membres_que_no_se_separen": 70
+     },
+     "5": {
+      "t_tir_s": 0.28053197082523174,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5556469331252317,
+      "membres_que_no_se_separen": 6
+     },
+     "20": {
+      "t_tir_s": 0.5973310183252317,
+      "percentil": 0.0,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 157
+     }
+    },
+    "90_5": {
+     "10": {
+      "t_tir_s": 0.3031499015893059,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.607443960789306,
+      "membres_que_no_se_separen": 31
+     },
+     "5": {
+      "t_tir_s": 0.26980260748930596,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5386651665893059,
+      "membres_que_no_se_separen": 9
+     },
+     "20": {
+      "t_tir_s": 0.607443960789306,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 2.103903785889306,
+      "membres_que_no_se_separen": 64
+     }
+    },
+    "90_6": {
+     "10": {
+      "t_tir_s": 0.6253913629930792,
+      "percentil": 0.46,
+      "t_membres_mediana_s": 1.0026320424930792,
+      "membres_que_no_se_separen": 73
+     },
+     "5": {
+      "t_tir_s": 0.3169293699930793,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5670336879930793,
+      "membres_que_no_se_separen": 9
+     },
+     "20": {
+      "t_tir_s": 0.6920858469930793,
+      "percentil": 0.035,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 173
+     }
+    },
+    "90_7": {
+     "10": {
+      "t_tir_s": 0.5432568581239733,
+      "percentil": 0.005,
+      "t_membres_mediana_s": 1.8187831736239732,
+      "membres_que_no_se_separen": 12
+     },
+     "5": {
+      "t_tir_s": 0.31399559222397333,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5599304047239733,
+      "membres_que_no_se_separen": 1
+     },
+     "20": {
+      "t_tir_s": 0.6516349110239733,
+      "percentil": 0.005,
+      "t_membres_mediana_s": 2.0522128256239736,
+      "membres_que_no_se_separen": 32
+     }
+    },
+    "90_8": {
+     "10": {
+      "t_tir_s": 0.29160514609217947,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.6209060390921796,
+      "membres_que_no_se_separen": 13
+     },
+     "5": {
+      "t_tir_s": 0.2624265860921794,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5521280040921795,
+      "membres_que_no_se_separen": 3
+     },
+     "20": {
+      "t_tir_s": 0.6167376730921795,
+      "percentil": 0.0225,
+      "t_membres_mediana_s": 1.8922575860921795,
+      "membres_que_no_se_separen": 34
+     }
+    },
+    "90_9": {
+     "10": {
+      "t_tir_s": 0.6173956722062687,
+      "percentil": 0.51,
+      "t_membres_mediana_s": 0.6132272675062687,
+      "membres_que_no_se_separen": 46
+     },
+     "5": {
+      "t_tir_s": 0.35895457590626867,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5423643862062687,
+      "membres_que_no_se_separen": 10
+     },
+     "20": {
+      "t_tir_s": 0.6882585535062687,
+      "percentil": 0.035,
+      "t_membres_mediana_s": 2.693261252606269,
+      "membres_que_no_se_separen": 99
+     }
+    },
+    "90_10": {
+     "10": {
+      "t_tir_s": 0.6491142583410325,
+      "percentil": 0.535,
+      "t_membres_mediana_s": 0.6282726123410325,
+      "membres_que_no_se_separen": 53
+     },
+     "5": {
+      "t_tir_s": 0.3698362068410326,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.5615793463410326,
+      "membres_que_no_se_separen": 8
+     },
+     "20": {
+      "t_tir_s": 0.7116391953410326,
+      "percentil": 0.065,
+      "t_membres_mediana_s": null,
+      "membres_que_no_se_separen": 155
+     }
+    },
+    "90_11": {
+     "10": {
+      "t_tir_s": 0.672802076311265,
+      "percentil": 0.65,
+      "t_membres_mediana_s": 0.620697106211265,
+      "membres_que_no_se_separen": 7
+     },
+     "5": {
+      "t_tir_s": 0.343498665011265,
+      "percentil": 0.0,
+      "t_membres_mediana_s": 0.549834346811265,
+      "membres_que_no_se_separen": 3
+     },
+     "20": {
+      "t_tir_s": 0.843706378811265,
+      "percentil": 0.135,
+      "t_membres_mediana_s": 1.1625887958112648,
+      "membres_que_no_se_separen": 22
+     }
+    }
+   },
+   "per_D": {
+    "10": {
+     "n": 11,
+     "mediana": 0.005,
+     "interval_95": [
+      0.0,
+      0.51
+     ],
+     "per_sota_de_0_1": 6,
+     "lectura": "compatible amb el feix, amb molt poca precisio"
+    },
+    "5": {
+     "n": 11,
+     "mediana": 0.0,
+     "interval_95": [
+      0.0,
+      0.0
+     ],
+     "per_sota_de_0_1": 11,
+     "lectura": "els tirs reals se separen abans que el feix"
+    },
+    "20": {
+     "n": 11,
+     "mediana": 0.0225,
+     "interval_95": [
+      0.005,
+      0.065
+     ],
+     "per_sota_de_0_1": 9,
+     "lectura": "els tirs reals se separen abans que el feix"
+    }
+   }
+  }
+ }
+}

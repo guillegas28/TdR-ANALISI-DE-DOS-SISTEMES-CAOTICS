@@ -1,0 +1,17 @@
+Llegint dades/video/tracker/150/150_10.trk
+  tres pistes: Fix, Rodament, Extrem   20858 fotogrames a 239.90 fps
+  vertical    +0.620 graus (estable a 0.015, residu 1.1 px)
+  articulacio -0.6 px de costat, al repos = -0.18 graus de theta1  (mesurat, NO corregit)
+  marca       -1.3 px = -0.8 mm al llarg de la barra 1 (+ = mes enlla del pivot 2): fins a 0.34 graus a theta2 -> a l'eix (criteri 1 mm)
+              rao marca-gomet / L1 1.206, amb la marca a l'eix 1.191; vibracio 2.62 -> 2.48 px
+              no es corregeix: ja es a l'eix (|delta| <= 1 mm)
+  soroll      les barres varien 3.8 i 2.6 px = 1.14 i 0.66 graus d'angle
+  pivot       es mou 2.4 px com a molt (primer segon 1.1, ultim 2.40)
+  el fix      cobreix de +0.70 a 86.94 s de la presa, que va de 0.00 a 86.94
+  fps = 239.90   finestra Savitzky-Golay = 13 mostres (54 ms)
+
+Desat: dades\net\150_10.csv
+  amollada a 0.6039 s +- 4.3 ms, amb 604 ms de repos abans: arrenca del repos
+  durada 86.94 s, 20858 mostres
+  angles inicials: 153.93 / 154.44 graus
+  recorregut de theta1: -140 a 154 graus

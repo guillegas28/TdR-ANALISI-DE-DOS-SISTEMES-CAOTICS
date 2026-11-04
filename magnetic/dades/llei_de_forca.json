@@ -1,0 +1,87 @@
+{
+  "_llegeix_aixo": "Metadades de magnetic/dades/llei_de_forca.csv, la taula de mesures amb la qual es mesuren la n i la K del pendol magnetic. Es refa amb: .venv\\Scripts\\python.exe -m magnetic.llei_de_forca magnetic/dades/llei_de_forca.csv",
+  "_per_que_existeix_aquest_fitxer": "Perque els numeros mesurats no visquin nomes en un full de paper o dins d'una conversa. El 7 de setembre del 2026 van circular DUES taules de sis valors del mateix document, semblants i diferents, i el pendent log-log que en surt es -2,85 amb una i -1,96 amb l'altra. Aixo es exactament el que aquest fitxer serveix per no repetir: aqui hi ha una sola taula, i es la bona.",
+  "_L_m_i_g_no_hi_son": "L, m i g es llegeixen de magnetic/parametres.json. L'excepcio es la L, que va fila per fila a la columna L_cm del CSV quan es diferent de la del muntatge. LA L ES VA RESOLDRE EL 2026-10-26: en Guillem tria el cable, mesurat el 2026-09-09, 28,5 cm, i es el que diu parametres.json des d'aquell dia. Fins aleshores hi deia 29,5 (el regle). El periode de la presa de friccio en dona 28,2: amb 28,5 el model oscil.la un 0,5 % mes lent, i es un limit declarat (el CLAUDE.md deia que manava el del periode; en Guillem va triar el cable). Amb L = 28,5 la n passa de 6,71 a 6,87 i la K de 3,086e-10 a 1,959e-10. El que hi havia escrit abans de resoldre-ho: a la n i la K (refet el 25/10 amb el balanc exacte, canviant la L de la tanda 1 de 29,5 a 28,5 i 28,2): la tanda 2 no es mou gens; la tanda 1 sola, menys d'un 0,5 % en n; les dues juntes, +1,9 i +2,6 % en n i -30 i -39 % en K. I amb 28,5 o 28,2, el punt de 2 cm tambe queda fora de la recta. Fins al 25/10 aqui deia 'la tanda 1 un 3%', amb el balanc vell.",
+  "tandes_fora_de_l_ajust": {
+    "3": "Un sol costat, o sigui que l'error de zero no es cancel.la, i el seu punt de 3,5 cm no quadra amb la tanda 2, que es del mateix video: la llei de la tanda 2 hi preveu 16,0 mm i se'n van mesurar 8,6. Decisio d'en Guillem el 25/10: ens quedem amb la tanda 2, feta pels dos costats. Les lectures es queden a la taula."
+  },
+  "_tandes_fora_de_l_ajust": "magnetic.llei_de_forca les treu de l'ajust i ho diu en gros. Treure-les del CSV seria perdre-les.",
+  "sigma_lectura_mm": null,
+  "_sigma_lectura_mm": "Incertesa de lectura d'un punt, en mm, per als punts que NO tenen repeticions. Si es null, l'eina no se la inventa: la dedueix de la dispersio dels residus de l'ajust i ho diu en gros, perque llavors aquella barra d'error ja no es una mesura independent.",
+  "sigma_sep_mm": null,
+  "_sigma_sep_mm": "Incertesa d'on es va posar l'imant, en mm. Es SISTEMATICA dins d'una tanda -- si el regle esta desplacat, ho esta per a tots els punts alhora -- i per aixo el Monte Carlo la sorteja un sol cop per tanda i no un cop per punt.",
+  "sigma_h0_mm": null,
+  "_sigma_h0_mm": "Incertesa de l'alcada entre el centre de la massa i el centre de l'imant, en mm. Tambe sistematica dins d'una tanda. Es la que mes pot moure la n, perque a les mesures de prop l'alcada es gairebe tota la distancia.",
+  "sigma_L_mm": null,
+  "_sigma_L_mm": "Incertesa de la longitud del fil, en mm. Sistematica per a tot. Entra per la sensibilitat del dinamometre: F_hor = g*x/sqrt(L^2-x^2).",
+  "tandes": {
+    "1": {
+      "data": "2026-09-06",
+      "h0_cm": 2.0,
+      "eix_del_tracker": "A L'IMANT, o sigui que la columna valor_mm es la separacio a i no el desviament x. Per aixo mesura='a'.",
+      "sep_cm": [
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0
+      ],
+      "repeticions": 2,
+      "_repeticions": "Fins al 25/10 n'hi havia una. La repeticio 2 es el MATEIX VIDEO tornat a analitzar per en Guillem el 25/10 amb el Tracker (masses puntuals, sense incertesa propia), amb un punt nou a 1 cm. La diferencia entre les dues lectures es la incertesa de lectura: les diferencies tenen un rms de 0,70 mm, o sigui uns 0,5 mm per lectura. Valors copiats tal com els va donar (en cm, aqui en mm).",
+      "costats": "nomes +",
+      "distancia_critica_vista_al_banc_cm": 7.0,
+      "_distancia_critica_vista_al_banc_cm": "OBSERVACIO, no ajust: al banc es va veure que mes enlla de 7 cm la gravetat guanya i la massa es queda prop del centre. Per sota, hi salta. L'eina prediu aquesta distancia a partir de la n i la K ajustades, que no en saben res, i les dues coses s'han de comparar.",
+      "totes_despres_del_salt": true,
+      "_totes_despres_del_salt": "Les sis mesures son de l'equilibri de sota l'imant, no del de prop del centre. NO les invalida -- l'equilibri de forces hi val igual -- pero fa que la d nomes recorri un factor 1,385. I la massa hi queda gairebe a sobre de l'imant, on la posicio la decideix el fil i no la llei: amb el balanc exacte (25/10), l'amplificacio d/(a - h*x/s) arriba a x724 a 2 cm, i a 3 i 4 cm la conversio a forca ni tan sols existeix (aquells dos punts queden fora de la recta). Fins al 25/10 deia 'l'amplificacio d/a arriba a 15,5', amb el balanc vell.",
+      "d_on_surt": "Analisi manual del video amb el Tracker, anotada al document de laboratori d'en Guillem. Copiada aqui a ma el 2026-09-07.",
+      "video": null,
+      "_video": "PENDENT: quin fitxer de dades/video/ es aquesta tanda, i si en queda el projecte .trk. Ara mateix no n'hi ha cap al repositori."
+    },
+    "2": {
+      "data": "2026-09-07",
+      "h0_cm": 3.0,
+      "eix_del_tracker": "Al PUNT DE REPOS, o sigui que la columna valor_mm es el desviament x. Per aixo mesura='x'.",
+      "sep_cm": [
+        7.0,
+        5.5,
+        4.0
+      ],
+      "repeticions": 3,
+      "_repeticions": "Tres repeticions als punts llunyans, que es d'on sortira la sigma de debo.",
+      "costats": "Els dos, alternats: la 1a lectura de la dreta, la 2a de l'esquerra, la 3a de la dreta... Al CSV, dreta = '+' i esquerra = '-'. Que comencin per un costat o per l'altre no canvia la mitjana, o sigui que n i K no en depenen.",
+      "cap_punt_no_salta": true,
+      "_cap_punt_no_salta": "Abaixant l'imant 1 cm respecte de la tanda 1, la distancia critica cau molt i cap dels cinc punts no hi arriba. Per aixo aquesta tanda si que recorre un factor 3,03 en d.",
+      "d_on_surt": "dades/video/Magnètic n i fricció/n i K .MOV, gravat el 2026-09-07. Analitzat amb el Tracker i copiat aqui a ma el 2026-09-09.",
+      "estat": "ANALITZADA. Les seves 18 lectures son al CSV.",
+      "L_cm": 28.5,
+      "_L_cm": "El cable mesurat. Va a la columna L_cm del CSV, nomes per a aquesta tanda; la tanda 1 es queda amb la de parametres.json. Compte: la L del model es del punt de gir al CENTRE DE MASSES, o sigui el cable MES el tros fins al centre de masses de la massa, i per tant hauria de sortir una mica mes de 28,5. (Fins al 25/10 deia 'fins al mig de la femella'; la femella es va descartar abans de muntar, i la massa es l'imant dins la peca impresa.)",
+      "sep_cm_no_mesurats": [
+        10.0,
+        8.5
+      ],
+      "_sep_cm_no_mesurats": "A 8,5 i 10 cm el desviament ja no es podia llegir. NO es cap fallada: amb la llei que surt d'aquesta mateixa tanda alla serien 0,12 mm i 0,05 mm. Es una dada en si mateixa -- diu on s'acaba el que aquest muntatge pot mesurar -- i per aixo queda escrit en comptes de deixar-ho en blanc."
+    },
+    "3": {
+      "data": "2026-09-07",
+      "_data": "La del video. Analitzat per en Guillem el 2026-10-25 i copiat aqui el mateix dia.",
+      "h0_cm": 3.0,
+      "L_cm": 28.5,
+      "_que_es": "EL MATEIX VIDEO QUE LA TANDA 2 (dades/video/Magnètic n i fricció/n i K .MOV), amb la mateixa alcada i el mateix fil, pero un ALTRE TROS i altres posicions de l'imant. Va a part de la tanda 2 perque la sep d'aqui esta mesurada AL VIDEO, respecte del punt d'equilibri, i la de la tanda 2 surt del regle: aixi es poden comparar. Les sistematiques d'alcada i de fil son les MATEIXES que les de la tanda 2, i el dia que es declarin s'han de sortejar juntes.",
+      "eix_del_tracker": "Al PUNT D'EQUILIBRI, o sigui que la columna valor_mm es el desviament x (mesura='x'), i la sep tambe es la distancia de l'imant al punt d'equilibri, en cm.",
+      "sep_cm": [3.5, 5.0, 6.5, 8.0],
+      "_sep_cm": "El primer punt es a 3,5 cm, no a 3: en Guillem el va donar com a 3 i ho va corregir el mateix 25/10.",
+      "costats": "nomes - (l'imant a l'esquerra): al Tracker els desviaments surten negatius, i la massa s'acostava a l'imant. Aqui es desen en positiu, cap a l'imant, com a la tanda 2. Amb un sol costat, un error de zero de l'eix NO es cancel.la.",
+      "repeticions": "a 5 cm, 3; a 8 cm, 4; a 3,5 i a 6,5 cm, 1",
+      "_repeticions": "Son el MATEIX TROS remarcat, no amollades diferents: la seva dispersio es nomes la de lectura (0,26 mm a 5 cm i 0,30 mm a 8 cm).",
+      "d_on_surt": "Analisi del video amb el Tracker (masses puntuals), feta per en Guillem el 2026-10-25. Els valors van arribar en m (el desviament) i en cm (la sep), i aqui son en mm i en cm."
+    }
+  },
+  "_que_falta": [
+    "Omplir les quatre sigmes de dalt, que son null i que l'eina no s'inventa.",
+    "Dir de quin video surt la tanda 1.",
+    "LA L, RESOLTA EL 26/10: deia 'RESOLDRE LA L: 29,5 (parametres.json) contra 28,5 (el cable) contra 28,2 (el periode)'. En Guillem tria el cable, 28,5 cm.",
+    "EL COLZE, RESOLT EL 25/10: deia 'les dues tandes NO son la mateixa recta', i amb el balanc vell era cert. Amb el balanc exacte ja no es contradiuen (amb L = 28,5: n a 0,1 sigma; F a la distancia comuna, a 1,9 sigma. Amb L = 29,5 eren 0,4 i 1,6 sigma): el colze era l'estirada vertical de l'imant que faltava al balanc."
+  ]
+}

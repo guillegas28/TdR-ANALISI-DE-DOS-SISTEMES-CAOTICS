@@ -1,0 +1,190 @@
+ordre,cella,desti,repeticio,nota
+1,neta,,1,
+2,neta,,2,
+3,neta,,3,
+4,neta,,4,
+5,neta,,5,
+6,neta,,6,
+7,neta,,7,
+8,neta,,8,
+9,neta,,9,
+10,neta,,10,
+11,pols,,1,
+12,pols,,2,
+13,pols,,3,
+14,pols,,4,
+15,pols,,5,
+16,pols,,6,
+17,pols,,7,
+18,pols,,8,
+19,pols,,9,
+20,pols,,10,
+21,F11C06,3,1,de la foto
+22,F01C13,0,1,de la foto
+23,F02C02,0,1,de la foto
+24,F04C13,0,1,de la foto
+25,F09C02,0,1,de la foto
+26,F02C07,1,1,de la foto
+27,F08C09,0,1,de la foto
+28,F12C08,2,1,de la foto
+29,F13C05,3,1,de la foto
+30,F06C13,1,1,de la foto
+31,F01C04,2,1,de la foto
+32,F05C03,0,1,de la foto
+33,F08C13,1,1,de la foto
+34,F04C01,0,1,de la foto
+35,F06C04,0,1,de la foto
+36,F03C13,3,1,de la foto
+37,F07C10,0,1,de la foto
+38,F08C05,0,1,de la foto
+39,F04C04,0,1,de la foto
+40,F07C05,0,1,de la foto
+41,F07C12,1,1,de la foto
+42,F11C01,0,1,de la foto
+43,F10C10,0,1,de la foto
+44,F07C04,0,1,de la foto
+45,F06C07,0,1,de la foto
+46,F02C03,2,1,de la foto
+47,F01C08,3,1,de la foto
+48,F01C05,2,1,de la foto
+49,F10C11,0,1,de la foto
+50,F13C12,0,1,de la foto
+51,F03C08,0,1,de la foto
+52,F10C05,3,1,de la foto
+53,F12C13,3,1,de la foto
+54,F04C07,3,1,de la foto
+55,F12C04,3,1,de la foto
+56,F05C02,3,1,de la foto
+57,F05C08,3,1,de la foto
+58,F03C03,0,1,de la foto
+59,F08C10,0,1,de la foto
+60,F01C02,1,1,de la foto
+61,F13C09,3,1,de la foto
+62,F06C11,0,1,de la foto
+63,F10C07,0,1,de la foto
+64,F13C03,3,1,de la foto
+65,F02C13,1,1,de la foto
+66,F09C10,0,1,de la foto
+67,F02C06,2,1,de la foto
+68,F05C12,0,1,de la foto
+69,F09C11,0,1,de la foto
+70,F01C07,0,1,de la foto
+71,F12C03,3,1,de la foto
+72,F05C06,0,1,de la foto
+73,F10C08,3,1,de la foto
+74,F02C05,2,1,de la foto
+75,F11C07,0,1,de la foto
+76,F08C11,0,1,de la foto
+77,F13C07,0,1,de la foto
+78,F12C01,3,1,de la foto
+79,F04C09,3,1,de la foto
+80,F08C01,0,1,de la foto
+81,F13C02,3,1,de la foto
+82,F11C11,0,1,de la foto
+83,F12C02,3,1,de la foto
+84,F08C06,0,1,de la foto
+85,F08C02,3,1,de la foto
+86,F05C01,0,1,de la foto
+87,F03C01,0,1,de la foto
+88,F13C01,2,1,de la foto
+89,F09C07,0,1,de la foto
+90,F04C12,3,1,de la foto
+91,F09C05,0,1,de la foto
+92,F04C02,0,1,de la foto
+93,F06C09,0,1,de la foto
+94,F09C13,1,1,de la foto
+95,F03C11,0,1,de la foto
+96,F11C10,3,1,de la foto
+97,F06C01,0,1,de la foto
+98,F02C10,0,1,de la foto
+99,F11C04,3,1,de la foto
+100,F07C11,0,1,de la foto
+101,F09C01,0,1,de la foto
+102,F05C04,0,1,de la foto
+103,F04C06,0,1,de la foto
+104,F11C09,3,1,de la foto
+105,F07C07,0,1,de la foto
+106,F05C13,3,1,de la foto
+107,F12C11,0,1,de la foto
+108,F12C05,3,1,de la foto
+109,F09C06,0,1,de la foto
+110,F04C11,0,1,de la foto
+111,F08C07,0,1,de la foto
+112,F05C05,0,1,de la foto
+113,F02C08,3,1,de la foto
+114,F03C04,2,1,de la foto
+115,F06C08,0,1,de la foto
+116,F07C13,1,1,de la foto
+117,F06C03,0,1,de la foto
+118,F06C12,1,1,de la foto
+119,F04C05,0,1,de la foto
+120,F10C01,3,1,de la foto
+121,F09C12,1,1,de la foto
+122,F01C12,0,1,de la foto
+123,F03C07,0,1,de la foto
+124,F10C09,3,1,de la foto
+125,F12C10,2,1,de la foto
+126,F11C02,3,1,de la foto
+127,F13C10,0,1,de la foto
+128,F01C11,0,1,de la foto
+129,F07C03,0,1,de la foto
+130,F10C06,3,1,de la foto
+131,F03C06,2,1,de la foto
+132,F03C05,2,1,de la foto
+133,F02C11,0,1,de la foto
+134,F07C02,0,1,de la foto
+135,F02C12,0,1,de la foto
+136,F10C02,3,1,de la foto
+137,F04C08,3,1,de la foto
+138,F06C06,0,1,de la foto
+139,F05C11,0,1,de la foto
+140,F06C05,0,1,de la foto
+141,F02C09,3,1,de la foto
+142,F01C10,3,1,de la foto
+143,F12C07,0,1,de la foto
+144,F10C04,3,1,de la foto
+145,F05C09,0,1,de la foto
+146,F13C06,0,1,de la foto
+147,F04C03,0,1,de la foto
+148,F07C09,0,1,de la foto
+149,F12C09,3,1,de la foto
+150,F08C04,0,1,de la foto
+151,F11C12,3,1,de la foto
+152,F07C06,0,1,de la foto
+153,F06C02,3,1,de la foto
+154,F03C09,0,1,de la foto
+155,F03C12,3,1,de la foto
+156,F08C08,0,1,de la foto
+157,F08C12,1,1,de la foto
+158,F11C03,3,1,de la foto
+159,F09C08,0,1,de la foto
+160,F07C01,0,1,de la foto
+161,F13C08,3,1,de la foto
+162,F09C04,3,1,de la foto
+163,F11C08,0,1,de la foto
+164,F01C01,3,1,de la foto
+165,F08C03,0,1,de la foto
+166,F12C06,3,1,de la foto
+167,F02C04,2,1,de la foto
+168,F09C09,0,1,de la foto
+169,F06C10,0,1,de la foto
+170,F11C13,1,1,de la foto
+171,F04C10,0,1,de la foto
+172,F09C03,0,1,de la foto
+173,F05C07,0,1,de la foto
+174,F03C10,3,1,de la foto
+175,F02C01,0,1,de la foto
+176,F01C03,0,1,de la foto
+177,F01C09,3,1,de la foto
+178,F13C04,3,1,de la foto
+179,F10C13,3,1,de la foto
+180,F07C08,0,1,de la foto
+181,F01C06,0,1,de la foto
+182,F11C05,3,1,de la foto
+183,F10C03,0,1,de la foto
+184,F10C12,0,1,de la foto
+185,F13C11,0,1,de la foto
+186,F03C02,3,1,de la foto
+187,F13C13,1,1,de la foto
+188,F05C10,0,1,de la foto
+189,F12C12,3,1,de la foto

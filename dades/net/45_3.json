@@ -1,0 +1,164 @@
+{
+  "origen": "tracker",
+  "fitxer_cru": "dades/video/tracker/45/45_3.trk",
+  "capcalera_original": [
+    "fix",
+    "rodament",
+    "extrem"
+  ],
+  "fps": 239.90015360464892,
+  "durada_s": 71.77152553380583,
+  "n_mostres": 17219,
+  "pivot": [
+    0.0,
+    0.0
+  ],
+  "y_avall": true,
+  "signe_invertit": false,
+  "savgol": {
+    "finestra_mostres": 13,
+    "ordre": 3
+  },
+  "angles_inicials_graus": [
+    44.68803521388189,
+    43.58220547723346
+  ],
+  "angle_nominal_graus": 45.0,
+  "retall_motiu": "Durant el repos marcat (273-897), theta2 es mou 0,4 graus als fotogrames 471-549 amb theta1 quiet: la barra de baix es mou abans d'amollar i amollada.py ho pren per l'amollada. Des del 560 queden 1,41 s de repos quiet. Decidit el 26/09/2026.",
+  "fitxer_trk": "dades/video/tracker/45/45_3.trk",
+  "video_del_trk": "../../conv/45/45_3.mp4",
+  "pistes": [
+    "fix",
+    "rodament",
+    "extrem"
+  ],
+  "delta_t_s": 0.004168400832489594,
+  "angle_de_l_eix_al_trk_graus": 0.0,
+  "articulacio_corregida": false,
+  "geometria": {
+    "gir_graus": -0.24202589322065865,
+    "estabilitat_graus": 0.04004634000854907,
+    "residu_px": 3.067838367037034,
+    "delta_px": 0.611117107235898,
+    "L1_px": 194.1574311398282,
+    "L2_px": 226.65684519677117,
+    "cua_s": 2.0,
+    "tremolor_del_pivot": {
+      "max_px": 0.5674189072164723,
+      "quan_s": 1.600665919676004,
+      "primer_segon_px": 0.4829597163441062,
+      "ultim_segon_px": 0.48518844005102807,
+      "cobreix_de_s": -1.1963310389245134,
+      "cobreix_fins_s": 71.77152553380583
+    },
+    "fix_cobreix_la_cua": true,
+    "fix_cobreix_el_principi": true,
+    "quiet_al_principi_s": 0.3459772690966363,
+    "velocitat_inicial_px_s": 16.38851410235702,
+    "rigidesa": {
+      "L1_sigma_px": 0.3177797805775928,
+      "L1_sigma_relatiu": 0.0016338753450976808,
+      "L2_sigma_px": 1.0280943228402097,
+      "L2_sigma_relatiu": 0.004552001156043086,
+      "soroll_angular_graus": [
+        0.09361416152457801,
+        0.2608104545799405
+      ]
+    },
+    "marca_articulacio": {
+      "mesurada": true,
+      "motiu": null,
+      "delta_px": 0.3333992312731523,
+      "incertesa_delta_px": 0.06070136131112331,
+      "de_costat_px": -2.0445779131997304,
+      "incertesa_de_costat_px": 0.023806674124495032,
+      "gomet_px": 226.1728884670058,
+      "L1_px": 194.1375079493921,
+      "error_theta2_maxim_graus": 0.08445917586495846,
+      "rao_gomet_L1": 1.16320734019584,
+      "rao_gomet_L1_a_leix": 1.1650138649454835,
+      "vibracio_px": 1.0280943228402097,
+      "vibracio_a_leix_px": 0.8596984815255733,
+      "fotogrames": 17219,
+      "criteri_mm": 1.0,
+      "delta_mm": 0.20608025813954284,
+      "incertesa_delta_mm": 0.037520639026816176,
+      "rao_del_regle": 1.1583333333333334,
+      "a_leix": true,
+      "corregida": false,
+      "motiu_sense_correccio": "ja es a l'eix (|delta| <= 1 mm)"
+    }
+  },
+  "retall_des_del_fotograma": 560,
+  "amollada": {
+    "hi_ha_amollada": true,
+    "motiu": null,
+    "amollada_s": 1.4120968367691165,
+    "incertesa_s": 0.010852254895322983,
+    "incertesa_fotogrames": 2.60345761648284,
+    "angles_que_compten": [
+      "theta1"
+    ],
+    "repos_abans_s": 1.4120968367691165,
+    "discrepancia_entre_angles_s": 0.013396481021564988,
+    "angles_amollada_graus": [
+      44.67668656839388,
+      43.635319509471806
+    ],
+    "origen_dels_angles": "mitjana del repos",
+    "diferencia_repos_vertex_graus": [
+      -1.1575856218559288,
+      2.6486487703951616
+    ],
+    "per_angle": {
+      "theta1": {
+        "instant_s": 1.4120968367691165,
+        "incertesa_s": 0.010612693593680044,
+        "residu": 0.26943556015125353,
+        "mena": "omega",
+        "grau_usat": 3,
+        "incertesa_ajust_s": 0.004245077437472018,
+        "sistematica_s": 0.002267635552668068,
+        "incertesa_total_s": 0.010852254895322983,
+        "angle_rad": 0.799958959975132,
+        "recorregut_graus": 25.10305550080951,
+        "rao_senyal_soroll": 96.25018882483187,
+        "finestra_s": [
+          1.4315630779566189,
+          1.5515630779566187
+        ],
+        "compta": true,
+        "llindar_senyal": 32.08339627494395
+      },
+      "theta2": {
+        "instant_s": 1.3987003557475515,
+        "incertesa_s": 0.06637797550046684,
+        "residu": 0.25590393515768034,
+        "mena": "omega",
+        "grau_usat": 3,
+        "incertesa_ajust_s": 0.026551190200186738,
+        "sistematica_s": 0.05418921082236472,
+        "incertesa_total_s": 0.08568842512901766,
+        "angle_rad": 0.7153523538277051,
+        "recorregut_graus": 4.362909566374899,
+        "rao_senyal_soroll": 16.728277144418044,
+        "finestra_s": [
+          1.4315630779566189,
+          1.5515630779566187
+        ],
+        "compta": false,
+        "llindar_senyal": 32.08339627494395
+      }
+    },
+    "finestra_ajust_s": [
+      1.4315630779566189,
+      1.5515630779566187
+    ],
+    "grau_del_polinomi": 3,
+    "finestra_filtre_s": 0.05418921082236472,
+    "fps": 239.90015361737008,
+    "avisos": [
+      "el residu de l'ajust equival a 0.84 graus, mes de tres vegades el soroll de seguiment (0.26): o la finestra es massa llarga per al model, o l'amollada no va ser neta"
+    ]
+  }
+}

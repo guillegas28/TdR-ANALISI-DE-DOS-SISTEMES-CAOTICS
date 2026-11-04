@@ -1,0 +1,278 @@
+{
+  "_que_es": "Els clics d'en Guillem al Tracker per mesurar la creu (documentacio/pla-correccio-biaix.md, «Els clics de la creu»). Unitats del Tracker (x, y; y amunt), tal com surten de la taula, amb el temps t del Tracker. El fotograma de cada clic surt del t (fotograma = el previst del primer clic + t/dt). Els .trk NO es van desar. Des del 26/10, les 23 preses de 45 i 90 graus: al repos inicial, el pivot, el gomet del rodament i el gomet de l'extrem; al repos final, el gomet del rodament (el de l'extrem i el pivot del repos final son a clics_cargol.json).",
+  "preses": {
+    "90_1": {
+      "fotogrames_previstos": {"inicials": [860, 861, 862], "final": 13528},
+      "nota": "l'origen dels eixos es lluny del pivot fins al fotograma 13645 (el .trk el mou al 13646): les x surten lluny de zero",
+      "clics": [
+        {"que": "pivot", "fotograma": 860, "t": 0.2584412, "x": -2.838275e-1, "y": -1.000163e-2},
+        {"que": "rodament", "fotograma": 861, "t": 0.2626096, "x": -1.484846e-1, "y": -1.906562e-3},
+        {"que": "extrem", "fotograma": 862, "t": 0.2667780, "x": -8.438720e-4, "y": 5.774035e-4},
+        {"que": "rodament (final)", "fotograma": 13528, "t": 53.06382, "x": -2.840165e-1, "y": -1.391078e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "90_2": {
+      "fotogrames_previstos": {"inicials": [876, 877, 878], "final": 18875},
+      "nota": "els inicials son 0,03 s abans de l'amollada (els primers fotogrames marcats)",
+      "clics": [
+        {"que": "pivot", "fotograma": 876, "t": 3.651518, "x": 8.743370e-4, "y": -4.083526e-4},
+        {"que": "rodament", "fotograma": 877, "t": 3.655686, "x": 1.347121e-1, "y": 5.565899e-3},
+        {"que": "extrem", "fotograma": 878, "t": 3.659855, "x": 2.802799e-1, "y": 7.897314e-3},
+        {"que": "rodament (final)", "fotograma": 18875, "t": 78.67854, "x": 6.169022e-4, "y": -1.306293e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "90_3": {
+      "fotogrames_previstos": {"inicials": [478, 479, 480], "final": 15586},
+      "clics": [
+        {"que": "pivot", "fotograma": 478, "t": 0.2751156, "x": 2.347695e-4, "y": -9.607837e-4},
+        {"que": "rodament", "fotograma": 479, "t": 0.2792840, "x": 1.342402e-1, "y": 5.429121e-3},
+        {"que": "extrem", "fotograma": 480, "t": 0.2834524, "x": 2.771002e-1, "y": 6.615817e-3},
+        {"que": "rodament (final)", "fotograma": 15586, "t": 63.25157, "x": -6.496761e-6, "y": -1.309797e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "90_4": {
+      "fotogrames_previstos": {"inicials": [291, 292, 293], "final": 15906},
+      "nota": "els inicials son 0,075 s abans de l'amollada (els primers fotogrames marcats)",
+      "clics": [
+        {"que": "pivot", "fotograma": 291, "t": 0.0, "x": 1.102384e-4, "y": -4.075148e-4},
+        {"que": "rodament", "fotograma": 292, "t": 4.168409e-3, "x": 1.303941e-1, "y": 6.113250e-3},
+        {"que": "extrem", "fotograma": 293, "t": 8.336817e-3, "x": 2.719716e-1, "y": 7.462321e-3},
+        {"que": "rodament (final)", "fotograma": 15906, "t": 65.08970, "x": -2.202504e-4, "y": -1.270929e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "90_5": {
+      "fotogrames_previstos": {"inicials": [455, 456, 457], "final": 22084},
+      "clics": [
+        {"que": "pivot", "fotograma": 455, "t": 0.9837452, "x": -2.818659e-5, "y": -4.166811e-4},
+        {"que": "rodament", "fotograma": 456, "t": 0.9879136, "x": 1.322394e-1, "y": 8.381444e-3},
+        {"que": "extrem", "fotograma": 457, "t": 0.9920820, "x": 2.819215e-1, "y": 1.056325e-2},
+        {"que": "rodament (final)", "fotograma": 22084, "t": 91.14232, "x": -2.499881e-4, "y": -1.327582e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "90_6": {
+      "fotogrames_previstos": {"inicials": [449, 450, 451], "final": 10800},
+      "nota": "en Guillem va clicar els inicials al 455, 456 i 457 (s'hi va confondre); tambe son al repos, 0,17 s abans de l'amollada",
+      "clics": [
+        {"que": "pivot", "fotograma": 455, "t": 1.896624, "x": 4.742857e-4, "y": -3.905231e-4},
+        {"que": "rodament", "fotograma": 456, "t": 1.900793, "x": 1.345226e-1, "y": 4.383999e-3},
+        {"que": "extrem", "fotograma": 457, "t": 1.904961, "x": 2.771072e-1, "y": 4.601023e-3},
+        {"que": "rodament (final)", "fotograma": 10800, "t": 45.01878, "x": 1.583454e-4, "y": -1.298318e-1}
+      ],
+      "repeticio": {"que_es": "els mateixos 4 clics, en una altra sessio, per mesurar la precisio (pla, pas B); els inicials, un fotograma mes tard (456-458), al repos", "data": "2026-10-26",
+        "clics": [
+          {"que": "pivot", "fotograma": 456, "t": 1.900793, "x": 4.019445e-4, "y": -7.784307e-4},
+          {"que": "rodament", "fotograma": 457, "t": 1.904961, "x": 1.342375e-1, "y": 4.185282e-3},
+          {"que": "extrem", "fotograma": 458, "t": 1.909130, "x": 2.771932e-1, "y": 4.185282e-3},
+          {"que": "rodament (final)", "fotograma": 10800, "t": 45.01878, "x": 2.652226e-4, "y": -1.299932e-1}
+        ]},
+      "data": "2026-10-26"
+    },
+    "90_7": {
+      "fotogrames_previstos": {"inicials": [910, 911, 912], "final": 17321},
+      "clics": [
+        {"que": "pivot", "fotograma": 910, "t": 7.086257e-2, "x": 1.232674e-4, "y": -4.040432e-4},
+        {"que": "rodament", "fotograma": 911, "t": 7.503096e-2, "x": 1.299112e-1, "y": 9.845447e-3},
+        {"que": "extrem", "fotograma": 912, "t": 7.919935e-2, "x": 2.713002e-1, "y": 1.255434e-2},
+        {"que": "rodament (final)", "fotograma": 17321, "t": 68.47826, "x": 3.550257e-4, "y": -1.271146e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "90_8": {
+      "fotogrames_previstos": {"inicials": [277, 278, 279], "final": 14593},
+      "nota": "en Guillem va triar el final al 14495 (surt al 14494 pel t), perque despres al video apareix una vibracio; es dins de la cua de la conversio (ultim fotograma marcat, 14711)",
+      "clics": [
+        {"que": "pivot", "fotograma": 277, "t": 0.6627702, "x": 8.420972e-4, "y": -2.677692e-4},
+        {"que": "rodament", "fotograma": 278, "t": 0.6669385, "x": 1.343049e-1, "y": 7.197203e-3},
+        {"que": "extrem", "fotograma": 279, "t": 0.6711069, "x": 2.821210e-1, "y": 1.009661e-2},
+        {"que": "rodament (final)", "fotograma": 14494, "t": 59.92443, "x": 1.479932e-3, "y": -1.306012e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "90_9": {
+      "fotogrames_previstos": {"inicials": [331, 332, 333], "final": 18098},
+      "nota": "en Guillem va desar el .trk per error el 26/10 a les 18:31; es va restaurar del git (hash d384d33, identic al de HEAD). Els px de la pista «331» del fitxer desat (px_recuperats) coincideixen amb aquests clics passats a px a 0,0001 px: comprova la transformacio",
+      "clics": [
+        {"que": "pivot", "fotograma": 331, "t": 0.0, "x": 2.379377e-4, "y": -5.062749e-4},
+        {"que": "rodament", "fotograma": 332, "t": 4.168405e-3, "x": 1.325420e-1, "y": 8.218333e-3},
+        {"que": "extrem", "fotograma": 333, "t": 8.336810e-3, "x": 2.771294e-1, "y": 1.045688e-2},
+        {"que": "rodament (final)", "fotograma": 18098, "t": 74.06005, "x": 5.399321e-4, "y": -1.292571e-1}
+      ],
+      "px_recuperats": [[547.1599279751186, 732.4733999017842], [750.9084956621379, 719.0374856768702],
+                        [973.5734162710754, 715.5901129481093], [547.625, 930.75]],
+      "data": "2026-10-26"
+    },
+    "90_10": {
+      "fotogrames_previstos": {"inicials": [1646, 1647, 1648], "final": 14860},
+      "clics": [
+        {"que": "pivot", "fotograma": 1646, "t": 6.590128, "x": 8.625215e-4, "y": -1.610410e-3},
+        {"que": "rodament", "fotograma": 1647, "t": 6.594297, "x": 1.297437e-1, "y": 6.312872e-3},
+        {"que": "extrem", "fotograma": 1648, "t": 6.598465, "x": 2.736288e-1, "y": 1.030963e-2},
+        {"que": "rodament (final)", "fotograma": 14860, "t": 61.67043, "x": 2.923986e-4, "y": -1.282451e-1}
+      ],
+      "repeticio": {"que_es": "els mateixos 4 clics, en una altra sessio, per mesurar la precisio (pla, pas B)", "data": "2026-10-26",
+        "clics": [
+          {"que": "pivot", "fotograma": 1646, "t": 6.590128, "x": 8.183393e-4, "y": -8.718832e-4},
+          {"que": "rodament", "fotograma": 1647, "t": 6.594297, "x": 1.294848e-1, "y": 6.862257e-3},
+          {"que": "extrem", "fotograma": 1648, "t": 6.598465, "x": 2.733021e-1, "y": 1.054675e-2},
+          {"que": "rodament (final)", "fotograma": 14860, "t": 61.67043, "x": 1.160699e-4, "y": -1.279625e-1}
+        ]},
+      "data": "2026-10-26"
+    },
+    "90_11": {
+      "angle_eixos_al_tracker": "-0,1 graus (el que mostra el Tracker, en Guillem); el .trk diu -0,10556 rad",
+      "fotogrames_previstos": {"inicials": [2073, 2074, 2075], "final": 17692},
+      "clics": [
+        {"que": "pivot", "fotograma": 2073, "t": 8.641088, "x": 7.886241e-5, "y": -4.362222e-4},
+        {"que": "rodament", "fotograma": 2074, "t": 8.645257, "x": 1.311966e-1, "y": 5.455006e-3},
+        {"que": "extrem", "fotograma": 2075, "t": 8.649425, "x": 2.720979e-1, "y": 6.110076e-3},
+        {"que": "rodament (final)", "fotograma": 17692, "t": 73.74729, "x": 3.109813e-3, "y": -1.266804e-1}
+      ],
+      "control_25_10": {
+        "motiu": "tornar a clicar el pivot i el gomet de l'extrem al repos final: al pas 0, el gomet de clics_cargol.json quedava a 46,8 px de la creu amb l'angle dels eixos del .trk (-6,05 graus)",
+        "clics": [
+          {"que": "pivot", "t": 73.73895, "x": 3.016050e-3, "y": -9.183130e-5},
+          {"que": "gomet de l'extrem", "t": 73.75980, "x": 4.017999e-3, "y": -2.679403e-1}
+        ],
+        "data": "2026-10-25"
+      },
+      "data": "2026-10-26"
+    },
+    "45_1": {
+      "fotogrames_previstos": {"inicials": [636, 637, 638], "final": 18978},
+      "clics": [
+        {"que": "pivot", "fotograma": 636, "t": 0.9045455, "x": -5.964365e-4, "y": 2.607227e-4},
+        {"que": "rodament", "fotograma": 637, "t": 0.9087139, "x": 8.997784e-2, "y": -8.660802e-2},
+        {"que": "extrem", "fotograma": 638, "t": 0.9128823, "x": 1.840750e-1, "y": -1.878231e-1},
+        {"que": "rodament (final)", "fotograma": 18978, "t": 77.36156, "x": -9.448596e-4, "y": -1.246608e-1}
+      ],
+      "descartat": {"que": "primer clic final: era el pivot, no el rodament (a 0,6 mm del pivot inicial); tornat a clicar el 26/10", "fotograma": 18979, "t": 77.36573, "x": -3.369511e-5, "y": 2.309493e-5},
+      "data": "2026-10-26"
+    },
+    "45_2": {
+      "fotogrames_previstos": {"inicials": [2162, 2163, 2164], "final": 20808},
+      "clics": [
+        {"que": "pivot", "fotograma": 2162, "t": 2.200915, "x": -1.327294e-3, "y": -1.966474e-3},
+        {"que": "rodament", "fotograma": 2163, "t": 2.205083, "x": 8.664674e-2, "y": -8.818102e-2},
+        {"que": "extrem", "fotograma": 2164, "t": 2.209251, "x": 1.776510e-1, "y": -1.885692e-1},
+        {"que": "rodament (final)", "fotograma": 20808, "t": 79.92488, "x": -4.068135e-4, "y": -1.240483e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_3": {
+      "fotogrames_previstos": {"inicials": [851, 852, 853], "final": 17712},
+      "nota": "en Guillem: al final es mou extremadament lent; en definitiva, ja esta quiet",
+      "clics": [
+        {"que": "pivot", "fotograma": 851, "t": 2.409336, "x": -1.362445e-3, "y": -1.576422e-3},
+        {"que": "rodament", "fotograma": 852, "t": 2.413504, "x": 8.771590e-2, "y": -8.823087e-2},
+        {"que": "extrem", "fotograma": 853, "t": 2.417672, "x": 1.816420e-1, "y": -1.857929e-1},
+        {"que": "rodament (final)", "fotograma": 17712, "t": 72.69274, "x": -5.772800e-5, "y": -1.241153e-1}
+      ],
+      "descartat": {"que": "primer clic final: era el pivot, no el rodament (a 2,3 mm del pivot inicial); tornat a clicar el 26/10", "fotograma": 17713, "t": 72.69691, "x": 4.406300e-5, "y": 2.640605e-4},
+      "data": "2026-10-26"
+    },
+    "45_4": {
+      "fotogrames_previstos": {"inicials": [2843, 2844, 2845], "final": 19569},
+      "nota": "el final es al fotograma 19670 i no al 19569; tots dos son dins de la cua (ultim fotograma marcat, 19687)",
+      "clics": [
+        {"que": "pivot", "fotograma": 2843, "t": 2.330113, "x": -1.346965e-3, "y": -2.186122e-3},
+        {"que": "rodament", "fotograma": 2844, "t": 2.334281, "x": 8.721228e-2, "y": -8.912386e-2},
+        {"que": "extrem", "fotograma": 2845, "t": 2.338450, "x": 1.789954e-1, "y": -1.875747e-1},
+        {"que": "rodament (final)", "fotograma": 19670, "t": 72.47110, "x": -2.937718e-4, "y": -1.251158e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_5": {
+      "fotogrames_previstos": {"inicials": [973, 974, 975], "final": 17924},
+      "clics": [
+        {"que": "pivot", "fotograma": 973, "t": 1.742391, "x": -1.464240e-3, "y": -2.515788e-3},
+        {"que": "rodament", "fotograma": 974, "t": 1.746559, "x": 8.762831e-2, "y": -8.856986e-2},
+        {"que": "extrem", "fotograma": 975, "t": 1.750727, "x": 1.797593e-1, "y": -1.860725e-1},
+        {"que": "rodament (final)", "fotograma": 17924, "t": 72.40091, "x": 5.805043e-5, "y": -1.245453e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_6": {
+      "fotogrames_previstos": {"inicials": [1055, 1056, 1057], "final": 18236},
+      "clics": [
+        {"que": "pivot", "fotograma": 1055, "t": 1.542271, "x": -3.785514e-4, "y": -1.923497e-3},
+        {"que": "rodament", "fotograma": 1056, "t": 1.546440, "x": 8.949891e-2, "y": -8.627391e-2},
+        {"que": "extrem", "fotograma": 1057, "t": 1.550608, "x": 1.821959e-1, "y": -1.846993e-1},
+        {"que": "rodament (final)", "fotograma": 18236, "t": 73.15785, "x": 2.617784e-4, "y": -1.243813e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_8": {
+      "fotogrames_previstos": {"inicials": [2626, 2627, 2628], "final": 20578},
+      "nota": "el final es al fotograma 20577, un abans del previst (al repos)",
+      "clics": [
+        {"que": "pivot", "fotograma": 2626, "t": 2.288451, "x": -1.273982e-3, "y": -1.838343e-3},
+        {"que": "rodament", "fotograma": 2627, "t": 2.292619, "x": 8.740508e-2, "y": -8.985242e-2},
+        {"que": "extrem", "fotograma": 2628, "t": 2.296787, "x": 1.774848e-1, "y": -1.885997e-1},
+        {"que": "rodament (final)", "fotograma": 20577, "t": 77.11536, "x": -2.284690e-4, "y": -1.244747e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_9": {
+      "fotogrames_previstos": {"inicials": [815, 816, 817], "final": 18225},
+      "clics": [
+        {"que": "pivot", "fotograma": 815, "t": 0.0, "x": 1.356419e-4, "y": 3.164977e-4},
+        {"que": "rodament", "fotograma": 816, "t": 4.168393e-3, "x": 8.724491e-2, "y": -8.558457e-2},
+        {"que": "extrem", "fotograma": 817, "t": 8.336785e-3, "x": 1.811723e-1, "y": -1.803132e-1},
+        {"que": "rodament (final)", "fotograma": 18225, "t": 72.57172, "x": -1.425343e-3, "y": -1.199118e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_10": {
+      "fotogrames_previstos": {"inicials": [975, 976, 977], "final": 18482},
+      "clics": [
+        {"que": "pivot", "fotograma": 975, "t": 1.679871, "x": -2.151108e-3, "y": -2.193873e-3},
+        {"que": "rodament", "fotograma": 976, "t": 1.684039, "x": 8.599144e-2, "y": -8.769119e-2},
+        {"que": "extrem", "fotograma": 977, "t": 1.688208, "x": 1.783149e-1, "y": -1.852745e-1},
+        {"que": "rodament (final)", "fotograma": 18482, "t": 74.65629, "x": -2.231881e-3, "y": -1.229431e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_11": {
+      "fotogrames_previstos": {"inicials": [1128, 1129, 1130], "final": 19462},
+      "clics": [
+        {"que": "pivot", "fotograma": 1128, "t": 2.553321, "x": -3.231088e-4, "y": -9.356844e-4},
+        {"que": "rodament", "fotograma": 1129, "t": 2.557493, "x": 8.724784e-2, "y": -8.790573e-2},
+        {"que": "extrem", "fotograma": 1130, "t": 2.561665, "x": 1.792407e-1, "y": -1.883830e-1},
+        {"que": "rodament (final)", "fotograma": 19462, "t": 79.04447, "x": -2.245797e-4, "y": -1.230535e-1}
+      ],
+      "repeticio": {"que_es": "els mateixos 4 clics, en una altra sessio, per mesurar la precisio (pla, pas B)", "data": "2026-10-26",
+        "clics": [
+          {"que": "pivot", "fotograma": 1128, "t": 2.553321, "x": -3.689236e-4, "y": -1.106909e-3},
+          {"que": "rodament", "fotograma": 1129, "t": 2.557493, "x": 8.705521e-2, "y": -8.806521e-2},
+          {"que": "extrem", "fotograma": 1130, "t": 2.561665, "x": 1.792578e-1, "y": -1.878819e-1},
+          {"que": "rodament (final)", "fotograma": 19462, "t": 79.04447, "x": -5.472152e-4, "y": -1.234399e-1}
+        ]},
+      "data": "2026-10-26"
+    },
+    "45_12": {
+      "fotogrames_previstos": {"inicials": [260, 261, 262], "final": 18755},
+      "clics": [
+        {"que": "pivot", "fotograma": 260, "t": 2.086048e-2, "x": 4.254181e-4, "y": 7.090302e-5},
+        {"que": "rodament", "fotograma": 261, "t": 2.503258e-2, "x": 9.256272e-2, "y": -8.082591e-2},
+        {"que": "extrem", "fotograma": 262, "t": 2.920468e-2, "x": 1.863232e-1, "y": -1.733831e-1},
+        {"que": "rodament (final)", "fotograma": 18755, "t": 77.18379, "x": 4.655132e-3, "y": -1.209573e-1}
+      ],
+      "data": "2026-10-26"
+    },
+    "45_13": {
+      "fotogrames_previstos": {"inicials": [1192, 1193, 1194], "final": 18818},
+      "clics": [
+        {"que": "pivot", "fotograma": 1192, "t": 0.8302481, "x": 3.645241e-6, "y": 5.809118e-5},
+        {"que": "rodament", "fotograma": 1193, "t": 0.8344202, "x": 8.884988e-2, "y": -8.175360e-2},
+        {"que": "extrem", "fotograma": 1194, "t": 0.8385923, "x": 1.791734e-1, "y": -1.778454e-1},
+        {"que": "rodament (final)", "fotograma": 18818, "t": 74.36770, "x": 4.772611e-3, "y": -1.197412e-1}
+      ],
+      "data": "2026-10-26"
+    }
+  }
+}

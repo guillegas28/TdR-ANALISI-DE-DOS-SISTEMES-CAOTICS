@@ -1,0 +1,988 @@
+{
+ "eina": "eines/lyapunov_real.py corregit",
+ "pla": "documentacio/pla-analisi-caos.md (24/10)",
+ "que_es": "el R2 i el R1 amb el repos final de cada presa a (0, 0): REAL CONTRA REAL, cap simulacio. Els numeros publicats no canvien",
+ "criteris": {
+  "BR0": {
+   "passa": true,
+   "errors": {
+    "R1_lambda": 0.0007180577764553941,
+    "R1_sigma": 0.00020140699537263274,
+    "R2_lambda": 0.0,
+    "R2_sigma": 0.0
+   },
+   "cotes": {
+    "R2": 1e-12,
+    "R1": 0.001
+   }
+  },
+  "BR1": {
+   "passa": true,
+   "desviacio_maxima": 4.989678128895347e-10
+  },
+  "BR2": {
+   "passa": true,
+   "theta1_maxim_graus": 5.338030940389603e-14,
+   "theta2_maxim_graus": 0.0006356094127295488
+  }
+ },
+ "per_presa": {
+  "45_1": {
+   "c_px": -0.2592231460578505,
+   "desviacio_del_csv": 0.0033911782457852757,
+   "repos_final_abans_graus": [
+    -0.07802750481607741,
+    0.06581210214176193
+   ],
+   "repos_final_despres_graus": [
+    -3.710647128374103e-16,
+    7.147706086814981e-06
+   ],
+   "amollada_abans_graus": [
+    45.227995422525844,
+    43.99343024948594
+   ],
+   "amollada_despres_graus": [
+    45.30589430608882,
+    43.92751599106616
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.913732976170541e-10,
+   "signe_invertit": false
+  },
+  "45_2": {
+   "c_px": 0.02130651076103376,
+   "desviacio_del_csv": 0.00029861051632074087,
+   "repos_final_abans_graus": [
+    0.006316202530688089,
+    -0.005456132747944055
+   ],
+   "repos_final_despres_graus": [
+    -9.011571597479964e-16,
+    -2.502357921508804e-05
+   ],
+   "amollada_abans_graus": [
+    44.018530287172204,
+    42.16404371605588
+   ],
+   "amollada_despres_graus": [
+    44.012217183313034,
+    42.16947471673336
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.945716457763663e-10,
+   "signe_invertit": false
+  },
+  "45_3": {
+   "c_px": 0.6112291367979669,
+   "desviacio_del_csv": 0.008432138310558557,
+   "repos_final_abans_graus": [
+    0.1803726310358561,
+    -0.15445482839508612
+   ],
+   "repos_final_despres_graus": [
+    2.756480723935048e-15,
+    5.1782904588283944e-05
+   ],
+   "amollada_abans_graus": [
+    44.67668656839388,
+    43.635319509471806
+   ],
+   "amollada_despres_graus": [
+    44.49660355226634,
+    43.79012359545297
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.927157776456569e-10,
+   "signe_invertit": false
+  },
+  "45_4": {
+   "c_px": 0.44043444811380644,
+   "desviacio_del_csv": 0.006041981291835752,
+   "repos_final_abans_graus": [
+    0.12954163564126225,
+    -0.11113792723604617
+   ],
+   "repos_final_despres_graus": [
+    1.0071756491301135e-15,
+    3.233749874055764e-05
+   ],
+   "amollada_abans_graus": [
+    44.31731314972041,
+    43.26997690189711
+   ],
+   "amollada_despres_graus": [
+    44.18792370662293,
+    43.38133886581803
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.951651805248401e-10,
+   "signe_invertit": false
+  },
+  "45_5": {
+   "c_px": 0.7713431451666158,
+   "desviacio_del_csv": 0.011023231855546878,
+   "repos_final_abans_graus": [
+    0.22630739078662038,
+    -0.19450799468292745
+   ],
+   "repos_final_despres_graus": [
+    5.141896735032686e-15,
+    6.963068900002807e-06
+   ],
+   "amollada_abans_graus": [
+    44.31375753980161,
+    43.796866375014694
+   ],
+   "amollada_despres_graus": [
+    44.08768591034534,
+    43.99176461673791
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.953572562338967e-10,
+   "signe_invertit": false
+  },
+  "45_6": {
+   "c_px": 0.5372986967794084,
+   "desviacio_del_csv": 0.007593155557550357,
+   "repos_final_abans_graus": [
+    0.1574449925451069,
+    -0.1354816810326399
+   ],
+   "repos_final_despres_graus": [
+    1.5902773407317584e-15,
+    2.0241088173802495e-06
+   ],
+   "amollada_abans_graus": [
+    45.33387609219826,
+    43.38650164344236
+   ],
+   "amollada_despres_graus": [
+    45.17651019397902,
+    43.52213517744569
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.936525105115369e-10,
+   "signe_invertit": false
+  },
+  "45_8": {
+   "c_px": 0.923522653599999,
+   "desviacio_del_csv": 0.012638498376117413,
+   "repos_final_abans_graus": [
+    0.2721619465576723,
+    -0.2328373405835411
+   ],
+   "repos_final_despres_graus": [
+    7.739349724894558e-15,
+    5.6352574232035415e-06
+   ],
+   "amollada_abans_graus": [
+    43.91425860903924,
+    43.9057231708215
+   ],
+   "amollada_despres_graus": [
+    43.64267887897481,
+    44.1389054883145
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.960372697447043e-10,
+   "signe_invertit": false
+  },
+  "45_9": {
+   "c_px": -1.464333306194035,
+   "desviacio_del_csv": 0.02035743101725205,
+   "repos_final_abans_graus": [
+    -0.44113862577576535,
+    0.366035510995204
+   ],
+   "repos_final_despres_graus": [
+    -3.090438965488717e-14,
+    3.0716847956649845e-05
+   ],
+   "amollada_abans_graus": [
+    45.31120302065328,
+    44.83139415992222
+   ],
+   "amollada_despres_graus": [
+    45.75007106365104,
+    44.46401767112633
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.897082176432399e-10,
+   "signe_invertit": false
+  },
+  "45_10": {
+   "c_px": -1.7270704840220046,
+   "desviacio_del_csv": 0.024931615902580535,
+   "repos_final_abans_graus": [
+    -0.5044077088249964,
+    0.4352673761790439
+   ],
+   "repos_final_despres_graus": [
+    -5.338030940389603e-14,
+    1.3845051540894444e-05
+   ],
+   "amollada_abans_graus": [
+    43.899559875278435,
+    44.57628951735049
+   ],
+   "amollada_despres_graus": [
+    44.40355649633233,
+    44.1402419408573
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.961132559402637e-10,
+   "signe_invertit": false
+  },
+  "45_11": {
+   "c_px": 0.6885046210066975,
+   "desviacio_del_csv": 0.00881284300199034,
+   "repos_final_abans_graus": [
+    0.19412687982604748,
+    -0.1599536796213406
+   ],
+   "repos_final_despres_graus": [
+    2.6028756474607484e-15,
+    5.76011233375492e-05
+   ],
+   "amollada_abans_graus": [
+    44.226392087222514,
+    43.91132983213702
+   ],
+   "amollada_despres_graus": [
+    44.032505000211096,
+    44.071505136270005
+   ],
+   "fotogrames_de_cua": 479,
+   "desviacio_del_csv_amb_c_zero": 4.926963921253899e-10,
+   "signe_invertit": false
+  },
+  "45_12": {
+   "c_px": 0.5882496816838045,
+   "desviacio_del_csv": 0.008575915234952713,
+   "repos_final_abans_graus": [
+    0.16225027878890283,
+    -0.13869023675982228
+   ],
+   "repos_final_despres_graus": [
+    1.2217579569713718e-15,
+    1.4538634113192064e-06
+   ],
+   "amollada_abans_graus": [
+    47.12651968447455,
+    43.909743137250175
+   ],
+   "amollada_despres_graus": [
+    46.964808647628,
+    44.04855665419983
+   ],
+   "fotogrames_de_cua": 479,
+   "desviacio_del_csv_amb_c_zero": 4.92465975084046e-10,
+   "signe_invertit": false
+  },
+  "45_13": {
+   "c_px": 0.5886352215139731,
+   "desviacio_del_csv": 0.0075892628733899015,
+   "repos_final_abans_graus": [
+    0.16422007715017028,
+    -0.13729985001961734
+   ],
+   "repos_final_despres_graus": [
+    2.8684752033240903e-15,
+    -1.343557928818883e-06
+   ],
+   "amollada_abans_graus": [
+    45.84347800483662,
+    41.91295198966715
+   ],
+   "amollada_despres_graus": [
+    45.67921700893412,
+    42.051091150628594
+   ],
+   "fotogrames_de_cua": 479,
+   "desviacio_del_csv_amb_c_zero": 4.94704415209641e-10,
+   "signe_invertit": false
+  },
+  "90_1": {
+   "c_px": -2.2969038945296276,
+   "desviacio_del_csv": 0.09008888279654759,
+   "repos_final_abans_graus": [
+    -0.6842021601895273,
+    0.5789790359592362
+   ],
+   "repos_final_despres_graus": [
+    2.401318784504955e-14,
+    -1.4115648735016329e-05
+   ],
+   "amollada_abans_graus": [
+    92.19857348756727,
+    91.1846706391632
+   ],
+   "amollada_despres_graus": [
+    92.88247883825024,
+    90.60284802543977
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.953895563107227e-10,
+   "signe_invertit": false
+  },
+  "90_2": {
+   "c_px": 1.1511638231307317,
+   "desviacio_del_csv": 0.04784627383711293,
+   "repos_final_abans_graus": [
+    0.34104625726554805,
+    -0.29211892474996537
+   ],
+   "repos_final_despres_graus": [
+    1.4736570024114296e-14,
+    1.5527280768660037e-06
+   ],
+   "amollada_abans_graus": [
+    92.41527182661581,
+    89.83289417790003
+   ],
+   "amollada_despres_graus": [
+    92.0741598581483,
+    90.12516072790108
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.971025455720308e-10,
+   "signe_invertit": false
+  },
+  "90_3": {
+   "c_px": -4.183699971350322,
+   "desviacio_del_csv": 0.21669737191852234,
+   "repos_final_abans_graus": [
+    -1.239010872530984,
+    1.0633345393904956
+   ],
+   "repos_final_despres_graus": [
+    5.300924469105861e-17,
+    -4.134424786276595e-06
+   ],
+   "amollada_abans_graus": [
+    91.72140856350015,
+    89.23578896190185
+   ],
+   "amollada_despres_graus": [
+    92.96091200163713,
+    88.17613776421963
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.95184182209498e-10,
+   "signe_invertit": false
+  },
+  "90_4": {
+   "c_px": -3.5171994944587386,
+   "desviacio_del_csv": 0.12361560316060738,
+   "repos_final_abans_graus": [
+    -1.042404640960913,
+    0.8840453608647719
+   ],
+   "repos_final_despres_graus": [
+    3.710647128374103e-16,
+    8.166543437621199e-07
+   ],
+   "amollada_abans_graus": [
+    92.90992966783028,
+    90.78379934270122
+   ],
+   "amollada_despres_graus": [
+    93.94848594145799,
+    89.89582441092085
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.892067712801467e-10,
+   "signe_invertit": false
+  },
+  "90_5": {
+   "c_px": -4.743916401243442,
+   "desviacio_del_csv": 0.2248592653975952,
+   "repos_final_abans_graus": [
+    -1.422864938849683,
+    1.1813183184403695
+   ],
+   "repos_final_despres_graus": [
+    -1.5902773407317586e-16,
+    -1.1466998105448165e-05
+   ],
+   "amollada_abans_graus": [
+    93.68897894947519,
+    90.92912255304114
+   ],
+   "amollada_despres_graus": [
+    95.09415805521786,
+    89.7314074829414
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.956170418588419e-10,
+   "signe_invertit": false
+  },
+  "90_6": {
+   "c_px": -6.188775405499436,
+   "desviacio_del_csv": 0.3159986509274418,
+   "repos_final_abans_graus": [
+    -1.8528047997509862,
+    1.5684038268208287
+   ],
+   "repos_final_despres_graus": [
+    5.300924469105861e-17,
+    4.277213981721766e-06
+   ],
+   "amollada_abans_graus": [
+    92.22086246253033,
+    88.61779909049649
+   ],
+   "amollada_despres_graus": [
+    94.07072872237778,
+    87.05926017672881
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.957945665410301e-10,
+   "signe_invertit": false
+  },
+  "90_7": {
+   "c_px": -2.9465839517552137,
+   "desviacio_del_csv": 0.11988789885311457,
+   "repos_final_abans_graus": [
+    -0.8792117807823208,
+    0.7430804803144799
+   ],
+   "repos_final_despres_graus": [
+    -4.770832022195275e-16,
+    -1.0169382132989808e-06
+   ],
+   "amollada_abans_graus": [
+    94.71520202340427,
+    91.29842284366738
+   ],
+   "amollada_despres_graus": [
+    95.58161875603116,
+    90.55419353970319
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.964397203109886e-10,
+   "signe_invertit": false
+  },
+  "90_8": {
+   "c_px": -3.519536477480926,
+   "desviacio_del_csv": 0.13311115715362865,
+   "repos_final_abans_graus": [
+    -1.0534727882259305,
+    0.8960182488241175
+   ],
+   "repos_final_despres_graus": [
+    -2.1203697876423444e-16,
+    0.0004113611127420164
+   ],
+   "amollada_abans_graus": [
+    93.37966232661842,
+    90.45345250450939
+   ],
+   "amollada_despres_graus": [
+    94.42979550125327,
+    89.56486134046132
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.989678128895347e-10,
+   "signe_invertit": false
+  },
+  "90_9": {
+   "c_px": -5.134251326688661,
+   "desviacio_del_csv": 0.2372558245855601,
+   "repos_final_abans_graus": [
+    -1.538253094685329,
+    1.2823948458184282
+   ],
+   "repos_final_despres_graus": [
+    -7.421294256748206e-16,
+    7.686612164032538e-06
+   ],
+   "amollada_abans_graus": [
+    93.77778205056507,
+    90.38798757869702
+   ],
+   "amollada_despres_graus": [
+    95.30308378898472,
+    89.09749214923993
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.979782530729201e-10,
+   "signe_invertit": false
+  },
+  "90_10": {
+   "c_px": -3.8511145120689148,
+   "desviacio_del_csv": 0.18648609483933976,
+   "repos_final_abans_graus": [
+    -1.1489060144124779,
+    0.966105259606627
+   ],
+   "repos_final_despres_graus": [
+    -2.6504622345529303e-16,
+    2.76642686123865e-07
+   ],
+   "amollada_abans_graus": [
+    93.00203564142599,
+    91.28880228068145
+   ],
+   "amollada_despres_graus": [
+    94.14173487431428,
+    90.31901507829966
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.935491446110966e-10,
+   "signe_invertit": false
+  },
+  "90_11": {
+   "c_px": 0.6306968437487414,
+   "desviacio_del_csv": 0.01892393822117966,
+   "repos_final_abans_graus": [
+    0.1853482501154248,
+    -0.16068620069268857
+   ],
+   "repos_final_despres_graus": [
+    2.8094899686261063e-15,
+    1.673910522077742e-05
+   ],
+   "amollada_abans_graus": [
+    91.59303301502185,
+    89.60950406422693
+   ],
+   "amollada_despres_graus": [
+    91.40648375688984,
+    89.76957208868872
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.971684658947125e-10,
+   "signe_invertit": false
+  },
+  "150_1": {
+   "c_px": 7.743341619448798,
+   "desviacio_del_csv": 0.5543768767470973,
+   "repos_final_abans_graus": [
+    2.294095150178494,
+    -2.0016078179669856
+   ],
+   "repos_final_despres_graus": [
+    5.300924469105861e-17,
+    -1.9012755668472375e-06
+   ],
+   "amollada_abans_graus": [
+    151.17043523364794,
+    153.6400346201676
+   ],
+   "amollada_despres_graus": [
+    148.84759515467834,
+    155.56351961087782
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.929708143084884e-10,
+   "signe_invertit": false
+  },
+  "150_2": {
+   "c_px": 9.233799105622952,
+   "desviacio_del_csv": 0.743776076214453,
+   "repos_final_abans_graus": [
+    2.7676403434487606,
+    -2.314087138629855
+   ],
+   "repos_final_despres_graus": [
+    -7.421294256748206e-16,
+    -3.1551568751841787e-07
+   ],
+   "amollada_abans_graus": [
+    152.75055915401927,
+    154.90367306974946
+   ],
+   "amollada_despres_graus": [
+    149.9842135109843,
+    157.20557396060767
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.954415350222346e-10,
+   "signe_invertit": false
+  },
+  "150_3": {
+   "c_px": 14.070582918165968,
+   "desviacio_del_csv": 1.0497355503740868,
+   "repos_final_abans_graus": [
+    4.125434214400465,
+    -3.559851159701596
+   ],
+   "repos_final_despres_graus": [
+    5.831016916016447e-16,
+    1.8581054181040133e-06
+   ],
+   "amollada_abans_graus": [
+    153.71120932823948,
+    155.98152806349944
+   ],
+   "amollada_despres_graus": [
+    149.55355084638322,
+    159.47100586308918
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.958424180076082e-10,
+   "signe_invertit": false
+  },
+  "150_4": {
+   "c_px": 12.971775687180031,
+   "desviacio_del_csv": 1.0093091355334944,
+   "repos_final_abans_graus": [
+    3.7885267354033796,
+    -3.292791363939173
+   ],
+   "repos_final_despres_graus": [
+    -6.89120180983762e-16,
+    1.6484251353661768e-06
+   ],
+   "amollada_abans_graus": [
+    153.07689686327907,
+    155.87843301722413
+   ],
+   "amollada_despres_graus": [
+    149.2432351721323,
+    159.09390156405289
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.919400433853195e-10,
+   "signe_invertit": false
+  },
+  "150_5": {
+   "c_px": 9.542359244813314,
+   "desviacio_del_csv": 0.5699608106981833,
+   "repos_final_abans_graus": [
+    2.840412992750379,
+    -2.404510579510234
+   ],
+   "repos_final_despres_graus": [
+    4.240739575284689e-16,
+    -0.0006356094127295488
+   ],
+   "amollada_abans_graus": [
+    153.25166732544344,
+    153.86449633680493
+   ],
+   "amollada_despres_graus": [
+    150.40454464854892,
+    156.24862230385386
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.955272492836913e-10,
+   "signe_invertit": false
+  },
+  "150_6": {
+   "c_px": 4.918501312969291,
+   "desviacio_del_csv": 0.3543418752342016,
+   "repos_final_abans_graus": [
+    1.4998427574175899,
+    -1.2228676161886816
+   ],
+   "repos_final_despres_graus": [
+    1.961342053569169e-15,
+    1.8277647296053187e-06
+   ],
+   "amollada_abans_graus": [
+    154.41860599771556,
+    154.3813569228343
+   ],
+   "amollada_despres_graus": [
+    152.9331155451783,
+    155.61352527663914
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.931059206932564e-10,
+   "signe_invertit": false
+  },
+  "150_7": {
+   "c_px": 6.174261390554586,
+   "desviacio_del_csv": 0.42843893811756617,
+   "repos_final_abans_graus": [
+    1.8552279635223072,
+    -1.5555866860017316
+   ],
+   "repos_final_despres_graus": [
+    2.6504622345529303e-16,
+    8.856253963479758e-07
+   ],
+   "amollada_abans_graus": [
+    152.18842954501915,
+    155.7937817115572
+   ],
+   "amollada_despres_graus": [
+    150.34547454647796,
+    157.33793414811169
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.973308936764712e-10,
+   "signe_invertit": false
+  },
+  "150_8": {
+   "c_px": 9.214051441806888,
+   "desviacio_del_csv": 0.6659672060295017,
+   "repos_final_abans_graus": [
+    2.720643022312235,
+    -2.3232088014555194
+   ],
+   "repos_final_despres_graus": [
+    5.831016916016447e-16,
+    4.6853500902618156e-07
+   ],
+   "amollada_abans_graus": [
+    152.53752333308452,
+    156.26046030476206
+   ],
+   "amollada_despres_graus": [
+    149.84256690202326,
+    158.55244215798263
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.946867782073124e-10,
+   "signe_invertit": false
+  },
+  "150_9": {
+   "c_px": 2.574360684690322,
+   "desviacio_del_csv": 0.17149213149683162,
+   "repos_final_abans_graus": [
+    0.7729129309558208,
+    -0.6420518781624107
+   ],
+   "repos_final_despres_graus": [
+    -1.0071756491301135e-15,
+    2.3809741065488416e-05
+   ],
+   "amollada_abans_graus": [
+    155.08776652926883,
+    155.78833190889725
+   ],
+   "amollada_despres_graus": [
+    154.32200986447074,
+    156.43214771604167
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.971512959134554e-10,
+   "signe_invertit": false
+  },
+  "150_10": {
+   "c_px": -0.5985097625631138,
+   "desviacio_del_csv": 0.044292785803780446,
+   "repos_final_abans_graus": [
+    -0.18141552908919886,
+    0.14901341180188793
+   ],
+   "repos_final_despres_graus": [
+    -2.5444437451708137e-15,
+    6.481385116983508e-07
+   ],
+   "amollada_abans_graus": [
+    153.9320624420915,
+    154.43605451063382
+   ],
+   "amollada_despres_graus": [
+    154.1124912589849,
+    154.2864976532372
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.969641670521591e-10,
+   "signe_invertit": false
+  },
+  "150_11": {
+   "c_px": 2.169914298249416,
+   "desviacio_del_csv": 0.1444461771483423,
+   "repos_final_abans_graus": [
+    0.6494104878688803,
+    -0.5418495512155999
+   ],
+   "repos_final_despres_graus": [
+    -3.965091502891184e-14,
+    -0.0001988082819808013
+   ],
+   "amollada_abans_graus": [
+    153.72050866243757,
+    154.54506030411522
+   ],
+   "amollada_despres_graus": [
+    153.07279462096668,
+    155.0868966238798
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.963706535809544e-10,
+   "signe_invertit": false
+  },
+  "150_12": {
+   "c_px": 1.248164091737336,
+   "desviacio_del_csv": 0.0803684863997915,
+   "repos_final_abans_graus": [
+    0.3685432653169381,
+    -0.3129770562189195
+   ],
+   "repos_final_despres_graus": [
+    1.8924300354707925e-14,
+    -4.6633134475217137e-07
+   ],
+   "amollada_abans_graus": [
+    152.57088557687518,
+    153.48924920263147
+   ],
+   "amollada_despres_graus": [
+    152.20432921610342,
+    153.80291492235045
+   ],
+   "fotogrames_de_cua": 480,
+   "desviacio_del_csv_amb_c_zero": 4.895952188995034e-10,
+   "signe_invertit": false
+  }
+ },
+ "resultat2": {
+  "150": {
+   "lambda": 2.9056497139000075,
+   "fraccio_creuen": 1.0,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma_D": [
+     0.3527571493720235
+    ],
+    "p16_84_D": [
+     [
+      2.508464352239046,
+      3.3639024352750444
+     ]
+    ],
+    "fraccio_exponencial": 0.0
+   },
+   "mc_alineacio": {
+    "desviacio": 0.17105783318339468,
+    "mitjana": 2.998712811818641
+   },
+   "mc_d0": {
+    "0.5": {
+     "mitjana": 2.8677428321852756,
+     "desviacio": 0.09112963092893689
+    },
+    "1": {
+     "mitjana": 2.758109272771942,
+     "desviacio": 0.13554221594823593
+    }
+   },
+   "diagnostic_lambda_D": {
+    "D_graus": [
+     23.799381350848037,
+     28.422620187557843,
+     33.94396377019208,
+     40.53787683292094,
+     48.41271541669954
+    ],
+    "lambda_D": [
+     2.93891781321173,
+     2.6481193592749475,
+     2.7774608275449633,
+     2.8429487746151403,
+     2.9056497139000075
+    ],
+    "fraccio_creuen": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "veredicte": "rang curt",
+    "ratio": 0.9886801532311765,
+    "j_max": 4,
+    "rang_ln": 0.7101029077623093,
+    "lambda_inc": 3.932243762948819,
+    "parelles": 45,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 2.822619297709358
+   },
+   "D_estrella_graus": 48.41271541669954,
+   "parelles": 45,
+   "mc_residu_vertical": {
+    "sigma_graus": 0.15,
+    "sortejos": 200,
+    "mitjana": 2.899141229634019,
+    "desviacio": 0.014893784109302841
+   }
+  }
+ },
+ "resultat1": {
+  "1,7-3,5": {
+   "parelles": 885,
+   "tirs": 23,
+   "ok": true,
+   "lambda": 2.101130690981075,
+   "creixement_ln": 1.4282876073214799,
+   "finestra_s": [
+    0.1,
+    0.725
+   ],
+   "motiu": null,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma": 0.8110563185158105,
+    "sense_lambda": 0
+   },
+   "grups_de_les_parelles": [
+    "150-150",
+    "150-90",
+    "90-150",
+    "90-90"
+   ]
+  }
+ },
+ "sense_correccio": {
+  "R2_150_lambda": 3.426915018379771,
+  "R2_150_sigma": 0.3808618884997144,
+  "R1_lambda": 2.1805704518511053,
+  "R1_sigma": 0.8897262190079983,
+  "que_es": "el pas 3 sense corregir amb les preses d'ara: la base nova del 24/10"
+ },
+ "horitzons_amb_R1_corregit": {
+  "remostrejos": 1000,
+  "fraccio_lambda_no_positiva": 0.0,
+  "d0_0.3_tol_3": {
+   "D0_graus": 0.3,
+   "D_tol_graus": 3.0,
+   "ln_R": 2.302585092994046,
+   "central_s": 1.0958790440202968,
+   "p2.5_s": 0.573744544088277,
+   "p16_s": 0.8107090696490994,
+   "p50_s": 1.1078680558463194,
+   "p84_s": 1.7863275785272787,
+   "p97.5_s": 2.3895715914142763
+  },
+  "d0_0.3_tol_5": {
+   "D0_graus": 0.3,
+   "D_tol_graus": 5.0,
+   "ln_R": 2.8134107167600364,
+   "central_s": 1.3389984396669674,
+   "p2.5_s": 0.7010290537934677,
+   "p16_s": 0.9905638630533916,
+   "p50_s": 1.353647198775729,
+   "p84_s": 2.1826221182287693,
+   "p97.5_s": 2.9196950610883
+  },
+  "d0_1_tol_3": {
+   "D0_graus": 1.0,
+   "D_tol_graus": 3.0,
+   "ln_R": 1.0986122886681098,
+   "central_s": 0.5228671845039482,
+   "p2.5_s": 0.2737457167639594,
+   "p16_s": 0.38680652852358854,
+   "p50_s": 0.528587396869229,
+   "p84_s": 0.8522948556072716,
+   "p97.5_s": 1.1401153959380401
+  },
+  "d0_1_tol_5": {
+   "D0_graus": 1.0,
+   "D_tol_graus": 5.0,
+   "ln_R": 1.6094379124341003,
+   "central_s": 0.7659865801506188,
+   "p2.5_s": 0.40103022646915004,
+   "p16_s": 0.5666613219278808,
+   "p50_s": 0.7743665397986386,
+   "p84_s": 1.248589395308762,
+   "p97.5_s": 1.670238865612064
+  }
+ }
+}

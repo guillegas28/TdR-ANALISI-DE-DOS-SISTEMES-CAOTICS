@@ -1,0 +1,147 @@
+{
+ "_que_es": "Els clics de la creu en moviment (pla-correccio-biaix.md, «La dissetena tanda»), llegits de les copies dels .trk. Registre: la font son les copies.",
+ "font": "dades/video/tracker/analisi_moviment",
+ "unitats": "pixels de la imatge, com els desa el .trk",
+ "preses": {
+  "45_11": {
+   "clics": [
+    {
+     "que": "pivot",
+     "fotograma": 1180,
+     "x": 591.9955898566703,
+     "y": 691.8853362734288
+    },
+    {
+     "que": "rodament",
+     "fotograma": 1180,
+     "x": 743.5239206534422,
+     "y": 843.9031505250877
+    },
+    {
+     "que": "rodament",
+     "fotograma": 1185,
+     "x": 737.852975495916,
+     "y": 848.943990665111
+    },
+    {
+     "que": "rodament",
+     "fotograma": 1196,
+     "x": 709.1831971995333,
+     "y": 869.4224037339558
+    },
+    {
+     "que": "rodament",
+     "fotograma": 1236,
+     "x": 521.75,
+     "y": 889.0
+    },
+    {
+     "que": "rodament",
+     "fotograma": 1283,
+     "x": 495.75,
+     "y": 877.25
+    },
+    {
+     "que": "extrem",
+     "fotograma": 1180,
+     "x": 899.9766142652982,
+     "y": 1018.6514226321942
+    },
+    {
+     "que": "extrem",
+     "fotograma": 1185,
+     "x": 894.1995841995843,
+     "y": 1024.8336798336798
+    },
+    {
+     "que": "extrem",
+     "fotograma": 1196,
+     "x": 862.8029750619805,
+     "y": 1047.1780662097126
+    },
+    {
+     "que": "extrem",
+     "fotograma": 1236,
+     "x": 495.7308042094323,
+     "y": 1126.2725737300248
+    },
+    {
+     "que": "extrem",
+     "fotograma": 1283,
+     "x": 251.7878192534381,
+     "y": 864.5186640471511
+    }
+   ]
+  },
+  "90_6": {
+   "clics": [
+    {
+     "que": "pivot",
+     "fotograma": 502,
+     "x": 539.6658932714616,
+     "y": 733.6983758700696
+    },
+    {
+     "que": "rodament",
+     "fotograma": 502,
+     "x": 746.1438515081206,
+     "y": 729.4663573085847
+    },
+    {
+     "que": "rodament",
+     "fotograma": 507,
+     "x": 745.921113689095,
+     "y": 740.3805104408353
+    },
+    {
+     "que": "rodament",
+     "fotograma": 518,
+     "x": 737.2343387470997,
+     "y": 790.0510440835268
+    },
+    {
+     "que": "rodament",
+     "fotograma": 557,
+     "x": 478.23610473128156,
+     "y": 923.3881488286634
+    },
+    {
+     "que": "rodament",
+     "fotograma": 605,
+     "x": 343.6721598366633,
+     "y": 776.4299256234503
+    },
+    {
+     "que": "extrem",
+     "fotograma": 502,
+     "x": 966.625958165519,
+     "y": 734.7953748213589
+    },
+    {
+     "que": "extrem",
+     "fotograma": 507,
+     "x": 966.0498960498961,
+     "y": 749.2203742203742
+    },
+    {
+     "que": "extrem",
+     "fotograma": 518,
+     "x": 957.1295215869312,
+     "y": 802.0011668611436
+    },
+    {
+     "que": "extrem",
+     "fotograma": 557,
+     "x": 467.66792256723403,
+     "y": 1144.3731323892425
+    },
+    {
+     "que": "extrem",
+     "fotograma": 605,
+     "x": 319.4959074964272,
+     "y": 546.4934390022086
+    }
+   ]
+  }
+ }
+}

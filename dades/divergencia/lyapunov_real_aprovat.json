@@ -1,0 +1,10 @@
+{
+ "data": "2026-10-17",
+ "aprovat_per": "Guillem",
+ "que": "Aplicar a les preses reals els resultats que han passat la validacio (nomes simulacio) de documentacio/pla-analisi-caos.md, «17/10 (segona part)»",
+ "resultat1": ["1,7-3,5"],
+ "resultat2": ["150"],
+ "condicio": "la sensibilitat a la friccio DE PROVA del R1 a +-15 % (FR1): ha donat -2,2 %",
+ "validacio": "dades/divergencia/lyapunov_real_validacio2_2026-10-17.json",
+ "friccio_de_prova": "dades/divergencia/lyapunov_real_friccio_de_prova_2026-10-17.json"
+}

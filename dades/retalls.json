@@ -1,0 +1,14 @@
+{
+  "_que_es": "Els ajustos de conversio presa a presa, decidits per en Guillem i amb el motiu. des_del_fotograma: on comenca una presa que no comenca al primer fotograma marcat (ho aplica pendol/trk.py, retalla: les pistes que no son el fix comencen al fotograma dit, i el fix es queda sencer). fora_del_balanc: la presa es converteix pero eines/balanc_energia.py no la fa servir. Ho llegeix eines/converteix_preses.py. Els .trk no es toquen. Vegeu documentacio/pla-45-amb-principi.md.",
+  "45_3": {
+    "des_del_fotograma": 560,
+    "motiu": "Durant el repos marcat (273-897), theta2 es mou 0,4 graus als fotogrames 471-549 amb theta1 quiet: la barra de baix es mou abans d'amollar i amollada.py ho pren per l'amollada. Des del 560 queden 1,41 s de repos quiet. Decidit el 26/09/2026."
+  },
+  "45_6": {
+    "des_del_fotograma": 790,
+    "motiu": "Durant el repos marcat (685-1094), theta2 es mou 0,6 graus als fotogrames 718-774 amb theta1 quiet. Des del 790 queden 1,30 s de repos quiet. Decidit el 26/09/2026."
+  },
+  "45_7": {
+    "fora_del_balanc": "La marca de l'articulacio salta 341 px al fotograma 2119 (l'ultim que l'autotracker va tornar a marcar el 25/09), en ple moviment: fa un pic de velocitat que falsejaria la dissipacio, i l'amollada surt amb +-160 ms. La unio amb el marcatge vell no va passar el criteri (1,71 px a la unio). Amb 12 preses de 45 n'hi ha prou. Decidit per en Guillem el 26/09/2026."
+  }
+}

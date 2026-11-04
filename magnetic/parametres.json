@@ -1,0 +1,43 @@
+{
+  "_llegeix_aixo": "Parametres del muntatge del PENDOL MAGNETIC. Tot en SI (kg, m, s). Les equacions van PER UNITAT DE MASSA: la massa NO hi surt. No confonguis aquest fitxer amb el parametres.json de l'arrel, que es del pendol doble.",
+
+  "_AVIS": "DES DEL 2026-10-25 CAP ENTRADA D'AQUEST FITXER NO ES INVENTADA. La n i les K son MESURADES i, des del 2026-10-28, DEFINITIVES (decidit per en Guillem: no es tornaran a mesurar): surten de les tandes 1 i 2 de magnetic/dades/llei_de_forca.csv, amb barres d'error que son un minim (sense les sistematiques), i aixi s'ha de declarar. CAP MAPA NI FIGURA FETS ABANS DEL 25/10 NO ES D'AQUESTS VALORS: eren n = 3 i K = 1e-4, inventats, i s'han de refer. Fins al 25/10 aqui deia que n i K eren inventades; la b es va mesurar el 2026-08-24.",
+  "_valors_inventats": [],
+  "_com_es_mesuren_els_inventats": "documentacio/calibrar-el-magnetic.html",
+
+  "L": 0.285,
+  "_L": "MESURAT (m). Longitud del fil, del punt de gir al centre de masses de la massa. DECIDIT PER EN GUILLEM EL 2026-10-26: 28,5 cm, el cable mesurat el 2026-09-09 (fins aleshores hi havia 29,5, del regle). El periode de la presa de friccio (T = 1,0657 s) en dona 28,2, o sigui que amb 28,5 el model oscil.la un 0,5 % mes lent que el pendol mesurat: es un limit declarat. Tambe es la L de la tanda 1 de la llei de forca, que la llegeix d'aqui.",
+
+  "R": 0.05,
+  "_R": "MESURAT (m). Radi de la circumferencia on hi ha els tres imants.",
+
+  "d0": 0.02,
+  "_d0": "MESURAT (m). Alcada de la massa sobre el pla dels imants quan esta en repos al centre.",
+
+  "m": 0.002,
+  "_m": "MESURAT (kg). NO surt a les equacions del moviment. Nomes serveix per convertir una forca mesurada al laboratori en la constant K.",
+
+  "g": 9.802,
+  "_g": "Valor a Vic (41,93 graus N, 484 m), on es el banc de treball: 9,8034 al nivell del mar (formula internacional), -0,0015 per l'altitud, +0,0005 per la placa de Bouguer; total 9,8025, arrodonit a 9,802, +-0,0005. El mateix que al parametres.json del pendol doble, a posta: dos valors de g en dos capitols de la mateixa memoria criden l'atencio. Abans hi havia 9,803: la diferencia es del 0,01% i no mou res.",
+
+  "b": 0.039,
+  "_b": "MESURAT (s^-1) el 2026-08-24. Friccio PER UNITAT DE MASSA: l'equacio es x'' = ... - b*x', NO m*x'' = ... - b*x'. Amb aquest valor l'amplitud cau a 1/e en 2/b = 51 s i el factor d'esmorteiment es zeta = 0.0033. Abans hi havia 0.15, que era INVENTAT: el valor de debo es una quarta part.",
+  "_b_incertesa": 0.007,
+  "_b_d_on_surt": "Decrement logaritmic de la presa dades/video/IMG_3072.MOV, amb els imants RETIRATS. 21.133 marques del Tracker, 90 s, 84 oscil.lacions, 170 extrems. Ajust de ln|A| contra t: b = 0.0385 +- 0.0003 amb R2 = 0.994. Es refa amb: python -m magnetic.tracker dades/video/tracker/IMG_3072.trk --sortida dades/net/magnetic_3072.csv --forat-maxim 10 --talla --vertical-de-les-dades  i despres  python -m magnetic.decrement dades/net/magnetic_3072.csv",
+  "_b_per_que_0.007_i_no_0.0003": "El +-0.0003 que treu l'ajust suposa que els residus son aleatoris, i AQUI SON SISTEMATICS: dibuixen una S. La incertesa honesta es la dispersio entre trams d'amplitud, que va de 0.030 (a 6-4.5 cm) a 0.050 (a 11-8 cm). Posar-hi el +-0.0003 seria dir que la b es coneix vint vegades millor del que es coneix.",
+  "_b_no_es_l_aire": "L'aire n'explica una part minoritaria, pero no tan petita com es deia. La massa es L'IMANT dins la peca impresa: un cilindre de 10 mm de diametre i 5 mm d'alt (l'imant de 10x3 mm, gruix suposat, i el disc de PLA de 2 mm de l'STL), amb l'eix vertical, o sigui 50 mm2 de seccio frontal. A l'inici del registre (amplitud ~13,6 cm amb l'escala corregida, v = 0,80 m/s) el Reynolds es 535, ben lluny del regim de Stokes, i la resistencia quadratica dona una b equivalent b_eq = (8/3pi)*(rho*Cd*A/2m)*v de 0,006 a 0,012 s^-1, amb Cd entre 0,6 (cilindre curt) i 1,2 (cilindre llarg): del 16 al 32 % de la b. Com que va amb l'amplitud, al llarg del registre en pesa menys. La resta es perd a la SUSPENSIO, per histeresi del fil de nilo doblegant-se al punt d'agafada. NO hi ha comptat l'arrossegament del fil mateix, perque no se'n sap el diametre. Fins al 25/10 aqui deia 'una bola d'acer de 2 g fa 7.9 mm' i 'l'aire nomes n'explica el 13%': la massa no es cap bola, i el 13 % surt de la formula de sobre amb la bola i Cd = 0,5. Es va comprovar contra els tres models: ln A recta (histeretic/viscos) R2=0.9939, 1/A recta (aire quadratic) R2=0.9562, A recta (friccio seca) R2=0.9156.",
+  "_b_limit_declarat": "Si la perdua es histeretica, la b va com 1/omega. Aquesta mesura es a omega = 5.89 rad/s (el pendol lliure), pero a prop d'un imant el periode local es de 0,183 s amb la L, la n i la K del 26/10 (0,193 amb les del 25/10 i L = 0,295; 0,348 amb les inventades), gairebe sis vegades mes rapid, i alla la b efectiva podria ser una sisena part d'aquesta. Es un limit del model, no de la mesura.",
+  "_b_consequencia_practica": "Amb b = 0.039 les trajectories duren molt mes que amb 0.15 i el mapa costa molt mes de calcular: a +-12 cm i t_max = 120 s hi queda un 3.4% de pixels grisos (amb b = 0.030, un 41%). Puja --temps quan facis els mapes de debo.",
+
+  "n": 6.87,
+  "_n": "MESURAT i DEFINITIU des del 2026-10-28 (adimensional), adoptat per en Guillem el 2026-10-25 i refet el 2026-10-26 amb L = 28,5 cm (amb la L d'abans, 29,5, era 6,71). Exponent de la llei de forca dels imants: la magnitud cau com K/delta^n. Surt de magnetic.llei_de_forca amb les tandes 1 i 2 (la 3 queda fora: vegeu tandes_fora_de_l_ajust a magnetic/dades/llei_de_forca.json): n = 6,867 +- 0,102 (Monte Carlo), arrodonit a 6,87. La barra es un MINIM: les sistematiques (sep, h0, L) no estan declarades. LIMIT DECLARAT (26/10): amb aquesta llei, a l'alcada de la tanda 2 (3 cm) la massa saltaria cap a l'imant a 4,01 cm, i el punt mesurat a 4,00 cm no va saltar (5,7 mm de desviament; la llei hi preveu la massa enganxada, 21 mm). Son 0,1 mm, dins de la incertesa de la posicio de l'imant (la tanda 2 suggereix un desplacament de 2-3 mm entre costats), pero la llei queda a la vora del que es va observar. Decidit adoptar-la igualment per en Guillem. Es refa amb: .venv\\Scripts\\python.exe -m magnetic.llei_de_forca magnetic/dades/llei_de_forca.csv. COMPTE AMB QUE VOL DIR: es una llei EFECTIVA i central. El que estira la massa es l'estirada de costat entre dos imants gairebe drets, que no es central, i per aixo surt mes gran que el 4 d'un dipol al llarg de la recta que els uneix (per a dipols ideals, la mateixa analisi donaria de 4,5 a 7). La tanda 1 sola dona 6,05 +- 0,94 i la 2, 6,13 +- 0,28 (Monte Carlo, amb L = 28,5); la forca de totes dues a una distancia comuna difereix 1,9 sigma. Fins al 25/10 hi havia 3, INVENTAT. ES EL PARAMETRE QUE MES CANVIA LA FORMA DEL FRACTAL. Vegeu magnetic/CLAUDE.md, decisio 2.",
+
+  "imants": [
+    {"nom": "1", "angle_graus": 0.0, "K": 1.959e-10},
+    {"nom": "2", "angle_graus": 120.0, "K": 1.959e-10},
+    {"nom": "3", "angle_graus": 240.0, "K": 1.959e-10}
+  ],
+  "_imants": "angle_graus dona la posicio: x = R*cos(angle), y = R*sin(angle). Numerats des de 1 en aquest ordre, i aquest numero es el codi de desti del mapa de conques. Unitats de K: m^(n+1)/s^2, per unitat de massa, o sigui que DEPENEN DE LA n.",
+  "_K": "MESURADA i DEFINITIVA des del 2026-10-28, adoptada el 2026-10-25 amb la n i refeta el 2026-10-26 amb L = 28,5 cm (abans, 3,086e-10 amb n = 6,71). VA LLIGADA A LA n (correlacio -1,00) i sola no vol dir res: el que esta ben mesurat es la forca a la distancia de referencia, F/m = 1,462 +- 0,045 m/s2 a delta = 36,55 mm, i la K es la que la dona amb n = 6,87: K = 1,4617 * 0,036553^6,87 = 1,959e-10 (el Monte Carlo, amb n = 6,867, en dona 1,983e-10). Les tres son iguals perque es va mesurar UN imant i se suposa que els tres ho son; tres imants comprats junts no son identics, i la llista permet donar-los-en una de diferent el dia que es mesurin per separat.",
+  "_K_d_abans": "Fins al 25/10 hi havia K = 1,0e-4 amb n = 3, INVENTADA i triada perque els imants fossin atractors de debo i el centre tambe (el seu valor critic era 1,42e-4 amb l'estirada vertical, 1,29e-4 sense)."
+}

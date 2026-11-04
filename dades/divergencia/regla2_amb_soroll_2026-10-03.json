@@ -1,0 +1,5286 @@
+{
+ "eina": "eines/regla2_amb_soroll.py",
+ "pla": "documentacio/pla-analisi-caos.md",
+ "que_es": "NOMES SIMULACIO, sense friccio: la regla 2 sobre 12 tirs simulats per grup amb soroll lent fabricat amb el caracter del mesurat; cap trajectoria real",
+ "omega0_rad_s": 8.058397913568252,
+ "caracter_del_soroll": {
+  "45": {
+   "rho": [
+    0.7007273995645154,
+    0.9021157935440411
+   ],
+   "proporcio_th1_th2": [
+    0.06133115169038019,
+    0.16751364253194057
+   ],
+   "sigma_d_graus": {
+    "repos": 0.24949691823466083,
+    "sense_geometria": 0.7033736744609258,
+    "total": 0.8557083620829378
+   }
+  },
+  "90": {
+   "rho": [
+    0.9715956450823435,
+    0.9715725864551795
+   ],
+   "proporcio_th1_th2": [
+    0.41731713438037427,
+    0.6040158766651819
+   ],
+   "sigma_d_graus": {
+    "repos": 0.14210703978875827,
+    "sense_geometria": 2.2144857383840746,
+    "total": 2.4860650390392536
+   }
+  },
+  "150": {
+   "rho": [
+    0.9901701931562491,
+    0.9918989888720227
+   ],
+   "proporcio_th1_th2": [
+    0.781315579698019,
+    1.3613370859328953
+   ],
+   "sigma_d_graus": {
+    "repos": 0.09922209377717481,
+    "sense_geometria": 4.064224729142383,
+    "total": 4.927671627188069
+   }
+  }
+ },
+ "grups": {
+  "45": {
+   "sigma_d_unitat_graus": 346.1390102232619,
+   "dispersions": {
+    "0.3": {
+     "sense_soroll": {
+      "ok": true,
+      "terra": 1e-09,
+      "sostre": 0.35536789760966486,
+      "t_inici_s": 0.0,
+      "t_fi_s": 0.9166666666666666,
+      "durada_s": 0.9166666666666666,
+      "creixement_ln": 1.6443550350166447,
+      "n_punts": 221,
+      "pendent": 1.575674331090611,
+      "r2": 0.9312705640134865,
+      "motiu": null,
+      "lambda": 1.575674331090611,
+      "n_parelles": 66,
+      "bootstrap": {
+       "desviacio": 0.14172809093740465,
+       "sense_lambda": 0,
+       "remostrejos": 200
+      },
+      "d0_mediana": 0.0073489699981958735
+     },
+     "escombrat:0.03": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.03,
+      "terra_parella_graus": 0.042426406871192854,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 0.3553301992798885,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.9166666666666666,
+        "durada_s": 0.9166666666666666,
+        "creixement_ln": 1.6380478265880445,
+        "n_punts": 221,
+        "pendent": 1.5670995181429013,
+        "r2": 0.9306164234107198,
+        "motiu": null,
+        "lambda": 1.5670995181429013,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14133650779095216,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 0.35539326337693167,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.9166666666666666,
+        "durada_s": 0.9166666666666666,
+        "creixement_ln": 1.6305574450751261,
+        "n_punts": 221,
+        "pendent": 1.5719174031273977,
+        "r2": 0.9301745056878228,
+        "motiu": null,
+        "lambda": 1.5719174031273977,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1340700007271049,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 0.3552091843545194,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.9166666666666666,
+        "durada_s": 0.9166666666666666,
+        "creixement_ln": 1.630410316090508,
+        "n_punts": 221,
+        "pendent": 1.574099212612861,
+        "r2": 0.9277980930653804,
+        "motiu": null,
+        "lambda": 1.574099212612861,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.13620689085560309,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 0.3552653570802712,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.9166666666666666,
+        "durada_s": 0.9166666666666666,
+        "creixement_ln": 1.6245413774139776,
+        "n_punts": 221,
+        "pendent": 1.5736769869082956,
+        "r2": 0.9320750216683711,
+        "motiu": null,
+        "lambda": 1.5736769869082956,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.13677443745655307,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 0.35528961820024973,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.9166666666666666,
+        "durada_s": 0.9166666666666666,
+        "creixement_ln": 1.6325032320831179,
+        "n_punts": 221,
+        "pendent": 1.567148284132214,
+        "r2": 0.9300982599119149,
+        "motiu": null,
+        "lambda": 1.567148284132214,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.13551204539672868,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "escombrat:0.1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.1,
+      "terra_parella_graus": 0.14142135623730953,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 0.35528271330325023,
+        "t_inici_s": 0.22083333333333333,
+        "t_fi_s": 0.9125,
+        "durada_s": 0.6916666666666667,
+        "creixement_ln": 1.489577450006795,
+        "n_punts": 167,
+        "pendent": 1.8123895478573435,
+        "r2": 0.961738943245705,
+        "motiu": null,
+        "lambda": 1.8123895478573435,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.21504384139739413,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 0.35534145305336895,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.9125,
+        "durada_s": 0.9125,
+        "creixement_ln": 1.5351385925685936,
+        "n_punts": 220,
+        "pendent": 1.5248279107990534,
+        "r2": 0.9303530150541964,
+        "motiu": null,
+        "lambda": 1.5248279107990534,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.23268372960736083,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 0.3554213810933483,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.9166666666666666,
+        "durada_s": 0.9166666666666666,
+        "creixement_ln": 1.524703372484959,
+        "n_punts": 221,
+        "pendent": 1.5213563836230413,
+        "r2": 0.928786087044886,
+        "motiu": null,
+        "lambda": 1.5213563836230413,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.22397368798950051,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 0.355423266423221,
+        "t_inici_s": 0.008333333333333333,
+        "t_fi_s": 0.9125,
+        "durada_s": 0.9041666666666667,
+        "creixement_ln": 1.5561263979238404,
+        "n_punts": 218,
+        "pendent": 1.5257731625071924,
+        "r2": 0.9296080958946119,
+        "motiu": null,
+        "lambda": 1.5257731625071924,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.22108453978254972,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 0.3552132356456589,
+        "t_inici_s": 0.0125,
+        "t_fi_s": 0.9083333333333333,
+        "durada_s": 0.8958333333333334,
+        "creixement_ln": 1.548491411152345,
+        "n_punts": 216,
+        "pendent": 1.523233285515612,
+        "r2": 0.9318746982176301,
+        "motiu": null,
+        "lambda": 1.523233285515612,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.22656431004350994,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "escombrat:0.3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.3,
+      "terra_parella_graus": 0.4242640687119285,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.00740480489693061,
+        "sostre": 0.3551741759412711,
+        "t_inici_s": 0.7791666666666667,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.10416666666666663,
+        "creixement_ln": 0.4351739711553053,
+        "n_punts": 26,
+        "pendent": 3.0341783567294103,
+        "r2": 0.895184167061568,
+        "motiu": "dins de la zona la separacio nomes creix 0.44 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.00740480489693061,
+        "sostre": 0.3551492946020405,
+        "t_inici_s": 0.7708333333333334,
+        "t_fi_s": 0.8916666666666666,
+        "durada_s": 0.12083333333333324,
+        "creixement_ln": 0.41313953558899996,
+        "n_punts": 30,
+        "pendent": 3.861618898027164,
+        "r2": 0.9167932539726148,
+        "motiu": "dins de la zona la separacio nomes creix 0.41 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.00740480489693061,
+        "sostre": 0.3554640435820904,
+        "t_inici_s": 0.7625,
+        "t_fi_s": 0.8875,
+        "durada_s": 0.125,
+        "creixement_ln": 0.45847116778244557,
+        "n_punts": 31,
+        "pendent": 3.5273692646698054,
+        "r2": 0.9143507661128992,
+        "motiu": "dins de la zona la separacio nomes creix 0.46 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.00740480489693061,
+        "sostre": 0.3548118280737196,
+        "t_inici_s": 0.75,
+        "t_fi_s": 0.8916666666666666,
+        "durada_s": 0.1416666666666666,
+        "creixement_ln": 0.45533725425894556,
+        "n_punts": 35,
+        "pendent": 3.1667815570755042,
+        "r2": 0.8379462353203483,
+        "motiu": "dins de la zona la separacio nomes creix 0.46 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.00740480489693061,
+        "sostre": 0.35518876042224834,
+        "t_inici_s": 0.7708333333333334,
+        "t_fi_s": 0.8916666666666666,
+        "durada_s": 0.12083333333333324,
+        "creixement_ln": 0.4094543214490507,
+        "n_punts": 30,
+        "pendent": 3.7485393040039274,
+        "r2": 0.9695125093487394,
+        "motiu": "dins de la zona la separacio nomes creix 0.41 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "escombrat:1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 1.0,
+      "terra_parella_graus": 1.4142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 0.3556889798086861,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 0.3564675161706964,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 0.35598885095009913,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 0.3565743133497281,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 0.3548937708351596,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "escombrat:3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 3.0,
+      "terra_parella_graus": 4.242640687119286,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 0.3590573064618498,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 0.3592892572321947,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 0.3624956851077993,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 0.3608542094288564,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 0.36187596568961766,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "escombrat:10": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 10.0,
+      "terra_parella_graus": 14.142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 0.41781190820868364,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 0.41961948056140447,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 0.4217707991008971,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 0.4191754452690567,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 0.4214642747870916,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "repos:0.249497": {
+      "cas": "repos",
+      "sigma_d_tir_graus": 0.24949691823466083,
+      "terra_parella_graus": 0.3528419255377485,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.006158253339710375,
+        "sostre": 0.3553250149919549,
+        "t_inici_s": 0.7458333333333333,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.13749999999999996,
+        "creixement_ln": 0.5639852582487417,
+        "n_punts": 34,
+        "pendent": 3.384175074466538,
+        "r2": 0.9155144635125321,
+        "motiu": "dins de la zona la separacio nomes creix 0.56 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.006158253339710375,
+        "sostre": 0.3551526532588283,
+        "t_inici_s": 0.6375,
+        "t_fi_s": 0.9041666666666667,
+        "durada_s": 0.2666666666666667,
+        "creixement_ln": 0.6447942360556955,
+        "n_punts": 65,
+        "pendent": 1.9720118914353602,
+        "r2": 0.7892757353061206,
+        "motiu": "dins de la zona la separacio nomes creix 0.64 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.006158253339710375,
+        "sostre": 0.35502548505128695,
+        "t_inici_s": 0.6375,
+        "t_fi_s": 0.8875,
+        "durada_s": 0.25,
+        "creixement_ln": 0.6237880866952814,
+        "n_punts": 61,
+        "pendent": 1.676213969650083,
+        "r2": 0.5919594458406872,
+        "motiu": "dins de la zona la separacio nomes creix 0.62 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.006158253339710375,
+        "sostre": 0.3552630871409618,
+        "t_inici_s": 0.6416666666666666,
+        "t_fi_s": 0.8916666666666666,
+        "durada_s": 0.25,
+        "creixement_ln": 0.5970055761139372,
+        "n_punts": 61,
+        "pendent": 1.7012276997722513,
+        "r2": 0.6665060225652109,
+        "motiu": "dins de la zona la separacio nomes creix 0.60 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.006158253339710375,
+        "sostre": 0.35509257282162565,
+        "t_inici_s": 0.6416666666666666,
+        "t_fi_s": 0.8958333333333334,
+        "durada_s": 0.25416666666666676,
+        "creixement_ln": 0.6389468835879231,
+        "n_punts": 62,
+        "pendent": 1.7419218321890644,
+        "r2": 0.630861170217679,
+        "motiu": "dins de la zona la separacio nomes creix 0.64 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "sense_geometria:0.703374": {
+      "cas": "sense_geometria",
+      "sigma_d_tir_graus": 0.7033736744609258,
+      "terra_parella_graus": 0.9947205898388396,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 0.35540495924107396,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 0.35587181450359096,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 0.3558569703520638,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 0.35616956385955045,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 0.35516782539508823,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     },
+     "total:0.855708": {
+      "cas": "total",
+      "sigma_d_tir_graus": 0.8557083620829378,
+      "terra_parella_graus": 1.210154371093758,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 0.3554603041913158,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 0.3559894121085059,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 0.35630832157552017,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 0.3556472867814043,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 0.35673881957038744,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0073489699981958735
+       }
+      ]
+     }
+    },
+    "1": {
+     "sense_soroll": {
+      "ok": true,
+      "terra": 1e-09,
+      "sostre": 1.2133308892618682,
+      "t_inici_s": 0.0,
+      "t_fi_s": 0.8875,
+      "durada_s": 0.8875,
+      "creixement_ln": 1.4772820883717417,
+      "n_punts": 214,
+      "pendent": 1.4862540912594995,
+      "r2": 0.953020805793137,
+      "motiu": null,
+      "lambda": 1.4862540912594995,
+      "n_parelles": 66,
+      "bootstrap": {
+       "desviacio": 0.15130892896884623,
+       "sense_lambda": 0,
+       "remostrejos": 200
+      },
+      "d0_mediana": 0.031139419127907374
+     },
+     "escombrat:0.03": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.03,
+      "terra_parella_graus": 0.042426406871192854,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 1.2133502843267627,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8875,
+        "durada_s": 0.8875,
+        "creixement_ln": 1.4767936935174215,
+        "n_punts": 214,
+        "pendent": 1.4879781972828665,
+        "r2": 0.9530641376304689,
+        "motiu": null,
+        "lambda": 1.4879781972828665,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15110794583480308,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 1.2133499681376498,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8875,
+        "durada_s": 0.8875,
+        "creixement_ln": 1.4781654125820447,
+        "n_punts": 214,
+        "pendent": 1.4868627752027535,
+        "r2": 0.9529878194308682,
+        "motiu": null,
+        "lambda": 1.4868627752027535,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15174985921380077,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 1.2133587885260333,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4631373618396442,
+        "n_punts": 213,
+        "pendent": 1.4811238217956721,
+        "r2": 0.9533206246869527,
+        "motiu": null,
+        "lambda": 1.4811238217956721,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15183996722646378,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 1.2133129751908918,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8875,
+        "durada_s": 0.8875,
+        "creixement_ln": 1.476354949783818,
+        "n_punts": 214,
+        "pendent": 1.4854263278749165,
+        "r2": 0.9533655223616082,
+        "motiu": null,
+        "lambda": 1.4854263278749165,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15170199067553117,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 1.2132928320418694,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8875,
+        "durada_s": 0.8875,
+        "creixement_ln": 1.4772245592618973,
+        "n_punts": 214,
+        "pendent": 1.4866462652313728,
+        "r2": 0.9534472663625092,
+        "motiu": null,
+        "lambda": 1.4866462652313728,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15120997576370887,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "escombrat:0.1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.1,
+      "terra_parella_graus": 0.14142135623730953,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 1.2134045842909613,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4570422951719126,
+        "n_punts": 213,
+        "pendent": 1.4852594057395434,
+        "r2": 0.9535427671579066,
+        "motiu": null,
+        "lambda": 1.4852594057395434,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14991370620431896,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 1.2130826769009575,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4501006085491284,
+        "n_punts": 213,
+        "pendent": 1.484703635749524,
+        "r2": 0.9556359389480285,
+        "motiu": null,
+        "lambda": 1.484703635749524,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15471605557750373,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 1.2134274456041148,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8875,
+        "durada_s": 0.8875,
+        "creixement_ln": 1.4832894178060108,
+        "n_punts": 214,
+        "pendent": 1.4952825604917042,
+        "r2": 0.9526674836618264,
+        "motiu": null,
+        "lambda": 1.4952825604917042,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15059640621559328,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 1.2133957537112918,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4531243085686727,
+        "n_punts": 213,
+        "pendent": 1.483987201694595,
+        "r2": 0.9529683595395912,
+        "motiu": null,
+        "lambda": 1.483987201694595,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1540336043750827,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 1.2133661929048167,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4456937052791226,
+        "n_punts": 213,
+        "pendent": 1.4793768947419237,
+        "r2": 0.952447100588929,
+        "motiu": null,
+        "lambda": 1.4793768947419237,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1545457776806001,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "escombrat:0.3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.3,
+      "terra_parella_graus": 0.4242640687119285,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 1.213381013752207,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8791666666666667,
+        "durada_s": 0.8791666666666667,
+        "creixement_ln": 1.4512759579927788,
+        "n_punts": 212,
+        "pendent": 1.4595588410200546,
+        "r2": 0.9488255934853251,
+        "motiu": null,
+        "lambda": 1.4595588410200546,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16658535050716014,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 1.213185103898507,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.402466903706181,
+        "n_punts": 213,
+        "pendent": 1.457240586220452,
+        "r2": 0.9512192891322171,
+        "motiu": null,
+        "lambda": 1.457240586220452,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.17986997992126413,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 1.213069066627818,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8791666666666667,
+        "durada_s": 0.8791666666666667,
+        "creixement_ln": 1.4169005980559843,
+        "n_punts": 212,
+        "pendent": 1.471170759223419,
+        "r2": 0.9510949319586794,
+        "motiu": null,
+        "lambda": 1.471170759223419,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1756635675483668,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 1.212938934240555,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.875,
+        "durada_s": 0.875,
+        "creixement_ln": 1.416159965291488,
+        "n_punts": 211,
+        "pendent": 1.47869932308924,
+        "r2": 0.953600250345517,
+        "motiu": null,
+        "lambda": 1.47869932308924,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16639385334393306,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 1.2135161667298477,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4491790886291516,
+        "n_punts": 213,
+        "pendent": 1.4817873577584395,
+        "r2": 0.9552316951932875,
+        "motiu": null,
+        "lambda": 1.4817873577584395,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16922524093305055,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "escombrat:1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 1.0,
+      "terra_parella_graus": 1.4142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 1.2128167033262636,
+        "t_inici_s": 0.7416666666666667,
+        "t_fi_s": 0.8624999999999999,
+        "durada_s": 0.12083333333333324,
+        "creixement_ln": 0.4724223825305627,
+        "n_punts": 30,
+        "pendent": 3.3805810965868845,
+        "r2": 0.9029459524869002,
+        "motiu": "dins de la zona la separacio nomes creix 0.47 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 1.2127683601242258,
+        "t_inici_s": 0.6375,
+        "t_fi_s": 0.8583333333333333,
+        "durada_s": 0.22083333333333333,
+        "creixement_ln": 0.4758664454551025,
+        "n_punts": 54,
+        "pendent": 1.333144593618963,
+        "r2": 0.6005623149098084,
+        "motiu": "dins de la zona la separacio nomes creix 0.48 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 1.2125171897801779,
+        "t_inici_s": 0.6291666666666667,
+        "t_fi_s": 0.8583333333333333,
+        "durada_s": 0.22916666666666663,
+        "creixement_ln": 0.457777038111439,
+        "n_punts": 56,
+        "pendent": 1.507555529715344,
+        "r2": 0.7576105195587683,
+        "motiu": "dins de la zona la separacio nomes creix 0.46 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 1.2126192850186577,
+        "t_inici_s": 0.6416666666666666,
+        "t_fi_s": 0.8583333333333333,
+        "durada_s": 0.21666666666666667,
+        "creixement_ln": 0.4744377116449163,
+        "n_punts": 53,
+        "pendent": 1.3003874825445716,
+        "r2": 0.5240236062106763,
+        "motiu": "dins de la zona la separacio nomes creix 0.47 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 1.2135821694310842,
+        "t_inici_s": 0.6541666666666667,
+        "t_fi_s": 0.8791666666666667,
+        "durada_s": 0.22499999999999998,
+        "creixement_ln": 0.48085671802129815,
+        "n_punts": 55,
+        "pendent": 1.7493225588969863,
+        "r2": 0.6851958858361515,
+        "motiu": "dins de la zona la separacio nomes creix 0.48 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "escombrat:3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 3.0,
+      "terra_parella_graus": 4.242640687119286,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 1.213117276034966,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 1.212029109293097,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 1.2143877517710733,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 1.2140810259081065,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 1.2128584429343086,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "escombrat:10": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 10.0,
+      "terra_parella_graus": 14.142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 1.2250354264933765,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 1.2300219596729418,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 1.2276321267241728,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 1.2360680576730674,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 1.2298819046778322,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "repos:0.249497": {
+      "cas": "repos",
+      "sigma_d_tir_graus": 0.24949691823466083,
+      "terra_parella_graus": 0.3528419255377485,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.006158253339710375,
+        "sostre": 1.2135959306115962,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8791666666666667,
+        "durada_s": 0.8791666666666667,
+        "creixement_ln": 1.4278081573040318,
+        "n_punts": 212,
+        "pendent": 1.4635556134923189,
+        "r2": 0.9519229768930834,
+        "motiu": null,
+        "lambda": 1.4635556134923189,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15087662622542614,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.006158253339710375,
+        "sostre": 1.2132307463440872,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8791666666666667,
+        "durada_s": 0.8791666666666667,
+        "creixement_ln": 1.4280760607219931,
+        "n_punts": 212,
+        "pendent": 1.457112376251567,
+        "r2": 0.9505349808219437,
+        "motiu": null,
+        "lambda": 1.457112376251567,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1558295588441717,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.006158253339710375,
+        "sostre": 1.213591802744106,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4270581636984403,
+        "n_punts": 213,
+        "pendent": 1.4717171185467042,
+        "r2": 0.9540411760691863,
+        "motiu": null,
+        "lambda": 1.4717171185467042,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1484348362592439,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.006158253339710375,
+        "sostre": 1.21301008017836,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.403686938395352,
+        "n_punts": 213,
+        "pendent": 1.4746050940807556,
+        "r2": 0.9548241490091544,
+        "motiu": null,
+        "lambda": 1.4746050940807556,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16004286959381447,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": true,
+        "terra": 0.006158253339710375,
+        "sostre": 1.213340964543948,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.8833333333333333,
+        "durada_s": 0.8833333333333333,
+        "creixement_ln": 1.4359935961533408,
+        "n_punts": 213,
+        "pendent": 1.4749329772630957,
+        "r2": 0.9554453446411101,
+        "motiu": null,
+        "lambda": 1.4749329772630957,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14805214600306957,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "sense_geometria:0.703374": {
+      "cas": "sense_geometria",
+      "sigma_d_tir_graus": 0.7033736744609258,
+      "terra_parella_graus": 0.9947205898388396,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 1.2135077346003476,
+        "t_inici_s": 0.45,
+        "t_fi_s": 0.8666666666666667,
+        "durada_s": 0.4166666666666667,
+        "creixement_ln": 0.803654002078229,
+        "n_punts": 101,
+        "pendent": 1.7180334668764154,
+        "r2": 0.8812327531105927,
+        "motiu": "dins de la zona la separacio nomes creix 0.80 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 1.2127689890782891,
+        "t_inici_s": 0.45416666666666666,
+        "t_fi_s": 0.8666666666666667,
+        "durada_s": 0.41250000000000003,
+        "creixement_ln": 0.8103605254179014,
+        "n_punts": 100,
+        "pendent": 1.752379686333457,
+        "r2": 0.8690270085181834,
+        "motiu": "dins de la zona la separacio nomes creix 0.81 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 1.2134749302589043,
+        "t_inici_s": 0.4125,
+        "t_fi_s": 0.8624999999999999,
+        "durada_s": 0.44999999999999996,
+        "creixement_ln": 0.809154926354172,
+        "n_punts": 109,
+        "pendent": 1.5784505528740238,
+        "r2": 0.8789417412675044,
+        "motiu": "dins de la zona la separacio nomes creix 0.81 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 1.2128519605779782,
+        "t_inici_s": 0.46249999999999997,
+        "t_fi_s": 0.8791666666666667,
+        "durada_s": 0.4166666666666667,
+        "creixement_ln": 0.8229861867384161,
+        "n_punts": 101,
+        "pendent": 1.73631345053594,
+        "r2": 0.9166615331471984,
+        "motiu": "dins de la zona la separacio nomes creix 0.82 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.0173611494300678,
+        "sostre": 1.2135578411428902,
+        "t_inici_s": 0.4583333333333333,
+        "t_fi_s": 0.8541666666666666,
+        "durada_s": 0.3958333333333333,
+        "creixement_ln": 0.8203134678244877,
+        "n_punts": 96,
+        "pendent": 1.6563199100368255,
+        "r2": 0.8740624948536361,
+        "motiu": "dins de la zona la separacio nomes creix 0.82 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     },
+     "total:0.855708": {
+      "cas": "total",
+      "sigma_d_tir_graus": 0.8557083620829378,
+      "terra_parella_graus": 1.210154371093758,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 1.2131197650233236,
+        "t_inici_s": 0.6166666666666667,
+        "t_fi_s": 0.8583333333333333,
+        "durada_s": 0.24166666666666659,
+        "creixement_ln": 0.6157404452379676,
+        "n_punts": 59,
+        "pendent": 1.6749704967252037,
+        "r2": 0.6418148860444315,
+        "motiu": "dins de la zona la separacio nomes creix 0.62 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 1.2139428346137195,
+        "t_inici_s": 0.6208333333333333,
+        "t_fi_s": 0.8708333333333333,
+        "durada_s": 0.25,
+        "creixement_ln": 0.630371713988739,
+        "n_punts": 61,
+        "pendent": 1.7823566381063907,
+        "r2": 0.7631826036029236,
+        "motiu": "dins de la zona la separacio nomes creix 0.63 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 1.2130556817865457,
+        "t_inici_s": 0.6375,
+        "t_fi_s": 0.8666666666666667,
+        "durada_s": 0.22916666666666674,
+        "creixement_ln": 0.6202444885915384,
+        "n_punts": 56,
+        "pendent": 1.92369298084895,
+        "r2": 0.68475660002104,
+        "motiu": "dins de la zona la separacio nomes creix 0.62 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 1.2122349273359392,
+        "t_inici_s": 0.5583333333333333,
+        "t_fi_s": 0.8541666666666666,
+        "durada_s": 0.2958333333333333,
+        "creixement_ln": 0.5995722912989763,
+        "n_punts": 72,
+        "pendent": 1.7143680452818728,
+        "r2": 0.7821598183470689,
+        "motiu": "dins de la zona la separacio nomes creix 0.60 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       },
+       {
+        "ok": false,
+        "terra": 0.021121178232987366,
+        "sostre": 1.2122223620394452,
+        "t_inici_s": 0.6208333333333333,
+        "t_fi_s": 0.8624999999999999,
+        "durada_s": 0.24166666666666659,
+        "creixement_ln": 0.6360500568017606,
+        "n_punts": 59,
+        "pendent": 1.6122465725962984,
+        "r2": 0.6336149558933025,
+        "motiu": "dins de la zona la separacio nomes creix 0.64 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.031139419127907374
+       }
+      ]
+     }
+    }
+   },
+   "benettin": {
+    "orbites": [
+     {
+      "grup": 45.0,
+      "tir": 0,
+      "mena": "regular",
+      "lambda": 0.00345361238727786,
+      "E_sobre_Ev2": 0.927426758266293,
+      "deriva_energia_relativa": 5.309046054472275e-12,
+      "segons": 54.53340389999903
+     },
+     {
+      "grup": 45.0,
+      "tir": 1,
+      "mena": "regular",
+      "lambda": 0.0059035487522983016,
+      "E_sobre_Ev2": 0.90380863311934,
+      "deriva_energia_relativa": 7.476598636006497e-12,
+      "segons": 59.912145100001
+     },
+     {
+      "grup": 45.0,
+      "tir": 2,
+      "mena": "regular",
+      "lambda": 0.005814955563023156,
+      "E_sobre_Ev2": 0.9062533211779054,
+      "deriva_energia_relativa": 7.2161214205251425e-12,
+      "segons": 52.13202479999927
+     },
+     {
+      "grup": 45.0,
+      "tir": 3,
+      "mena": "regular",
+      "lambda": 0.005448241753270787,
+      "E_sobre_Ev2": 0.9485616019736066,
+      "deriva_energia_relativa": 5.144332898748087e-12,
+      "segons": 62.94776219999949
+     },
+     {
+      "grup": 45.0,
+      "tir": 4,
+      "mena": "sense_decidir",
+      "lambda": 0.030479871115164207,
+      "E_sobre_Ev2": 1.0041865478176906,
+      "deriva_energia_relativa": 4.8016988888665026e-12,
+      "segons": 56.49807019999935
+     },
+     {
+      "grup": 45.0,
+      "tir": 5,
+      "mena": "regular",
+      "lambda": 0.003599061204602505,
+      "E_sobre_Ev2": 1.0112211266839661,
+      "deriva_energia_relativa": 4.250002760308645e-12,
+      "segons": 64.65767130000131
+     },
+     {
+      "grup": 45.0,
+      "tir": 6,
+      "mena": "regular",
+      "lambda": 0.00940403193527531,
+      "E_sobre_Ev2": 1.0013042024455088,
+      "deriva_energia_relativa": 4.791142262182658e-12,
+      "segons": 55.57863120000002
+     },
+     {
+      "grup": 45.0,
+      "tir": 7,
+      "mena": "regular",
+      "lambda": 0.007878282218830066,
+      "E_sobre_Ev2": 1.0111304732619493,
+      "deriva_energia_relativa": 4.8217406560910236e-12,
+      "segons": 62.93079620000026
+     },
+     {
+      "grup": 45.0,
+      "tir": 8,
+      "mena": "caotica",
+      "lambda": 0.2414645927922688,
+      "E_sobre_Ev2": 1.0145854777592307,
+      "deriva_energia_relativa": 4.305729908470093e-12,
+      "segons": 58.90357439999934
+     },
+     {
+      "grup": 45.0,
+      "tir": 9,
+      "mena": "regular",
+      "lambda": 0.005470902451240194,
+      "E_sobre_Ev2": 0.9688702390211188,
+      "deriva_energia_relativa": 5.235590540391333e-12,
+      "segons": 61.86201280000023
+     },
+     {
+      "grup": 45.0,
+      "tir": 10,
+      "mena": "caotica",
+      "lambda": 0.3694042471921959,
+      "E_sobre_Ev2": 1.0239030238663842,
+      "deriva_energia_relativa": 1.8422772294495424e-12,
+      "segons": 58.72892900000079
+     },
+     {
+      "grup": 45.0,
+      "tir": 11,
+      "mena": "regular",
+      "lambda": 0.003179431725906916,
+      "E_sobre_Ev2": 0.9910260609059831,
+      "deriva_energia_relativa": 4.681934300427387e-12,
+      "segons": 63.4127486999987
+     }
+    ],
+    "caotiques": 2,
+    "regulars": 9,
+    "lambda_mediana_caotiques": 0.30543441999223236
+   }
+  },
+  "90": {
+   "sigma_d_unitat_graus": 225.39359180266388,
+   "dispersions": {
+    "0.3": {
+     "sense_soroll": {
+      "ok": true,
+      "terra": 1e-09,
+      "sostre": 3.6366564421138317,
+      "t_inici_s": 0.0,
+      "t_fi_s": 1.4083333333333332,
+      "durada_s": 1.4083333333333332,
+      "creixement_ln": 4.0962826913149035,
+      "n_punts": 339,
+      "pendent": 3.1496203906933085,
+      "r2": 0.9298609285642149,
+      "motiu": null,
+      "lambda": 3.1496203906933085,
+      "n_parelles": 66,
+      "bootstrap": {
+       "desviacio": 0.14589945098918303,
+       "sense_lambda": 0,
+       "remostrejos": 200
+      },
+      "d0_mediana": 0.0067482922612097885
+     },
+     "escombrat:0.03": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.03,
+      "terra_parella_graus": 0.042426406871192854,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.636500146820726,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 1.4083333333333332,
+        "creixement_ln": 4.0745732444863085,
+        "n_punts": 339,
+        "pendent": 3.134240214623296,
+        "r2": 0.9296372658492157,
+        "motiu": null,
+        "lambda": 3.134240214623296,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14134244041541547,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.6368807436944603,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 1.4083333333333332,
+        "creixement_ln": 4.0855652378504,
+        "n_punts": 339,
+        "pendent": 3.141157969174526,
+        "r2": 0.9283534024446437,
+        "motiu": null,
+        "lambda": 3.141157969174526,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1450460408466192,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.6366955524655094,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 1.4083333333333332,
+        "creixement_ln": 4.071984816989402,
+        "n_punts": 339,
+        "pendent": 3.143417731336151,
+        "r2": 0.9285086313258403,
+        "motiu": null,
+        "lambda": 3.143417731336151,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1457500215326931,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.636762639786541,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 1.4083333333333332,
+        "creixement_ln": 4.088123803458765,
+        "n_punts": 339,
+        "pendent": 3.1458731596022993,
+        "r2": 0.9289849553090599,
+        "motiu": null,
+        "lambda": 3.1458731596022993,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14727012328380945,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.6367124208981183,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 1.4083333333333332,
+        "creixement_ln": 4.074524603658102,
+        "n_punts": 339,
+        "pendent": 3.136639101174485,
+        "r2": 0.9301555241702276,
+        "motiu": null,
+        "lambda": 3.136639101174485,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14255436673846678,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "escombrat:0.1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.1,
+      "terra_parella_graus": 0.14142135623730953,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.6365259609250327,
+        "t_inici_s": 0.425,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9833333333333332,
+        "creixement_ln": 3.847165110438892,
+        "n_punts": 237,
+        "pendent": 3.5732317449811237,
+        "r2": 0.9246107203692834,
+        "motiu": null,
+        "lambda": 3.5732317449811237,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.2314884610166909,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.6364106168923582,
+        "t_inici_s": 0.425,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9833333333333332,
+        "creixement_ln": 3.8643007632713244,
+        "n_punts": 237,
+        "pendent": 3.5850243317083064,
+        "r2": 0.9247116937133575,
+        "motiu": null,
+        "lambda": 3.5850243317083064,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.24264432968364127,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.6367044563577684,
+        "t_inici_s": 0.4375,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9708333333333332,
+        "creixement_ln": 3.8446453870022754,
+        "n_punts": 234,
+        "pendent": 3.552732660075006,
+        "r2": 0.9217311491150836,
+        "motiu": null,
+        "lambda": 3.552732660075006,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.20759733518361834,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.636490320021628,
+        "t_inici_s": 0.4458333333333333,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9624999999999999,
+        "creixement_ln": 3.8579163460614043,
+        "n_punts": 232,
+        "pendent": 3.55563635146576,
+        "r2": 0.9192386861332739,
+        "motiu": null,
+        "lambda": 3.55563635146576,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.2623121794842431,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.636809992742033,
+        "t_inici_s": 0.43333333333333335,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9749999999999999,
+        "creixement_ln": 3.8827294367237375,
+        "n_punts": 235,
+        "pendent": 3.591473141183283,
+        "r2": 0.9212065564722298,
+        "motiu": null,
+        "lambda": 3.591473141183283,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.23073757269973968,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "escombrat:0.3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.3,
+      "terra_parella_graus": 0.4242640687119285,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.6363646836992647,
+        "t_inici_s": 0.5875,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.8208333333333332,
+        "creixement_ln": 2.781412364953736,
+        "n_punts": 198,
+        "pendent": 3.2760396190828414,
+        "r2": 0.8753923703863645,
+        "motiu": null,
+        "lambda": 3.2760396190828414,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.2069252973811354,
+         "sense_lambda": 11,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.636606161603174,
+        "t_inici_s": 0.5791666666666666,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.8291666666666666,
+        "creixement_ln": 2.771749696011509,
+        "n_punts": 200,
+        "pendent": 3.243763574759748,
+        "r2": 0.8779529373232117,
+        "motiu": null,
+        "lambda": 3.243763574759748,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19839213432592923,
+         "sense_lambda": 10,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.63647886515513,
+        "t_inici_s": 0.5875,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.8208333333333332,
+        "creixement_ln": 2.7839797241659525,
+        "n_punts": 198,
+        "pendent": 3.241746004476676,
+        "r2": 0.8670679981409208,
+        "motiu": null,
+        "lambda": 3.241746004476676,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1812070873634101,
+         "sense_lambda": 9,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.636997297955631,
+        "t_inici_s": 0.5916666666666667,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.8166666666666665,
+        "creixement_ln": 2.772366942282067,
+        "n_punts": 197,
+        "pendent": 3.245838741608941,
+        "r2": 0.8678935944301982,
+        "motiu": null,
+        "lambda": 3.245838741608941,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.18183146534083622,
+         "sense_lambda": 10,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.636404139178101,
+        "t_inici_s": 0.5916666666666667,
+        "t_fi_s": 1.4041666666666666,
+        "durada_s": 0.8124999999999999,
+        "creixement_ln": 2.720140845595101,
+        "n_punts": 196,
+        "pendent": 3.231176912952817,
+        "r2": 0.8686398866535422,
+        "motiu": null,
+        "lambda": 3.231176912952817,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19843600833227448,
+         "sense_lambda": 9,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "escombrat:1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 1.0,
+      "terra_parella_graus": 1.4142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.6372383513113484,
+        "t_inici_s": 1.025,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.3833333333333333,
+        "creixement_ln": 1.574643851943266,
+        "n_punts": 93,
+        "pendent": 4.380076530298516,
+        "r2": 0.970465486595044,
+        "motiu": "la zona va de 1.025 a 1.408 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.6357350750823745,
+        "t_inici_s": 1.0291666666666666,
+        "t_fi_s": 1.3958333333333333,
+        "durada_s": 0.3666666666666667,
+        "creixement_ln": 1.5737768334712143,
+        "n_punts": 89,
+        "pendent": 4.42910533666351,
+        "r2": 0.9698422152936239,
+        "motiu": "la zona va de 1.029 a 1.396 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.636915880029855,
+        "t_inici_s": 1.0291666666666666,
+        "t_fi_s": 1.3958333333333333,
+        "durada_s": 0.3666666666666667,
+        "creixement_ln": 1.566777630193974,
+        "n_punts": 89,
+        "pendent": 4.447620323911804,
+        "r2": 0.9786127421905307,
+        "motiu": "la zona va de 1.029 a 1.396 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.636621507140382,
+        "t_inici_s": 1.0291666666666666,
+        "t_fi_s": 1.4,
+        "durada_s": 0.37083333333333335,
+        "creixement_ln": 1.4893147964441737,
+        "n_punts": 90,
+        "pendent": 4.336236943668298,
+        "r2": 0.9694775983761426,
+        "motiu": "la zona va de 1.029 a 1.400 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.6382872391181302,
+        "t_inici_s": 1.0291666666666666,
+        "t_fi_s": 1.3916666666666666,
+        "durada_s": 0.36250000000000004,
+        "creixement_ln": 1.5118623119054946,
+        "n_punts": 88,
+        "pendent": 4.560364622357153,
+        "r2": 0.9609409923013108,
+        "motiu": "la zona va de 1.029 a 1.392 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "escombrat:3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 3.0,
+      "terra_parella_graus": 4.242640687119286,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.6345372530422733,
+        "t_inici_s": 1.2333333333333334,
+        "t_fi_s": 1.3791666666666667,
+        "durada_s": 0.14583333333333326,
+        "creixement_ln": 0.45102201988077684,
+        "n_punts": 36,
+        "pendent": 2.8251583820966726,
+        "r2": 0.9444381134019391,
+        "motiu": "dins de la zona la separacio nomes creix 0.45 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.6368702700671705,
+        "t_inici_s": 1.1958333333333333,
+        "t_fi_s": 1.3666666666666667,
+        "durada_s": 0.1708333333333334,
+        "creixement_ln": 0.4762691947337898,
+        "n_punts": 42,
+        "pendent": 2.533433335198534,
+        "r2": 0.9256537210076651,
+        "motiu": "dins de la zona la separacio nomes creix 0.48 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.637488077746092,
+        "t_inici_s": 1.2125,
+        "t_fi_s": 1.3875,
+        "durada_s": 0.17500000000000004,
+        "creixement_ln": 0.4655665237535582,
+        "n_punts": 43,
+        "pendent": 2.5321787822732893,
+        "r2": 0.9122142830769653,
+        "motiu": "dins de la zona la separacio nomes creix 0.47 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.639254995430592,
+        "t_inici_s": 1.2333333333333334,
+        "t_fi_s": 1.3833333333333333,
+        "durada_s": 0.1499999999999999,
+        "creixement_ln": 0.4777357983242283,
+        "n_punts": 37,
+        "pendent": 2.543747597402627,
+        "r2": 0.890283734037396,
+        "motiu": "dins de la zona la separacio nomes creix 0.48 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.636039348087779,
+        "t_inici_s": 1.2166666666666666,
+        "t_fi_s": 1.3666666666666667,
+        "durada_s": 0.15000000000000013,
+        "creixement_ln": 0.44062487151036644,
+        "n_punts": 37,
+        "pendent": 2.932056673858396,
+        "r2": 0.9209878638827045,
+        "motiu": "dins de la zona la separacio nomes creix 0.44 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "escombrat:10": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 10.0,
+      "terra_parella_graus": 14.142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.6428626250468215,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.640883009396735,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.634675999406446,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.643654305205197,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.637968180655385,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "repos:0.142107": {
+      "cas": "repos",
+      "sigma_d_tir_graus": 0.14210703978875827,
+      "terra_parella_graus": 0.20096970297795502,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.637035567443782,
+        "t_inici_s": 0.5,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9083333333333332,
+        "creixement_ln": 3.526084171674375,
+        "n_punts": 219,
+        "pendent": 3.4328278511775294,
+        "r2": 0.9031498945972479,
+        "motiu": null,
+        "lambda": 3.4328278511775294,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1269827493487669,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.636648975019935,
+        "t_inici_s": 0.49166666666666664,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9166666666666665,
+        "creixement_ln": 3.524472123085711,
+        "n_punts": 221,
+        "pendent": 3.4411715412388575,
+        "r2": 0.909481932763416,
+        "motiu": null,
+        "lambda": 3.4411715412388575,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.12781983256597282,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.6367824422073336,
+        "t_inici_s": 0.49166666666666664,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9166666666666665,
+        "creixement_ln": 3.5140859210163606,
+        "n_punts": 221,
+        "pendent": 3.4505349848030966,
+        "r2": 0.9092976888100639,
+        "motiu": null,
+        "lambda": 3.4505349848030966,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.12422878236618391,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.6363973324492482,
+        "t_inici_s": 0.49583333333333335,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9124999999999999,
+        "creixement_ln": 3.5266178622994877,
+        "n_punts": 220,
+        "pendent": 3.4091638510029436,
+        "r2": 0.9045814585122824,
+        "motiu": null,
+        "lambda": 3.4091638510029436,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1281145055226623,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.636510520891038,
+        "t_inici_s": 0.49166666666666664,
+        "t_fi_s": 1.4083333333333332,
+        "durada_s": 0.9166666666666665,
+        "creixement_ln": 3.506124409862304,
+        "n_punts": 221,
+        "pendent": 3.4124517562372465,
+        "r2": 0.9076037069498122,
+        "motiu": null,
+        "lambda": 3.4124517562372465,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.12414417155980834,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "sense_geometria:2.21449": {
+      "cas": "sense_geometria",
+      "sigma_d_tir_graus": 2.2144857383840746,
+      "terra_parella_graus": 3.131755764904556,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.6379553135732197,
+        "t_inici_s": 1.1708333333333334,
+        "t_fi_s": 1.3708333333333333,
+        "durada_s": 0.19999999999999996,
+        "creixement_ln": 0.7226060977029118,
+        "n_punts": 49,
+        "pendent": 3.039367372763771,
+        "r2": 0.97861509841294,
+        "motiu": "dins de la zona la separacio nomes creix 0.72 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.6364653681921615,
+        "t_inici_s": 1.1666666666666667,
+        "t_fi_s": 1.3833333333333333,
+        "durada_s": 0.21666666666666656,
+        "creixement_ln": 0.7585917472732011,
+        "n_punts": 53,
+        "pendent": 3.3054254755847157,
+        "r2": 0.9632348092395335,
+        "motiu": "dins de la zona la separacio nomes creix 0.76 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.636824931706701,
+        "t_inici_s": 1.1541666666666666,
+        "t_fi_s": 1.3958333333333333,
+        "durada_s": 0.2416666666666667,
+        "creixement_ln": 0.7631154478514406,
+        "n_punts": 59,
+        "pendent": 3.1237975850363706,
+        "r2": 0.9729561853894504,
+        "motiu": "dins de la zona la separacio nomes creix 0.76 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.637851289220478,
+        "t_inici_s": 1.1541666666666666,
+        "t_fi_s": 1.375,
+        "durada_s": 0.22083333333333344,
+        "creixement_ln": 0.7717766913043607,
+        "n_punts": 54,
+        "pendent": 3.228860059787763,
+        "r2": 0.9721639505701252,
+        "motiu": "dins de la zona la separacio nomes creix 0.77 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.6383640176822816,
+        "t_inici_s": 1.1708333333333334,
+        "t_fi_s": 1.3875,
+        "durada_s": 0.21666666666666656,
+        "creixement_ln": 0.7837553044088486,
+        "n_punts": 53,
+        "pendent": 3.314217422135706,
+        "r2": 0.9699506194325267,
+        "motiu": "dins de la zona la separacio nomes creix 0.78 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     },
+     "total:2.48607": {
+      "cas": "total",
+      "sigma_d_tir_graus": 2.4860650390392536,
+      "terra_parella_graus": 3.515826895150911,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.6361109450895075,
+        "t_inici_s": 1.1791666666666667,
+        "t_fi_s": 1.3666666666666667,
+        "durada_s": 0.1875,
+        "creixement_ln": 0.6111242683482709,
+        "n_punts": 46,
+        "pendent": 2.774834830552677,
+        "r2": 0.9693219833561763,
+        "motiu": "dins de la zona la separacio nomes creix 0.61 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.637647230698758,
+        "t_inici_s": 1.1666666666666667,
+        "t_fi_s": 1.375,
+        "durada_s": 0.20833333333333326,
+        "creixement_ln": 0.653013758581009,
+        "n_punts": 51,
+        "pendent": 3.125572987816772,
+        "r2": 0.9748009051099317,
+        "motiu": "dins de la zona la separacio nomes creix 0.65 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.638091190495021,
+        "t_inici_s": 1.175,
+        "t_fi_s": 1.375,
+        "durada_s": 0.19999999999999996,
+        "creixement_ln": 0.6599915117928719,
+        "n_punts": 49,
+        "pendent": 3.21810948350425,
+        "r2": 0.9734198956967784,
+        "motiu": "dins de la zona la separacio nomes creix 0.66 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.6376139612769007,
+        "t_inici_s": 1.175,
+        "t_fi_s": 1.3583333333333334,
+        "durada_s": 0.18333333333333335,
+        "creixement_ln": 0.645890029572108,
+        "n_punts": 45,
+        "pendent": 3.4358179614792297,
+        "r2": 0.9766219324909892,
+        "motiu": "dins de la zona la separacio nomes creix 0.65 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.636395832419831,
+        "t_inici_s": 1.1833333333333333,
+        "t_fi_s": 1.3875,
+        "durada_s": 0.2041666666666666,
+        "creixement_ln": 0.6396109009322328,
+        "n_punts": 50,
+        "pendent": 2.9430646465483297,
+        "r2": 0.944376361847129,
+        "motiu": "dins de la zona la separacio nomes creix 0.64 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.0067482922612097885
+       }
+      ]
+     }
+    },
+    "1": {
+     "sense_soroll": {
+      "ok": true,
+      "terra": 1e-09,
+      "sostre": 3.7871068253862368,
+      "t_inici_s": 0.0,
+      "t_fi_s": 1.0375,
+      "durada_s": 1.0375,
+      "creixement_ln": 2.704773760902542,
+      "n_punts": 250,
+      "pendent": 2.9166104253424354,
+      "r2": 0.8676131408092221,
+      "motiu": null,
+      "lambda": 2.9166104253424354,
+      "n_parelles": 66,
+      "bootstrap": {
+       "desviacio": 0.205554851744468,
+       "sense_lambda": 0,
+       "remostrejos": 200
+      },
+      "d0_mediana": 0.028387208447643954
+     },
+     "escombrat:0.03": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.03,
+      "terra_parella_graus": 0.042426406871192854,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.7872511940348543,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.700550025177144,
+        "n_punts": 250,
+        "pendent": 2.915223474748572,
+        "r2": 0.867184956459534,
+        "motiu": null,
+        "lambda": 2.915223474748572,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.2024491225538743,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.7871547254610034,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.702803510272121,
+        "n_punts": 250,
+        "pendent": 2.917061993525585,
+        "r2": 0.8678990741165905,
+        "motiu": null,
+        "lambda": 2.917061993525585,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.20495742461687247,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.7871043299177836,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.7042906912186595,
+        "n_punts": 250,
+        "pendent": 2.9155405059618222,
+        "r2": 0.8679184136946759,
+        "motiu": null,
+        "lambda": 2.9155405059618222,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.20505967860944807,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.7869098381240094,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.706440702771778,
+        "n_punts": 250,
+        "pendent": 2.9147167633612976,
+        "r2": 0.8679351584159329,
+        "motiu": null,
+        "lambda": 2.9147167633612976,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.20306816756430027,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 3.787066787237089,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.701059550882909,
+        "n_punts": 250,
+        "pendent": 2.912139364342247,
+        "r2": 0.8674349489592513,
+        "motiu": null,
+        "lambda": 2.912139364342247,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.2044059733307356,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "escombrat:0.1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.1,
+      "terra_parella_graus": 0.14142135623730953,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.7869694814357646,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.689994243297756,
+        "n_punts": 250,
+        "pendent": 2.9053477174085063,
+        "r2": 0.8666596476749083,
+        "motiu": null,
+        "lambda": 2.9053477174085063,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19704276828410316,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.787011481409373,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.69081769250492,
+        "n_punts": 250,
+        "pendent": 2.9014129179534627,
+        "r2": 0.8666997107840904,
+        "motiu": null,
+        "lambda": 2.9014129179534627,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19762684108046158,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.787370059191404,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.687365379286545,
+        "n_punts": 250,
+        "pendent": 2.89473332960183,
+        "r2": 0.8662999764014224,
+        "motiu": null,
+        "lambda": 2.89473332960183,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1993838139420929,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.787352288198478,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.6956453661542605,
+        "n_punts": 250,
+        "pendent": 2.91257530351469,
+        "r2": 0.8692282273267766,
+        "motiu": null,
+        "lambda": 2.91257530351469,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.20479721736487216,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 3.7873526421322996,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.679243693313862,
+        "n_punts": 250,
+        "pendent": 2.902019844999408,
+        "r2": 0.8667253729137819,
+        "motiu": null,
+        "lambda": 2.902019844999408,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.20390219974739343,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "escombrat:0.3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.3,
+      "terra_parella_graus": 0.4242640687119285,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.7870852691241206,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.6369004692708797,
+        "n_punts": 250,
+        "pendent": 2.8218908537776146,
+        "r2": 0.8672557013281005,
+        "motiu": null,
+        "lambda": 2.8218908537776146,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.3245878847477297,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.7871656143545955,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.578543957668617,
+        "n_punts": 250,
+        "pendent": 2.8507091777368876,
+        "r2": 0.8670865570391411,
+        "motiu": null,
+        "lambda": 2.8507091777368876,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.38080872512605024,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.7866648287664133,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.632480291178883,
+        "n_punts": 250,
+        "pendent": 2.832927132114774,
+        "r2": 0.8696720420820596,
+        "motiu": null,
+        "lambda": 2.832927132114774,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.3869189967393588,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.787341864228922,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.5636411746283825,
+        "n_punts": 250,
+        "pendent": 2.839262351388645,
+        "r2": 0.8651025487152753,
+        "motiu": null,
+        "lambda": 2.839262351388645,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.3742555564978548,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 3.78690701225908,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.6073796236947793,
+        "n_punts": 250,
+        "pendent": 2.8177161228924295,
+        "r2": 0.8663477479210613,
+        "motiu": null,
+        "lambda": 2.8177161228924295,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.34927120496085634,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "escombrat:1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 1.0,
+      "terra_parella_graus": 1.4142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.786191797295515,
+        "t_inici_s": 0.55,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.48750000000000004,
+        "creixement_ln": 1.5649932628963674,
+        "n_punts": 118,
+        "pendent": 1.8481954129363865,
+        "r2": 0.619571056103787,
+        "motiu": "la zona va de 0.550 a 1.038 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.7874572066492034,
+        "t_inici_s": 0.5625,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.4750000000000001,
+        "creixement_ln": 1.5406079265261978,
+        "n_punts": 115,
+        "pendent": 1.6375927268613109,
+        "r2": 0.5578168223235718,
+        "motiu": "la zona va de 0.562 a 1.038 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.7869015269586694,
+        "t_inici_s": 0.5541666666666667,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.4833333333333334,
+        "creixement_ln": 1.5304762032265724,
+        "n_punts": 117,
+        "pendent": 1.8329739011743065,
+        "r2": 0.6098890858526937,
+        "motiu": "la zona va de 0.554 a 1.038 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.7877944980158595,
+        "t_inici_s": 0.5583333333333333,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.47916666666666674,
+        "creixement_ln": 1.5440176277640945,
+        "n_punts": 116,
+        "pendent": 1.7518931583400545,
+        "r2": 0.5875778343143161,
+        "motiu": "la zona va de 0.558 a 1.038 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 3.7876018928523854,
+        "t_inici_s": 0.5583333333333333,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.47916666666666674,
+        "creixement_ln": 1.520896319935607,
+        "n_punts": 116,
+        "pendent": 1.7229976934342912,
+        "r2": 0.6022512352130308,
+        "motiu": "la zona va de 0.558 a 1.038 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "escombrat:3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 3.0,
+      "terra_parella_graus": 4.242640687119286,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.7883606940267516,
+        "t_inici_s": 0.9125,
+        "t_fi_s": 1.0333333333333332,
+        "durada_s": 0.12083333333333324,
+        "creixement_ln": 0.4682481080428986,
+        "n_punts": 30,
+        "pendent": 3.068240280989894,
+        "r2": 0.9621850051828305,
+        "motiu": "dins de la zona la separacio nomes creix 0.47 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.7883729910686883,
+        "t_inici_s": 0.9125,
+        "t_fi_s": 1.0333333333333332,
+        "durada_s": 0.12083333333333324,
+        "creixement_ln": 0.4513580902285954,
+        "n_punts": 30,
+        "pendent": 3.047069365340228,
+        "r2": 0.9342205950693647,
+        "motiu": "dins de la zona la separacio nomes creix 0.45 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.7860328683366613,
+        "t_inici_s": 0.9083333333333333,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.12916666666666676,
+        "creixement_ln": 0.4307672496397821,
+        "n_punts": 32,
+        "pendent": 2.5970987555760985,
+        "r2": 0.8465338659471293,
+        "motiu": "dins de la zona la separacio nomes creix 0.43 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.78594323715339,
+        "t_inici_s": 0.9208333333333333,
+        "t_fi_s": 1.0333333333333332,
+        "durada_s": 0.11249999999999993,
+        "creixement_ln": 0.43112246580397895,
+        "n_punts": 28,
+        "pendent": 3.123517540569975,
+        "r2": 0.9135794008087442,
+        "motiu": "dins de la zona la separacio nomes creix 0.43 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 3.7848795805038202,
+        "t_inici_s": 0.9,
+        "t_fi_s": 1.0333333333333332,
+        "durada_s": 0.1333333333333332,
+        "creixement_ln": 0.470680266337548,
+        "n_punts": 33,
+        "pendent": 3.342589653207202,
+        "r2": 0.949991199373111,
+        "motiu": "dins de la zona la separacio nomes creix 0.47 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "escombrat:10": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 10.0,
+      "terra_parella_graus": 14.142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.788180522469733,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.7883704085771943,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.78580214496489,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.7932560076612862,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 3.7870797318770633,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "repos:0.142107": {
+      "cas": "repos",
+      "sigma_d_tir_graus": 0.14210703978875827,
+      "terra_parella_graus": 0.20096970297795502,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.7872481171522363,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.6733276396649908,
+        "n_punts": 250,
+        "pendent": 2.894411578432086,
+        "r2": 0.8648230078244414,
+        "motiu": null,
+        "lambda": 2.894411578432086,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19391548099503558,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.787132962746036,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.670711382102991,
+        "n_punts": 250,
+        "pendent": 2.8796354385089384,
+        "r2": 0.8638708232756656,
+        "motiu": null,
+        "lambda": 2.8796354385089384,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1922107034164778,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.7868825128247217,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.676407032840653,
+        "n_punts": 250,
+        "pendent": 2.900534898257641,
+        "r2": 0.867716913455358,
+        "motiu": null,
+        "lambda": 2.900534898257641,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19766691477285805,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.786921405681399,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.6592666725909906,
+        "n_punts": 250,
+        "pendent": 2.8883230334078327,
+        "r2": 0.8670366169893802,
+        "motiu": null,
+        "lambda": 2.8883230334078327,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19189018891257428,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": true,
+        "terra": 0.003507583013720368,
+        "sostre": 3.7870089977652412,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0375,
+        "durada_s": 1.0375,
+        "creixement_ln": 2.688512866035149,
+        "n_punts": 250,
+        "pendent": 2.899175255991631,
+        "r2": 0.8684910597155481,
+        "motiu": null,
+        "lambda": 2.899175255991631,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.19647364429728653,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "sense_geometria:2.21449": {
+      "cas": "sense_geometria",
+      "sigma_d_tir_graus": 2.2144857383840746,
+      "terra_parella_graus": 3.131755764904556,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.785863398579558,
+        "t_inici_s": 0.6416666666666666,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.3958333333333335,
+        "creixement_ln": 0.7782736025519144,
+        "n_punts": 96,
+        "pendent": 1.0050861497852832,
+        "r2": 0.35034585358270875,
+        "motiu": "dins de la zona la separacio nomes creix 0.78 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.784283721787747,
+        "t_inici_s": 0.6375,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.40000000000000013,
+        "creixement_ln": 0.7771961936588322,
+        "n_punts": 97,
+        "pendent": 0.8341699777911131,
+        "r2": 0.2737363632740195,
+        "motiu": "dins de la zona la separacio nomes creix 0.78 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.7849038138134627,
+        "t_inici_s": 0.6416666666666666,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.3958333333333335,
+        "creixement_ln": 0.7641034396094857,
+        "n_punts": 96,
+        "pendent": 0.9979574416178768,
+        "r2": 0.34335112977086046,
+        "motiu": "dins de la zona la separacio nomes creix 0.76 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.789542416256522,
+        "t_inici_s": 0.6458333333333334,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.3916666666666667,
+        "creixement_ln": 0.8009936668073647,
+        "n_punts": 95,
+        "pendent": 1.0200618040447262,
+        "r2": 0.3968492661400004,
+        "motiu": "dins de la zona la separacio nomes creix 0.80 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.054659449465897986,
+        "sostre": 3.786323412184096,
+        "t_inici_s": 0.6375,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.40000000000000013,
+        "creixement_ln": 0.780813897604747,
+        "n_punts": 97,
+        "pendent": 0.9696346017482768,
+        "r2": 0.35692996529578147,
+        "motiu": "dins de la zona la separacio nomes creix 0.78 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     },
+     "total:2.48607": {
+      "cas": "total",
+      "sigma_d_tir_graus": 2.4860650390392536,
+      "terra_parella_graus": 3.515826895150911,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.788053130634064,
+        "t_inici_s": 0.8791666666666667,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.15833333333333344,
+        "creixement_ln": 0.6594278063691011,
+        "n_punts": 39,
+        "pendent": 3.391308702181132,
+        "r2": 0.914561582821902,
+        "motiu": "dins de la zona la separacio nomes creix 0.66 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.786211049691395,
+        "t_inici_s": 0.8541666666666666,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.18333333333333346,
+        "creixement_ln": 0.6571078407709983,
+        "n_punts": 45,
+        "pendent": 3.484012144647677,
+        "r2": 0.9554903359397807,
+        "motiu": "dins de la zona la separacio nomes creix 0.66 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.7879842845993292,
+        "t_inici_s": 0.8166666666666667,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.22083333333333344,
+        "creixement_ln": 0.6748844848803202,
+        "n_punts": 54,
+        "pendent": 2.8361108376766775,
+        "r2": 0.8986547046867382,
+        "motiu": "dins de la zona la separacio nomes creix 0.67 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.7840885452974247,
+        "t_inici_s": 0.8041666666666667,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.2333333333333334,
+        "creixement_ln": 0.6636229507156763,
+        "n_punts": 57,
+        "pendent": 2.6023102478838447,
+        "r2": 0.8729105988436192,
+        "motiu": "dins de la zona la separacio nomes creix 0.66 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       },
+       {
+        "ok": false,
+        "terra": 0.061362755250552854,
+        "sostre": 3.783046589446789,
+        "t_inici_s": 0.6541666666666667,
+        "t_fi_s": 1.0375,
+        "durada_s": 0.3833333333333334,
+        "creixement_ln": 0.6386982795968954,
+        "n_punts": 93,
+        "pendent": 0.718192461542875,
+        "r2": 0.25271186308238214,
+        "motiu": "dins de la zona la separacio nomes creix 0.64 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.028387208447643954
+       }
+      ]
+     }
+    }
+   },
+   "benettin": {
+    "orbites": [
+     {
+      "grup": 90.0,
+      "tir": 0,
+      "mena": "caotica",
+      "lambda": 2.384630172890259,
+      "E_sobre_Ev2": 3.31534494626338,
+      "deriva_energia_relativa": 8.74296519197843e-12,
+      "segons": 92.62445390000175
+     },
+     {
+      "grup": 90.0,
+      "tir": 1,
+      "mena": "caotica",
+      "lambda": 2.3820838603114294,
+      "E_sobre_Ev2": 3.295836693799926,
+      "deriva_energia_relativa": 9.162983204205337e-12,
+      "segons": 93.36693930000001
+     },
+     {
+      "grup": 90.0,
+      "tir": 2,
+      "mena": "caotica",
+      "lambda": 2.4660521801598154,
+      "E_sobre_Ev2": 3.2637609239087326,
+      "deriva_energia_relativa": 7.968685586970729e-12,
+      "segons": 93.30782870000075
+     },
+     {
+      "grup": 90.0,
+      "tir": 3,
+      "mena": "caotica",
+      "lambda": 2.27895001569335,
+      "E_sobre_Ev2": 3.2271768718232345,
+      "deriva_energia_relativa": 8.175582080058967e-12,
+      "segons": 91.80191210000157
+     },
+     {
+      "grup": 90.0,
+      "tir": 4,
+      "mena": "caotica",
+      "lambda": 2.382711531882157,
+      "E_sobre_Ev2": 3.3217107537023436,
+      "deriva_energia_relativa": 7.816432666525832e-12,
+      "segons": 91.32137750000038
+     },
+     {
+      "grup": 90.0,
+      "tir": 5,
+      "mena": "caotica",
+      "lambda": 2.3676330163205517,
+      "E_sobre_Ev2": 3.212154920369469,
+      "deriva_energia_relativa": 7.1967494994125694e-12,
+      "segons": 90.41114290000041
+     },
+     {
+      "grup": 90.0,
+      "tir": 6,
+      "mena": "caotica",
+      "lambda": 2.3811442624642316,
+      "E_sobre_Ev2": 3.315691847218483,
+      "deriva_energia_relativa": 9.208673851996316e-12,
+      "segons": 93.31666869999935
+     },
+     {
+      "grup": 90.0,
+      "tir": 7,
+      "mena": "caotica",
+      "lambda": 2.244003989733189,
+      "E_sobre_Ev2": 3.2164588014569606,
+      "deriva_energia_relativa": 9.320576602963058e-12,
+      "segons": 90.38198890000058
+     },
+     {
+      "grup": 90.0,
+      "tir": 8,
+      "mena": "caotica",
+      "lambda": 2.3952069326262158,
+      "E_sobre_Ev2": 3.270586406208254,
+      "deriva_energia_relativa": 7.012772935890461e-12,
+      "segons": 92.48604499999965
+     },
+     {
+      "grup": 90.0,
+      "tir": 9,
+      "mena": "caotica",
+      "lambda": 2.3824216655647366,
+      "E_sobre_Ev2": 3.2547906834512723,
+      "deriva_energia_relativa": 9.268099869448726e-12,
+      "segons": 91.48797809999996
+     },
+     {
+      "grup": 90.0,
+      "tir": 10,
+      "mena": "caotica",
+      "lambda": 2.3443243544560843,
+      "E_sobre_Ev2": 3.2255799115793558,
+      "deriva_energia_relativa": 8.025565628476878e-12,
+      "segons": 91.45506250000108
+     },
+     {
+      "grup": 90.0,
+      "tir": 11,
+      "mena": "caotica",
+      "lambda": 2.5317687328576572,
+      "E_sobre_Ev2": 3.2426430237095896,
+      "deriva_energia_relativa": 7.35812224947972e-12,
+      "segons": 90.88505239999904
+     }
+    ],
+    "caotiques": 12,
+    "regulars": 0,
+    "lambda_mediana_caotiques": 2.3822527629380827
+   }
+  },
+  "150": {
+   "sigma_d_unitat_graus": 131.12231148339632,
+   "dispersions": {
+    "0.3": {
+     "sense_soroll": {
+      "ok": true,
+      "terra": 1e-09,
+      "sostre": 4.4559863776684505,
+      "t_inici_s": 0.0,
+      "t_fi_s": 1.0791666666666666,
+      "durada_s": 1.0791666666666666,
+      "creixement_ln": 3.9111700670061067,
+      "n_punts": 260,
+      "pendent": 2.928328229958153,
+      "r2": 0.9346640109828385,
+      "motiu": null,
+      "lambda": 2.928328229958153,
+      "n_parelles": 66,
+      "bootstrap": {
+       "desviacio": 0.11126800887636583,
+       "sense_lambda": 0,
+       "remostrejos": 200
+      },
+      "d0_mediana": 0.00943577611435087
+     },
+     "escombrat:0.03": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.03,
+      "terra_parella_graus": 0.042426406871192854,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.4559789898885525,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.909938840341863,
+        "n_punts": 260,
+        "pendent": 2.926553259363538,
+        "r2": 0.9342548578408618,
+        "motiu": null,
+        "lambda": 2.926553259363538,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.10953799787136587,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.456062958835862,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8799136214492482,
+        "n_punts": 260,
+        "pendent": 2.9165009394873063,
+        "r2": 0.9347288912607091,
+        "motiu": null,
+        "lambda": 2.9165009394873063,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.11015774936140872,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.456175768302665,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.904565546527113,
+        "n_punts": 260,
+        "pendent": 2.925758536232788,
+        "r2": 0.9343221675265551,
+        "motiu": null,
+        "lambda": 2.925758536232788,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.11028143741324457,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.456055787538295,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8967897917290855,
+        "n_punts": 260,
+        "pendent": 2.923606970919963,
+        "r2": 0.9348524395942572,
+        "motiu": null,
+        "lambda": 2.923606970919963,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.11288556272779546,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.456090996549838,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.898545194246479,
+        "n_punts": 260,
+        "pendent": 2.921116418599702,
+        "r2": 0.9348478993018497,
+        "motiu": null,
+        "lambda": 2.921116418599702,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1082868801051069,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "escombrat:0.1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.1,
+      "terra_parella_graus": 0.14142135623730953,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.456311415667599,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.877869539027001,
+        "n_punts": 260,
+        "pendent": 2.9226397094250545,
+        "r2": 0.9340789676875247,
+        "motiu": null,
+        "lambda": 2.9226397094250545,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.09695110695539262,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.456031494444353,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8362109322727664,
+        "n_punts": 260,
+        "pendent": 2.9089585371254825,
+        "r2": 0.9369675168112879,
+        "motiu": null,
+        "lambda": 2.9089585371254825,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.09716668410086221,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.455896064556493,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.887659175213952,
+        "n_punts": 260,
+        "pendent": 2.9295893926896523,
+        "r2": 0.9366543235479408,
+        "motiu": null,
+        "lambda": 2.9295893926896523,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.10108224243802699,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.4560303634143725,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8369999937621846,
+        "n_punts": 260,
+        "pendent": 2.9081282025584696,
+        "r2": 0.9371318619820203,
+        "motiu": null,
+        "lambda": 2.9081282025584696,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.09695670419343198,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.456246222008521,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8238879859050776,
+        "n_punts": 260,
+        "pendent": 2.8978217767030503,
+        "r2": 0.9345794243848371,
+        "motiu": null,
+        "lambda": 2.8978217767030503,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.10032590766614378,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "escombrat:0.3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.3,
+      "terra_parella_graus": 0.4242640687119285,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.456033094228436,
+        "t_inici_s": 0.15416666666666667,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.9249999999999999,
+        "creixement_ln": 2.9513136287456527,
+        "n_punts": 223,
+        "pendent": 2.5986106972886303,
+        "r2": 0.9077475048094185,
+        "motiu": null,
+        "lambda": 2.5986106972886303,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.12188286290293987,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.456481046137109,
+        "t_inici_s": 0.1125,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.9666666666666666,
+        "creixement_ln": 2.9765217309212666,
+        "n_punts": 233,
+        "pendent": 2.6148763546730716,
+        "r2": 0.9151095601712903,
+        "motiu": null,
+        "lambda": 2.6148763546730716,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.11032731388830316,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.4561976706026085,
+        "t_inici_s": 0.13333333333333333,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.9458333333333333,
+        "creixement_ln": 2.9796702966543904,
+        "n_punts": 228,
+        "pendent": 2.638314199467555,
+        "r2": 0.9146165843447747,
+        "motiu": null,
+        "lambda": 2.638314199467555,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14326118461058365,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.456231011627373,
+        "t_inici_s": 0.14166666666666666,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.9375,
+        "creixement_ln": 2.977266985986673,
+        "n_punts": 226,
+        "pendent": 2.6376505108625325,
+        "r2": 0.9139149832295826,
+        "motiu": null,
+        "lambda": 2.6376505108625325,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.141100113908611,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.4558510270820015,
+        "t_inici_s": 0.11666666666666667,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.9624999999999999,
+        "creixement_ln": 2.9644280190468226,
+        "n_punts": 232,
+        "pendent": 2.645085716823729,
+        "r2": 0.9167696625022969,
+        "motiu": null,
+        "lambda": 2.645085716823729,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.14489272674841694,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "escombrat:1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 1.0,
+      "terra_parella_graus": 1.4142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 4.456579181822969,
+        "t_inici_s": 0.6375,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.44166666666666665,
+        "creixement_ln": 1.770449500816988,
+        "n_punts": 107,
+        "pendent": 3.4424714076941982,
+        "r2": 0.9445583562521962,
+        "motiu": "la zona va de 0.637 a 1.079 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 4.456533841425541,
+        "t_inici_s": 0.6125,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.46666666666666656,
+        "creixement_ln": 1.7746523177265312,
+        "n_punts": 113,
+        "pendent": 3.3464681147120174,
+        "r2": 0.9483517962374588,
+        "motiu": "la zona va de 0.613 a 1.079 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 4.456017844153751,
+        "t_inici_s": 0.6291666666666667,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.44999999999999996,
+        "creixement_ln": 1.768861026763863,
+        "n_punts": 109,
+        "pendent": 3.3692719969585463,
+        "r2": 0.9509969520508453,
+        "motiu": "la zona va de 0.629 a 1.079 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 4.455869339603716,
+        "t_inici_s": 0.625,
+        "t_fi_s": 1.075,
+        "durada_s": 0.44999999999999996,
+        "creixement_ln": 1.7688882526863652,
+        "n_punts": 109,
+        "pendent": 3.2392007431497807,
+        "r2": 0.9394786143138164,
+        "motiu": "la zona va de 0.625 a 1.075 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.024682682989768702,
+        "sostre": 4.456161329567706,
+        "t_inici_s": 0.6125,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.46666666666666656,
+        "creixement_ln": 1.7732085275003866,
+        "n_punts": 113,
+        "pendent": 3.3235484236763284,
+        "r2": 0.9437807594063934,
+        "motiu": "la zona va de 0.613 a 1.079 s: no arriba al doble del temps en que comenca, i no es pot distingir d'una separacio lineal",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "escombrat:3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 3.0,
+      "terra_parella_graus": 4.242640687119286,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.4547606671874345,
+        "t_inici_s": 0.9833333333333333,
+        "t_fi_s": 1.0708333333333333,
+        "durada_s": 0.08750000000000002,
+        "creixement_ln": 0.6516941498935389,
+        "n_punts": 22,
+        "pendent": 8.023286388788486,
+        "r2": 0.9774595022265389,
+        "motiu": "dins de la zona la separacio nomes creix 0.65 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.456792335129066,
+        "t_inici_s": 0.9833333333333333,
+        "t_fi_s": 1.0666666666666667,
+        "durada_s": 0.08333333333333337,
+        "creixement_ln": 0.6376095585172494,
+        "n_punts": 21,
+        "pendent": 6.942286989127026,
+        "r2": 0.9764273836829273,
+        "motiu": "dins de la zona la separacio nomes creix 0.64 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.4552602082427555,
+        "t_inici_s": 0.9541666666666666,
+        "t_fi_s": 1.0625,
+        "durada_s": 0.10833333333333339,
+        "creixement_ln": 0.6925149706608728,
+        "n_punts": 27,
+        "pendent": 7.0312841861141875,
+        "r2": 0.9105601666217036,
+        "motiu": "dins de la zona la separacio nomes creix 0.69 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.455411244050498,
+        "t_inici_s": 0.9791666666666666,
+        "t_fi_s": 1.0708333333333333,
+        "durada_s": 0.09166666666666667,
+        "creixement_ln": 0.6660510866498189,
+        "n_punts": 23,
+        "pendent": 8.216895312360531,
+        "r2": 0.9840000181769575,
+        "motiu": "dins de la zona la separacio nomes creix 0.67 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.453961041847152,
+        "t_inici_s": 0.9874999999999999,
+        "t_fi_s": 1.075,
+        "durada_s": 0.08750000000000002,
+        "creixement_ln": 0.6910139751069555,
+        "n_punts": 22,
+        "pendent": 8.007332260010484,
+        "r2": 0.9348529184000276,
+        "motiu": "dins de la zona la separacio nomes creix 0.69 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "escombrat:10": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 10.0,
+      "terra_parella_graus": 14.142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.458024665142238,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.457183827820057,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.45459013110849,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.453877330097216,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.458502256698392,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "repos:0.0992221": {
+      "cas": "repos",
+      "sigma_d_tir_graus": 0.09922209377717481,
+      "terra_parella_graus": 0.1403212307067357,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.4557626502444325,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8216238609065782,
+        "n_punts": 260,
+        "pendent": 2.905953384080536,
+        "r2": 0.9356554753330008,
+        "motiu": null,
+        "lambda": 2.905953384080536,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.09615246700505148,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.456102322630315,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8713755708205024,
+        "n_punts": 260,
+        "pendent": 2.9091519325789883,
+        "r2": 0.9367991656060493,
+        "motiu": null,
+        "lambda": 2.9091519325789883,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.09673315341070084,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.4557566672644295,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.837999766945179,
+        "n_punts": 260,
+        "pendent": 2.9039399825758525,
+        "r2": 0.9356472444976398,
+        "motiu": null,
+        "lambda": 2.9039399825758525,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.09489555429327395,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.455953366891171,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.844759062669282,
+        "n_punts": 260,
+        "pendent": 2.906763580219264,
+        "r2": 0.9348682348945534,
+        "motiu": null,
+        "lambda": 2.906763580219264,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.10635098423466452,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.45587862564601,
+        "t_inici_s": 0.0,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 1.0791666666666666,
+        "creixement_ln": 3.8668680242591735,
+        "n_punts": 260,
+        "pendent": 2.9151299482872273,
+        "r2": 0.9370218880607976,
+        "motiu": null,
+        "lambda": 2.9151299482872273,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.09398018455747026,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "sense_geometria:4.06422": {
+      "cas": "sense_geometria",
+      "sigma_d_tir_graus": 4.064224729142383,
+      "terra_parella_graus": 5.747681732485278,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.4573920796671125,
+        "t_inici_s": 1.0166666666666666,
+        "t_fi_s": 1.0708333333333333,
+        "durada_s": 0.054166666666666696,
+        "creixement_ln": 0.37583214549486443,
+        "n_punts": 14,
+        "pendent": 6.266467510682984,
+        "r2": 0.8835884872919058,
+        "motiu": "dins de la zona la separacio nomes creix 0.38 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.456275173841571,
+        "t_inici_s": 1.0083333333333333,
+        "t_fi_s": 1.0791666666666666,
+        "durada_s": 0.0708333333333333,
+        "creixement_ln": 0.35719543139769594,
+        "n_punts": 18,
+        "pendent": 4.626247725416273,
+        "r2": 0.8621970057080555,
+        "motiu": "dins de la zona la separacio nomes creix 0.36 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.458854950336381,
+        "t_inici_s": 1.0208333333333333,
+        "t_fi_s": 1.0666666666666667,
+        "durada_s": 0.04583333333333339,
+        "creixement_ln": 0.35181960367178733,
+        "n_punts": 12,
+        "pendent": 8.381214565090914,
+        "r2": 0.9786664211478643,
+        "motiu": "dins de la zona la separacio nomes creix 0.35 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.455961680269558,
+        "t_inici_s": 1.0208333333333333,
+        "t_fi_s": 1.0708333333333333,
+        "durada_s": 0.050000000000000044,
+        "creixement_ln": 0.375215807746733,
+        "n_punts": 13,
+        "pendent": 7.70735094345159,
+        "r2": 0.920234071679823,
+        "motiu": "dins de la zona la separacio nomes creix 0.38 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.457652383906767,
+        "t_inici_s": 1.0208333333333333,
+        "t_fi_s": 1.0666666666666667,
+        "durada_s": 0.04583333333333339,
+        "creixement_ln": 0.37335150548299945,
+        "n_punts": 12,
+        "pendent": 7.060242036550551,
+        "r2": 0.9274327495020249,
+        "motiu": "dins de la zona la separacio nomes creix 0.37 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     },
+     "total:4.92767": {
+      "cas": "total",
+      "sigma_d_tir_graus": 4.927671627188069,
+      "terra_parella_graus": 6.968780046090465,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.458163410616121,
+        "t_inici_s": 1.0458333333333334,
+        "t_fi_s": 1.0875,
+        "durada_s": 0.04166666666666652,
+        "creixement_ln": 0.1715361605880228,
+        "n_punts": 11,
+        "pendent": 4.204085920361365,
+        "r2": 0.85972906615659,
+        "motiu": "dins de la zona la separacio nomes creix 0.17 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.4594973808982274,
+        "t_inici_s": 1.0416666666666667,
+        "t_fi_s": 1.0583333333333333,
+        "durada_s": 0.016666666666666607,
+        "creixement_ln": 0.15508299920383617,
+        "n_punts": 5,
+        "pendent": 9.47064840301672,
+        "r2": 0.9944440107868016,
+        "motiu": "dins de la zona la separacio nomes creix 0.16 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.45478610885533,
+        "t_inici_s": 1.0333333333333332,
+        "t_fi_s": 1.0625,
+        "durada_s": 0.029166666666666785,
+        "creixement_ln": 0.15059852492512982,
+        "n_punts": 8,
+        "pendent": 3.850489685014066,
+        "r2": 0.6910977931980264,
+        "motiu": "dins de la zona la separacio nomes creix 0.15 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.456258391638965,
+        "t_inici_s": 1.0333333333333332,
+        "t_fi_s": 1.075,
+        "durada_s": 0.04166666666666674,
+        "creixement_ln": 0.17163081194263663,
+        "n_punts": 11,
+        "pendent": 3.830233481110757,
+        "r2": 0.9511029919315606,
+        "motiu": "dins de la zona la separacio nomes creix 0.17 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.455985526978425,
+        "t_inici_s": 1.0458333333333334,
+        "t_fi_s": 1.0541666666666667,
+        "durada_s": 0.008333333333333304,
+        "creixement_ln": 0.10140541710669004,
+        "n_punts": 3,
+        "pendent": 12.168650052802997,
+        "r2": 0.9932742009935358,
+        "motiu": "dins de la zona la separacio nomes creix 0.10 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.00943577611435087
+       }
+      ]
+     }
+    },
+    "1": {
+     "sense_soroll": {
+      "ok": true,
+      "terra": 1e-09,
+      "sostre": 4.467128088124673,
+      "t_inici_s": 0.0,
+      "t_fi_s": 0.7416666666666667,
+      "durada_s": 0.7416666666666667,
+      "creixement_ln": 2.7077471293712985,
+      "n_punts": 179,
+      "pendent": 2.6895674254102113,
+      "r2": 0.7966149439651651,
+      "motiu": null,
+      "lambda": 2.6895674254102113,
+      "n_parelles": 66,
+      "bootstrap": {
+       "desviacio": 0.1605702154612501,
+       "sense_lambda": 0,
+       "remostrejos": 200
+      },
+      "d0_mediana": 0.03200039152670201
+     },
+     "escombrat:0.03": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.03,
+      "terra_parella_graus": 0.042426406871192854,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.466940720359193,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.714793119957046,
+        "n_punts": 179,
+        "pendent": 2.6961689675572127,
+        "r2": 0.7963548935734985,
+        "motiu": null,
+        "lambda": 2.6961689675572127,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1607655221498327,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.4673159172992944,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.708481614823753,
+        "n_punts": 179,
+        "pendent": 2.691201280791523,
+        "r2": 0.7970082011183429,
+        "motiu": null,
+        "lambda": 2.691201280791523,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16120879037716795,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.467132941205689,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.7007816715151627,
+        "n_punts": 179,
+        "pendent": 2.6833277200840056,
+        "r2": 0.7965889353939005,
+        "motiu": null,
+        "lambda": 2.6833277200840056,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1608447617882349,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.467008492879142,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.7095619659745775,
+        "n_punts": 179,
+        "pendent": 2.692579565265599,
+        "r2": 0.7964323029044038,
+        "motiu": null,
+        "lambda": 2.692579565265599,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15936394988158703,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.000740480489693061,
+        "sostre": 4.467077194124995,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.706302409259596,
+        "n_punts": 179,
+        "pendent": 2.688547527727218,
+        "r2": 0.7966432051639569,
+        "motiu": null,
+        "lambda": 2.688547527727218,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16034595556565362,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "escombrat:0.1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.1,
+      "terra_parella_graus": 0.14142135623730953,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.4667891082563465,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.704538951767499,
+        "n_punts": 179,
+        "pendent": 2.6843528215514603,
+        "r2": 0.7955306767212701,
+        "motiu": null,
+        "lambda": 2.6843528215514603,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15893312934743054,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.467092094087221,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.709823899111763,
+        "n_punts": 179,
+        "pendent": 2.69366475486121,
+        "r2": 0.7978491794206932,
+        "motiu": null,
+        "lambda": 2.69366475486121,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16206248677965027,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.467258089041334,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.717299047922836,
+        "n_punts": 179,
+        "pendent": 2.698259616076449,
+        "r2": 0.795611317107649,
+        "motiu": null,
+        "lambda": 2.698259616076449,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16016993386214415,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.4665115212487905,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.705587699337088,
+        "n_punts": 179,
+        "pendent": 2.6885653359019517,
+        "r2": 0.7961476492992926,
+        "motiu": null,
+        "lambda": 2.6885653359019517,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.1598584503615991,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00246826829897687,
+        "sostre": 4.466913913859132,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.688307206517513,
+        "n_punts": 179,
+        "pendent": 2.676909824587536,
+        "r2": 0.7989530830468974,
+        "motiu": null,
+        "lambda": 2.676909824587536,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16075169746965573,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "escombrat:0.3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 0.3,
+      "terra_parella_graus": 0.4242640687119285,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.466551311830754,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.744059914925428,
+        "n_punts": 179,
+        "pendent": 2.7106039758180316,
+        "r2": 0.7964971197814912,
+        "motiu": null,
+        "lambda": 2.7106039758180316,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15521114818376433,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.466321414038295,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.6454479281499244,
+        "n_punts": 179,
+        "pendent": 2.643133850821724,
+        "r2": 0.796165587744317,
+        "motiu": null,
+        "lambda": 2.643133850821724,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16172082570338703,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.4666132652955515,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.6257905003060857,
+        "n_punts": 179,
+        "pendent": 2.6371564623525527,
+        "r2": 0.7947058310903969,
+        "motiu": null,
+        "lambda": 2.6371564623525527,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15361714198379034,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.466137847703649,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.6579813516522814,
+        "n_punts": 179,
+        "pendent": 2.6446679116535363,
+        "r2": 0.798080995861508,
+        "motiu": null,
+        "lambda": 2.6446679116535363,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15553486556723523,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.00740480489693061,
+        "sostre": 4.466644752008728,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.640456918286778,
+        "n_punts": 179,
+        "pendent": 2.6490804579051477,
+        "r2": 0.8003699787487084,
+        "motiu": null,
+        "lambda": 2.6490804579051477,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15622194565343459,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "escombrat:1": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 1.0,
+      "terra_parella_graus": 1.4142135623730951,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.024682682989768702,
+        "sostre": 4.465184570188581,
+        "t_inici_s": 0.12916666666666665,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.6125,
+        "creixement_ln": 1.7879195114288002,
+        "n_punts": 148,
+        "pendent": 1.82506613953635,
+        "r2": 0.6858968038779844,
+        "motiu": null,
+        "lambda": 1.82506613953635,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.21049844176764693,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.024682682989768702,
+        "sostre": 4.466217070691492,
+        "t_inici_s": 0.12083333333333333,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.6208333333333333,
+        "creixement_ln": 1.7607668109685597,
+        "n_punts": 150,
+        "pendent": 1.856812501490142,
+        "r2": 0.699324726633137,
+        "motiu": null,
+        "lambda": 1.856812501490142,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.20505749758885677,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.024682682989768702,
+        "sostre": 4.465610211209767,
+        "t_inici_s": 0.11666666666666667,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.625,
+        "creixement_ln": 1.7625548505806399,
+        "n_punts": 151,
+        "pendent": 1.8237189710860005,
+        "r2": 0.6877011952501857,
+        "motiu": null,
+        "lambda": 1.8237189710860005,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.18173520213405558,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.024682682989768702,
+        "sostre": 4.466196928792447,
+        "t_inici_s": 0.1375,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.6041666666666667,
+        "creixement_ln": 1.771974866429544,
+        "n_punts": 146,
+        "pendent": 1.8709443223093698,
+        "r2": 0.6944855728972842,
+        "motiu": null,
+        "lambda": 1.8709443223093698,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.2045672935537459,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.024682682989768702,
+        "sostre": 4.465467157762566,
+        "t_inici_s": 0.1375,
+        "t_fi_s": 0.7458333333333333,
+        "durada_s": 0.6083333333333334,
+        "creixement_ln": 1.7883141450853377,
+        "n_punts": 147,
+        "pendent": 1.876509386157601,
+        "r2": 0.7184828835080823,
+        "motiu": null,
+        "lambda": 1.876509386157601,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.21160857804588146,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "escombrat:3": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 3.0,
+      "terra_parella_graus": 4.242640687119286,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.467180641626426,
+        "t_inici_s": 0.6,
+        "t_fi_s": 0.7375,
+        "durada_s": 0.13750000000000007,
+        "creixement_ln": 0.6649059185639629,
+        "n_punts": 34,
+        "pendent": 4.765581954187217,
+        "r2": 0.9818334259568918,
+        "motiu": "dins de la zona la separacio nomes creix 0.66 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.4664894781293505,
+        "t_inici_s": 0.6083333333333333,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.125,
+        "creixement_ln": 0.675708661531584,
+        "n_punts": 31,
+        "pendent": 4.9710970075082255,
+        "r2": 0.9897974057930713,
+        "motiu": "dins de la zona la separacio nomes creix 0.68 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.464946931863001,
+        "t_inici_s": 0.6,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.1333333333333333,
+        "creixement_ln": 0.6764710893693558,
+        "n_punts": 33,
+        "pendent": 4.957800225376372,
+        "r2": 0.9753484490046676,
+        "motiu": "dins de la zona la separacio nomes creix 0.68 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.468999117789213,
+        "t_inici_s": 0.6083333333333333,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.125,
+        "creixement_ln": 0.6790343026500794,
+        "n_punts": 31,
+        "pendent": 5.224929736430022,
+        "r2": 0.9917277101652366,
+        "motiu": "dins de la zona la separacio nomes creix 0.68 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.07404804896930611,
+        "sostre": 4.465598898654729,
+        "t_inici_s": 0.575,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.15833333333333333,
+        "creixement_ln": 0.653462348875834,
+        "n_punts": 39,
+        "pendent": 4.20785671619586,
+        "r2": 0.9837735355563559,
+        "motiu": "dins de la zona la separacio nomes creix 0.65 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "escombrat:10": {
+      "cas": "escombrat",
+      "sigma_d_tir_graus": 10.0,
+      "terra_parella_graus": 14.142135623730951,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.4705969713207505,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.471160524687702,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.468881909291765,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.46976220040913,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.246826829897687,
+        "sostre": 4.475466435161494,
+        "motiu": "la d no passa mai per la zona util (3 x terra a sostre / 10)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "repos:0.0992221": {
+      "cas": "repos",
+      "sigma_d_tir_graus": 0.09922209377717481,
+      "terra_parella_graus": 0.1403212307067357,
+      "realitzacions": [
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.467058684483275,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.7054241906367813,
+        "n_punts": 179,
+        "pendent": 2.6904303391343274,
+        "r2": 0.7973319764942366,
+        "motiu": null,
+        "lambda": 2.6904303391343274,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15846637232775324,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.466994005333991,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.7017619013014995,
+        "n_punts": 179,
+        "pendent": 2.6874409380436686,
+        "r2": 0.7961464827611922,
+        "motiu": null,
+        "lambda": 2.6874409380436686,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16064505486865988,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.466615243629679,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.705244627324042,
+        "n_punts": 179,
+        "pendent": 2.6895446809746435,
+        "r2": 0.7965889718401227,
+        "motiu": null,
+        "lambda": 2.6895446809746435,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.16430706410177526,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.466996711195125,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.705966473171439,
+        "n_punts": 179,
+        "pendent": 2.6907558881565268,
+        "r2": 0.7970215446236738,
+        "motiu": null,
+        "lambda": 2.6907558881565268,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15844158129174285,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": true,
+        "terra": 0.0024490674862831076,
+        "sostre": 4.4664772379128515,
+        "t_inici_s": 0.0,
+        "t_fi_s": 0.7416666666666667,
+        "durada_s": 0.7416666666666667,
+        "creixement_ln": 2.6965208502952214,
+        "n_punts": 179,
+        "pendent": 2.6783929840344607,
+        "r2": 0.795774834239934,
+        "motiu": null,
+        "lambda": 2.6783929840344607,
+        "n_parelles": 66,
+        "bootstrap": {
+         "desviacio": 0.15969682477817687,
+         "sense_lambda": 0,
+         "remostrejos": 200
+        },
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "sense_geometria:4.06422": {
+      "cas": "sense_geometria",
+      "sigma_d_tir_graus": 4.064224729142383,
+      "terra_parella_graus": 5.747681732485278,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.46529451905555,
+        "t_inici_s": 0.6458333333333334,
+        "t_fi_s": 0.725,
+        "durada_s": 0.07916666666666661,
+        "creixement_ln": 0.3714540497447354,
+        "n_punts": 20,
+        "pendent": 4.931089919204518,
+        "r2": 0.9467823679863658,
+        "motiu": "dins de la zona la separacio nomes creix 0.37 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.470188879112354,
+        "t_inici_s": 0.6666666666666666,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.06666666666666665,
+        "creixement_ln": 0.384182611979762,
+        "n_punts": 17,
+        "pendent": 5.867726743806123,
+        "r2": 0.9908030758858245,
+        "motiu": "dins de la zona la separacio nomes creix 0.38 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.473318784871841,
+        "t_inici_s": 0.6625,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.0708333333333333,
+        "creixement_ln": 0.38789152749787736,
+        "n_punts": 18,
+        "pendent": 4.871077167224994,
+        "r2": 0.9544288667370779,
+        "motiu": "dins de la zona la separacio nomes creix 0.39 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.468621502982458,
+        "t_inici_s": 0.675,
+        "t_fi_s": 0.75,
+        "durada_s": 0.07499999999999996,
+        "creixement_ln": 0.38161506174418514,
+        "n_punts": 19,
+        "pendent": 5.689126114323167,
+        "r2": 0.9385215298019635,
+        "motiu": "dins de la zona la separacio nomes creix 0.38 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.10031597058860002,
+        "sostre": 4.4680316100841395,
+        "t_inici_s": 0.6708333333333333,
+        "t_fi_s": 0.7375,
+        "durada_s": 0.06666666666666676,
+        "creixement_ln": 0.36501277077236316,
+        "n_punts": 17,
+        "pendent": 5.297227460161263,
+        "r2": 0.940322791605292,
+        "motiu": "dins de la zona la separacio nomes creix 0.37 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     },
+     "total:4.92767": {
+      "cas": "total",
+      "sigma_d_tir_graus": 4.927671627188069,
+      "terra_parella_graus": 6.968780046090465,
+      "realitzacions": [
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.468337310020567,
+        "t_inici_s": 0.6791666666666667,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.054166666666666585,
+        "creixement_ln": 0.18863991444940542,
+        "n_punts": 14,
+        "pendent": 3.2933536928146325,
+        "r2": 0.9206114723676881,
+        "motiu": "dins de la zona la separacio nomes creix 0.19 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.469871093731628,
+        "t_inici_s": 0.6916666666666667,
+        "t_fi_s": 0.7375,
+        "durada_s": 0.04583333333333339,
+        "creixement_ln": 0.19496903789999442,
+        "n_punts": 12,
+        "pendent": 4.355316198446092,
+        "r2": 0.9758330725310095,
+        "motiu": "dins de la zona la separacio nomes creix 0.19 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.464446556676421,
+        "t_inici_s": 0.6791666666666667,
+        "t_fi_s": 0.7166666666666667,
+        "durada_s": 0.03749999999999998,
+        "creixement_ln": 0.14017543663290644,
+        "n_punts": 10,
+        "pendent": 3.698515743065079,
+        "r2": 0.985618064896966,
+        "motiu": "dins de la zona la separacio nomes creix 0.14 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.46555188492327,
+        "t_inici_s": 0.6833333333333333,
+        "t_fi_s": 0.7291666666666666,
+        "durada_s": 0.04583333333333328,
+        "creixement_ln": 0.1701002750179902,
+        "n_punts": 12,
+        "pendent": 3.3427977691933815,
+        "r2": 0.8956256388657927,
+        "motiu": "dins de la zona la separacio nomes creix 0.17 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       },
+       {
+        "ok": false,
+        "terra": 0.1216281566515608,
+        "sostre": 4.465729413835784,
+        "t_inici_s": 0.7,
+        "t_fi_s": 0.7333333333333333,
+        "durada_s": 0.033333333333333326,
+        "creixement_ln": 0.1610009437740404,
+        "n_punts": 9,
+        "pendent": 3.8396876991242848,
+        "r2": 0.9161825782705566,
+        "motiu": "dins de la zona la separacio nomes creix 0.16 en ln d (cal 1, un factor e)",
+        "n_parelles": 66,
+        "d0_mediana": 0.03200039152670201
+       }
+      ]
+     }
+    }
+   },
+   "benettin": {
+    "orbites": [
+     {
+      "grup": 150.0,
+      "tir": 0,
+      "mena": "caotica",
+      "lambda": 2.6713878974385055,
+      "E_sobre_Ev2": 6.145391164544103,
+      "deriva_energia_relativa": 8.745320270812225e-12,
+      "segons": 103.59410019999996
+     },
+     {
+      "grup": 150.0,
+      "tir": 1,
+      "mena": "caotica",
+      "lambda": 2.6146179197098607,
+      "E_sobre_Ev2": 6.1115191396357185,
+      "deriva_energia_relativa": 7.128448723209896e-12,
+      "segons": 99.40350500000022
+     },
+     {
+      "grup": 150.0,
+      "tir": 2,
+      "mena": "caotica",
+      "lambda": 2.750817067662771,
+      "E_sobre_Ev2": 6.135300627000883,
+      "deriva_energia_relativa": 8.053990437802922e-12,
+      "segons": 101.3133609000015
+     },
+     {
+      "grup": 150.0,
+      "tir": 3,
+      "mena": "caotica",
+      "lambda": 2.613068559146938,
+      "E_sobre_Ev2": 6.159274181128135,
+      "deriva_energia_relativa": 6.589588962853196e-12,
+      "segons": 98.94484600000033
+     },
+     {
+      "grup": 150.0,
+      "tir": 4,
+      "mena": "caotica",
+      "lambda": 2.6391644680132633,
+      "E_sobre_Ev2": 6.139371830987696,
+      "deriva_energia_relativa": 8.258133710820691e-12,
+      "segons": 102.41691890000038
+     },
+     {
+      "grup": 150.0,
+      "tir": 5,
+      "mena": "caotica",
+      "lambda": 2.748611408622748,
+      "E_sobre_Ev2": 6.194607107425052,
+      "deriva_energia_relativa": 8.326128912461927e-12,
+      "segons": 100.40057750000051
+     },
+     {
+      "grup": 150.0,
+      "tir": 6,
+      "mena": "caotica",
+      "lambda": 2.6836650397945565,
+      "E_sobre_Ev2": 6.118229579574564,
+      "deriva_energia_relativa": 7.122820762310556e-12,
+      "segons": 105.00121500000023
+     },
+     {
+      "grup": 150.0,
+      "tir": 7,
+      "mena": "caotica",
+      "lambda": 2.7730381955438506,
+      "E_sobre_Ev2": 6.144317838336867,
+      "deriva_energia_relativa": 6.536298772914791e-12,
+      "segons": 94.57968339999934
+     },
+     {
+      "grup": 150.0,
+      "tir": 8,
+      "mena": "caotica",
+      "lambda": 2.7982519087497164,
+      "E_sobre_Ev2": 6.133248385895884,
+      "deriva_energia_relativa": 7.291269830432079e-12,
+      "segons": 101.34663790000013
+     },
+     {
+      "grup": 150.0,
+      "tir": 9,
+      "mena": "caotica",
+      "lambda": 2.671894151494709,
+      "E_sobre_Ev2": 6.180042240570707,
+      "deriva_energia_relativa": 6.678506515707237e-12,
+      "segons": 94.4154262000011
+     },
+     {
+      "grup": 150.0,
+      "tir": 10,
+      "mena": "caotica",
+      "lambda": 2.6159692333877995,
+      "E_sobre_Ev2": 6.149172437695154,
+      "deriva_energia_relativa": 8.326779378693873e-12,
+      "segons": 103.47941759999958
+     },
+     {
+      "grup": 150.0,
+      "tir": 11,
+      "mena": "caotica",
+      "lambda": 2.7147382782477525,
+      "E_sobre_Ev2": 6.172784999929195,
+      "deriva_energia_relativa": 8.341373714580601e-12,
+      "segons": 96.26696150000134
+     }
+    ],
+    "caotiques": 12,
+    "regulars": 0,
+    "lambda_mediana_caotiques": 2.677779595644633
+   }
+  }
+ }
+}

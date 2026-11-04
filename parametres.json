@@ -1,0 +1,83 @@
+{
+  "_llegeix_aixo": "Parametres fisics del TEU muntatge. Tot en SI (kg, m, s). Tot el que val es a la seccio 'fisic', que esta MESURADA amb balanca, calibre, regle i video.",
+
+  "_claus_velles_retirades_22_09_2026": "Fins al 22/09/2026 aqui dalt hi havia m1=0.150, m2=0.150, L1=0.200, L2=0.200, b1=0.0002 i b2=0.0002. Eren el model de MASSES PUNTUALS i estaven INVENTADES -el fitxer mateix deia 'provisionals, inventats per fer anar el codi'-. Les feia servir nomes pendol/fisica.py, que aquell dia va passar a pendol FISIC i llegeix la seccio 'fisic'. Es treuen perque tenir-les era perillos, no perque facin nosa: hi havia dos b1 (0.0002 inventat contra 8.2016e-5 mesurat, factor 2.44) i dos b2 (factor 31) amb el mateix nom, i el dia que el codi n'agafes un per l'altre no ho cantaria res. Si les necessites, son al Git: commit 4803afa i anteriors.",
+
+  "g": 9.802,
+  "_g": "Valor a Vic (41,93 graus N, 484 m), on es el banc de treball. Formula internacional de la gravetat al nivell del mar: 9,8034; aire lliure per l'altitud: -0,0015; placa de Bouguer (roca de la plana): +0,0005. Total 9,8025, arrodonit a 9,802. Incertesa +-0,0005. Abans hi havia 9,803 (Catalunya, nivell del mar): la diferencia es del 0,01% i no mou cap resultat a la precisio amb que s'escriu. El mateix valor al magnetic/parametres.json, a posta.",
+
+  "_fisic": "EL MUNTATGE DE DEBO, mesurat: les barres pesen i tenen la massa repartida. Aquesta seccio la fan servir pendol/fisica.py (des del 22/09/2026, quan va passar a pendol FISIC) i eines/balanc_energia.py, que per construccio son el mateix pendol. Fins al 03/10/2026 aqui hi deia que fisica.py encara anava amb el model puntual i que tot el de dalt era aquell model: les dues coses van deixar de ser certes el 22/09, quan es van treure les claus velles (vegeu _claus_velles_retirades_22_09_2026).",
+  "fisic": {
+    "_masses": "Balanca de cuina, 30/08/2026. Comprovacio de coherencia: barra1 + cargols = 67 + 46 = 113 g, i pesant el conjunt en van sortir 113.",
+    "barra1":  {"m": 0.067, "d_cg": 0.060, "R": 0.180},
+    "cargols": {"m": 0.046, "r": 0.120},
+    "barra2":  {"m": 0.058, "d_cg": 0.051, "R": 0.180, "L_extrem": 0.149, "r_gomet": 0.139},
+    "L1": 0.120,
+
+    "seccio": {"amplada": 0.040, "gruix": 0.009},
+    "_seccio": "Seccio de les dues barres, amb calibre (09/09/2026). QUINA DE LES DUES TRAVESSA L'AIRE: el gruix, 0.9 cm. Els 4 cm d'amplada son DINS del pla d'oscil.lacio -al video la barra es veu de 3.7 cm, mesurat amb l'escala del .trk (13.9 cm = 253 px)- o sigui que la barra va de CANTELL i el que presenta al flux per unitat de llargada es el gruix. Els 4 cm son la corda al llarg del flux, no la cara.",
+
+    "_r_gomet": "Del pivot 2 al gomet, amb regle: 13.9 cm. La prediccio des del video era 13.7, i aixo tanca la questio de l'escala (vegeu aire i _L1).",
+
+    "_d_cg": "Distancia del pivot al centre de gravetat de cada barra.",
+
+    "_barra1_es_simetrica": "COMPROVAT, no suposat. La barra 1 es simetrica i porta dos forats separats 12 cm (el pivot 1 i el pivot 2). En una barra de 18 cm aixo els posa per forca a 3.0 i 15.0 cm dels extrems, o sigui que el centre de gravetat cau al centre geometric: 9.0 cm de l'extrem = 6.0 cm del pivot 1. Es exactament el que dona la balanca. Per tant (1/12)*m*R^2 hi val, i la barra va de -3.0 a +15.0 cm respecte del pivot 1 (que es la geometria que fa servir eines/balanc_energia.py per a l'integral de l'aire).",
+
+    "_forats": "Els forats baixen I_cm, no el pugen: son a 6.0 cm del centre i el radi de gir de la barra es 5.20, o sigui que treure massa alla treu mes I del que li tocaria. Amb forats de fins a 7 mm el canvi es per sota de l'1 %; amb 10 mm arriba al 2 %. Petit al costat del 4.6 % que mou saber si els cargols son a 12.00 o a 12.78 cm.",
+
+    "_barra2_no_es_simetrica": "La barra 2 SI que se n'aparta. Amb el pivot al seu forat, l'extrem cau a 14.9 cm i el CG simetric seria a 5.9; la balanca en dona 5.1. Els 0.8 cm els explicarien uns 8 g de ferramenta (el rodament) a tocar del pivot 2. Per aixo el seu I calculat surt un 2.8 % per sota del que dona el periode, contra l'1.1 % de la barra 1.",
+    "_cargols": "Els cargols que uneixen els dos bracos, tractats com a massa puntual al pivot 2. MESURATS AMB CALIBRE EL 09/09/2026: 12.00 cm del pivot 1, que es el valor que ja hi havia. Aixo TANCA la incertesa mes grossa que hi havia declarada (12.00 contra 12.78 cm movia I1 un 4.6 %) sense canviar cap numero. Compte: els 12.78 sortien de resoldre quin radi fa quadrar el I calculat amb el mesurat, o sigui que ara el desacord de l'1.1 % en I es queda SENSE EXPLICAR i s'ha de declarar tal com es, no atribuir-lo al cargol.",
+    "_L1": "Pivot 1 a pivot 2, 12.00 cm. Mesurat per TRES vies que coincideixen: el regle, la separacio dels dos forats de la barra 1 (calibre, 09/09/2026) i el radi del cargol. El video en dona 11.04 amb l'escala de la vara de calibracio, i la diferencia NO es una discrepancia de mesura: es el 8.7-10.3 % d'error sistematic de la vara.",
+
+    "friccio": {
+      "_origen": "eines/friccio_pendol_doble.py sobre els .trk de IMG_3074 i IMG_3075 (preses de decaiment). Ajust de tres mecanismes, finestra 8-55 graus. Es refan amb: eines\friccio_pendol_doble.py dades/video/tracker/Friccio_doble_1.1.trk --inercia 2.971e-3   (i _2.trk amb --inercia 3.162e-4).",
+      "_refets_el_06_09_2026": "Fins al 6 de setembre sortien d'uns CSV de esborranys/ exportats amb magnetic.tracker, i valien tau_f1 2.10e-4, b1 8.34e-5, tau_f2 1.54e-4, b2 9.59e-6. Ara surten del .trk directament. El que els mou no es el marcatge -que va canviar un 2 %- sino el RADI: amb el CSV sortia de hypot(x,y) respecte de l'origen clicat al Tracker (12.69 cm a la presa 2) i ara de l'ajust de circumferencia (12.49), que no depen dels eixos. Aixo entra a totes les amplituds. Tambe s'hi corregeix la inclinacio de la camera, mesurada: 0.86 graus a la presa 1 i 3.25 a la 2. Cap dels quatre canvis no surt de la seva propia barra d'error.",
+      "tau_f1": 2.1009e-4, "b1": 8.2016e-5,
+      "tau_f2": 1.6083e-4, "b2": 6.4576e-6,
+      "_unitats": "tau_f en N*m (fregament sec, de Coulomb); b en N*m*s/rad (viscos).",
+      "_b2": "b2 esta MAL DETERMINADA: a la presa 2 el residu de l'ajust es pla i qualsevol repartiment entre viscos i aerodinamic hi va igual de be. Fins al 03/10/2026 aqui hi deia que calia refer aquella presa amollant des de 30 graus i no des de 84. NO VAL: mesurat amb friccio_pendol_doble.py --sostres, amollar des de 30 graus ho empitjora cinc vegades, perque el que separa els tres mecanismes es el rang d'amplituds. I els 84 graus eren un artefacte de l'arcsinus: la presa 2 es va amollar de 141,5 (6/09/2026). El que s'ha provat despres es el registre sencer (29/09/2026): el viscos del rodament 2 exclou el publicat a 2 sigma a la 2.2 i la 2.3, pero no s'ha adoptat res. Vegeu CLAUDE.md, 'La friccio' i l'estat del 29/09.",
+      "_inercies": "I1 (les dues barres lligades, sobre el pivot de dalt) = 2.971e-3 kg*m^2; I2 (barra 2 sola, sobre el pivot 2) = 3.162e-4. Mesurades pel periode, i coincideixen amb les calculades del banc dins d'un 1.1 % i un 2.8 %."
+    },
+
+    "aire": {
+      "_que_es": "Coeficient de resistencia per unitat de llargada: dF = C * v^2 * ds, amb C = 0.5*rho*Cd*h, on h es el que la barra presenta al flux. Amb la seccio ja mesurada, h es el GRUIX de 0.9 cm i no l'amplada: la barra va de cantell (vegeu _seccio).",
+      "C_llibre": 0.0061,
+      "_C_llibre": "0.5*1.225*Cd*0.009 amb Cd = 1.1, que es el de llibre per a una seccio rectangular de corda/gruix = 4.4 anant de cantell (el rang raonable es 1.0-1.2, o sigui C = 0.0061-0.0066). El 0.0099 que hi havia abans suposava una barra d'1.5 cm d'amplada, que era una suposicio i ara esta mesurada.",
+      "_contra_la_C_ajustada": "El balanc d'energia n'ajusta C = 0.00794 +- 0.00153, que cau a 0.9-1.2 sigma del valor de llibre. I el que val mes, perque es una EXCLUSIO i no un acord: si la barra anes de pla (h = 0.04 m) caldria Cd = 0.32 quan una placa plana de cara en te 2.0, un factor 6. La geometria que ensenya el video es l'unica que fa que la C ajustada tingui sentit fisic. Aixo NO es una mesura independent de C: el Cd de llibre es un rang, no un numero. Es una comprovacio de consistencia."
+    },
+    "friccio_firmada": {
+      "_que_es": "LA FRICCIO FIRMADA per en Guillem el 27/10/2026 a la nit (la part C de documentacio/aprovacio-27-10.md, tal com es va proposar el 26/10, i la C dels 45 graus; seccio 8 de documentacio/per-firmar-24-10.md). Pla: documentacio/pla-friccio-firmada.md. NO es fa servir llegint-la a ma: Dissipacio.firmada(angle d'amollada) de pendol/fisica.py tria el joc i es nega fora dels angles validats. NO canvia la Y ni la Z, que es van firmar sense friccio. El bloc friccio de sobre (els publicats) no es toca: el fa servir el balanc d'energia.",
+      "data": "2026-10-27",
+      "tolerancia_angle_graus": 10.0,
+      "jocs": {
+        "doble_90_150": {
+          "per_a": "el doble amollat des de 90 o 150 graus (+-10)",
+          "angles_graus": [90.0, 150.0],
+          "tau_f1": 0.000184, "tau_f2": 0.000136, "b1": 0.0, "b2": 0.0,
+          "C": 0.01934, "sigma_C": 0.00401,
+          "eps": 0.001
+        },
+        "doble_45": {
+          "per_a": "el doble amollat des de 45 graus (+-10)",
+          "angles_graus": [45.0],
+          "tau_f1": 0.000184, "tau_f2": 0.000136, "b1": 0.0, "b2": 0.0,
+          "C": 0.00934, "sigma_C": 0.00066,
+          "eps": 0.001
+        },
+        "simple": {
+          "per_a": "el pendol simple: el doble amb l'articulacio bloquejada (un pendol fisic d'un sol grau de llibertat), fins a l'amplitud maxima dels decaiments 1.x",
+          "amplitud_maxima_graus": 163.0,
+          "tau_f1": 0.000184, "tau_f2": 0.0, "b1": 0.0, "b2": 0.0,
+          "C": 0.007629872714571765,
+          "k_aire_N_m_s2": 1.0835243433542559e-05,
+          "eps": 0.001
+        }
+      },
+      "_tau_f": "Els decaiments (dades/friccio_doble/, les sis preses, amb la 1.2 i la 2.1 completes des del 27/10): 1.8406e-4 (1.9 %) i 1.3575e-4 (1.8 %), arrodonits com a la proposta. Es repeteixen entre preses; no depenen de l'angle.",
+      "_b": "b1 = 0: surt zero a les tres preses del rodament 1, i el publicat hi queda a 8 sigma. b2 = 0: ES UNA TRIA, i es declara: amb les sis preses el publicat (6.46e-6) encara hi cap.",
+      "_C": "La C es un TERME EFECTIU DE VELOCITAT ALTA, no 'aire' a seques (es 1.5 i 3 vegades l'aire de llibre, 0.0061): el que tapa la dissipacio que falta. Surt del balanc d'energia de les preses (eines/c_friccio_firmada.py, dades/balanc/c_friccio_firmada_2026-10-27.json; aire exacte): la que tanca cada presa, i la mitjana del grup. Es una mitjana efectiva de TOTA la presa, de l'amollada al repos: per aixo es tria per l'angle d'amollada, i per a un altre angle cap joc no esta validat. Una sola C no tanca els tres grups (45: 0.00934, 90: 0.02136, 150: 0.01750). La de 90 i 150 es va firmar com 0.01935 +- 0.00402, calculada amb la 90_10 d'abans de reconvertir-la (23/10); amb les preses d'ara, 0.01934 +- 0.00401 (0.03 %, 0.001 sigma), i en Guillem tria la reproduible (27/10). La dels 45 es va firmar despres de l'experiment 1, pero surt del balanc, no de cap comparacio.",
+      "_simple": "El simple te la seva propia friccio, mesurada als decaiments 1.x (el mateix cos): tau_f1, b1 = 0 (tau_f2 i b2 no hi fan res: l'articulacio no es mou) i l'aire del cos sencer, k = 1.0835e-5 N m s^2 (0.4 % entre les tres). La C es la que, amb fisica.parells sobre el cos lligat, dona exactament -k*w*|w| (exacte: en un cos rigid que gira, l'aire del model es proporcional a w*|w|). No fa servir cap de les C del doble. L'apliquen pendol/simple.py i eines/control_simple.py, de la conversa de l'analisi.",
+      "_eps": "La regularitzacio del sec, tanh(w/eps): entre 1e-2 i 3e-4 rad/s la trajectoria es mou com a molt 0.008 graus en 1 s (eines/comprova_energia.py)."
+    }
+  }
+}

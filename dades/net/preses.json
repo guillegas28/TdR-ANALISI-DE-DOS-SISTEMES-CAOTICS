@@ -1,0 +1,1341 @@
+{
+  "ordre": "eines/converteix_preses.py",
+  "cua_s": 2.0,
+  "preses": [
+    {
+      "nom": "45_1",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_1.trk",
+      "estat": "convertida",
+      "durada_s": 77.853435274403,
+      "n_mostres": 18678,
+      "fps": 239.89949748743723,
+      "angles_inicials_graus": [
+        45.2134804039378,
+        43.915886889978026
+      ],
+      "vertical_graus": -0.3802602671633529,
+      "estabilitat_graus": 0.002286520140677405,
+      "residu_px": 1.4179154434513803,
+      "articulacio_delta_px": -0.2592463349774501,
+      "soroll_angular_graus": [
+        0.06048196240857452,
+        0.2280605503765825
+      ],
+      "quiet_al_principi_s": 0.7002932551319647,
+      "velocitat_inicial_px_s": 52.06506189112912,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 0.012154285400825825,
+      "marca_error_theta2_graus": 0.004915497768313863,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.181479359433267,
+      "rao_gomet_L1_a_leix": 1.1806014537125427,
+      "amollada_s": 1.1012196362011175,
+      "amollada_incertesa_s": 0.010383181221460844,
+      "repos_abans_s": 1.1012196362011175,
+      "angles_amollada_graus": [
+        45.227995422525844,
+        43.99343024948594
+      ]
+    },
+    {
+      "nom": "45_2",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_2.trk",
+      "estat": "convertida",
+      "durada_s": 80.41675122718149,
+      "n_mostres": 19293,
+      "fps": 239.9002658724561,
+      "angles_inicials_graus": [
+        43.98648152584522,
+        41.59802902925199
+      ],
+      "vertical_graus": -0.0068361846352185535,
+      "estabilitat_graus": 0.009097077318254237,
+      "residu_px": 0.7987347723360089,
+      "articulacio_delta_px": 0.021374234321170874,
+      "soroll_angular_graus": [
+        0.04882777763868945,
+        0.258354774795112
+      ],
+      "quiet_al_principi_s": 0.6085862367389849,
+      "velocitat_inicial_px_s": 0.0,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 0.24545041379660423,
+      "marca_error_theta2_graus": 0.10064734449649011,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1618188633049729,
+      "rao_gomet_L1_a_leix": 1.1644023076518286,
+      "amollada_s": 2.400127701803219,
+      "amollada_incertesa_s": 0.005689900846285215,
+      "repos_abans_s": 2.400127701803219,
+      "angles_amollada_graus": [
+        44.018530287172204,
+        42.16404371605587
+      ]
+    },
+    {
+      "nom": "45_3",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_3.trk",
+      "estat": "convertida",
+      "durada_s": 71.77152553380583,
+      "n_mostres": 17219,
+      "fps": 239.90015360464892,
+      "angles_inicials_graus": [
+        44.68803521388189,
+        43.58220547723346
+      ],
+      "vertical_graus": -0.24202589322065865,
+      "estabilitat_graus": 0.04004634000854907,
+      "residu_px": 3.067838367037034,
+      "articulacio_delta_px": 0.611117107235898,
+      "soroll_angular_graus": [
+        0.09361416152457801,
+        0.2608104545799405
+      ],
+      "quiet_al_principi_s": 0.3459772690966363,
+      "velocitat_inicial_px_s": 16.38851410235702,
+      "arrenca_del_repos": true,
+      "retall_des_del_fotograma": 560,
+      "marca_delta_mm": 0.20608025813954284,
+      "marca_error_theta2_graus": 0.08445917586495846,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.16320734019584,
+      "rao_gomet_L1_a_leix": 1.1650138649454835,
+      "amollada_s": 1.4120968367691165,
+      "amollada_incertesa_s": 0.010852254895322983,
+      "repos_abans_s": 1.4120968367691165,
+      "angles_amollada_graus": [
+        44.67668656839388,
+        43.635319509471806
+      ]
+    },
+    {
+      "nom": "45_4",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_4.trk",
+      "estat": "convertida",
+      "durada_s": 72.54196349321887,
+      "n_mostres": 17404,
+      "fps": 239.90252209849282,
+      "angles_inicials_graus": [
+        44.31208938895699,
+        42.94667793916999
+      ],
+      "vertical_graus": -0.14958857918285243,
+      "estabilitat_graus": 0.05200688342277289,
+      "residu_px": 2.312655346816681,
+      "articulacio_delta_px": 0.44048231427299767,
+      "soroll_angular_graus": [
+        0.059161631492523126,
+        0.22469654646617943
+      ],
+      "quiet_al_principi_s": 0.8961973309798343,
+      "velocitat_inicial_px_s": 0.0,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 0.12423417010112393,
+      "marca_error_theta2_graus": 0.05103013800491024,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1617664523262778,
+      "rao_gomet_L1_a_leix": 1.1624004358769306,
+      "amollada_s": 2.5288508266727128,
+      "amollada_incertesa_s": 0.004792813453774947,
+      "repos_abans_s": 2.5288508266727128,
+      "angles_amollada_graus": [
+        44.31731314972041,
+        43.26997690189711
+      ]
+    },
+    {
+      "nom": "45_5",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_5.trk",
+      "estat": "convertida",
+      "durada_s": 72.89278482440972,
+      "n_mostres": 17488,
+      "fps": 239.90028700541706,
+      "angles_inicials_graus": [
+        44.31588091564856,
+        43.57887803206064
+      ],
+      "vertical_graus": -0.15189389406339482,
+      "estabilitat_graus": 0.0034116536304638796,
+      "residu_px": 1.2411416132949125,
+      "articulacio_delta_px": 0.7713577769453137,
+      "soroll_angular_graus": [
+        0.06108047512498836,
+        0.21925567789074268
+      ],
+      "quiet_al_principi_s": 0.8086693118279571,
+      "velocitat_inicial_px_s": 15.739823400222129,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 0.09191947257846739,
+      "marca_error_theta2_graus": 0.03783276884486927,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1599445948076021,
+      "rao_gomet_L1_a_leix": 1.1600609686010803,
+      "amollada_s": 1.9389464754074577,
+      "amollada_incertesa_s": 0.0095336859802802,
+      "repos_abans_s": 1.9389464754074577,
+      "angles_amollada_graus": [
+        44.3137575398016,
+        43.796866375014694
+      ]
+    },
+    {
+      "nom": "45_6",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_6.trk",
+      "estat": "convertida",
+      "durada_s": 73.21203919080308,
+      "n_mostres": 17565,
+      "fps": 239.90589791147895,
+      "angles_inicials_graus": [
+        45.329178349971166,
+        43.382192591703095
+      ],
+      "vertical_graus": -0.11995735153197112,
+      "estabilitat_graus": 0.0011946235917184263,
+      "residu_px": 0.4703002864211242,
+      "articulacio_delta_px": 0.5373065278863542,
+      "soroll_angular_graus": [
+        0.05972540023704573,
+        0.22825007918226115
+      ],
+      "quiet_al_principi_s": 1.2588269093385633,
+      "velocitat_inicial_px_s": 13.49438375142473,
+      "arrenca_del_repos": true,
+      "retall_des_del_fotograma": 790,
+      "marca_delta_mm": 0.0472374416383849,
+      "marca_error_theta2_graus": 0.019460170433131384,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.159744551107572,
+      "rao_gomet_L1_a_leix": 1.15899382887869,
+      "amollada_s": 1.3027579557798528,
+      "amollada_incertesa_s": 0.01077725810114576,
+      "repos_abans_s": 1.3027579557798528,
+      "angles_amollada_graus": [
+        45.33387609219826,
+        43.38650164344236
+      ]
+    },
+    {
+      "nom": "45_7",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_7.trk",
+      "estat": "convertida",
+      "durada_s": 74.5727465432925,
+      "n_mostres": 17891,
+      "fps": 239.8999745787039,
+      "angles_inicials_graus": [
+        44.52866031671981,
+        43.958983758305486
+      ],
+      "vertical_graus": -0.1169122647311447,
+      "estabilitat_graus": 0.0030491970174286987,
+      "residu_px": 0.43582433083816585,
+      "articulacio_delta_px": 0.4990997306717222,
+      "soroll_angular_graus": [
+        0.6045461710886939,
+        0.23151108819700733
+      ],
+      "quiet_al_principi_s": 1.5214674392566663,
+      "velocitat_inicial_px_s": 38.839882885134,
+      "arrenca_del_repos": true,
+      "fora_del_balanc": "La marca de l'articulacio salta 341 px al fotograma 2119 (l'ultim que l'autotracker va tornar a marcar el 25/09), en ple moviment: fa un pic de velocitat que falsejaria la dissipacio, i l'amollada surt amb +-160 ms. La unio amb el marcatge vell no va passar el criteri (1,71 px a la unio). Amb 12 preses de 45 n'hi ha prou. Decidit per en Guillem el 26/09/2026.",
+      "marca_delta_mm": 0.12919040513749122,
+      "marca_error_theta2_graus": 0.05298285928923681,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1633435854114318,
+      "rao_gomet_L1_a_leix": 1.1642233800076385,
+      "amollada_s": 2.3514006718915095,
+      "amollada_incertesa_s": 0.16020731550044112,
+      "repos_abans_s": 2.3514006718915095,
+      "angles_amollada_graus": [
+        44.52265586920471,
+        43.95947242179682
+      ]
+    },
+    {
+      "nom": "45_8",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_8.trk",
+      "estat": "convertida",
+      "durada_s": 77.60723395680324,
+      "n_mostres": 18619,
+      "fps": 239.90031664268457,
+      "angles_inicials_graus": [
+        43.92885435030078,
+        43.85932679270352
+      ],
+      "vertical_graus": -0.34536954563973776,
+      "estabilitat_graus": 0.014652558202213558,
+      "residu_px": 0.9012907664895161,
+      "articulacio_delta_px": 0.9235144603369615,
+      "soroll_angular_graus": [
+        0.09445609942083412,
+        0.295425571827755
+      ],
+      "quiet_al_principi_s": 0.7127960579339003,
+      "velocitat_inicial_px_s": 7.789735584520189,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 0.09180529594199935,
+      "marca_error_theta2_graus": 0.037657442557755494,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1646220876816402,
+      "rao_gomet_L1_a_leix": 1.1640143390554791,
+      "amollada_s": 2.4808361633789096,
+      "amollada_incertesa_s": 0.007963429275821351,
+      "repos_abans_s": 2.4808361633789096,
+      "angles_amollada_graus": [
+        43.91425860903924,
+        43.9057231708215
+      ]
+    },
+    {
+      "nom": "45_9",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_9.trk",
+      "estat": "convertida",
+      "durada_s": 73.06358805729676,
+      "n_mostres": 17529,
+      "fps": 239.90061898211832,
+      "angles_inicials_graus": [
+        45.26890877189377,
+        44.86830003611819
+      ],
+      "vertical_graus": -0.20968893629848512,
+      "estabilitat_graus": 0.06397087394523888,
+      "residu_px": 3.335000899887158,
+      "articulacio_delta_px": -1.4643445164624882,
+      "soroll_angular_graus": [
+        0.34437385348530347,
+        0.3506295256146612
+      ],
+      "quiet_al_principi_s": 0.1333885678818745,
+      "velocitat_inicial_px_s": 2.7273542739535323e-11,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 3.906776736125767,
+      "marca_error_theta2_graus": 1.5640995725617628,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.1258553664576136,
+      "rao_gomet_L1_a_leix": 1.192750271264961,
+      "amollada_s": 0.1500799581117171,
+      "amollada_incertesa_s": 0.006062151543466051,
+      "repos_abans_s": 0.1500799581117171,
+      "angles_amollada_graus": [
+        45.31120302065328,
+        44.83139415992222
+      ]
+    },
+    {
+      "nom": "45_10",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_10.trk",
+      "estat": "convertida",
+      "durada_s": 75.14816526580647,
+      "n_mostres": 18029,
+      "fps": 239.89940321541033,
+      "angles_inicials_graus": [
+        43.905663507090786,
+        44.60533406910202
+      ],
+      "vertical_graus": -0.3983340661258054,
+      "estabilitat_graus": 0.013146146078255443,
+      "residu_px": 0.3656258585712758,
+      "articulacio_delta_px": -1.7270783406932553,
+      "soroll_angular_graus": [
+        0.060151916171095166,
+        0.29948886989442897
+      ],
+      "quiet_al_principi_s": 1.779912722903226,
+      "velocitat_inicial_px_s": 2.7273404522862888e-11,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 0.34688007080346406,
+      "marca_error_theta2_graus": 0.14275900833419036,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1558134742517439,
+      "rao_gomet_L1_a_leix": 1.160159397901745,
+      "amollada_s": 1.8787793924423524,
+      "amollada_incertesa_s": 0.024964466496134992,
+      "repos_abans_s": 1.8787793924423524,
+      "angles_amollada_graus": [
+        43.899559875278435,
+        44.57628951735049
+      ]
+    },
+    {
+      "nom": "45_11",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_11.trk",
+      "estat": "convertida",
+      "durada_s": 79.53677808947872,
+      "n_mostres": 19065,
+      "fps": 239.68785834589676,
+      "angles_inicials_graus": [
+        44.21451398388821,
+        43.91966498292464
+      ],
+      "vertical_graus": -0.4966879884222271,
+      "estabilitat_graus": 0.0009286582583944102,
+      "residu_px": 2.2790331315174686,
+      "articulacio_delta_px": 0.6882827321919478,
+      "soroll_angular_graus": [
+        0.042142148778919204,
+        0.17738629622404173
+      ],
+      "quiet_al_principi_s": 0.03754883564862104,
+      "velocitat_inicial_px_s": 38.46213824316967,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 2.5899769841079685,
+      "marca_error_theta2_graus": 1.022143402769535,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.164103969704439,
+      "rao_gomet_L1_a_leix": 1.2098972724161476,
+      "amollada_s": 2.749765307760784,
+      "amollada_incertesa_s": 0.003139518125173381,
+      "repos_abans_s": 2.749765307760784,
+      "angles_amollada_graus": [
+        44.226392087222514,
+        43.91132983213702
+      ]
+    },
+    {
+      "nom": "45_12",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_12.trk",
+      "estat": "convertida",
+      "durada_s": 77.67609904643929,
+      "n_mostres": 18619,
+      "fps": 239.68762886597943,
+      "angles_inicials_graus": [
+        47.100852895014675,
+        43.909291614739146
+      ],
+      "vertical_graus": 1.4739219190342645,
+      "estabilitat_graus": 0.0013176076500596478,
+      "residu_px": 0.5877569406372877,
+      "articulacio_delta_px": 0.5882510966931518,
+      "soroll_angular_graus": [
+        0.3122533073749434,
+        0.46878276678714914
+      ],
+      "quiet_al_principi_s": 0.2252932295900592,
+      "velocitat_inicial_px_s": 20.430596064359033,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 3.109648540503611,
+      "marca_error_theta2_graus": 1.2792284271360947,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.109436083898136,
+      "rao_gomet_L1_a_leix": 1.1607552950918087,
+      "amollada_s": 0.2188629130977536,
+      "amollada_incertesa_s": 0.003490936755392204,
+      "repos_abans_s": 0.2188629130977536,
+      "angles_amollada_graus": [
+        47.126519684474545,
+        43.909743137250175
+      ]
+    },
+    {
+      "nom": "45_13",
+      "grup_graus": 45.0,
+      "fitxer_trk": "dades/video/tracker/45/45_13.trk",
+      "estat": "convertida",
+      "durada_s": 74.86000428240516,
+      "n_mostres": 17944,
+      "fps": 239.6874027993779,
+      "angles_inicials_graus": [
+        45.8481658269429,
+        41.45027775584422
+      ],
+      "vertical_graus": 1.9390325590160433,
+      "estabilitat_graus": 0.0010868245496211948,
+      "residu_px": 0.3624764385957251,
+      "articulacio_delta_px": 0.588637199671779,
+      "soroll_angular_graus": [
+        0.35486840680882786,
+        0.4813890153483656
+      ],
+      "quiet_al_principi_s": 0.025032604675607813,
+      "velocitat_inicial_px_s": 28.765652137236305,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 5.127780877539854,
+      "marca_error_theta2_graus": 2.0641899025471697,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0984344350630717,
+      "rao_gomet_L1_a_leix": 1.1863563181511207,
+      "amollada_s": 1.0278746890397792,
+      "amollada_incertesa_s": 0.005063886548920682,
+      "repos_abans_s": 1.0278746890397792,
+      "angles_amollada_graus": [
+        45.84347800483662,
+        41.91295198966715
+      ]
+    },
+    {
+      "nom": "90_1",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_1.trk",
+      "estat": "convertida",
+      "durada_s": 53.55568960450408,
+      "n_mostres": 12849,
+      "fps": 239.89981447124288,
+      "angles_inicials_graus": [
+        92.47756006325557,
+        90.94517408591719
+      ],
+      "vertical_graus": 0.3370445011887135,
+      "estabilitat_graus": 0.003616457251277799,
+      "residu_px": 3.6295184472990063,
+      "articulacio_delta_px": -2.2968672464149438,
+      "soroll_angular_graus": [
+        0.4284246234777288,
+        0.6762176726052169
+      ],
+      "quiet_al_principi_s": 0.4501879263143241,
+      "velocitat_inicial_px_s": 61.19088386373012,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 4.984434694756116,
+      "marca_error_theta2_graus": 2.0293626173657495,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0937080883516996,
+      "rao_gomet_L1_a_leix": 1.1729741706668517,
+      "amollada_s": 0.4556015031605531,
+      "amollada_incertesa_s": 0.004462749843332353,
+      "repos_abans_s": 0.4556015031605531,
+      "angles_amollada_graus": [
+        92.19857348756727,
+        91.1846706391632
+      ]
+    },
+    {
+      "nom": "90_2",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_2.trk",
+      "estat": "convertida",
+      "durada_s": 75.51889353542349,
+      "n_mostres": 18118,
+      "fps": 239.9002309468676,
+      "angles_inicials_graus": [
+        92.46068404162935,
+        89.79145486087496
+      ],
+      "vertical_graus": 0.5065167464944655,
+      "estabilitat_graus": 0.0012444850269317902,
+      "residu_px": 0.6754001435966213,
+      "articulacio_delta_px": 1.1511515524777887,
+      "soroll_angular_graus": [
+        0.5404174890569844,
+        0.5121862943864199
+      ],
+      "quiet_al_principi_s": 0.054189193352124826,
+      "velocitat_inicial_px_s": 3.857055164889045e-11,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 5.348982463567718,
+      "marca_error_theta2_graus": 2.1909691846026824,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0760563659639804,
+      "rao_gomet_L1_a_leix": 1.1659559386548541,
+      "amollada_s": 0.03013814047046741,
+      "amollada_incertesa_s": 0.002773571592749189,
+      "repos_abans_s": 0.03013814047046741,
+      "angles_amollada_graus": [
+        92.41527182661581,
+        89.83289417790003
+      ]
+    },
+    {
+      "nom": "90_3",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_3.trk",
+      "estat": "convertida",
+      "durada_s": 63.74344008659577,
+      "n_mostres": 15293,
+      "fps": 239.89919557566623,
+      "angles_inicials_graus": [
+        91.71796861600225,
+        89.21489516092532
+      ],
+      "vertical_graus": 1.100615246125448,
+      "estabilitat_graus": 0.0003035540504587459,
+      "residu_px": 0.49184853235520654,
+      "articulacio_delta_px": -4.183694141071064,
+      "soroll_angular_graus": [
+        0.36496080943951653,
+        0.9298065848768012
+      ],
+      "quiet_al_principi_s": 0.47936801006791224,
+      "velocitat_inicial_px_s": 34.73791607164098,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 4.990825703706983,
+      "marca_error_theta2_graus": 2.0462102271339724,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0826820319444728,
+      "rao_gomet_L1_a_leix": 1.1648120662499215,
+      "amollada_s": 0.4750483640936779,
+      "amollada_incertesa_s": 0.00568411098955301,
+      "repos_abans_s": 0.4750483640936779,
+      "angles_amollada_graus": [
+        91.72140856350015,
+        89.23578896190185
+      ]
+    },
+    {
+      "nom": "90_4",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_4.trk",
+      "estat": "convertida",
+      "durada_s": 65.58157123502647,
+      "n_mostres": 15734,
+      "fps": 239.89971121029134,
+      "angles_inicials_graus": [
+        92.87855919296297,
+        90.8097907897273
+      ],
+      "vertical_graus": -0.21964260681656028,
+      "estabilitat_graus": 0.0006421564471988246,
+      "residu_px": 0.7620443562374142,
+      "articulacio_delta_px": -3.5172002541327156,
+      "soroll_angular_graus": [
+        0.32998440635131404,
+        0.5383308804128818
+      ],
+      "quiet_al_principi_s": 0.07086294482905041,
+      "velocitat_inicial_px_s": 11.983072921112234,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 4.193876714311408,
+      "marca_error_theta2_graus": 1.7166871392337335,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0986481737000022,
+      "rao_gomet_L1_a_leix": 1.1666239093436328,
+      "amollada_s": 0.0746775277157522,
+      "amollada_incertesa_s": 0.002909561669768103,
+      "repos_abans_s": 0.0746775277157522,
+      "angles_amollada_graus": [
+        92.90992966783028,
+        90.78379934270122
+      ]
+    },
+    {
+      "nom": "90_5",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_5.trk",
+      "estat": "convertida",
+      "durada_s": 90.8255240264081,
+      "n_mostres": 21790,
+      "fps": 239.8995242093479,
+      "angles_inicials_graus": [
+        93.68936821013365,
+        90.91279060956366
+      ],
+      "vertical_graus": 0.05919546925166277,
+      "estabilitat_graus": 0.011573844032392434,
+      "residu_px": 1.9388999724741938,
+      "articulacio_delta_px": -4.743917259795799,
+      "soroll_angular_graus": [
+        0.36838506493031076,
+        0.47801176976303555
+      ],
+      "quiet_al_principi_s": 0.21675741196811332,
+      "velocitat_inicial_px_s": 2.727341827828103e-11,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 4.3511835119548765,
+      "marca_error_theta2_graus": 1.7762865356871371,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0947641684745444,
+      "rao_gomet_L1_a_leix": 1.1697830752115617,
+      "amollada_s": 0.37345915780434685,
+      "amollada_incertesa_s": 0.002980685208434182,
+      "repos_abans_s": 0.37345915780434685,
+      "angles_amollada_graus": [
+        93.68897894947519,
+        90.92912255304114
+      ]
+    },
+    {
+      "nom": "90_6",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_6.trk",
+      "estat": "convertida",
+      "durada_s": 45.93999480297115,
+      "n_mostres": 11022,
+      "fps": 239.89989653388514,
+      "angles_inicials_graus": [
+        92.22922632742339,
+        88.62064664576718
+      ],
+      "vertical_graus": 1.1435383306185207,
+      "estabilitat_graus": 0.00024697549091856575,
+      "residu_px": 1.4190186440695727,
+      "articulacio_delta_px": -6.188794138814225,
+      "soroll_angular_graus": [
+        0.633887964480382,
+        0.8729331816287884
+      ],
+      "quiet_al_principi_s": 2.0675290284251604,
+      "velocitat_inicial_px_s": 2.7273460606680276e-11,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 4.426432503591449,
+      "marca_error_theta2_graus": 1.795428038969995,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.1048706045212122,
+      "rao_gomet_L1_a_leix": 1.1773302637377707,
+      "amollada_s": 2.070387628518672,
+      "amollada_incertesa_s": 0.004344809372062156,
+      "repos_abans_s": 2.070387628518672,
+      "angles_amollada_graus": [
+        92.22086246253033,
+        88.61779909049649
+      ]
+    },
+    {
+      "nom": "90_7",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_7.trk",
+      "estat": "convertida",
+      "durada_s": 68.97012554156568,
+      "n_mostres": 16547,
+      "fps": 239.90096973258883,
+      "angles_inicials_graus": [
+        94.70713069536939,
+        91.28593860157183
+      ],
+      "vertical_graus": -0.28814275574308085,
+      "estabilitat_graus": 0.0004289899992325663,
+      "residu_px": 0.9473741786402851,
+      "articulacio_delta_px": -2.946580432886553,
+      "soroll_angular_graus": [
+        0.4152099664844201,
+        0.6376534203679141
+      ],
+      "quiet_al_principi_s": 0.25843997241490824,
+      "velocitat_inicial_px_s": 28.811250553777374,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 3.822293856345221,
+      "marca_error_theta2_graus": 1.574541871168584,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0975000443727945,
+      "rao_gomet_L1_a_leix": 1.1592201172199312,
+      "amollada_s": 0.2671362765530112,
+      "amollada_incertesa_s": 0.004468468955753849,
+      "repos_abans_s": 0.2671362765530112,
+      "angles_amollada_graus": [
+        94.71520202340427,
+        91.29842284366738
+      ]
+    },
+    {
+      "nom": "90_8",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_8.trk",
+      "estat": "convertida",
+      "durada_s": 60.82896108015042,
+      "n_mostres": 14594,
+      "fps": 239.9021739130435,
+      "angles_inicials_graus": [
+        93.38382078950778,
+        90.4272449927178
+      ],
+      "vertical_graus": 0.42843911808462126,
+      "estabilitat_graus": 0.06759928898520504,
+      "residu_px": 1.921187658112103,
+      "articulacio_delta_px": -3.519552387838287,
+      "soroll_angular_graus": [
+        0.40880071784872857,
+        0.4697921211650809
+      ],
+      "quiet_al_principi_s": 0.5460559104707534,
+      "velocitat_inicial_px_s": 42.69103852966048,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 3.916110776247652,
+      "marca_error_theta2_graus": 1.5877693129144992,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.1120313333398446,
+      "rao_gomet_L1_a_leix": 1.177780983070461,
+      "amollada_s": 0.8592188445034067,
+      "amollada_incertesa_s": 0.004161237601103428,
+      "repos_abans_s": 0.8592188445034067,
+      "angles_amollada_graus": [
+        93.37966232661842,
+        90.45345250450939
+      ]
+    },
+    {
+      "nom": "90_9",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_9.trk",
+      "estat": "convertida",
+      "durada_s": 74.55191949058964,
+      "n_mostres": 17886,
+      "fps": 239.89992641648274,
+      "angles_inicials_graus": [
+        93.7887737284127,
+        90.41335227519167
+      ],
+      "vertical_graus": 0.22885010300417313,
+      "estabilitat_graus": 0.0029146993604386826,
+      "residu_px": 1.7727018436336004,
+      "articulacio_delta_px": -5.1342563676472865,
+      "soroll_angular_graus": [
+        0.33451798094295243,
+        0.48045062847871184
+      ],
+      "quiet_al_principi_s": 0.1583993816406154,
+      "velocitat_inicial_px_s": 5.7607064977854385,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 4.554902821991811,
+      "marca_error_theta2_graus": 1.8511168129171742,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0981022276011845,
+      "rao_gomet_L1_a_leix": 1.1750659263319778,
+      "amollada_s": 0.16588715391029657,
+      "amollada_incertesa_s": 0.0053443181208586545,
+      "repos_abans_s": 0.16588715391029657,
+      "angles_amollada_graus": [
+        93.77778205056507,
+        90.38798757869702
+      ]
+    },
+    {
+      "nom": "90_10",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_10.trk",
+      "estat": "convertida",
+      "durada_s": 56.14322494126082,
+      "n_mostres": 13470,
+      "fps": 239.90428077638543,
+      "angles_inicials_graus": [
+        93.0127163749983,
+        91.2812834626293
+      ],
+      "vertical_graus": 0.28114998313396283,
+      "estabilitat_graus": 2.8026125894290573e-05,
+      "residu_px": 1.6205487253250277,
+      "articulacio_delta_px": -3.851116934372542,
+      "soroll_angular_graus": [
+        0.37575203638889365,
+        0.5501686503509348
+      ],
+      "quiet_al_principi_s": 0.5418827858314492,
+      "velocitat_inicial_px_s": 35.231571296899105,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 3.698210163744018,
+      "marca_error_theta2_graus": 1.508404072707797,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.1114248962209408,
+      "rao_gomet_L1_a_leix": 1.1707534509578466,
+      "amollada_s": 0.5299353748456317,
+      "amollada_incertesa_s": 0.015181041703333868,
+      "repos_abans_s": 0.5299353748456317,
+      "angles_amollada_graus": [
+        93.00203564142599,
+        91.28880228068145
+      ]
+    },
+    {
+      "nom": "90_11",
+      "grup_graus": 90.0,
+      "fitxer_trk": "dades/video/tracker/90/90_11.trk",
+      "estat": "convertida",
+      "durada_s": 65.63975718729935,
+      "n_mostres": 15748,
+      "fps": 239.90033898307732,
+      "angles_inicials_graus": [
+        91.57942092252907,
+        89.61131064773609
+      ],
+      "vertical_graus": 0.6565889583499431,
+      "estabilitat_graus": 0.033275982393154005,
+      "residu_px": 1.8762122424258412,
+      "articulacio_delta_px": 0.6306926187976369,
+      "soroll_angular_graus": [
+        0.38193772447365876,
+        0.40466739263131796
+      ],
+      "quiet_al_principi_s": 0.28345103757775114,
+      "velocitat_inicial_px_s": 2.0976384863411077,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 4.756473615027434,
+      "marca_error_theta2_graus": 1.9484680546252389,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.085351672865864,
+      "rao_gomet_L1_a_leix": 1.1657808074101388,
+      "amollada_s": 0.23938384515336317,
+      "amollada_incertesa_s": 0.007915388258842927,
+      "repos_abans_s": 0.23938384515336317,
+      "angles_amollada_graus": [
+        91.59303301502185,
+        89.60950406422693
+      ]
+    },
+    {
+      "nom": "150_1",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_1.trk",
+      "estat": "convertida",
+      "durada_s": 83.78405651865923,
+      "n_mostres": 20101,
+      "fps": 239.90244487056563,
+      "angles_inicials_graus": [
+        151.151726996824,
+        153.63217020348586
+      ],
+      "vertical_graus": 0.5110549363275467,
+      "estabilitat_graus": 0.0011073743053423416,
+      "residu_px": 0.6727754762485252,
+      "articulacio_delta_px": 7.7433464589172045,
+      "soroll_angular_graus": [
+        1.091283398845184,
+        1.2994882067488174
+      ],
+      "quiet_al_principi_s": 0.3042903545205037,
+      "velocitat_inicial_px_s": 0.0,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 7.271124588771214,
+      "marca_error_theta2_graus": 2.8999583722154427,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.0837172408887272,
+      "rao_gomet_L1_a_leix": 1.1976685651516201,
+      "amollada_s": 0.3016269048672367,
+      "amollada_incertesa_s": 0.005604502187406246,
+      "repos_abans_s": 0.3016269048672367,
+      "angles_amollada_graus": [
+        151.17043523364794,
+        153.6400346201676
+      ]
+    },
+    {
+      "nom": "150_2",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_2.trk",
+      "estat": "convertida",
+      "durada_s": 86.3860737719018,
+      "n_mostres": 20725,
+      "fps": 239.89977892409726,
+      "angles_inicials_graus": [
+        152.75904311435448,
+        154.90369609636585
+      ],
+      "vertical_graus": 0.05908530794373382,
+      "estabilitat_graus": 0.0013474234843333815,
+      "residu_px": 0.6304361730638204,
+      "articulacio_delta_px": 9.23379992550437,
+      "soroll_angular_graus": [
+        0.8970655357219599,
+        0.7923560392833773
+      ],
+      "quiet_al_principi_s": 0.3584830314796157,
+      "velocitat_inicial_px_s": 2.7273447235995407e-11,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 3.464067614655827,
+      "marca_error_theta2_graus": 1.3891178064513638,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.1337205394307306,
+      "rao_gomet_L1_a_leix": 1.1907791339715958,
+      "amollada_s": 0.34845429994397714,
+      "amollada_incertesa_s": 0.006098882813779228,
+      "repos_abans_s": 0.34845429994397714,
+      "angles_amollada_graus": [
+        152.75055915401927,
+        154.90367306974946
+      ]
+    },
+    {
+      "nom": "150_3",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_3.trk",
+      "estat": "convertida",
+      "durada_s": 75.33922741040871,
+      "n_mostres": 18075,
+      "fps": 239.90158409167512,
+      "angles_inicials_graus": [
+        153.71016661902013,
+        155.98456206989795
+      ],
+      "vertical_graus": -0.25996183115662785,
+      "estabilitat_graus": 0.0001710731392350667,
+      "residu_px": 0.19384013758534258,
+      "articulacio_delta_px": 14.070580954320404,
+      "soroll_angular_graus": [
+        0.8234216111808943,
+        1.1042576207574133
+      ],
+      "quiet_al_principi_s": 0.16256666310755447,
+      "velocitat_inicial_px_s": 20.011568690706813,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 3.8133541681715317,
+      "marca_error_theta2_graus": 1.554433420304107,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.109361944812247,
+      "rao_gomet_L1_a_leix": 1.1714659808327132,
+      "amollada_s": 0.15334765593088634,
+      "amollada_incertesa_s": 0.00972476617345045,
+      "repos_abans_s": 0.15334765593088634,
+      "angles_amollada_graus": [
+        153.71120932823948,
+        155.98152806349944
+      ]
+    },
+    {
+      "nom": "150_4",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_4.trk",
+      "estat": "convertida",
+      "durada_s": 95.70663413343281,
+      "n_mostres": 22961,
+      "fps": 239.89977505623588,
+      "angles_inicials_graus": [
+        153.08697156209408,
+        155.88561615729512
+      ],
+      "vertical_graus": -0.3071721079727559,
+      "estabilitat_graus": 0.00035533447177307065,
+      "residu_px": 0.2540837224822607,
+      "articulacio_delta_px": 12.971775136512314,
+      "soroll_angular_graus": [
+        1.0299754709505513,
+        1.075895130428486
+      ],
+      "quiet_al_principi_s": 1.9924987419765192,
+      "velocitat_inicial_px_s": 11.701969602869957,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 1.5038194118633588,
+      "marca_error_theta2_graus": 0.6129101363499114,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.149628174619575,
+      "rao_gomet_L1_a_leix": 1.171516883905534,
+      "amollada_s": 1.9400745532271233,
+      "amollada_incertesa_s": 0.06536199369878527,
+      "repos_abans_s": 1.9400745532271233,
+      "angles_amollada_graus": [
+        153.07689686327907,
+        155.87843301722413
+      ]
+    },
+    {
+      "nom": "150_5",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_5.trk",
+      "estat": "convertida",
+      "durada_s": 82.496859375,
+      "n_mostres": 19792,
+      "fps": 239.90004164931278,
+      "angles_inicials_graus": [
+        153.28840229185417,
+        153.8799080607596
+      ],
+      "vertical_graus": -0.3249514689494444,
+      "estabilitat_graus": 0.02595486661824409,
+      "residu_px": 3.1254715148663914,
+      "articulacio_delta_px": 9.542520794100236,
+      "soroll_angular_graus": [
+        0.9234941859199178,
+        1.0150615850051241
+      ],
+      "quiet_al_principi_s": 0.050020833333333334,
+      "velocitat_inicial_px_s": 5.2081171810611355,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 2.0212361520752675,
+      "marca_error_theta2_graus": 0.8136284810799426,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.1541291555116393,
+      "rao_gomet_L1_a_leix": 1.186169895112127,
+      "amollada_s": 0.03405895902508503,
+      "amollada_incertesa_s": 0.005600154136932844,
+      "repos_abans_s": 0.03405895902508503,
+      "angles_amollada_graus": [
+        153.25166732544344,
+        153.86449633680493
+      ]
+    },
+    {
+      "nom": "150_6",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_6.trk",
+      "estat": "convertida",
+      "durada_s": 88.9205789185277,
+      "n_mostres": 21333,
+      "fps": 239.89947275922665,
+      "angles_inicials_graus": [
+        154.42600829032313,
+        154.37962958504588
+      ],
+      "vertical_graus": -0.36523888325765724,
+      "estabilitat_graus": 0.0017374455040913618,
+      "residu_px": 0.6773650257859439,
+      "articulacio_delta_px": 4.918495366153136,
+      "soroll_angular_graus": [
+        1.0185943318044244,
+        1.2256297588727694
+      ],
+      "quiet_al_principi_s": 0.24593634709324644,
+      "velocitat_inicial_px_s": 3.750178831924217,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 2.3597979939434826,
+      "marca_error_theta2_graus": 0.9412404249611854,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.1647685006536652,
+      "rao_gomet_L1_a_leix": 1.1971130820329796,
+      "amollada_s": 0.2359452333088621,
+      "amollada_incertesa_s": 0.008908851436448718,
+      "repos_abans_s": 0.2359452333088621,
+      "angles_amollada_graus": [
+        154.41860599771556,
+        154.3813569228343
+      ]
+    },
+    {
+      "nom": "150_7",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_7.trk",
+      "estat": "convertida",
+      "durada_s": 67.01522212426005,
+      "n_mostres": 16078,
+      "fps": 239.9007194244604,
+      "angles_inicials_graus": [
+        152.1913663320606,
+        155.80125477233003
+      ],
+      "vertical_graus": 1.1386220718965463,
+      "estabilitat_graus": 0.0009880858875907172,
+      "residu_px": 0.4907876545118038,
+      "articulacio_delta_px": 6.174257880495775,
+      "soroll_angular_graus": [
+        1.2040245097394788,
+        1.0677467559626737
+      ],
+      "quiet_al_principi_s": 0.17507242204509063,
+      "velocitat_inicial_px_s": 0.0,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 0.8597183580364183,
+      "marca_error_theta2_graus": 0.34389482244361436,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1845679195660546,
+      "rao_gomet_L1_a_leix": 1.1936432795704255,
+      "amollada_s": 0.16744805624475095,
+      "amollada_incertesa_s": 0.008479506408432026,
+      "repos_abans_s": 0.16744805624475095,
+      "angles_amollada_graus": [
+        152.18842954501915,
+        155.7937817115572
+      ]
+    },
+    {
+      "nom": "150_8",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_8.trk",
+      "estat": "convertida",
+      "durada_s": 93.11804618215334,
+      "n_mostres": 22340,
+      "fps": 239.89979296066255,
+      "angles_inicials_graus": [
+        152.54925449781433,
+        156.11687583120576
+      ],
+      "vertical_graus": 0.3340717505941533,
+      "estabilitat_graus": 0.00048601355917636703,
+      "residu_px": 0.3164357292031074,
+      "articulacio_delta_px": 9.21405030393675,
+      "soroll_angular_graus": [
+        0.8182338883202458,
+        1.2619926241249788
+      ],
+      "quiet_al_principi_s": 0.583576993844911,
+      "velocitat_inicial_px_s": 14.151080650285369,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 1.0520886370245333,
+      "marca_error_theta2_graus": 0.4341636341626573,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.144108225197109,
+      "rao_gomet_L1_a_leix": 1.1570294914094827,
+      "amollada_s": 1.786250833506936,
+      "amollada_incertesa_s": 0.013957038325856912,
+      "repos_abans_s": 1.786250833506936,
+      "angles_amollada_graus": [
+        152.53752333308452,
+        156.26046030476206
+      ]
+    },
+    {
+      "nom": "150_9",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_9.trk",
+      "estat": "convertida",
+      "durada_s": 83.35143477833964,
+      "n_mostres": 19997,
+      "fps": 239.8998895841001,
+      "angles_inicials_graus": [
+        155.09032909913807,
+        155.79436865024604
+      ],
+      "vertical_graus": -0.26439326575760613,
+      "estabilitat_graus": 0.0018578081363824024,
+      "residu_px": 7.654958260605582,
+      "articulacio_delta_px": 2.5743615002813613,
+      "soroll_angular_graus": [
+        0.9526433843353663,
+        1.0452736561538043
+      ],
+      "quiet_al_principi_s": 0.17507302764004126,
+      "velocitat_inicial_px_s": 26.58648985745789,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": -1.3131182386873423,
+      "marca_error_theta2_graus": 0.5300790709450417,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.212056155051411,
+      "rao_gomet_L1_a_leix": 1.1827984805902376,
+      "amollada_s": 0.21610267983026182,
+      "amollada_incertesa_s": 0.016114646792600613,
+      "repos_abans_s": 0.21610267983026182,
+      "angles_amollada_graus": [
+        155.08776652926883,
+        155.78833190889725
+      ]
+    },
+    {
+      "nom": "150_10",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_10.trk",
+      "estat": "convertida",
+      "durada_s": 86.94037505979664,
+      "n_mostres": 20858,
+      "fps": 239.9000462748727,
+      "angles_inicials_graus": [
+        153.93436447375635,
+        154.44152345509042
+      ],
+      "vertical_graus": 0.6199866893884418,
+      "estabilitat_graus": 0.014663328589699137,
+      "residu_px": 1.108046006012813,
+      "articulacio_delta_px": -0.5985011876897006,
+      "soroll_angular_graus": [
+        1.1376812801354195,
+        0.6556565867008649
+      ],
+      "quiet_al_principi_s": 0.525218739873154,
+      "velocitat_inicial_px_s": 14.803633079590263,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": -0.8400946208314422,
+      "marca_error_theta2_graus": 0.3368966914060992,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.2064167076267591,
+      "rao_gomet_L1_a_leix": 1.1906259583625751,
+      "amollada_s": 0.60386570423694,
+      "amollada_incertesa_s": 0.004284045402588909,
+      "repos_abans_s": 0.60386570423694,
+      "angles_amollada_graus": [
+        153.9320624420915,
+        154.43605451063382
+      ]
+    },
+    {
+      "nom": "150_11",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_11.trk",
+      "estat": "convertida",
+      "durada_s": 72.2547528321318,
+      "n_mostres": 17335,
+      "fps": 239.90117356392844,
+      "angles_inicials_graus": [
+        153.72531210722937,
+        154.53970297380602
+      ],
+      "vertical_graus": -0.2435958804309958,
+      "estabilitat_graus": 0.02743423918444885,
+      "residu_px": 3.006693824367146,
+      "articulacio_delta_px": 2.1699675177186495,
+      "soroll_angular_graus": [
+        0.9309979805103928,
+        0.7764128364702004
+      ],
+      "quiet_al_principi_s": 0.20841915550978368,
+      "velocitat_inicial_px_s": 9.451420645397413,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": -0.4305460640147669,
+      "marca_error_theta2_graus": 0.17341722283623714,
+      "marca_a_leix": true,
+      "marca_corregida": false,
+      "rao_gomet_L1": 1.1946592090308628,
+      "rao_gomet_L1_a_leix": 1.1854123451969387,
+      "amollada_s": 0.19510820573528523,
+      "amollada_incertesa_s": 0.01025456920978377,
+      "repos_abans_s": 0.19510820573528523,
+      "angles_amollada_graus": [
+        153.72050866243757,
+        154.54506030411522
+      ]
+    },
+    {
+      "nom": "150_12",
+      "grup_graus": 150.0,
+      "fitxer_trk": "dades/video/tracker/150/150_12.trk",
+      "estat": "convertida",
+      "durada_s": 101.15790847540583,
+      "n_mostres": 24269,
+      "fps": 239.90215264187864,
+      "angles_inicials_graus": [
+        152.5929514347635,
+        153.4544764484454
+      ],
+      "vertical_graus": -0.07830557124181306,
+      "estabilitat_graus": 0.003243027271885728,
+      "residu_px": 0.7015826509729961,
+      "articulacio_delta_px": 1.2481670193265935,
+      "soroll_angular_graus": [
+        0.6426041298620585,
+        0.6515024110613977
+      ],
+      "quiet_al_principi_s": 0.26677543029610895,
+      "velocitat_inicial_px_s": 2.727371709646362e-11,
+      "arrenca_del_repos": true,
+      "marca_delta_mm": 1.7354227556717385,
+      "marca_error_theta2_graus": 0.7103942093842742,
+      "marca_a_leix": false,
+      "marca_corregida": true,
+      "rao_gomet_L1": 1.139102870931835,
+      "rao_gomet_L1_a_leix": 1.166429215136133,
+      "amollada_s": 0.2330962101831862,
+      "amollada_incertesa_s": 0.034756497045160525,
+      "repos_abans_s": 0.2330962101831862,
+      "angles_amollada_graus": [
+        152.57088557687518,
+        153.48924920263147
+      ]
+    }
+  ]
+}

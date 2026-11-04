@@ -1,0 +1,1977 @@
+{
+ "eina": "eines/lyapunov_real.py valida2",
+ "pla": "documentacio/pla-analisi-caos.md (17/10, segona part)",
+ "que_es": "PAS 1 dels dos resultats: NOMES SIMULACIO, sense friccio (la de prova, nomes informativa)",
+ "resultat2": {
+  "45": {
+   "D_estrella_graus": 23.230027049652897,
+   "parelles": 28,
+   "referencia": 1.201578661192558,
+   "ideal": {
+    "D_graus": [
+     23.230027049652897
+    ],
+    "lambda_D": [
+     1.2356020991463401
+    ],
+    "fraccio_creuen": [
+     0.25
+    ],
+    "veredicte": "no creua",
+    "ratio": null,
+    "j_max": null,
+    "rang_ln": null,
+    "lambda_inc": null,
+    "parelles": 28,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 1.2356020991463401,
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma_D": [
+      0.21576421597155473
+     ],
+     "p16_84_D": [
+      [
+       1.143157788501375,
+       1.350403505627454
+      ]
+     ],
+     "fraccio_exponencial": 0.0
+    }
+   },
+   "amb_soroll": [
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.1907614858628992
+     ],
+     "fraccio_creuen": [
+      0.25
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.1907614858628992,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.31991422129662805
+      ],
+      "p16_84_D": [
+       [
+        1.046831812526881,
+        1.356204011166569
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.3157126052597425
+     ],
+     "fraccio_creuen": [
+      0.3928571428571429
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.3157126052597425,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.4165373628979939
+      ],
+      "p16_84_D": [
+       [
+        1.261270925711337,
+        2.1487180184292
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2388397243324853
+     ],
+     "fraccio_creuen": [
+      0.3571428571428571
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2388397243324853,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.3915006211503543
+      ],
+      "p16_84_D": [
+       [
+        1.0408305470232202,
+        1.4365362605277772
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2666913655862952
+     ],
+     "fraccio_creuen": [
+      0.3214285714285714
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2666913655862952,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.41697404188848136
+      ],
+      "p16_84_D": [
+       [
+        1.143157788501375,
+        1.7341721698075399
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2616666999883512
+     ],
+     "fraccio_creuen": [
+      0.2857142857142857
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2616666999883512,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.37312708485680496
+      ],
+      "p16_84_D": [
+       [
+        1.117565367224453,
+        1.6432654227792183
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    }
+   ],
+   "simple_amb_soroll_info": [
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2351557755517482
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2351557755517482,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.15444836103815762
+      ],
+      "p16_84_D": [
+       [
+        1.05150541493638,
+        1.3798516527719629
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2351557755517482
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2351557755517482,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.15267686786242907
+      ],
+      "p16_84_D": [
+       [
+        1.05150541493638,
+        1.3798516527719629
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2351557755517482
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2351557755517482,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.1554749036494749
+      ],
+      "p16_84_D": [
+       [
+        1.0511167274546955,
+        1.3714377257672585
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2351557755517482
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2351557755517482,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.15392716650087354
+      ],
+      "p16_84_D": [
+       [
+        1.05150541493638,
+        1.3692084562707891
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      23.230027049652897
+     ],
+     "lambda_D": [
+      1.2351557755517482
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 28,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2351557755517482,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.15694238463861737
+      ],
+      "p16_84_D": [
+       [
+        1.0511167274546955,
+        1.3798516527719629
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    }
+   ],
+   "friccio_de_prova_info": {
+    "D_graus": [
+     23.230027049652897
+    ],
+    "lambda_D": [
+     1.0588351312006816
+    ],
+    "fraccio_creuen": [
+     0.0
+    ],
+    "veredicte": "no creua",
+    "ratio": null,
+    "j_max": null,
+    "rang_ln": null,
+    "lambda_inc": null,
+    "parelles": 28,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 1.0588351312006816,
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma_D": [
+      0.1068077365577305
+     ],
+     "p16_84_D": [
+      [
+       0.9687341570928694,
+       1.1771910536589154
+      ]
+     ],
+     "fraccio_exponencial": 0.0
+    }
+   },
+   "benettin_info": 0.30543441999223236,
+   "criteris": {
+    "LU1": {
+     "criteri": "LU1",
+     "passa": true,
+     "detall": "sense soroll 1.236 contra la referencia 1.202 (+3 %)"
+    },
+    "LU2": {
+     "criteri": "LU2",
+     "passa": true,
+     "detall": "amb soroll i amollada: -1 %, +9 %, +3 %, +5 %, +5 %"
+    },
+    "LU3": {
+     "criteri": "LU3",
+     "passa": false,
+     "detall": "sense soroll creuen 25 %"
+    }
+   },
+   "passa": false
+  },
+  "90": {
+   "D_estrella_graus": 37.68116685119534,
+   "parelles": 55,
+   "referencia": 1.2872462729040433,
+   "ideal": {
+    "D_graus": [
+     37.68116685119534
+    ],
+    "lambda_D": [
+     1.2186872595680083
+    ],
+    "fraccio_creuen": [
+     0.4
+    ],
+    "veredicte": "no creua",
+    "ratio": null,
+    "j_max": null,
+    "rang_ln": null,
+    "lambda_inc": null,
+    "parelles": 55,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 1.2186872595680083,
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma_D": [
+      0.11674643308737317
+     ],
+     "p16_84_D": [
+      [
+       1.120533918350554,
+       1.3416696717845695
+      ]
+     ],
+     "fraccio_exponencial": 0.0
+    }
+   },
+   "amb_soroll": [
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.3946095008393928
+     ],
+     "fraccio_creuen": [
+      0.5636363636363637
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.3946095008393928,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.1487511544115595
+      ],
+      "p16_84_D": [
+       [
+        1.2270736914721798,
+        1.519217033078065
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.308729863089191
+     ],
+     "fraccio_creuen": [
+      0.5272727272727273
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.308729863089191,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.11236044631354151
+      ],
+      "p16_84_D": [
+       [
+        1.2128314756121765,
+        1.4099866033941568
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.3946095008393928
+     ],
+     "fraccio_creuen": [
+      0.5818181818181818
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.3946095008393928,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       1.1965798890403017
+      ],
+      "p16_84_D": [
+       [
+        1.2060269110514568,
+        1.8594485091872155
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.2560863293316413
+     ],
+     "fraccio_creuen": [
+      0.4727272727272728
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.2560863293316413,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.10211998904015279
+      ],
+      "p16_84_D": [
+       [
+        1.1833814849941677,
+        1.4099866033941568
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.308729863089191
+     ],
+     "fraccio_creuen": [
+      0.509090909090909
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.308729863089191,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.11863585642195276
+      ],
+      "p16_84_D": [
+       [
+        1.1807956515686409,
+        1.4151118573059644
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    }
+   ],
+   "simple_amb_soroll_info": [
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.1082192375031144
+     ],
+     "fraccio_creuen": [
+      0.018181818181818188
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.1082192375031144,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.10832533818668895
+      ],
+      "p16_84_D": [
+       [
+        1.0298236624794384,
+        1.2212627414791826
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.1082192375031144
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.1082192375031144,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.11393132398431514
+      ],
+      "p16_84_D": [
+       [
+        1.0218730626627406,
+        1.2345405031564152
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.1082192375031144
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.1082192375031144,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.1089549260492644
+      ],
+      "p16_84_D": [
+       [
+        1.0209909078975006,
+        1.2141548300862677
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.1082192375031144
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.1082192375031144,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.10716734084794462
+      ],
+      "p16_84_D": [
+       [
+        1.0209909078975006,
+        1.210831939041902
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      37.68116685119534
+     ],
+     "lambda_D": [
+      1.1082192375031144
+     ],
+     "fraccio_creuen": [
+      0.0
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 55,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.1082192375031144,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.1146998475845278
+      ],
+      "p16_84_D": [
+       [
+        1.0218730626627406,
+        1.2141548300862677
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    }
+   ],
+   "friccio_de_prova_info": {
+    "D_graus": [
+     37.68116685119534
+    ],
+    "lambda_D": [
+     2.686197792877824
+    ],
+    "fraccio_creuen": [
+     0.9818181818181818
+    ],
+    "veredicte": "rang curt",
+    "ratio": 1.0,
+    "j_max": 0,
+    "rang_ln": 0.0,
+    "lambda_inc": null,
+    "parelles": 55,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 2.686197792877824,
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma_D": [
+      0.16754594170763948
+     ],
+     "p16_84_D": [
+      [
+       2.547407185085709,
+       2.8253996767805742
+      ]
+     ],
+     "fraccio_exponencial": 0.0
+    }
+   },
+   "benettin_info": 2.3822527629380827,
+   "criteris": {
+    "LU1": {
+     "criteri": "LU1",
+     "passa": true,
+     "detall": "sense soroll 1.219 contra la referencia 1.287 (-5 %)"
+    },
+    "LU2": {
+     "criteri": "LU2",
+     "passa": true,
+     "detall": "amb soroll i amollada: +8 %, +2 %, +8 %, -2 %, +2 %"
+    },
+    "LU3": {
+     "criteri": "LU3",
+     "passa": false,
+     "detall": "sense soroll creuen 40 %"
+    }
+   },
+   "passa": false
+  },
+  "150": {
+   "D_estrella_graus": 48.41271541669954,
+   "parelles": 45,
+   "referencia": 3.5751955198272194,
+   "ideal": {
+    "D_graus": [
+     48.41271541669954
+    ],
+    "lambda_D": [
+     3.6695520178026984
+    ],
+    "fraccio_creuen": [
+     1.0
+    ],
+    "veredicte": "rang curt",
+    "ratio": 1.0,
+    "j_max": 0,
+    "rang_ln": 0.0,
+    "lambda_inc": null,
+    "parelles": 45,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 3.6695520178026984,
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma_D": [
+      0.43935295048143763
+     ],
+     "p16_84_D": [
+      [
+       3.2214351989559393,
+       3.9469925881073493
+      ]
+     ],
+     "fraccio_exponencial": 0.0
+    }
+   },
+   "amb_soroll": [
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      3.6728149030024446
+     ],
+     "fraccio_creuen": [
+      1.0
+     ],
+     "veredicte": "rang curt",
+     "ratio": 1.0,
+     "j_max": 0,
+     "rang_ln": 0.0,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 3.6728149030024446,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.6628113223824394
+      ],
+      "p16_84_D": [
+       [
+        3.1537039756773195,
+        4.186989310587335
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      4.295424445960162
+     ],
+     "fraccio_creuen": [
+      1.0
+     ],
+     "veredicte": "rang curt",
+     "ratio": 1.0,
+     "j_max": 0,
+     "rang_ln": 0.0,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 4.295424445960162,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       1.1708291113811606
+      ],
+      "p16_84_D": [
+       [
+        3.6625417518188703,
+        4.668652597450918
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      3.9930765477184806
+     ],
+     "fraccio_creuen": [
+      1.0
+     ],
+     "veredicte": "rang curt",
+     "ratio": 1.0,
+     "j_max": 0,
+     "rang_ln": 0.0,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 3.9930765477184806,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       1.0496420947547611
+      ],
+      "p16_84_D": [
+       [
+        3.576331129435327,
+        4.436110115859097
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      3.981531587369867
+     ],
+     "fraccio_creuen": [
+      1.0
+     ],
+     "veredicte": "rang curt",
+     "ratio": 1.0,
+     "j_max": 0,
+     "rang_ln": 0.0,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 3.981531587369867,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       1.006602867341784
+      ],
+      "p16_84_D": [
+       [
+        3.3653559559248345,
+        4.471176603606965
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      4.075816149217091
+     ],
+     "fraccio_creuen": [
+      1.0
+     ],
+     "veredicte": "rang curt",
+     "ratio": 1.0,
+     "j_max": 0,
+     "rang_ln": 0.0,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 4.075816149217091,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       2.103693563109359
+      ],
+      "p16_84_D": [
+       [
+        3.6599033041728015,
+        8.023369297545202
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    }
+   ],
+   "simple_amb_soroll_info": [
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      1.475844220822139
+     ],
+     "fraccio_creuen": [
+      0.3111111111111111
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.475844220822139,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.12013989722484862
+      ],
+      "p16_84_D": [
+       [
+        1.3526591168863649,
+        1.6176526850573294
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      1.5728144741654237
+     ],
+     "fraccio_creuen": [
+      0.4
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.5728144741654237,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.1261566405803413
+      ],
+      "p16_84_D": [
+       [
+        1.4533931550380443,
+        1.6886741316669867
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      1.6886741316669867
+     ],
+     "fraccio_creuen": [
+      0.3555555555555555
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.6886741316669867,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.21604824916537138
+      ],
+      "p16_84_D": [
+       [
+        1.466280693384672,
+        1.8241856045567606
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      1.475844220822139
+     ],
+     "fraccio_creuen": [
+      0.28888888888888886
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.475844220822139,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.12500386634854516
+      ],
+      "p16_84_D": [
+       [
+        1.3526591168863649,
+        1.615368457963221
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    },
+    {
+     "D_graus": [
+      48.41271541669954
+     ],
+     "lambda_D": [
+      1.5728144741654237
+     ],
+     "fraccio_creuen": [
+      0.3555555555555555
+     ],
+     "veredicte": "no creua",
+     "ratio": null,
+     "j_max": null,
+     "rang_ln": null,
+     "lambda_inc": null,
+     "parelles": 45,
+     "creuen_d_entrada": 0,
+     "lambda_mitjana_escala": 1.5728144741654237,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma_D": [
+       0.1883337982011086
+      ],
+      "p16_84_D": [
+       [
+        1.4416575239298652,
+        1.7185517372523398
+       ]
+      ],
+      "fraccio_exponencial": 0.0
+     }
+    }
+   ],
+   "friccio_de_prova_info": {
+    "D_graus": [
+     48.41271541669954
+    ],
+    "lambda_D": [
+     3.237983911101228
+    ],
+    "fraccio_creuen": [
+     1.0
+    ],
+    "veredicte": "rang curt",
+    "ratio": 1.0,
+    "j_max": 0,
+    "rang_ln": 0.0,
+    "lambda_inc": null,
+    "parelles": 45,
+    "creuen_d_entrada": 0,
+    "lambda_mitjana_escala": 3.237983911101228,
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma_D": [
+      0.32358394787917355
+     ],
+     "p16_84_D": [
+      [
+       2.9611538849722514,
+       3.4807028220183502
+      ]
+     ],
+     "fraccio_exponencial": 0.0
+    }
+   },
+   "benettin_info": 2.677779595644633,
+   "criteris": {
+    "LU1": {
+     "criteri": "LU1",
+     "passa": true,
+     "detall": "sense soroll 3.670 contra la referencia 3.575 (+3 %)"
+    },
+    "LU2": {
+     "criteri": "LU2",
+     "passa": true,
+     "detall": "amb soroll i amollada: +3 %, +20 %, +12 %, +11 %, +14 %"
+    },
+    "LU3": {
+     "criteri": "LU3",
+     "passa": true,
+     "detall": "sense soroll creuen 100 %"
+    }
+   },
+   "passa": true
+  }
+ },
+ "resultat1": {
+  "0,8-1,1": {
+   "avaluable": true,
+   "durada_tirs_s": 9.43740008144943,
+   "energies": [
+    0.8,
+    0.9,
+    0.97,
+    1.03
+   ],
+   "benettin_mitjana": 0.005230996793235716,
+   "fraccio_caotiques": 0.0,
+   "referencia_ftle_ideal": 0.3492410731915872,
+   "ideal": {
+    "parelles": 1238,
+    "tirs": 12,
+    "ok": false,
+    "lambda": 0.2593935467644201,
+    "creixement_ln": 0.4238158407971826,
+    "finestra_s": [
+     0.1,
+     1.5
+    ],
+    "motiu": "dins de la finestra creix 0.42 (cal 1)",
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma": 0.05940552009979794,
+     "sense_lambda": 1000
+    },
+    "referencia": 0.3492410731915872
+   },
+   "amb_soroll": [
+    {
+     "parelles": 1072,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.22915329076507954,
+     "creixement_ln": 0.5573486902551559,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.56 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.057074614677578454,
+      "sense_lambda": 1000
+     },
+     "referencia": 0.3492410731915872
+    },
+    {
+     "parelles": 1061,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.24238888376692258,
+     "creixement_ln": 0.5327672263899754,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.53 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.051633819471308726,
+      "sense_lambda": 1000
+     },
+     "referencia": 0.3492410731915872
+    },
+    {
+     "parelles": 1050,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.23523168416235976,
+     "creixement_ln": 0.5674980813960113,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.57 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.05500644453211892,
+      "sense_lambda": 1000
+     },
+     "referencia": 0.3492410731915872
+    },
+    {
+     "parelles": 1064,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.223175539482339,
+     "creixement_ln": 0.5494610284397343,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.55 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.05124578798866832,
+      "sense_lambda": 1000
+     },
+     "referencia": 0.3492410731915872
+    },
+    {
+     "parelles": 1046,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.22653197185954055,
+     "creixement_ln": 0.5334462178367063,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.53 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.05358027328050035,
+      "sense_lambda": 1000
+     },
+     "referencia": 0.3492410731915872
+    }
+   ],
+   "simple_amb_soroll": [
+    {
+     "parelles": 1410,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.034851750230514233,
+     "creixement_ln": 0.117237131260429,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.12 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.014661809047994046,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 1316,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.03134289871348564,
+     "creixement_ln": 0.1302999687813129,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.13 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.010382293012242638,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 1364,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.031255723230070656,
+     "creixement_ln": 0.040842025219964384,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.04 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.011878630132698865,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 1393,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.036608555206905896,
+     "creixement_ln": 0.06254849216024505,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.06 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.00945806684623295,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 1379,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.022035434022333263,
+     "creixement_ln": 0.08095476896804188,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.08 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.016717999646696576,
+      "sense_lambda": 1000
+     }
+    }
+   ],
+   "criteris": {
+    "VE1": {
+     "criteri": "VE1",
+     "passa": false,
+     "detall": "sense soroll 0.259 contra la FTLE 0.3492410731915872"
+    },
+    "VE2": {
+     "criteri": "VE2",
+     "passa": null,
+     "detall": "no s'aplica: 0 % caotiques (Benettin 0.005)"
+    },
+    "VE3": {
+     "criteri": "VE3",
+     "passa": false,
+     "detall": "0 de 5 a +-25 % de la FTLE"
+    },
+    "VE4": {
+     "criteri": "VE4",
+     "passa": false,
+     "detall": "creixement sense soroll 0.42; >= 1 a 0 de 5"
+    },
+    "VE5": {
+     "criteri": "VE5",
+     "passa": true,
+     "detall": "5 de 5 amb el simple <= 0,3 x el doble i a >= 2 sigma"
+    },
+    "VE6": {
+     "criteri": "VE6",
+     "passa": true,
+     "detall": "simulacio: 1238 parelles de 12 tirs (>= 100 de >= 8 a 5 de 5); preses reals (recompte): 1543 de 32"
+    }
+   },
+   "passa": false
+  },
+  "1,7-3,5": {
+   "avaluable": true,
+   "durada_tirs_s": 12.762232382166344,
+   "energies": [
+    1.7,
+    2.5,
+    3.3
+   ],
+   "benettin_mitjana": 2.127664256414574,
+   "fraccio_caotiques": 1.0,
+   "referencia_ftle_ideal": 2.4676474327959563,
+   "ideal": {
+    "parelles": 1548,
+    "tirs": 12,
+    "ok": true,
+    "lambda": 2.161006917354457,
+    "creixement_ln": 1.4531755205950219,
+    "finestra_s": [
+     0.1,
+     0.7625
+    ],
+    "motiu": null,
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma": 0.48436730366443087,
+     "sense_lambda": 0
+    },
+    "referencia": 2.4676474327959563
+   },
+   "amb_soroll": [
+    {
+     "parelles": 1058,
+     "tirs": 12,
+     "ok": true,
+     "lambda": 2.1292728241366077,
+     "creixement_ln": 1.3364485889499411,
+     "finestra_s": [
+      0.1,
+      0.725
+     ],
+     "motiu": null,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.5087677822619341,
+      "sense_lambda": 0
+     },
+     "referencia": 2.485711836884944
+    },
+    {
+     "parelles": 1098,
+     "tirs": 12,
+     "ok": true,
+     "lambda": 2.031028965486001,
+     "creixement_ln": 1.3850324362234894,
+     "finestra_s": [
+      0.1,
+      0.7458333333333333
+     ],
+     "motiu": null,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.620639301005927,
+      "sense_lambda": 2
+     },
+     "referencia": 2.476173272665081
+    },
+    {
+     "parelles": 1073,
+     "tirs": 12,
+     "ok": true,
+     "lambda": 1.97826325697441,
+     "creixement_ln": 1.3500908255256139,
+     "finestra_s": [
+      0.1,
+      0.7333333333333333
+     ],
+     "motiu": null,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.4745513382354001,
+      "sense_lambda": 0
+     },
+     "referencia": 2.4812717837449925
+    },
+    {
+     "parelles": 1025,
+     "tirs": 12,
+     "ok": true,
+     "lambda": 1.960441521738816,
+     "creixement_ln": 1.345246780963083,
+     "finestra_s": [
+      0.1,
+      0.7541666666666667
+     ],
+     "motiu": null,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.4028791074562474,
+      "sense_lambda": 0
+     },
+     "referencia": 2.4724818203898526
+    },
+    {
+     "parelles": 1043,
+     "tirs": 12,
+     "ok": true,
+     "lambda": 1.8879055240429312,
+     "creixement_ln": 1.3078705000591877,
+     "finestra_s": [
+      0.1,
+      0.775
+     ],
+     "motiu": null,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.45270922579329437,
+      "sense_lambda": 1
+     },
+     "referencia": 2.459902797170792
+    }
+   ],
+   "simple_amb_soroll": [
+    {
+     "parelles": 1987,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.04950942983299529,
+     "creixement_ln": -0.06268276749749413,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix -0.06 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.012078774911349337,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 1998,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.053687958440812374,
+     "creixement_ln": -0.034353401048018206,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix -0.03 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.012355697455261347,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 2031,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.06169388673426013,
+     "creixement_ln": -0.04804066626401804,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix -0.05 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.01040232660681402,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 2051,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.0570822472578285,
+     "creixement_ln": -0.07203185061183115,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix -0.07 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.012947415847347614,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 2096,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.04930909243181624,
+     "creixement_ln": -0.054525132852340175,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix -0.05 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.011900547661101848,
+      "sense_lambda": 1000
+     }
+    }
+   ],
+   "criteris": {
+    "VE1": {
+     "criteri": "VE1",
+     "passa": true,
+     "detall": "sense soroll 2.161 contra la FTLE 2.4676474327959563"
+    },
+    "VE2": {
+     "criteri": "VE2",
+     "passa": true,
+     "detall": "sense soroll 2.161 contra Benettin 2.128 (100 % caotiques)"
+    },
+    "VE3": {
+     "criteri": "VE3",
+     "passa": true,
+     "detall": "5 de 5 a +-25 % de la FTLE"
+    },
+    "VE4": {
+     "criteri": "VE4",
+     "passa": true,
+     "detall": "creixement sense soroll 1.45; >= 1 a 5 de 5"
+    },
+    "VE5": {
+     "criteri": "VE5",
+     "passa": true,
+     "detall": "5 de 5 amb el simple <= 0,3 x el doble i a >= 2 sigma"
+    },
+    "VE6": {
+     "criteri": "VE6",
+     "passa": true,
+     "detall": "simulacio: 1548 parelles de 12 tirs (>= 100 de >= 8 a 5 de 5); preses reals (recompte): 913 de 23"
+    }
+   },
+   "passa": true
+  },
+  "3,5-6,3": {
+   "avaluable": true,
+   "durada_tirs_s": 6.0,
+   "energies": [
+    4.5,
+    6.2
+   ],
+   "benettin_mitjana": 2.5527240603400014,
+   "fraccio_caotiques": 1.0,
+   "referencia_ftle_ideal": 4.773121776978136,
+   "ideal": {
+    "parelles": 621,
+    "tirs": 12,
+    "ok": false,
+    "lambda": 4.049946105784346,
+    "creixement_ln": 0.7484082614342137,
+    "finestra_s": [
+     0.1,
+     0.2875
+    ],
+    "motiu": "dins de la finestra creix 0.75 (cal 1)",
+    "bootstrap": {
+     "remostrejos": 1000,
+     "sigma": 1.6446868196383304,
+     "sense_lambda": 1000
+    },
+    "referencia": 4.773121776978136
+   },
+   "amb_soroll": [
+    {
+     "parelles": 201,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 4.257174167765406,
+     "creixement_ln": 0.7248503931552435,
+     "finestra_s": [
+      0.1,
+      0.2791666666666667
+     ],
+     "motiu": "dins de la finestra creix 0.72 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 1.4847452480024992,
+      "sense_lambda": 999
+     },
+     "referencia": 4.821606056826808
+    },
+    {
+     "parelles": 266,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 4.417568221565141,
+     "creixement_ln": 0.6417646647972214,
+     "finestra_s": [
+      0.1,
+      0.2375
+     ],
+     "motiu": "dins de la finestra creix 0.64 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 1.7362275595753993,
+      "sense_lambda": 1000
+     },
+     "referencia": 5.002633806645413
+    },
+    {
+     "parelles": 236,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 5.194794899011923,
+     "creixement_ln": 0.719007930379733,
+     "finestra_s": [
+      0.1,
+      0.24583333333333332
+     ],
+     "motiu": "dins de la finestra creix 0.72 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 1.2613206761625975,
+      "sense_lambda": 994
+     },
+     "referencia": 4.969791826690946
+    },
+    {
+     "parelles": 272,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 4.597181980829761,
+     "creixement_ln": 0.6815046754095387,
+     "finestra_s": [
+      0.1,
+      0.25416666666666665
+     ],
+     "motiu": "dins de la finestra creix 0.68 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 1.5970572490663977,
+      "sense_lambda": 997
+     },
+     "referencia": 4.931447069942195
+    },
+    {
+     "parelles": 236,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 4.161694356380929,
+     "creixement_ln": 0.7074699386993109,
+     "finestra_s": [
+      0.1,
+      0.26666666666666666
+     ],
+     "motiu": "dins de la finestra creix 0.71 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 1.8423714980344654,
+      "sense_lambda": 995
+     },
+     "referencia": 4.879136910580279
+    }
+   ],
+   "simple_amb_soroll": [
+    {
+     "parelles": 819,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.040170313329295826,
+     "creixement_ln": 0.1583887899345604,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.16 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.024526239498198453,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 840,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.04235784582289876,
+     "creixement_ln": 0.14662661491758255,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.15 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.0282430572184997,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 838,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.03133601050914128,
+     "creixement_ln": 0.14098614291586897,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.14 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.02841023130324216,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 838,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.034780222304822986,
+     "creixement_ln": 0.16923866956157307,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.17 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.03778563730478375,
+      "sense_lambda": 1000
+     }
+    },
+    {
+     "parelles": 821,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.047914635825488106,
+     "creixement_ln": 0.14956812453603074,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.15 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.030760846707149948,
+      "sense_lambda": 1000
+     }
+    }
+   ],
+   "criteris": {
+    "VE1": {
+     "criteri": "VE1",
+     "passa": true,
+     "detall": "sense soroll 4.050 contra la FTLE 4.773121776978136"
+    },
+    "VE2": {
+     "criteri": "VE2",
+     "passa": false,
+     "detall": "sense soroll 4.050 contra Benettin 2.553 (100 % caotiques)"
+    },
+    "VE3": {
+     "criteri": "VE3",
+     "passa": false,
+     "detall": "0 de 5 a +-25 % de la FTLE"
+    },
+    "VE4": {
+     "criteri": "VE4",
+     "passa": false,
+     "detall": "creixement sense soroll 0.75; >= 1 a 0 de 5"
+    },
+    "VE5": {
+     "criteri": "VE5",
+     "passa": true,
+     "detall": "5 de 5 amb el simple <= 0,3 x el doble i a >= 2 sigma"
+    },
+    "VE6": {
+     "criteri": "VE6",
+     "passa": true,
+     "detall": "simulacio: 621 parelles de 12 tirs (>= 100 de >= 8 a 5 de 5); preses reals (recompte): 100 de 14"
+    }
+   },
+   "passa": false
+  }
+ },
+ "fitxers_oberts_de_dades": [
+  "divergencia\\lyapunov_real_pas0_2026-10-17.json",
+  "divergencia\\lyapunov_real_pas0b_2026-10-17.json",
+  "divergencia\\regla2_amb_soroll_2026-10-03.json",
+  "lyapunov\\lambda_E_2026-10-01\\orbites.jsonl"
+ ]
+}

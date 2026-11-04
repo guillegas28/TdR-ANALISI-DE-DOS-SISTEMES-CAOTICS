@@ -1,0 +1,2259 @@
+{
+ "eina": "eines/lyapunov_real.py valida",
+ "pla": "documentacio/pla-analisi-caos.md (17/10)",
+ "que_es": "PAS 1: NOMES SIMULACIO, sense friccio (la friccio, DE PROVA i nomes informativa); cap trajectoria real",
+ "grups": {
+  "45": {
+   "alineacio_relativa": {
+    "AL1": {
+     "criteri": "AL1",
+     "passa": true,
+     "detall": "rms del residu relatiu (total, preses dels llindars) 1.12, 1.41, 1.59, 1.09, 0.95 ms; cal <= 2 ms a >= 4 de 5"
+    },
+    "AL2": {
+     "criteri": "AL2",
+     "passa": false,
+     "detall": "sense soroll, |s| maxim 1.503 ms; cal <= 0,5 ms"
+    },
+    "rms_ms": {
+     "total": [
+      1.1182714611412978,
+      1.4050805800101345,
+      1.5905325940917907,
+      1.0881724662764,
+      0.953411448391804
+     ],
+     "sense_geometria": [
+      18.252478795911294,
+      13.788601466738124,
+      19.053537376465588,
+      16.133705986891243,
+      13.202907711540574
+     ],
+     "doble_total": [
+      1.7799644530791487,
+      1.9372417983317602,
+      2.8374856611210153,
+      2.6231333934867704,
+      2.594511420635636
+     ]
+    },
+    "rms_ms_amb_totes_les_preses_info": {
+     "total": [
+      1.1605682919070253,
+      1.348327154737787,
+      1.55764838553492,
+      1.0467616434311366,
+      0.9399273802282515
+     ],
+     "sense_geometria": [
+      21.25776122620336,
+      14.0003276397025,
+      18.244646951216062,
+      17.220325458811967,
+      19.25136843635056
+     ],
+     "doble_total": [
+      1.7070380444513642,
+      2.1400008594367304,
+      2.723679916505364,
+      2.511851515998143,
+      2.485968868514122
+     ]
+    }
+   },
+   "sigma_relativa_s": 0.0015905325940917907,
+   "llindars": {
+    "video": {
+     "escala": {
+      "terra_rad": 0.09342277360655135,
+      "seguiment_rad": 0.009538122757991369,
+      "alineacio_rad": 0.09308659602409289,
+      "sostre_rad": 1.216321372031362,
+      "D_max_rad": 0.4054404573437873,
+      "factor": null,
+      "rang_ln_3x": 0.369226592205118,
+      "rang_ln_2x": 0.7746917003132824,
+      "avaluable": false
+     },
+     "avaluable": false
+    },
+    "relativa": {
+     "escala": {
+      "avaluable": false,
+      "motiu": "AL1 o AL2 fallen"
+     },
+     "avaluable": false
+    }
+   },
+   "veins": {
+    "config": {
+     "periodic": [
+      true,
+      true,
+      false,
+      false
+     ],
+     "sep": [
+      0,
+      1
+     ],
+     "vel": [
+      2,
+      3
+     ],
+     "banda": [
+      0.028978795877167757,
+      0.043468193815751635
+     ],
+     "theiler": 480,
+     "cada": 10,
+     "de_max": 0.1,
+     "H": 360,
+     "h0": 24,
+     "dt": 0.004166666666666667,
+     "ln_sostre_3": -0.890927544232127
+    },
+    "criteris": {
+     "VN1": {
+      "criteri": "VN1",
+      "passa": true,
+      "detall": "sense soroll 0.563 contra la referencia 0.5630370146709923"
+     },
+     "VN2": {
+      "criteri": "VN2",
+      "passa": false,
+      "detall": "0 de 5 a +-25 % de la referencia amb sigma_boot <= 20 %"
+     },
+     "VN3": {
+      "criteri": "VN3",
+      "passa": false,
+      "detall": "creixement sense soroll 0.77; >= 1 a 0 de 5"
+     },
+     "VN4": {
+      "criteri": "VN4",
+      "passa": true,
+      "detall": "5 de 5 amb el simple <= 0,3 x el doble i a >= 2 sigma"
+     },
+     "VN5": {
+      "criteri": "VN5",
+      "passa": true,
+      "detall": "sense soroll 802 parelles de 11 tirs; >= 100 de >= 8 a 5 de 5"
+     }
+    },
+    "passa": false,
+    "referencia_pendent_ideal": 0.5630370146709923,
+    "referencia_parelles": 400,
+    "corregudes": {
+     "ideal:None": {
+      "doble": {
+       "parelles": 802,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.5628277224710032,
+       "creixement_ln": 0.7697469995860415,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.77 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.16004996683002454,
+        "sense_lambda": 813
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 1272,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.14372688889894475,
+       "creixement_ln": -0.9321693026035427,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.93 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.055498364422112395,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:0": {
+      "doble": {
+       "parelles": 507,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.46001245592578854,
+       "creixement_ln": 0.6713276700909461,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.67 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.09655544686072015,
+        "sense_lambda": 984
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 1079,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.039868834931522226,
+       "creixement_ln": 0.05280911493839291,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.05 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.01353979429596203,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:1": {
+      "doble": {
+       "parelles": 466,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.44161116460420075,
+       "creixement_ln": 0.6589236864119008,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.66 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.10119065938882194,
+        "sense_lambda": 975
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 1087,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.020510002058080172,
+       "creixement_ln": 0.07177853952214086,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.07 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.00940752212026647,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:2": {
+      "doble": {
+       "parelles": 457,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.3679572114319183,
+       "creixement_ln": 0.659429240041006,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.66 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.11674945657474606,
+        "sense_lambda": 966
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 1097,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.014372360500446912,
+       "creixement_ln": 0.02166143799493625,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.02 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.019817865275473523,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:3": {
+      "doble": {
+       "parelles": 490,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.47770121805497057,
+       "creixement_ln": 0.7208065649369986,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.72 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.11504288322320275,
+        "sense_lambda": 923
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 1095,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.016198096615749915,
+       "creixement_ln": 0.08210948408177687,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.08 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.011721618658122346,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:4": {
+      "doble": {
+       "parelles": 490,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.38207896952438236,
+       "creixement_ln": 0.6481957236063769,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.65 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.10495873552833945,
+        "sense_lambda": 983
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 1075,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.042414151520013606,
+       "creixement_ln": 0.04449372082815195,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.04 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.014596939083138883,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:0": {
+      "doble": {
+       "parelles": 0,
+       "tirs": 0,
+       "ok": false,
+       "lambda": 0.0,
+       "creixement_ln": 0.0,
+       "finestra_s": null,
+       "motiu": "menys de tres parelles",
+       "referencia": null
+      },
+      "simple": {
+       "parelles": 9,
+       "tirs": 10,
+       "ok": false,
+       "lambda": -0.046924009312111215,
+       "creixement_ln": 0.29276806256347565,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.29 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 979,
+        "sigma": 5.320356865993706,
+        "sense_lambda": 438
+       }
+      }
+     },
+     "sense_geometria:1": {
+      "doble": {
+       "parelles": 0,
+       "tirs": 0,
+       "ok": false,
+       "lambda": 0.0,
+       "creixement_ln": 0.0,
+       "finestra_s": null,
+       "motiu": "menys de tres parelles",
+       "referencia": null
+      },
+      "simple": {
+       "parelles": 12,
+       "tirs": 10,
+       "ok": false,
+       "lambda": 0.04343121213176097,
+       "creixement_ln": -0.2669844084077353,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.27 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 994,
+        "sigma": 9.90218783926825,
+        "sense_lambda": 924
+       }
+      }
+     },
+     "sense_geometria:2": {
+      "doble": {
+       "parelles": 3,
+       "tirs": 5,
+       "ok": false,
+       "lambda": 0.14395064427047183,
+       "creixement_ln": 0.7911299643868513,
+       "finestra_s": [
+        0.1,
+        1.225
+       ],
+       "motiu": "dins de la finestra creix 0.79 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 782,
+        "sigma": 14.194991534036639,
+        "sense_lambda": 636
+       },
+       "referencia": 0.7240903155661705
+      },
+      "simple": {
+       "parelles": 18,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.08331416091449279,
+       "creixement_ln": -0.12613097696807163,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.13 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 999,
+        "sigma": 2.836507421485291,
+        "sense_lambda": 971
+       }
+      }
+     },
+     "sense_geometria:3": {
+      "doble": {
+       "parelles": 0,
+       "tirs": 0,
+       "ok": false,
+       "lambda": 0.0,
+       "creixement_ln": 0.0,
+       "finestra_s": null,
+       "motiu": "menys de tres parelles",
+       "referencia": null
+      },
+      "simple": {
+       "parelles": 6,
+       "tirs": 8,
+       "ok": false,
+       "lambda": -0.0906540699683045,
+       "creixement_ln": -0.14103367576924564,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.14 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 931,
+        "sigma": 21.153252353561005,
+        "sense_lambda": 668
+       }
+      }
+     },
+     "sense_geometria:4": {
+      "doble": {
+       "parelles": 2,
+       "tirs": 4,
+       "ok": false,
+       "lambda": 0.0,
+       "creixement_ln": 0.0,
+       "finestra_s": null,
+       "motiu": "menys de tres parelles",
+       "referencia": null
+      },
+      "simple": {
+       "parelles": 14,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.09865957993846032,
+       "creixement_ln": 0.02020631780525073,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.02 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 994,
+        "sigma": 11.417747444174598,
+        "sense_lambda": 956
+       }
+      }
+     },
+     "doble_total:0": {
+      "doble": {
+       "parelles": 259,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.3444067526764894,
+       "creixement_ln": 0.654330496336538,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.65 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.10479874289248924,
+        "sense_lambda": 976
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 787,
+       "tirs": 12,
+       "ok": false,
+       "lambda": -0.002225065064062685,
+       "creixement_ln": 0.05421741660764301,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.05 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.014291608822224936,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:1": {
+      "doble": {
+       "parelles": 240,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.39742156738383105,
+       "creixement_ln": 0.6380381097767445,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.64 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.1355249005032372,
+        "sense_lambda": 962
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 791,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.021029142425310423,
+       "creixement_ln": 0.13630558562095585,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.14 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.019714824808955964,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:2": {
+      "doble": {
+       "parelles": 261,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.2902767514462614,
+       "creixement_ln": 0.5231459338062687,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.52 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.0870275879662129,
+        "sense_lambda": 999
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 792,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.00888825157728998,
+       "creixement_ln": 0.11497392613998647,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.11 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.015561899014563615,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:3": {
+      "doble": {
+       "parelles": 258,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.3903282845865372,
+       "creixement_ln": 0.6007272849147536,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.60 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.14367158896126234,
+        "sense_lambda": 979
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 742,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.014415520855325348,
+       "creixement_ln": 0.12177140409229725,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.12 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.015055580216537022,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:4": {
+      "doble": {
+       "parelles": 248,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.35762881608537656,
+       "creixement_ln": 0.6264608917668895,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.63 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.09166233956183292,
+        "sense_lambda": 990
+       },
+       "referencia": 0.5630370146709923
+      },
+      "simple": {
+       "parelles": 756,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.0020458277798175023,
+       "creixement_ln": 0.06832355628347964,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.07 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.01640310883398875,
+        "sense_lambda": 1000
+       }
+      }
+     }
+    },
+    "friccio_de_prova_ideal": {
+     "parelles": 346,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 0.13505788675545152,
+     "creixement_ln": 0.18204525090708268,
+     "finestra_s": [
+      0.1,
+      1.5
+     ],
+     "motiu": "dins de la finestra creix 0.18 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.1058465618636352,
+      "sense_lambda": 999
+     }
+    }
+   },
+   "benettin_nominal_info": {
+    "lambda_mediana_caotiques": 0.30543441999223236,
+    "caotiques": 2,
+    "regulars": 9
+   },
+   "segons": 26.257336499999838
+  },
+  "90": {
+   "alineacio_relativa": {
+    "AL1": {
+     "criteri": "AL1",
+     "passa": false,
+     "detall": "rms del residu relatiu (total, preses dels llindars) 1.83, 2.70, 2.36, 1.63, 4.03 ms; cal <= 2 ms a >= 4 de 5"
+    },
+    "AL2": {
+     "criteri": "AL2",
+     "passa": true,
+     "detall": "sense soroll, |s| maxim 0.042 ms; cal <= 0,5 ms"
+    },
+    "rms_ms": {
+     "total": [
+      1.831135877147928,
+      2.696740077617585,
+      2.357013099967382,
+      1.6253912970715518,
+      4.031213980502974
+     ],
+     "sense_geometria": [
+      2.070927645154974,
+      3.024251679183965,
+      2.990764800782717,
+      2.0144294660662405,
+      3.0471952560408933
+     ],
+     "doble_total": [
+      4.618296202982997,
+      4.094823679993847,
+      3.4104076267462995,
+      5.654839763550039,
+      3.890309196207972
+     ]
+    },
+    "rms_ms_amb_totes_les_preses_info": {
+     "total": [
+      1.831135877147928,
+      2.696740077617585,
+      2.357013099967382,
+      1.6253912970715518,
+      4.031213980502974
+     ],
+     "sense_geometria": [
+      2.070927645154974,
+      3.024251679183965,
+      2.990764800782717,
+      2.0144294660662405,
+      3.0471952560408933
+     ],
+     "doble_total": [
+      4.618296202982997,
+      4.094823679993847,
+      3.4104076267462995,
+      5.654839763550039,
+      3.890309196207972
+     ]
+    }
+   },
+   "sigma_relativa_s": 0.0040312139805029745,
+   "llindars": {
+    "video": {
+     "escala": {
+      "terra_rad": 0.1183500107545395,
+      "seguiment_rad": 0.026664927833627387,
+      "alineacio_rad": 0.11530701049470955,
+      "sostre_rad": 1.972981282640109,
+      "D_max_rad": 0.657660427546703,
+      "factor": null,
+      "rang_ln_3x": 0.6164300150596885,
+      "rang_ln_2x": 1.021895123167853,
+      "avaluable": false
+     },
+     "avaluable": false
+    },
+    "relativa": {
+     "escala": {
+      "avaluable": false,
+      "motiu": "AL1 o AL2 fallen"
+     },
+     "avaluable": false
+    }
+   },
+   "veins": {
+    "config": {
+     "periodic": [
+      true,
+      true,
+      false,
+      false
+     ],
+     "sep": [
+      0,
+      1
+     ],
+     "vel": [
+      2,
+      3
+     ],
+     "banda": [
+      0.07999478350088216,
+      0.11999217525132325
+     ],
+     "theiler": 480,
+     "cada": 10,
+     "de_max": 0.1,
+     "H": 360,
+     "h0": 24,
+     "dt": 0.004166666666666667,
+     "ln_sostre_3": -0.44007812600014046
+    },
+    "criteris": {
+     "VN1": {
+      "criteri": "VN1",
+      "passa": true,
+      "detall": "sense soroll 0.677 contra la referencia 0.8107011270713617"
+     },
+     "VN2": {
+      "criteri": "VN2",
+      "passa": true,
+      "detall": "4 de 5 a +-25 % de la referencia amb sigma_boot <= 20 %"
+     },
+     "VN3": {
+      "criteri": "VN3",
+      "passa": true,
+      "detall": "creixement sense soroll 1.15; >= 1 a 4 de 5"
+     },
+     "VN4": {
+      "criteri": "VN4",
+      "passa": true,
+      "detall": "5 de 5 amb el simple <= 0,3 x el doble i a >= 2 sigma"
+     },
+     "VN5": {
+      "criteri": "VN5",
+      "passa": true,
+      "detall": "sense soroll 866 parelles de 11 tirs; >= 100 de >= 8 a 5 de 5"
+     }
+    },
+    "passa": true,
+    "referencia_pendent_ideal": 0.8107011270713617,
+    "referencia_parelles": 400,
+    "corregudes": {
+     "ideal:None": {
+      "doble": {
+       "parelles": 866,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.676876935289866,
+       "creixement_ln": 1.152641820100191,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.08452438147850032,
+        "sense_lambda": 129
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 947,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.22537317242139107,
+       "creixement_ln": 0.11856045712394936,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.12 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.05447374709243943,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:0": {
+      "doble": {
+       "parelles": 664,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6322864734300015,
+       "creixement_ln": 1.0707216243031,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.08165242292461078,
+        "sense_lambda": 232
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 973,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.10796686447310783,
+       "creixement_ln": -0.00012706286443231463,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.00 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.052869050978539445,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:1": {
+      "doble": {
+       "parelles": 702,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6346176989416973,
+       "creixement_ln": 1.0789483397330084,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.08968416375576553,
+        "sense_lambda": 203
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 974,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.12624958089584587,
+       "creixement_ln": 0.017858049622414107,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.02 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.038767186955750245,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:2": {
+      "doble": {
+       "parelles": 664,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.6465148832547563,
+       "creixement_ln": 0.9871712661676364,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.99 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.09024547988060255,
+        "sense_lambda": 482
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 984,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.15304787699793562,
+       "creixement_ln": 0.10530018862093726,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.11 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.04593075662202175,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:3": {
+      "doble": {
+       "parelles": 687,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6774352384044673,
+       "creixement_ln": 1.1887153819255947,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.09508253795557767,
+        "sense_lambda": 61
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 960,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.14451109126156786,
+       "creixement_ln": 0.042252404296011736,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.04 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.054108699831520314,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:4": {
+      "doble": {
+       "parelles": 707,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6503835386723552,
+       "creixement_ln": 1.0784020571719635,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.07302014028308604,
+        "sense_lambda": 236
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 951,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.12588190771287025,
+       "creixement_ln": 0.01289886311886157,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.01 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.0514372278483464,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:0": {
+      "doble": {
+       "parelles": 608,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6335002266946537,
+       "creixement_ln": 1.131399688766162,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.07970642353059532,
+        "sense_lambda": 103
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1007,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.15220404538531576,
+       "creixement_ln": 0.06522447486668126,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.07 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.06280500326390835,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:1": {
+      "doble": {
+       "parelles": 592,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6197425019010995,
+       "creixement_ln": 1.0545517406002245,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.08084845373575301,
+        "sense_lambda": 331
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1011,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.11435724874708739,
+       "creixement_ln": 0.0646725601796998,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.06 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.05818786664389841,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:2": {
+      "doble": {
+       "parelles": 623,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6422607751822363,
+       "creixement_ln": 1.0903768753076153,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.08220281814082368,
+        "sense_lambda": 248
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1007,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.09799697831266672,
+       "creixement_ln": -0.00010241477285921619,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.00 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.05024950575154398,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:3": {
+      "doble": {
+       "parelles": 631,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6614290604742761,
+       "creixement_ln": 1.1233970376597904,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.08010537909024361,
+        "sense_lambda": 154
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 995,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.11420581034255313,
+       "creixement_ln": 0.04929336214816393,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.05 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.042879512659147884,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:4": {
+      "doble": {
+       "parelles": 602,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6346218344425031,
+       "creixement_ln": 1.0662475192794545,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.06784595983952244,
+        "sense_lambda": 270
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 972,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.1647497567107597,
+       "creixement_ln": 0.13465298099146317,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.13 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.049898561337545104,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:0": {
+      "doble": {
+       "parelles": 487,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.5926432804297355,
+       "creixement_ln": 1.106865673462846,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.0893543707408942,
+        "sense_lambda": 158
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1045,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.09830783667191784,
+       "creixement_ln": 0.0770787632121479,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.08 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.032894881468316636,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:1": {
+      "doble": {
+       "parelles": 465,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6408543402207487,
+       "creixement_ln": 1.0617847938266465,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.07334401131376686,
+        "sense_lambda": 300
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1038,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.08397825198461577,
+       "creixement_ln": 0.0484711462251779,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.05 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.030876726853913808,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:2": {
+      "doble": {
+       "parelles": 472,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.5767870247722328,
+       "creixement_ln": 1.045353072977596,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.08737092136340566,
+        "sense_lambda": 354
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1075,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.06479643716105964,
+       "creixement_ln": 0.027886665111144904,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.03 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.03447179794041012,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:3": {
+      "doble": {
+       "parelles": 477,
+       "tirs": 11,
+       "ok": true,
+       "lambda": 0.6061206399369434,
+       "creixement_ln": 1.1059909194221784,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": null,
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.09592947794906445,
+        "sense_lambda": 163
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1023,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.10991871694194809,
+       "creixement_ln": 0.12692703135983852,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.13 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.037933388422219175,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:4": {
+      "doble": {
+       "parelles": 477,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.5738433616748415,
+       "creixement_ln": 0.9705257165165604,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.97 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.09171675577847642,
+        "sense_lambda": 555
+       },
+       "referencia": 0.8107011270713617
+      },
+      "simple": {
+       "parelles": 1059,
+       "tirs": 11,
+       "ok": false,
+       "lambda": 0.11007796250390958,
+       "creixement_ln": 0.14701854666457947,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.15 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.047221171478114464,
+        "sense_lambda": 1000
+       }
+      }
+     }
+    },
+    "friccio_de_prova_ideal": {
+     "parelles": 373,
+     "tirs": 11,
+     "ok": true,
+     "lambda": 2.2901314316928008,
+     "creixement_ln": 1.9220302207560873,
+     "finestra_s": [
+      0.1,
+      0.95
+     ],
+     "motiu": null,
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.7235207992865661,
+      "sense_lambda": 0
+     }
+    }
+   },
+   "benettin_nominal_info": {
+    "lambda_mediana_caotiques": 2.3822527629380827,
+    "caotiques": 12,
+    "regulars": 0
+   },
+   "segons": 35.192935600000055
+  },
+  "150": {
+   "alineacio_relativa": {
+    "AL1": {
+     "criteri": "AL1",
+     "passa": false,
+     "detall": "rms del residu relatiu (total, preses dels llindars) 17.58, 14.63, 15.55, 12.83, 16.95 ms; cal <= 2 ms a >= 4 de 5"
+    },
+    "AL2": {
+     "criteri": "AL2",
+     "passa": false,
+     "detall": "sense soroll, |s| maxim 2.251 ms; cal <= 0,5 ms"
+    },
+    "rms_ms": {
+     "total": [
+      17.575453144901513,
+      14.633036209440826,
+      15.545981127471668,
+      12.832753193090777,
+      16.948916399661645
+     ],
+     "sense_geometria": [
+      10.933129710739264,
+      10.894628694689253,
+      14.57207638063586,
+      4.650048154592789,
+      25.426033341248555
+     ],
+     "doble_total": [
+      19.675880417617737,
+      21.905342467142255,
+      20.100466852195076,
+      13.301288284123109,
+      16.223640360915653
+     ]
+    },
+    "rms_ms_amb_totes_les_preses_info": {
+     "total": [
+      27.969466734894464,
+      32.033152100064214,
+      35.85719294943186,
+      12.990939355464011,
+      18.278847302193313
+     ],
+     "sense_geometria": [
+      10.677311422835125,
+      12.052700547985703,
+      14.208541703245483,
+      9.868159885625447,
+      25.49292895886175
+     ],
+     "doble_total": [
+      18.308883635209494,
+      24.35492015652343,
+      19.63976079863877,
+      25.7083807371355,
+      19.487178747599796
+     ]
+    }
+   },
+   "sigma_relativa_s": 0.017575453144901512,
+   "llindars": {
+    "video": {
+     "escala": {
+      "terra_rad": 0.207688782255017,
+      "seguiment_rad": 0.09510720821545354,
+      "alineacio_rad": 0.18347529421180858,
+      "sostre_rad": 2.5348838515572765,
+      "D_max_rad": 0.8449612838524255,
+      "factor": null,
+      "rang_ln_3x": 0.30463779965414495,
+      "rang_ln_2x": 0.7101029077623093,
+      "avaluable": false
+     },
+     "avaluable": false
+    },
+    "relativa": {
+     "escala": {
+      "avaluable": false,
+      "motiu": "AL1 o AL2 fallen"
+     },
+     "avaluable": false
+    }
+   },
+   "veins": {
+    "config": {
+     "periodic": [
+      true,
+      true,
+      false,
+      false
+     ],
+     "sep": [
+      0,
+      1
+     ],
+     "vel": [
+      2,
+      3
+     ],
+     "banda": [
+      0.27899823390121703,
+      0.41849735085182554
+     ],
+     "theiler": 480,
+     "cada": 10,
+     "de_max": 0.1,
+     "H": 360,
+     "h0": 24,
+     "dt": 0.004166666666666667,
+     "ln_sostre_3": -0.31604957122649546
+    },
+    "criteris": {
+     "VN1": {
+      "criteri": "VN1",
+      "passa": true,
+      "detall": "sense soroll 3.752 contra la referencia 3.3957160058745233"
+     },
+     "VN2": {
+      "criteri": "VN2",
+      "passa": false,
+      "detall": "0 de 5 a +-25 % de la referencia amb sigma_boot <= 20 %"
+     },
+     "VN3": {
+      "criteri": "VN3",
+      "passa": false,
+      "detall": "creixement sense soroll 0.75; >= 1 a 0 de 5"
+     },
+     "VN4": {
+      "criteri": "VN4",
+      "passa": true,
+      "detall": "5 de 5 amb el simple <= 0,3 x el doble i a >= 2 sigma"
+     },
+     "VN5": {
+      "criteri": "VN5",
+      "passa": true,
+      "detall": "sense soroll 957 parelles de 12 tirs; >= 100 de >= 8 a 5 de 5"
+     }
+    },
+    "passa": false,
+    "referencia_pendent_ideal": 3.3957160058745233,
+    "referencia_parelles": 400,
+    "corregudes": {
+     "ideal:None": {
+      "doble": {
+       "parelles": 957,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 3.752094873141708,
+       "creixement_ln": 0.7509520170799933,
+       "finestra_s": [
+        0.1,
+        0.30416666666666664
+       ],
+       "motiu": "dins de la finestra creix 0.75 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.5996495776522293,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.3957160058745233
+      },
+      "simple": {
+       "parelles": 1101,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.19077974038902776,
+       "creixement_ln": 0.05313900751597744,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.05 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.10040787271163634,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:0": {
+      "doble": {
+       "parelles": 566,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.3207650723443844,
+       "creixement_ln": 0.6708850489435454,
+       "finestra_s": [
+        0.1,
+        0.2583333333333333
+       ],
+       "motiu": "dins de la finestra creix 0.67 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.9031600153347962,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.285995850788793
+      },
+      "simple": {
+       "parelles": 1110,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.01935741681496907,
+       "creixement_ln": 0.024816734060908008,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.02 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.04522720712273004,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:1": {
+      "doble": {
+       "parelles": 561,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 3.9983533453983484,
+       "creixement_ln": 0.6369335737565354,
+       "finestra_s": [
+        0.1,
+        0.26666666666666666
+       ],
+       "motiu": "dins de la finestra creix 0.64 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.7638310417895443,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.312739720105238
+      },
+      "simple": {
+       "parelles": 1101,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.06540653437932774,
+       "creixement_ln": 0.09839216838452125,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.10 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.04827015877072347,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:2": {
+      "doble": {
+       "parelles": 547,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.051654789290133,
+       "creixement_ln": 0.6720860860529244,
+       "finestra_s": [
+        0.1,
+        0.26666666666666666
+       ],
+       "motiu": "dins de la finestra creix 0.67 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.6921595938892051,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.312739720105238
+      },
+      "simple": {
+       "parelles": 1120,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.06711757049719784,
+       "creixement_ln": 0.12667610910418325,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.13 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.05710716420918027,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:3": {
+      "doble": {
+       "parelles": 560,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.461551960149008,
+       "creixement_ln": 0.6419670835947635,
+       "finestra_s": [
+        0.1,
+        0.25
+       ],
+       "motiu": "dins de la finestra creix 0.64 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.8293084666782249,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.2614066657483365
+      },
+      "simple": {
+       "parelles": 1122,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.06795403095800225,
+       "creixement_ln": 0.024047948948800357,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.02 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.050731031284957824,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "total:4": {
+      "doble": {
+       "parelles": 579,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.228225682169165,
+       "creixement_ln": 0.7182440520453923,
+       "finestra_s": [
+        0.1,
+        0.2791666666666667
+       ],
+       "motiu": "dins de la finestra creix 0.72 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.968070421095241,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.3496243938736683
+      },
+      "simple": {
+       "parelles": 1112,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.04950947905067763,
+       "creixement_ln": 0.1074633734361976,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.11 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.038079591822176656,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:0": {
+      "doble": {
+       "parelles": 589,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.313828467686663,
+       "creixement_ln": 0.6595467317959263,
+       "finestra_s": [
+        0.1,
+        0.2583333333333333
+       ],
+       "motiu": "dins de la finestra creix 0.66 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 1.0514224045833906,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.285995850788793
+      },
+      "simple": {
+       "parelles": 1110,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.05818567666087336,
+       "creixement_ln": 0.04662960501626978,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.05 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.052568361481793204,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:1": {
+      "doble": {
+       "parelles": 592,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.293820813298516,
+       "creixement_ln": 0.6546885436142442,
+       "finestra_s": [
+        0.1,
+        0.25416666666666665
+       ],
+       "motiu": "dins de la finestra creix 0.65 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.7961833196194242,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.273730127654939
+      },
+      "simple": {
+       "parelles": 1112,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.10214141479122654,
+       "creixement_ln": 0.06544629695340598,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.07 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.046455875800747067,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:2": {
+      "doble": {
+       "parelles": 571,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.338054570533591,
+       "creixement_ln": 0.6728835191647156,
+       "finestra_s": [
+        0.1,
+        0.2583333333333333
+       ],
+       "motiu": "dins de la finestra creix 0.67 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.8513674576489623,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.285995850788793
+      },
+      "simple": {
+       "parelles": 1150,
+       "tirs": 12,
+       "ok": false,
+       "lambda": -0.017818776533938346,
+       "creixement_ln": -0.06600606119096186,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.07 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.048869237940856194,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:3": {
+      "doble": {
+       "parelles": 571,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.2837878225992485,
+       "creixement_ln": 0.7027577581224087,
+       "finestra_s": [
+        0.1,
+        0.275
+       ],
+       "motiu": "dins de la finestra creix 0.70 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.8018038132052686,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.338304958330756
+      },
+      "simple": {
+       "parelles": 1099,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.07530715665795816,
+       "creixement_ln": 0.0775714294242924,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.08 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.045844364055170186,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "sense_geometria:4": {
+      "doble": {
+       "parelles": 606,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 3.9047794086836376,
+       "creixement_ln": 0.7215149942621619,
+       "finestra_s": [
+        0.1,
+        0.29583333333333334
+       ],
+       "motiu": "dins de la finestra creix 0.72 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.7082735484879696,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.3835183959256514
+      },
+      "simple": {
+       "parelles": 1116,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.0482610007713225,
+       "creixement_ln": 0.06553934159952246,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.07 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.057512399699627424,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:0": {
+      "doble": {
+       "parelles": 450,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.980005016846872,
+       "creixement_ln": 0.6772467118272486,
+       "finestra_s": [
+        0.1,
+        0.2375
+       ],
+       "motiu": "dins de la finestra creix 0.68 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 1.144881741554261,
+        "sense_lambda": 999
+       },
+       "referencia": 3.2325460081121977
+      },
+      "simple": {
+       "parelles": 1152,
+       "tirs": 12,
+       "ok": false,
+       "lambda": -0.014708110463367542,
+       "creixement_ln": 0.04709575426181134,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.05 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.04856636669648455,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:1": {
+      "doble": {
+       "parelles": 443,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.59151506262856,
+       "creixement_ln": 0.5875762899096715,
+       "finestra_s": [
+        0.1,
+        0.23333333333333334
+       ],
+       "motiu": "dins de la finestra creix 0.59 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 1.0832902494384165,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.2210527988604793
+      },
+      "simple": {
+       "parelles": 1123,
+       "tirs": 12,
+       "ok": false,
+       "lambda": -0.009268768361908227,
+       "creixement_ln": 0.06119100186720017,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.06 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.056901703004520694,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:2": {
+      "doble": {
+       "parelles": 428,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.610984587889306,
+       "creixement_ln": 0.5821291284182375,
+       "finestra_s": [
+        0.1,
+        0.22916666666666666
+       ],
+       "motiu": "dins de la finestra creix 0.58 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 1.0954442253292689,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.2105214712959005
+      },
+      "simple": {
+       "parelles": 1162,
+       "tirs": 12,
+       "ok": false,
+       "lambda": -0.058322836529913054,
+       "creixement_ln": -0.07554097658332992,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.08 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.06336817690717204,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:3": {
+      "doble": {
+       "parelles": 432,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.8132481616513925,
+       "creixement_ln": 0.5688530018987539,
+       "finestra_s": [
+        0.1,
+        0.225
+       ],
+       "motiu": "dins de la finestra creix 0.57 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.9801419768557708,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.202180718148634
+      },
+      "simple": {
+       "parelles": 1169,
+       "tirs": 12,
+       "ok": false,
+       "lambda": -0.03218342469018236,
+       "creixement_ln": -0.029432807957572082,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix -0.03 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.057286854514368414,
+        "sense_lambda": 1000
+       }
+      }
+     },
+     "doble_total:4": {
+      "doble": {
+       "parelles": 434,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 4.657956536565168,
+       "creixement_ln": 0.5766841342864641,
+       "finestra_s": [
+        0.1,
+        0.22916666666666666
+       ],
+       "motiu": "dins de la finestra creix 0.58 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 1.1641757579708387,
+        "sense_lambda": 1000
+       },
+       "referencia": 3.2105214712959005
+      },
+      "simple": {
+       "parelles": 1145,
+       "tirs": 12,
+       "ok": false,
+       "lambda": 0.0046115174326335755,
+       "creixement_ln": 0.03376712711126295,
+       "finestra_s": [
+        0.1,
+        1.5
+       ],
+       "motiu": "dins de la finestra creix 0.03 (cal 1)",
+       "bootstrap": {
+        "remostrejos": 1000,
+        "sigma": 0.07124685798846762,
+        "sense_lambda": 1000
+       }
+      }
+     }
+    },
+    "friccio_de_prova_ideal": {
+     "parelles": 591,
+     "tirs": 12,
+     "ok": false,
+     "lambda": 1.9658479680515024,
+     "creixement_ln": 0.8390085324136769,
+     "finestra_s": [
+      0.1,
+      0.5208333333333334
+     ],
+     "motiu": "dins de la finestra creix 0.84 (cal 1)",
+     "bootstrap": {
+      "remostrejos": 1000,
+      "sigma": 0.7605015536413064,
+      "sense_lambda": 980
+     }
+    }
+   },
+   "benettin_nominal_info": {
+    "lambda_mediana_caotiques": 2.677779595644633,
+    "caotiques": 12,
+    "regulars": 0
+   },
+   "segons": 41.76287559999946
+  }
+ },
+ "fitxers_oberts_de_dades": [
+  "divergencia\\lyapunov_real_pas0_2026-10-17.json",
+  "divergencia\\regla2_amb_soroll_2026-10-03.json"
+ ]
+}

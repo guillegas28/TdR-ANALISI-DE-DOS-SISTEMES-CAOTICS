@@ -1,0 +1,17 @@
+Llegint dades/video/tracker/45/45_2.trk
+  tres pistes: fix, rodament, extrem   19293 fotogrames a 239.90 fps
+  vertical    -0.007 graus (estable a 0.009, residu 0.8 px)
+  articulacio +0.0 px de costat, al repos = +0.01 graus de theta1  (mesurat, NO corregit)
+  marca       +0.4 px = +0.2 mm al llarg de la barra 1 (+ = mes enlla del pivot 2): fins a 0.10 graus a theta2 -> a l'eix (criteri 1 mm)
+              rao marca-gomet / L1 1.162, amb la marca a l'eix 1.164; vibracio 1.01 -> 0.77 px
+              no es corregeix: ja es a l'eix (|delta| <= 1 mm)
+  soroll      les barres varien 0.2 i 1.0 px = 0.05 i 0.26 graus d'angle
+  pivot       es mou 1.0 px com a molt (primer segon 0.3, ultim 1.03)
+  el fix      cobreix de +0.00 a 80.42 s de la presa, que va de 0.00 a 80.42
+  fps = 239.90   finestra Savitzky-Golay = 13 mostres (54 ms)
+
+Desat: dades\net\45_2.csv
+  amollada a 2.4001 s +- 5.7 ms, amb 2400 ms de repos abans: arrenca del repos
+  durada 80.42 s, 19293 mostres
+  angles inicials: 43.99 / 41.60 graus
+  recorregut de theta1: -35 a 44 graus

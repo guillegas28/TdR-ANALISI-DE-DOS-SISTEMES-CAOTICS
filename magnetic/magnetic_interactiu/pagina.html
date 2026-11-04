@@ -1,0 +1,165 @@
+<!-- Cos de la pagina interactiva del mapa de conques.
+     La plantilla d'aixo es magnetic/magnetic_interactiu/pagina.html, i el
+     fitxer que estas llegint l'ha escrit construeix.py incrustant-hi el CSS,
+     el motor de calcul, el JavaScript de la pagina i la taula de l'autotest.
+     Per tornar-lo a fer:
+       .venv\Scripts\python.exe -m magnetic.magnetic_interactiu.construeix -->
+<main>
+
+  <header class="capcalera">
+    <h1>Mapa de conques del pèndol magnètic</h1>
+    <p class="subtitol">
+      Cada punt és un lloc de sortida i el color diu a quin imant acaba la
+      massa. Arrossega un requadre per ampliar: es <strong>torna a
+      calcular</strong>, no s'estira la imatge.
+    </p>
+  </header>
+
+  <!-- L'avis de valors inventats va SEMPRE visible, com a totes les figures.
+       No es pot plegar ni tancar: es la marca que viatja enganxada a les dades.
+       Amb la classe 'arbitrari' vol dir que la pagina s'ha construit amb
+       --b/--n/--K, o sigui que els valors no son ni els de parametres.json. -->
+  <div class="avis {{CLASSE_AVIS}}">{{AVIS_INVENTATS}}</div>
+
+  <div class="taulell">
+
+    <div class="columna-mapa">
+      <div class="llenc" id="embolcall">
+        <canvas id="mapa" width="601" height="601"></canvas>
+        <!-- Els anells dels imants van en un llenc A PART, a sobre. Al llenc del
+             mapa NOMES hi ha colors calculats: te image-rendering: pixelated
+             perque cada pixel es un punt de sortida, i a mes es repinta sencer
+             amb putImageData a cada fila que arriba, o sigui que qualsevol cosa
+             dibuixada a sobre s'esborraria. -->
+        <canvas id="imants" width="601" height="601"></canvas>
+        <div class="requadre" id="requadre" hidden></div>
+      </div>
+      <div class="progres"><div id="barra"></div></div>
+      <p class="ajuda">
+        <strong>arrossega</strong> per ampliar &nbsp;·&nbsp;
+        <strong>roda</strong> per acostar-te i allunyar-te &nbsp;·&nbsp;
+        <strong>doble clic</strong> per centrar
+      </p>
+      <p class="ajuda">
+        els <strong>cercles</strong> marquen on és cada imant,
+        a mida real (5 mm de radi)
+      </p>
+
+      <!-- Les figures ja calculades, DINS de la columna del mapa i sota seu.
+           Aixi omplen l'espai que va del marge fins al requadre dels controls,
+           i el gap de 1,6 rem del taulell fa de marge entre les dues coses. El
+           topall de 601 px de la columna NO els val: vegeu al CSS
+           .columna-mapa > :not(.galeria).
+           Nomes hi son les que la pagina NO sap fer sola: el mapa general, els
+           tres zooms i el temps de caiguda no hi son a posta, perque els fa en
+           viu i ampliables. La pinta pagina.js des de GALERIA. -->
+      <section class="galeria" id="galeria"></section>
+    </div>
+
+    <aside class="columna-controls">
+
+      <section class="bloc">
+        <h2>Resolució</h2>
+        <div class="botonera" id="botons-resolucio">
+          <button type="button" data-nivell="1">151</button>
+          <button type="button" data-nivell="2">301</button>
+          <button type="button" data-nivell="3">601</button>
+        </div>
+        <p class="nota" id="estat-calcul"></p>
+      </section>
+
+      <!-- Les quatre finestres de la figura d'autosemblanca, que construeix.py
+           calcula amb el Python a 601 i incrusta comprimides. Els botons els
+           posa pagina.js a partir de VISTES; si la pagina no en porta cap, el
+           bloc s'amaga. -->
+      <section class="bloc" id="bloc-vistes">
+        <h2>Vistes ja calculades</h2>
+        <div class="botonera" id="botons-vistes"></div>
+      </section>
+
+      <section class="bloc">
+        <h2>Vista</h2>
+        <div class="botonera" id="botons-vista">
+          <button type="button" data-vista="conques">conques</button>
+          <button type="button" data-vista="temps">temps de caiguda</button>
+        </div>
+      </section>
+
+      <section class="bloc">
+        <h2>Navegació</h2>
+        <div class="botonera">
+          <button type="button" id="boto-enrere">←</button>
+          <button type="button" id="boto-endavant">→</button>
+          <button type="button" id="boto-reinicia">reinicia</button>
+        </div>
+      </section>
+
+      <section class="bloc">
+        <h2>On ets</h2>
+        <table class="lectura" id="lectura"></table>
+      </section>
+
+      <section class="bloc">
+        <h2>Aquesta finestra</h2>
+        <table class="lectura" id="viu"></table>
+        <p class="nota">
+          Calculat aquí, sobre el que veus. El percentatge de frontera no vol dir
+          res sense la resolució al costat: a més punts, més fina és la frontera
+          que es pot veure.
+        </p>
+      </section>
+
+      <!-- LA LLEGENDA SEGUEIX LA VISTA. A conques son els cinc destins; a
+           temps, la barra de magma amb el rang en segons. El degradat el fa la
+           MATEIXA funcio que pinta els pixels, o sigui que no pot discrepar del
+           mapa. Vegeu pintaLlegenda() a pagina.js. -->
+      <section class="bloc">
+        <h2>Què hi ha</h2>
+        <div id="llegenda-color"></div>
+        <table class="lectura" id="destins"></table>
+        <p class="nota" id="nota-gris"></p>
+      </section>
+
+      <section class="bloc">
+        <h2>Ja calculat</h2>
+        <table class="lectura" id="referencia"></table>
+        <p class="nota" id="nota-referencia"></p>
+      </section>
+
+      <!-- Els parametres amb que s'ha calculat tot. Va BUIT: l'omple
+           pintaParametres() llegint PARAMETRES, que es la mateixa constant que
+           llegeix el motor. Cap numero escrit a ma, o sigui que construint amb
+           --b/--n/--K aixo diu els valors de debo i no els del parametres.json. -->
+      <section class="bloc">
+        <h2>Paràmetres de la simulació</h2>
+        <dl class="parametres" id="parametres"></dl>
+        <p class="nota" id="nota-parametres"></p>
+      </section>
+
+      <section class="bloc">
+        <h2>Autotest</h2>
+        <p class="nota" id="autotest">comprovant…</p>
+        <p class="nota">
+          La pàgina recalcula uns punts de referència que va calcular el Python i
+          comprova que li surti el mateix. Si això falla, no et creguis el mapa.
+        </p>
+      </section>
+
+      <section class="bloc">
+        <h2>Com va</h2>
+        <p class="nota" id="com-va">—</p>
+      </section>
+
+    </aside>
+  </div>
+
+  <footer class="peu">
+    Nucli de càlcul traduït de <code>magnetic/motor.py</code>. El Python és el
+    que mana; això n'és una còpia que ha passat
+    <code>magnetic.magnetic_interactiu.compara</code>.
+    Generat el {{DATA}} · dt = {{DT}} s · criteri de confinament: no sortir de
+    {{R_CAPTURA}} cm del punt de repòs durant {{T_CONFIRMA}} s ({{T_CONFIRMA_CENTRE}} s al
+    centre, que és un pou molt més pla), màxim {{T_MAX}} s.
+  </footer>
+
+</main>

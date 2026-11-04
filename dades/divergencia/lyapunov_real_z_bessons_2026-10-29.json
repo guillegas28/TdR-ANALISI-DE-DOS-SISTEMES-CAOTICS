@@ -1,0 +1,145 @@
+{
+ "eina": "eines/lyapunov_real.py z_bessons",
+ "pla": "documentacio/pla-analisi-caos.md (29/10, «Sis feines», F6)",
+ "que_es": "l'error de cada besso de la Z (la C3), al costat del de la presa real: NOMES SIMULACIO, mes el JSON de la Z; cap presa oberta i CAP VEREDICTE",
+ "condicions_de": "per_presa.amollada_despres_graus del JSON real (corregides)",
+ "s_graus": [
+  1.045,
+  1.127
+ ],
+ "bessons": [
+  {
+   "lambda": 4.791885843261651,
+   "sigma": 0.6789616092261372,
+   "error_relatiu": 0.14168985477416848
+  },
+  {
+   "lambda": 4.87229303686967,
+   "sigma": 1.4709814600462312,
+   "error_relatiu": 0.3019074281688322
+  },
+  {
+   "lambda": 4.8843086374043185,
+   "sigma": 0.6194785051068474,
+   "error_relatiu": 0.126830335897049
+  },
+  {
+   "lambda": 4.561703352262544,
+   "sigma": 1.048607635703747,
+   "error_relatiu": 0.22987194798268756
+  },
+  {
+   "lambda": 4.959669142447134,
+   "sigma": 1.9118445088371545,
+   "error_relatiu": 0.38547823532717296
+  },
+  {
+   "lambda": 4.3880977309406495,
+   "sigma": 1.4094476143819707,
+   "error_relatiu": 0.3211978631295972
+  },
+  {
+   "lambda": 4.819539003217694,
+   "sigma": 0.8294307727216171,
+   "error_relatiu": 0.1720975330146431
+  },
+  {
+   "lambda": 4.048057410575908,
+   "sigma": 0.7227800398442612,
+   "error_relatiu": 0.17854984910933683
+  },
+  {
+   "lambda": 3.8745659575592,
+   "sigma": 0.4437699419835786,
+   "error_relatiu": 0.11453410442472721
+  },
+  {
+   "lambda": 4.483524685251057,
+   "sigma": 0.9633111284165051,
+   "error_relatiu": 0.21485576550641075
+  },
+  {
+   "lambda": 5.282088160385343,
+   "sigma": 2.421693678187233,
+   "error_relatiu": 0.4584727866432588
+  },
+  {
+   "lambda": 4.601148056333869,
+   "sigma": 0.9125423847506983,
+   "error_relatiu": 0.19832928077472023
+  },
+  {
+   "lambda": 4.260859161059277,
+   "sigma": 1.137662456057641,
+   "error_relatiu": 0.2670030651223897
+  },
+  {
+   "lambda": 4.904230683738809,
+   "sigma": 1.2474528866373025,
+   "error_relatiu": 0.25436260385824455
+  },
+  {
+   "lambda": 4.843609795372292,
+   "sigma": 1.1789396973741109,
+   "error_relatiu": 0.2434010473966131
+  },
+  {
+   "lambda": 3.860058100984997,
+   "sigma": 1.247892868686565,
+   "error_relatiu": 0.32328344186532626
+  },
+  {
+   "lambda": 4.980859492909027,
+   "sigma": 0.9076173066539359,
+   "error_relatiu": 0.18222102188308267
+  },
+  {
+   "lambda": 4.457814544214572,
+   "sigma": 0.9075406249343269,
+   "error_relatiu": 0.2035842038588502
+  },
+  {
+   "lambda": 5.314634625363729,
+   "sigma": 1.0739926421737642,
+   "error_relatiu": 0.20208212189191863
+  },
+  {
+   "lambda": 4.344489129261233,
+   "sigma": 0.8016195907826936,
+   "error_relatiu": 0.18451412051731997
+  }
+ ],
+ "error_bessons": {
+  "mediana": 0.20921998468263048,
+  "minim": 0.11453410442472721,
+  "maxim": 0.4584727866432588,
+  "per_sota_del_20_pc": 8
+ },
+ "real": {
+  "lambda": 2.9807235830509318,
+  "sigma": 0.3631354474818097,
+  "error_relatiu": 0.12182795128896888,
+  "de": "dades/divergencia/lyapunov_real_z_r2_2026-10-27.json"
+ },
+ "bessons_amb_menys_error": 1,
+ "percentil": 5.0,
+ "lectura": "per sota del percentil 10: els tirs reals es dispersen menys del que el model fa esperar des d'aquestes condicions (coherent amb la D4b: van sortir mes junts que la mesura)",
+ "regla_de_lectura": "escrita abans (pla, 29/10): < 10 per sota; 10-90 dins; > 90 per sobre",
+ "criteris": {
+  "ZB1": {
+   "passa": true,
+   "que": "reprodueix la ZR3' del 27/10: 8 de 20 per sota del 20 %, mediana del 21 %",
+   "detall": "8 de 20 per sota del 20 %, mediana 20.9 %"
+  },
+  "ZB2": {
+   "passa": true,
+   "que": "de dades/ nomes obre el que diu el pla",
+   "fitxers_oberts_de_dades": [
+    "divergencia/lyapunov_real_dues_parts_2026-10-27.json",
+    "divergencia/lyapunov_real_pas0_2026-10-17.json",
+    "divergencia/lyapunov_real_pas0b_2026-10-17.json",
+    "divergencia/lyapunov_real_z_r2_2026-10-27.json"
+   ]
+  }
+ }
+}

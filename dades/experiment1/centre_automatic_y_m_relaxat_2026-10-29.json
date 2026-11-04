@@ -1,0 +1,2047 @@
+{
+ "_que_es": "L'experiment 1 amb el centre automatic dels gomets: ANALISI POSTERIOR, NO FIRMADA (documentacio/pla-centre-automatic.md; eines/centre_automatic.py). El veredicte firmat no canvia.",
+ "firma_x": 5.0,
+ "m_relaxat": true,
+ "fora_de_la_prova": {
+  "45_11": "sense gomet al rodament (error de gravacio; decisio d'en Guillem, 28/10)"
+ },
+ "per_presa": [
+  {
+   "nom": "45_1",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_1.mp4",
+   "R1_rad": 4.994187285944918e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 10.836962941204227,
+     "-2": 9.107905172186245,
+     "-1": 7.7426383010492845,
+     "0": 4.065079848868562,
+     "1": 7.429173259462408,
+     "2": 8.599880164737675,
+     "3": 10.337698736476424
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.6173468726271402,
+    "extrem": 0.07136786049555133
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 4.505815059351439,
+    "p95_px": 8.20457563575779,
+    "max_px": 8.382206301741732
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.307071691264099,
+    "theta2_max": 1.8334275217335354,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -1.2338551553170458,
+      0.8943527670295925
+     ],
+     "ultims_20ms": [
+      -1.8543291510377786,
+      0.23934414784931773
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.06221062418981741,
+      0.03352716214165013
+     ],
+     "ultims_20ms": [
+      -1.0666006950900744,
+      -0.39683230831912164
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19250576942273478,
+    "extrem": 0.18833735718980638
+   },
+   "K_rad": 1.1102230246251565e-16,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 1.0823523610869612,
+    "zero_afinat": true,
+    "H_s": 0.5275,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.07086614173228345,
+     "t_sortida_s": 0.0014348199130387318,
+     "angle": "theta1"
+    }
+   },
+   "automatic": {
+    "zero_s": 1.0823523610869612,
+    "zero_afinat": true,
+    "H_s": 0.5275,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.03937007874015752,
+     "t_sortida_s": 0.0014348199130387318,
+     "angle": "theta1"
+    }
+   }
+  },
+  {
+   "nom": "45_2",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_2.mp4",
+   "R1_rad": 4.996583147232059e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 10.403268746867077,
+     "-2": 8.345127311515258,
+     "-1": 6.798080619275618,
+     "0": 3.4437826520733985,
+     "1": 6.780759515163145,
+     "2": 8.252344892470884,
+     "3": 10.381856568490278
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.34847991250937527,
+    "extrem": 0.533098260544947
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 5.598652996114195,
+    "p95_px": 6.63871534842206,
+    "max_px": 11.311230842385099
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.5761697202809256,
+    "theta2_max": 1.6210765958081623,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.46610611173857874,
+      -0.027067342465211256
+     ],
+     "ultims_20ms": [
+      -0.45423468629283376,
+      -0.03865485065069109
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.03687287255606381,
+      0.24296776943107326
+     ],
+     "ultims_20ms": [
+      -0.15702713346212033,
+      0.2143014620149517
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.1950446933448422,
+    "extrem": 0.19087629446306797
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 2.40248730518836,
+    "zero_afinat": true,
+    "H_s": 0.55225,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.030303030303030276,
+     "t_sortida_s": 0.002678849811639683,
+     "angle": "theta1"
+    }
+   },
+   "automatic": {
+    "zero_s": 2.40268730518836,
+    "zero_afinat": true,
+    "H_s": 0.55225,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.05303030303030298,
+     "t_sortida_s": 0.002478849811639705,
+     "angle": "theta1"
+    }
+   }
+  },
+  {
+   "nom": "45_3",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_3.mp4",
+   "R1_rad": 4.994344937614414e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 10.693434273504037,
+     "-2": 8.911196883024768,
+     "-1": 7.36524149141272,
+     "0": 3.633763414777798,
+     "1": 7.340016775748181,
+     "2": 8.835744329726037,
+     "3": 10.603997967701499
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.22347625336539134,
+    "extrem": 0.3140482868385616
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 5.163214130894646,
+    "p95_px": 7.337535775271187,
+    "max_px": 7.78176487409217
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.6695756720668224,
+    "theta2_max": 1.7596189483579823,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.42455488523082446,
+      -0.485780396982638
+     ],
+     "ultims_20ms": [
+      -0.4179671504082795,
+      -0.4827565877613425
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.00036609500400483405,
+      -0.15233728088747553
+     ],
+     "ultims_20ms": [
+      -0.07409258343407353,
+      -0.07182226195684374
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19492379368215507,
+    "extrem": 0.19075539284966547
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 1.4171058563504086,
+    "zero_afinat": true,
+    "H_s": 0.5245,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.17460317460317465,
+     "t_sortida_s": 0.3044436876495913,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 1.4187058563504087,
+    "zero_afinat": true,
+    "H_s": 0.5245,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.47619047619047616,
+     "t_sortida_s": 0.3612012986495914,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "45_4",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_4.mp4",
+   "R1_rad": 4.999616276535335e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 10.393079167342473,
+     "-2": 8.495550135073035,
+     "-1": 7.435172710670482,
+     "0": 3.6970442023718397,
+     "1": 7.303902335674434,
+     "2": 8.571131247293128,
+     "3": 10.467469334824882
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.5305243797273798,
+    "extrem": 0.26718134982249697
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 4.086655479197793,
+    "p95_px": 7.487272980402822,
+    "max_px": 7.827063879654639
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.3588456521777598,
+    "theta2_max": 1.8553231944882893,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.2080566922310449,
+      0.1357150023332493
+     ],
+     "ultims_20ms": [
+      -0.19775676635370393,
+      0.04561508033794772
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.08688571964244735,
+      -0.03028975348418832
+     ],
+     "ultims_20ms": [
+      0.006186730719392431,
+      -0.10367165737913293
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19456940644616783,
+    "extrem": 0.1904010467671915
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 2.5252220804878127,
+    "zero_afinat": true,
+    "H_s": 0.54625,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.17557251908396942,
+     "t_sortida_s": 0.3009257815121873,
+     "angle": "theta1"
+    }
+   },
+   "automatic": {
+    "zero_s": 2.5252220804878127,
+    "zero_afinat": true,
+    "H_s": 0.54625,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.2442748091603053,
+     "t_sortida_s": 0.31343086051218716,
+     "angle": "theta1"
+    }
+   }
+  },
+  {
+   "nom": "45_5",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_5.mp4",
+   "R1_rad": 4.992797286718087e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 10.517484750399039,
+     "-2": 8.618525126281424,
+     "-1": 7.219131722575199,
+     "0": 3.856714874398035,
+     "1": 7.516166029979923,
+     "2": 8.833308274871975,
+     "3": 10.992345166911221
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.4324661109257452,
+    "extrem": 0.06733962515217379
+   },
+   "Q": {
+    "fotogrames": 503,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 4.963037944125164,
+    "p95_px": 7.429534358814188,
+    "max_px": 7.806499452047037
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.7498409325356125,
+    "theta2_max": 1.7412371539434004,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.5452918251207897,
+      0.36095507838605567
+     ],
+     "ultims_20ms": [
+      -0.655714077102354,
+      0.1293174129999246
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.11754016406673592,
+      -0.1102469060979935
+     ],
+     "ultims_20ms": [
+      -0.2440194501098583,
+      -0.38683432794709643
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19238749779965358,
+    "extrem": 0.18821909928507652
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 1.9276812193285788,
+    "zero_afinat": true,
+    "H_s": 0.5375,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.023255813953488413,
+     "t_sortida_s": 0.0022872926714212483,
+     "angle": "theta1"
+    }
+   },
+   "automatic": {
+    "zero_s": 1.9278812193285788,
+    "zero_afinat": true,
+    "H_s": 0.5375,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.07751937984496127,
+     "t_sortida_s": 0.014592488671421266,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "45_6",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_6.mp4",
+   "R1_rad": 4.998907954245624e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 10.332735879850416,
+     "-2": 8.400923639629497,
+     "-1": 7.096446758297295,
+     "0": 3.658697876436656,
+     "1": 7.327553737130936,
+     "2": 8.64620334666103,
+     "3": 10.41271816067001
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.30225640155755834,
+    "extrem": 0.3843051739513387
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 5.143222494988834,
+    "p95_px": 7.460659941064448,
+    "max_px": 7.962986860155409
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.8940619198846277,
+    "theta2_max": 1.697751667867359,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.8386994558645966,
+      -0.04748147841181994
+     ],
+     "ultims_20ms": [
+      -1.532722226172354,
+      -0.5857160627925673
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.006097915109001072,
+      -0.09841178409705238
+     ],
+     "ultims_20ms": [
+      -0.9091500212383876,
+      -0.7119068283721706
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.1939898833160849,
+    "extrem": 0.18982158229178503
+   },
+   "K_rad": 1.1102230246251565e-16,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 1.2842669881844362,
+    "zero_afinat": true,
+    "H_s": 0.544,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.05384615384615388,
+     "t_sortida_s": 0.003738028815563732,
+     "angle": "theta1"
+    }
+   },
+   "automatic": {
+    "zero_s": 1.2840669881844362,
+    "zero_afinat": true,
+    "H_s": 0.544,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.023076923076923106,
+     "t_sortida_s": 0.00393802881556371,
+     "angle": "theta1"
+    }
+   }
+  },
+  {
+   "nom": "45_8",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_8.mp4",
+   "R1_rad": 4.995093227933012e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 10.471936511316157,
+     "-2": 8.901221134066716,
+     "-1": 7.617455258556138,
+     "0": 4.122465577145022,
+     "1": 7.962333021750817,
+     "2": 9.212934305816379,
+     "3": 11.029668326653672
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.3290529418727406,
+    "extrem": 0.5064633284815406
+   },
+   "Q": {
+    "fotogrames": 503,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 5.587305102206758,
+    "p95_px": 8.309671307927411,
+    "max_px": 8.606573866566047
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.5833303171111629,
+    "theta2_max": 1.977732805159955,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.6486048971846421,
+      1.0761279321132653
+     ],
+     "ultims_20ms": [
+      -0.786447886331609,
+      0.5022817566179609
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.11524793259364607,
+      -0.0674687145640594
+     ],
+     "ultims_20ms": [
+      -0.4061028076489435,
+      -0.3370293917539704
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19238566159112436,
+    "extrem": 0.18821726359151114
+   },
+   "K_rad": 1.1102230246251565e-16,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 2.472689880482195,
+    "zero_afinat": true,
+    "H_s": 0.533,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.140625,
+     "t_sortida_s": 0.31179998351780513,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 2.472489880482195,
+    "zero_afinat": true,
+    "H_s": 0.533,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.2578125,
+     "t_sortida_s": 0.12442207351780477,
+     "angle": "theta1"
+    }
+   }
+  },
+  {
+   "nom": "45_9",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_9.mp4",
+   "R1_rad": 4.995444058408793e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 8.072218064918435,
+     "-2": 5.405437481116127,
+     "-1": 3.4438965553217136,
+     "0": 1.7598773232521605,
+     "1": 3.3166718776896262,
+     "2": 5.954463223837205,
+     "3": 8.561284251766438
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.9815745956247958,
+    "extrem": 0.6915261427010365
+   },
+   "Q": {
+    "fotogrames": 432,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 1.5267956981779371,
+    "p95_px": 2.387953629640006,
+    "max_px": 3.217270776510777
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.9242936527909513,
+    "theta2_max": 0.8792828091615648,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.044357098053090495,
+      -0.14449459862176406
+     ],
+     "ultims_20ms": [
+      -0.28975003505918917,
+      -0.4112364979937226
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.2143434313820252,
+      -0.011285801595365866
+     ],
+     "ultims_20ms": [
+      -0.6176329257262535,
+      -0.34242057084466243
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.1459115653654085,
+    "extrem": 0.14174317261909994
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.14712856428558146,
+    "zero_afinat": true,
+    "H_s": 0.53075,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.1889763779527559,
+     "t_sortida_s": 0.011270360114418537,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.14572856428558148,
+    "zero_afinat": true,
+    "H_s": 0.53075,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.203125,
+     "t_sortida_s": 0.26694231761441856,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "45_10",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_10.mp4",
+   "R1_rad": 4.992408708659468e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 9.64469732619792,
+     "-2": 7.582780613554475,
+     "-1": 5.90506162310154,
+     "0": 2.9336915538902186,
+     "1": 5.707023999275005,
+     "2": 7.420660915308823,
+     "3": 9.570178397688727
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.5351368899053459,
+    "extrem": 0.2522674770291393
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 3.7451401032140073,
+    "p95_px": 5.329735647171379,
+    "max_px": 5.87692574886851
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.3594794453208527,
+    "theta2_max": 1.2700581375891902,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.9390885723000015,
+      0.7512830244674102
+     ],
+     "ultims_20ms": [
+      -1.368792938981544,
+      0.2205417479551043
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.11016996105411171,
+      0.15185757676978073
+     ],
+     "ultims_20ms": [
+      -0.6829031080133788,
+      -0.2758075354864234
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19474018857138442,
+    "extrem": 0.19057177470041675
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 1.866837258426889,
+    "zero_afinat": true,
+    "H_s": 0.554,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.0,
+     "t_sortida_s": 0.0006121555731108952,
+     "angle": "theta1"
+    }
+   },
+   "automatic": {
+    "zero_s": 1.8706372584268893,
+    "zero_afinat": true,
+    "H_s": 0.554,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.0,
+     "t_sortida_s": 0.0009805695731106567,
+     "angle": "theta1"
+    }
+   }
+  },
+  {
+   "nom": "45_12",
+   "grup": "45",
+   "problemes": [],
+   "video_del_trk": "../../conv/45/45_12.mp4",
+   "R1_rad": 4.995501790006074e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 11.189282633844112,
+     "-2": 7.415522207377368,
+     "-1": 4.11703418803732,
+     "0": 0.6663724400204923,
+     "1": 2.8593919146851063,
+     "2": 6.1488950320798885,
+     "3": 9.138406467970182
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.6988982826809625,
+    "extrem": 0.13598558317833825
+   },
+   "Q": {
+    "fotogrames": 448,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 0.846484494786174,
+    "p95_px": 1.948632231315597,
+    "max_px": 3.255128407743597
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.4407143881361854,
+    "theta2_max": 0.5774897953519171,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.1491282695355245,
+      -0.05487596495154936
+     ],
+     "ultims_20ms": [
+      0.15316919722991293,
+      -0.02593821223825364
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.262968546989519,
+      -0.11900236690394393
+     ],
+     "ultims_20ms": [
+      0.39794377232840317,
+      0.05593327443550546
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19383033203219147,
+    "extrem": 0.18965823518793112
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.2230266601193224,
+    "zero_afinat": true,
+    "H_s": 0.5335,
+    "y": {
+     "avaluable": true,
+     "falla": false,
+     "fraccio_dins": 0.3671875
+    }
+   },
+   "automatic": {
+    "zero_s": 0.2240266601193224,
+    "zero_afinat": true,
+    "H_s": 0.5335,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.40625,
+     "t_sortida_s": 0.03881544108067761,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "45_13",
+   "grup": "45",
+   "problemes": [
+    "A0"
+   ],
+   "video_del_trk": "../../conv/45/45_13.mp4",
+   "R1_rad": 4.989628710205807e-10,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 9.356600403961759,
+     "-2": 6.384594718418224,
+     "-1": 3.405265180682406,
+     "0": 0.8002259024677453,
+     "1": 3.0881981719432092,
+     "2": 5.849611223782379,
+     "3": 8.545055577958953
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 1.6357401349693281,
+    "extrem": 0.572040619909711
+   },
+   "Q": {
+    "fotogrames": 503,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 1.197182670484464,
+    "p95_px": 2.58871701958141,
+    "max_px": 3.138539895182063
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.6735079088925435,
+    "theta2_max": 0.48281322774574154,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.40203874922259836,
+      0.4782427598585746
+     ],
+     "ultims_20ms": [
+      0.29721753084925256,
+      0.23307138996472215
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.24812474499546666,
+      0.0761297322640726
+     ],
+     "ultims_20ms": [
+      0.023689785572585075,
+      0.008383639740170493
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19345453318618544,
+    "extrem": 0.18928243240691756
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 1.027330235235462,
+    "zero_afinat": true,
+    "H_s": 0.5385,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.2713178294573644,
+     "t_sortida_s": 0.32860251776453797,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 1.027330235235462,
+    "zero_afinat": true,
+    "H_s": 0.5385,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.26356589147286824,
+     "t_sortida_s": 0.324430416764538,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_1",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_1.mp4",
+   "R1_rad": 4.997247060600785e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 21.386950692775255,
+     "-2": 13.954320438765418,
+     "-1": 7.20536990280156,
+     "0": 4.117053985160576,
+     "1": 9.501997770145273,
+     "2": 16.140926006914356,
+     "3": 22.627304878234227
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.22094880179965623,
+    "extrem": 0.39625674441179404
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 2.9313238256697054,
+    "p95_px": 4.989210203290204,
+    "max_px": 5.626698343043103
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.5135197408221919,
+    "theta2_max": 1.4074387836221725,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.41985109400826076,
+      0.48857416686185257
+     ],
+     "ultims_20ms": [
+      -0.4033856771994292,
+      0.43924959304284744
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.08780142058324518,
+      -0.10683283462626005
+     ],
+     "ultims_20ms": [
+      0.10767102603812768,
+      -0.15667097051797027
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19299187947719737,
+    "extrem": 0.18882347275206474
+   },
+   "K_rad": 2.220446049250313e-16,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.45405250253388263,
+    "zero_afinat": true,
+    "H_s": 0.43025,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.29807692307692313,
+     "t_sortida_s": 0.2920923012661174,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.45505250253388263,
+    "zero_afinat": true,
+    "H_s": 0.43025,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.27184466019417475,
+     "t_sortida_s": 0.30776592816611736,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_2",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_2.mp4",
+   "R1_rad": 4.9999187012872426e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.229342878297075,
+     "-2": 14.37269758297915,
+     "-1": 7.022171415014274,
+     "0": 2.021092310209219,
+     "1": 8.233100393451991,
+     "2": 15.168880766619166,
+     "3": 22.113207763747948
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.3363416736333083,
+    "extrem": 0.8561470114845969
+   },
+   "Q": {
+    "fotogrames": 398,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 2.115573070383453,
+    "p95_px": 3.56586029030761,
+    "max_px": 5.504272612825145
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 0.927996933754961,
+    "theta2_max": 0.9416319947228061,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.5971449241061607,
+      -0.6604860754877405
+     ],
+     "ultims_20ms": [
+      0.591321306141615,
+      -0.6218415038689068
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.07432632811553916,
+      -0.14405146693209742
+     ],
+     "ultims_20ms": [
+      0.10754827017859624,
+      -0.06940568655932644
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.02596974098184242,
+    "extrem": 0.021801341493217434
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.03204333893710093,
+    "zero_afinat": true,
+    "H_s": 0.43925000000000003,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.2075471698113207,
+     "t_sortida_s": 0.042987851862899065,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.03304333893710093,
+    "zero_afinat": true,
+    "H_s": 0.43925000000000003,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.23584905660377353,
+     "t_sortida_s": 0.05449305032289907,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_3",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_3.mp4",
+   "R1_rad": 4.999735736532784e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 21.993000202519866,
+     "-2": 14.465321533427527,
+     "-1": 7.419118164746015,
+     "0": 2.2321708665273485,
+     "1": 8.408601964222179,
+     "2": 15.330871890227845,
+     "3": 22.330283097442816
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.23486325985413742,
+    "extrem": 0.267881310897737
+   },
+   "Q": {
+    "fotogrames": 503,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 2.4593539807591362,
+    "p95_px": 4.807553139792667,
+    "max_px": 8.314849891350551
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.0423857445005524,
+    "theta2_max": 1.9435324770808644,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.10588365499432095,
+      -0.2254196861331116
+     ],
+     "ultims_20ms": [
+      -0.0349675635447438,
+      -0.25018180261082423
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.06496303307578635,
+      -0.02515877618896353
+     ],
+     "ultims_20ms": [
+      0.2029895880461648,
+      0.0533401838924685
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19576439301063342,
+    "extrem": 0.19159597553178198
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.4753848080518901,
+    "zero_afinat": true,
+    "H_s": 0.4365,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.21153846153846156,
+     "t_sortida_s": 0.028993706848109868,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.47678480805189005,
+    "zero_afinat": true,
+    "H_s": 0.4365,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.12380952380952381,
+     "t_sortida_s": 0.035930541848109954,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_4",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_4.mp4",
+   "R1_rad": 4.999879621436776e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.003165902257923,
+     "-2": 14.080492769856734,
+     "-1": 6.997632905677044,
+     "0": 2.8317774874906463,
+     "1": 8.896660861704522,
+     "2": 16.034676181059886,
+     "3": 23.03426448906764
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.8687024268567421,
+    "extrem": 0.4846500179163832
+   },
+   "Q": {
+    "fotogrames": 414,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 2.6679099603964667,
+    "p95_px": 4.642203153872007,
+    "max_px": 6.438739051504988
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.160054018092294,
+    "theta2_max": 0.9057750452669829,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.10817820546654472,
+      -0.04280053849729629
+     ],
+     "ultims_20ms": [
+      -0.08277986691281418,
+      -0.08947528249603214
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.045898704894488065,
+      0.0015387136084589201
+     ],
+     "ultims_20ms": [
+      -0.026536200556761456,
+      -0.09446945667949234
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.0705091191963963,
+    "extrem": 0.0663407106770404
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.07378275327476824,
+    "zero_afinat": true,
+    "H_s": 0.44075000000000003,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.12264150943396224,
+     "t_sortida_s": 0.022090642675231753,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.07518275327476825,
+    "zero_afinat": true,
+    "H_s": 0.44075000000000003,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.04761904761904767,
+     "t_sortida_s": 0.01652223415523174,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_5",
+   "grup": "90",
+   "problemes": [
+    "A0"
+   ],
+   "video_del_trk": "../../conv/90/90_5.mp4",
+   "R1_rad": 4.9998476470136666e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.547758581259508,
+     "-2": 15.726481614329485,
+     "-1": 9.709003900040214,
+     "0": 5.891476748058764,
+     "1": 9.417714303943068,
+     "2": 15.589922913610547,
+     "3": 21.895502697484318
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.3323562099713925,
+    "extrem": 4.552157825869406
+   },
+   "Q": {
+    "fotogrames": 486,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 2.5911318892778796,
+    "p95_px": 10.730825249796132,
+    "max_px": 11.644916297374756
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.195768825229591,
+    "theta2_max": 2.2695809311163697,
+    "fora_de_W": 8.142219984546603e-13
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      -0.18902477473670637,
+      0.13273826540164393
+     ],
+     "ultims_20ms": [
+      -0.5413435732959324,
+      -0.3732388644929367
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.10057598593750226,
+      1.1585956558851784
+     ],
+     "ultims_20ms": [
+      -0.6393590055162224,
+      0.5897280683939428
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.1942174517537916,
+    "extrem": 0.19004903998517403
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.36796439311069407,
+    "zero_afinat": true,
+    "H_s": 0.431,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.07766990291262132,
+     "t_sortida_s": 0.00719266608930591,
+     "angle": "theta1"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.36956439311069406,
+    "zero_afinat": true,
+    "H_s": 0.431,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.04807692307692313,
+     "t_sortida_s": 0.0014242542893059262,
+     "angle": "theta1"
+    }
+   }
+  },
+  {
+   "nom": "90_6",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_6.mp4",
+   "R1_rad": 4.999744618316981e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.39992356274947,
+     "-2": 14.59837923250749,
+     "-1": 7.125706714453862,
+     "0": 2.0184438335493438,
+     "1": 8.073486488861215,
+     "2": 15.636864055619029,
+     "3": 22.356116522984763
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.6435887192060752,
+    "extrem": 0.26142902183505795
+   },
+   "Q": {
+    "fotogrames": 504,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 1.7723846582821197,
+    "p95_px": 4.3274085843817645,
+    "max_px": 5.561666967522136
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.2818734896792021,
+    "theta2_max": 0.9353635688830209,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.5224366514381127,
+      -0.4125691409760307
+     ],
+     "ultims_20ms": [
+      0.4770915506048985,
+      -0.5081697528783661
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.11994982982373316,
+      -0.20401515419370908
+     ],
+     "ultims_20ms": [
+      0.031701129912052525,
+      -0.31960832456451915
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.16959481206328286,
+    "extrem": 0.16542640676403852
+   },
+   "K_rad": 2.220446049250313e-16,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 2.0715668660069206,
+    "zero_afinat": true,
+    "H_s": 0.4315,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.1826923076923077,
+     "t_sortida_s": 0.025140999993079394,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 2.0725668660069205,
+    "zero_afinat": true,
+    "H_s": 0.4315,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.07766990291262132,
+     "t_sortida_s": 0.024140999993079504,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_7",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_7.mp4",
+   "R1_rad": 4.999947122996673e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.953392949101847,
+     "-2": 15.219708517637745,
+     "-1": 7.6097629419418436,
+     "0": 1.693774976412151,
+     "1": 8.065970940151557,
+     "2": 15.346549388437058,
+     "3": 22.304264467009272
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.42828562334658327,
+    "extrem": 0.45743096203269795
+   },
+   "Q": {
+    "fotogrames": 460,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 1.6119990632207402,
+    "p95_px": 3.645086134722623,
+    "max_px": 4.22263931400219
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.1365020244164856,
+    "theta2_max": 0.840197364930421,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.006173071175121065,
+      -0.18757402963235117
+     ],
+     "ultims_20ms": [
+      -0.034711878065476244,
+      -0.37979005642182984
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.010830689742796756,
+      0.0039260642166735514
+     ],
+     "ultims_20ms": [
+      0.060352669524076745,
+      -0.23834536843327195
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19210531681965073,
+    "extrem": 0.1879369301677974
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.2654101523760267,
+    "zero_afinat": true,
+    "H_s": 0.4375,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.01904761904761909,
+     "t_sortida_s": 0.009703366623973253,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.2662101523760267,
+    "zero_afinat": true,
+    "H_s": 0.4375,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.01904761904761909,
+     "t_sortida_s": 0.008903366623973286,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_8",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_8.mp4",
+   "R1_rad": 4.9998476470136666e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.64318279983747,
+     "-2": 14.630376425622766,
+     "-1": 6.758116113713352,
+     "0": 2.4462349015215046,
+     "1": 8.727997539230927,
+     "2": 15.86147446992522,
+     "3": 23.199641429580527
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.6583866144605883,
+    "extrem": 0.2831075092425147
+   },
+   "Q": {
+    "fotogrames": 503,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 2.133147642687784,
+    "p95_px": 3.8431913180991764,
+    "max_px": 5.176408248391377
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.09867943904555,
+    "theta2_max": 1.792828118631206,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.292074081608697,
+      -0.3096556196940995
+     ],
+     "ultims_20ms": [
+      0.311591194098018,
+      -0.33276947433854864
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.1471865416171998,
+      -0.12489454737341545
+     ],
+     "ultims_20ms": [
+      0.1666974833867895,
+      -0.24979469977661783
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19228032789790628,
+    "extrem": 0.18811196216912185
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.8588637949078205,
+    "zero_afinat": true,
+    "H_s": 0.42775,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.07843137254901966,
+     "t_sortida_s": 0.016493008092179462,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.8592637949078205,
+    "zero_afinat": true,
+    "H_s": 0.42775,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.05882352941176472,
+     "t_sortida_s": 0.016093008092179506,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_9",
+   "grup": "90",
+   "problemes": [
+    "A0"
+   ],
+   "video_del_trk": "../../conv/90/90_9.mp4",
+   "R1_rad": 4.999840541586309e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 21.888341966827255,
+     "-2": 14.237422980826619,
+     "-1": 6.999789846502804,
+     "0": 2.13172136889475,
+     "1": 8.302514718919532,
+     "2": 15.216145552631136,
+     "3": 22.08011550801352
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.21433108589795574,
+    "extrem": 5.369379070234729
+   },
+   "Q": {
+    "fotogrames": 436,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 1.6683088939545714,
+    "p95_px": 6.308579672273951,
+    "max_px": 11.087899976713711
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.1590753725747025,
+    "theta2_max": 2.272581158493745,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.28808254791863924,
+      -0.3522082149774125
+     ],
+     "ultims_20ms": [
+      0.3047720838713751,
+      -0.38278316585797634
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      -0.013838246174331636,
+      1.2413280332286374
+     ],
+     "ultims_20ms": [
+      0.017568721852177345,
+      1.1968851822890134
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.16171874913028036,
+    "extrem": 0.1575503443502642
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.16626442639373132,
+    "zero_afinat": true,
+    "H_s": 0.438,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.02857142857142858,
+     "t_sortida_s": 0.004640169606268674,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.1668644263937313,
+    "zero_afinat": true,
+    "H_s": 0.438,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.06666666666666665,
+     "t_sortida_s": 0.033219003006268705,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_10",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_10.mp4",
+   "R1_rad": 4.999343161671277e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.07667142386118,
+     "-2": 14.178120492125664,
+     "-1": 6.782772496265901,
+     "0": 1.2986741960269084,
+     "1": 8.679680907710386,
+     "2": 15.768967834029969,
+     "3": 22.71644239756659
+    },
+    "passa": true,
+    "passa_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.6836359819001305,
+    "extrem": 0.40788010536924685
+   },
+   "Q": {
+    "fotogrames": 503,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 1.920021504210223,
+    "p95_px": 4.385236580190824,
+    "max_px": 5.978895567714125
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.0501636292745316,
+    "theta2_max": 1.413326350264803,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.2317209160833007,
+      -0.0591719870683528
+     ],
+     "ultims_20ms": [
+      0.5554025249960985,
+      0.1308602688523209
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.19058815557703349,
+      -0.0551189804021436
+     ],
+     "ultims_20ms": [
+      0.6003401896866367,
+      0.33791383650931184
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.192300715981421,
+    "extrem": 0.18813238685964068
+   },
+   "K_rad": 2.220446049250313e-16,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.5388595416589674,
+    "zero_afinat": true,
+    "H_s": 0.4225,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.13861386138613863,
+     "t_sortida_s": 0.03220154804103259,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.5398595416589674,
+    "zero_afinat": true,
+    "H_s": 0.4225,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.06930693069306926,
+     "t_sortida_s": 0.03120154804103259,
+     "angle": "theta2"
+    }
+   }
+  },
+  {
+   "nom": "90_11",
+   "grup": "90",
+   "problemes": [],
+   "video_del_trk": "../../conv/90/90_11.mp4",
+   "R1_rad": 4.998526037525153e-09,
+   "M": {
+    "k": 0,
+    "mediana_px": {
+     "-3": 22.881824946163285,
+     "-2": 15.365469500395516,
+     "-1": 7.8852303285491345,
+     "0": 3.9541421058984736,
+     "1": 8.903194876399025,
+     "2": 15.665119234605074,
+     "3": 22.507674374049657
+    },
+    "passa": true,
+    "passa_relaxat": true,
+    "nomes_relaxat": true
+   },
+   "A0_px": {
+    "rodament": 0.5996518579399017,
+    "extrem": 0.3035208008455724
+   },
+   "Q": {
+    "fotogrames": 454,
+    "sense_centre": 0,
+    "fraccio_a_13px": 1.0,
+    "mediana_px": 3.1034654356771676,
+    "p95_px": 5.052436631876213,
+    "max_px": 5.658877615141887
+   },
+   "canvi_cru_graus": {
+    "theta1_max": 1.5249943530087677,
+    "theta2_max": 0.921152335017513,
+    "fora_de_W": 0.0
+   },
+   "repos_menys_clic_graus": {
+    "tracker": {
+     "amollada": [
+      0.05258955536273929,
+      0.1144447022836822
+     ],
+     "ultims_20ms": [
+      0.7040026406793881,
+      0.4336567811543333
+     ]
+    },
+    "automatic": {
+     "amollada": [
+      0.37164813884228504,
+      0.03397984371656069
+     ],
+     "ultims_20ms": [
+      1.0762405149058767,
+      0.6954645073942294
+     ]
+    }
+   },
+   "clic_del_repos_s_abans": {
+    "rodament": 0.19353147142755048,
+    "extrem": 0.18936307381611295
+   },
+   "K_rad": 0.0,
+   "estat0_igual": true,
+   "tracker": {
+    "zero_s": 0.24424539818873503,
+    "zero_afinat": true,
+    "H_s": 0.44175000000000003,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.047169811320754707,
+     "t_sortida_s": 0.02253204891126498,
+     "angle": "theta2"
+    }
+   },
+   "automatic": {
+    "zero_s": 0.24624539818873503,
+    "zero_afinat": true,
+    "H_s": 0.44175000000000003,
+    "y": {
+     "avaluable": true,
+     "falla": true,
+     "fraccio_dins": 0.037735849056603765,
+     "t_sortida_s": 0.028868844211264955,
+     "angle": "theta2"
+    }
+   }
+  }
+ ],
+ "per_grup": {
+  "45": {
+   "falla": true,
+   "c": 2,
+   "fallen": [
+    "45_1",
+    "45_10",
+    "45_12",
+    "45_2",
+    "45_3",
+    "45_4",
+    "45_5",
+    "45_6",
+    "45_8",
+    "45_9"
+   ],
+   "avaluables": 10,
+   "no_avaluables": [],
+   "lectura": "falla: no concloent",
+   "preses": 10
+  },
+  "90": {
+   "falla": true,
+   "c": 2,
+   "fallen": [
+    "90_1",
+    "90_10",
+    "90_11",
+    "90_2",
+    "90_3",
+    "90_4",
+    "90_6",
+    "90_7",
+    "90_8"
+   ],
+   "avaluables": 9,
+   "no_avaluables": [],
+   "lectura": "falla: no concloent",
+   "preses": 9
+  }
+ },
+ "problemes_R_K": []
+}

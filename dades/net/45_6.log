@@ -1,0 +1,20 @@
+Llegint dades/video/tracker/45/45_6.trk
+  tres pistes: fix, rodament, extrem   17565 fotogrames a 239.91 fps
+  retall      la presa comenca al fotograma 790 (el fix no es retalla)
+  vertical    -0.120 graus (estable a 0.001, residu 0.5 px)
+  articulacio +0.5 px de costat, al repos = +0.16 graus de theta1  (mesurat, NO corregit)
+  marca       +0.1 px = +0.0 mm al llarg de la barra 1 (+ = mes enlla del pivot 2): fins a 0.02 graus a theta2 -> a l'eix (criteri 1 mm)
+              rao marca-gomet / L1 1.160, amb la marca a l'eix 1.159; vibracio 0.90 -> 0.68 px
+              no es corregeix: ja es a l'eix (|delta| <= 1 mm)
+  soroll      les barres varien 0.2 i 0.9 px = 0.06 i 0.23 graus d'angle
+  pivot       es mou 1.5 px com a molt (primer segon 0.8, ultim 0.12)
+  el fix      cobreix de -0.44 a 73.21 s de la presa, que va de 0.00 a 73.21
+  fps = 239.91   finestra Savitzky-Golay = 13 mostres (54 ms)
+
+Desat: dades\net\45_6.csv
+  amollada a 1.3028 s +- 10.8 ms, amb 1303 ms de repos abans: arrenca del repos
+     ATENCIO: theta1 i theta2 no diuen el mateix instant: 21.4 ms de diferencia, mes d'un fotograma (4.2 ms)
+     ATENCIO: el residu de l'ajust equival a 1.43 graus, mes de tres vegades el soroll de seguiment (0.23): o la finestra es massa llarga per al model, o l'amollada no va ser neta
+  durada 73.21 s, 17565 mostres
+  angles inicials: 45.33 / 43.38 graus
+  recorregut de theta1: -36 a 45 graus

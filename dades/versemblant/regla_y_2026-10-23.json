@@ -1,0 +1,4999 @@
+{
+ "_que_es": "La regla de la Y (la prova del model) i els numeros que la sostenen, NOMES DE SIMULACIO (bessons de les 35 preses; cap CSV real obert). NO FIRMADA. Pla: documentacio/pla-conflicte-y-afinament.md (cinquena, setena i vuitena tandes); per firmar: documentacio/per-firmar-24-10.md. Codi: esborranys/_conflicte_y.py --part 6, 8 i 9; la regla, a pendol/comparar.py.",
+ "_fet_amb": "esborranys/_resum_regla_y.py, copiant els resums de part6.json, part8.json i part9.json",
+ "regla": {
+  "opcio": "B0.085|Y4|X3",
+  "ref": "O|Y4|X3",
+  "c": 2
+ },
+ "horitzo_mediana_s": {
+  "cargol mesurat": {
+   "3": {
+    "45": 0.5006250000000001,
+    "90": 0.22575,
+    "150": 0.2605
+   },
+   "5": {
+    "45": 0.5511250000000001,
+    "90": 0.435,
+    "150": 0.29475
+   }
+  }
+ },
+ "cinquena_tanda_cargol_mesurat": {
+  "cargol mesurat": {
+   "3": {
+    "45": {
+     "O|Y": {
+      "c": 3,
+      "p_cal": 0.0851063829787234,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.125,
+       "bessons": 96,
+       "grup_falla": 0.12875,
+       "grup_falla_binom": 0.18199938036559613
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "O|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 96,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.09375,
+       "bessons": 96,
+       "grup_falla": 0.29055,
+       "grup_falla_binom": 0.3121534019427387
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.12705,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 0.9375,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999964
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.1|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.10416666666666667,
+       "bessons": 96,
+       "grup_falla": 0.36325,
+       "grup_falla_binom": 0.36012463900256597
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.1|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.12515,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 0.9791666666666666,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.11458333333333333,
+       "bessons": 96,
+       "grup_falla": 0.42025,
+       "grup_falla_binom": 0.4073297601966867
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.1224,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 0.9583333333333334,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.09375,
+       "bessons": 96,
+       "grup_falla": 0.2893,
+       "grup_falla_binom": 0.3121534019427387
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.1232,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 0.9375,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999964
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     }
+    },
+    "90": {
+     "O|Y": {
+      "c": 6,
+      "p_cal": 0.2619047619047619,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.23863636363636365,
+       "bessons": 88,
+       "grup_falla": 0.0192,
+       "grup_falla_binom": 0.027566425263322338
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "O|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y": {
+      "c": 4,
+      "p_cal": 0.14285714285714285,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.23863636363636365,
+       "bessons": 88,
+       "grup_falla": 0.2454,
+       "grup_falla_binom": 0.25591987415244066
+      },
+      "k=-1": {
+       "per_tir": 0.8863636363636364,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999966650157678
+      },
+      "k=2": {
+       "per_tir": 0.75,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9988117218017578
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 0.36363636363636365,
+       "bessons": 44,
+       "grup_falla": 0.9974,
+       "grup_falla_binom": 0.9930695903929709
+      },
+      "k=2": {
+       "per_tir": 0.06818181818181818,
+       "bessons": 44,
+       "grup_falla": 0.6286,
+       "grup_falla_binom": 0.5401216308497265
+      },
+      "k=3": {
+       "per_tir": 0.3488372093023256,
+       "bessons": 43,
+       "grup_falla": 0.9978,
+       "grup_falla_binom": 0.9910754704188678
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": true
+     },
+     "B0.1|Y": {
+      "c": 4,
+      "p_cal": 0.14285714285714285,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.3068181818181818,
+       "bessons": 88,
+       "grup_falla": 0.45005,
+       "grup_falla_binom": 0.4504424221614951
+      },
+      "k=-1": {
+       "per_tir": 0.9545454545454546,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999973429687
+      },
+      "k=2": {
+       "per_tir": 0.9545454545454546,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999973429687
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.1|Y4": {
+      "c": 2,
+      "p_cal": 0.023809523809523808,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.011363636363636364,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.006634189989549965
+      },
+      "k=-1": {
+       "per_tir": 0.5227272727272727,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.996180873278665
+      },
+      "k=2": {
+       "per_tir": 0.5227272727272727,
+       "bessons": 44,
+       "grup_falla": 0.9994,
+       "grup_falla_binom": 0.996180873278665
+      },
+      "k=3": {
+       "per_tir": 0.9534883720930233,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999995008
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y": {
+      "c": 5,
+      "p_cal": 0.23809523809523808,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.36363636363636365,
+       "bessons": 88,
+       "grup_falla": 0.3609,
+       "grup_falla_binom": 0.3678259894776066
+      },
+      "k=-1": {
+       "per_tir": 0.9772727272727273,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999990461765
+      },
+      "k=2": {
+       "per_tir": 0.9545454545454546,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999998875077474
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y4": {
+      "c": 2,
+      "p_cal": 0.023809523809523808,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.011363636363636364,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.006634189989549965
+      },
+      "k=-1": {
+       "per_tir": 0.5454545454545454,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9975698176891427
+      },
+      "k=2": {
+       "per_tir": 0.5909090909090909,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9990929751341489
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y": {
+      "c": 4,
+      "p_cal": 0.14285714285714285,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.23863636363636365,
+       "bessons": 88,
+       "grup_falla": 0.2473,
+       "grup_falla_binom": 0.25591987415244066
+      },
+      "k=-1": {
+       "per_tir": 0.8863636363636364,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999966650157678
+      },
+      "k=2": {
+       "per_tir": 0.75,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9988117218017578
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 0.36363636363636365,
+       "bessons": 44,
+       "grup_falla": 0.9981,
+       "grup_falla_binom": 0.9930695903929709
+      },
+      "k=2": {
+       "per_tir": 0.06818181818181818,
+       "bessons": 44,
+       "grup_falla": 0.6221,
+       "grup_falla_binom": 0.5401216308497265
+      },
+      "k=3": {
+       "per_tir": 0.3488372093023256,
+       "bessons": 43,
+       "grup_falla": 0.99805,
+       "grup_falla_binom": 0.9910754704188678
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": true
+     }
+    },
+    "150": {
+     "O|Y": {
+      "c": 9,
+      "p_cal": 0.44680851063829785,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.38461538461538464,
+       "bessons": 91,
+       "grup_falla": 0.00755,
+       "grup_falla_binom": 0.011425043698898404
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 46,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "O|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 91,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 0.8043478260869565,
+       "bessons": 46,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999968535841
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y": {
+      "c": 8,
+      "p_cal": 0.40425531914893614,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.4175824175824176,
+       "bessons": 91,
+       "grup_falla": 0.05875,
+       "grup_falla_binom": 0.07354856142769331
+      },
+      "k=-1": {
+       "per_tir": 0.6304347826086957,
+       "bessons": 46,
+       "grup_falla": 0.57975,
+       "grup_falla_binom": 0.5261576005458274
+      },
+      "k=2": {
+       "per_tir": 0.8888888888888888,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.993161968110478
+      },
+      "k=3": {
+       "per_tir": 0.9555555555555556,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9998944471344919
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.25|Y4": {
+      "c": 3,
+      "p_cal": 0.06382978723404255,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.06593406593406594,
+       "bessons": 91,
+       "grup_falla": 0.02805,
+       "grup_falla_binom": 0.04021774322623302
+      },
+      "k=-1": {
+       "per_tir": 0.08695652173913043,
+       "bessons": 46,
+       "grup_falla": 0.03245,
+       "grup_falla_binom": 0.07979367087944678
+      },
+      "k=2": {
+       "per_tir": 0.08888888888888889,
+       "bessons": 45,
+       "grup_falla": 0.03055,
+       "grup_falla_binom": 0.08410006192224188
+      },
+      "k=3": {
+       "per_tir": 0.06666666666666667,
+       "bessons": 45,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.041364067288505627
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.1|Y": {
+      "c": 12,
+      "p_cal": 0.723404255319149,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.6373626373626373,
+       "bessons": 91,
+       "grup_falla": 0.00235,
+       "grup_falla_binom": 0.004494063606610922
+      },
+      "k=-1": {
+       "per_tir": 0.8260869565217391,
+       "bessons": 46,
+       "grup_falla": 0.055,
+       "grup_falla_binom": 0.10099716405964045
+      },
+      "k=2": {
+       "per_tir": 0.9111111111111111,
+       "bessons": 45,
+       "grup_falla": 0.2817,
+       "grup_falla_binom": 0.32723226267985356
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.1|Y4": {
+      "c": 6,
+      "p_cal": 0.2765957446808511,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.3516483516483517,
+       "bessons": 91,
+       "grup_falla": 0.1973,
+       "grup_falla_binom": 0.21637028902631442
+      },
+      "k=-1": {
+       "per_tir": 0.41304347826086957,
+       "bessons": 46,
+       "grup_falla": 0.29635,
+       "grup_falla_binom": 0.3698612665510431
+      },
+      "k=2": {
+       "per_tir": 0.6222222222222222,
+       "bessons": 45,
+       "grup_falla": 0.852,
+       "grup_falla_binom": 0.8781088738632108
+      },
+      "k=3": {
+       "per_tir": 0.6666666666666666,
+       "bessons": 45,
+       "grup_falla": 0.90345,
+       "grup_falla_binom": 0.933552360468989
+      },
+      "D1": false,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.085|Y": {
+      "c": 12,
+      "p_cal": 0.723404255319149,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.6593406593406593,
+       "bessons": 91,
+       "grup_falla": 0.0036,
+       "grup_falla_binom": 0.006750225741059422
+      },
+      "k=-1": {
+       "per_tir": 0.8695652173913043,
+       "bessons": 46,
+       "grup_falla": 0.1576,
+       "grup_falla_binom": 0.1869071501866658
+      },
+      "k=2": {
+       "per_tir": 0.9111111111111111,
+       "bessons": 45,
+       "grup_falla": 0.2827,
+       "grup_falla_binom": 0.32723226267985356
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.085|Y4": {
+      "c": 7,
+      "p_cal": 0.3191489361702128,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.3626373626373626,
+       "bessons": 91,
+       "grup_falla": 0.08595,
+       "grup_falla_binom": 0.10047851771787403
+      },
+      "k=-1": {
+       "per_tir": 0.45652173913043476,
+       "bessons": 46,
+       "grup_falla": 0.19735,
+       "grup_falla_binom": 0.27600139476479735
+      },
+      "k=2": {
+       "per_tir": 0.6444444444444445,
+       "bessons": 45,
+       "grup_falla": 0.70515,
+       "grup_falla_binom": 0.7748948842552673
+      },
+      "k=3": {
+       "per_tir": 0.6666666666666666,
+       "bessons": 45,
+       "grup_falla": 0.75215,
+       "grup_falla_binom": 0.822277543509063
+      },
+      "D1": false,
+      "D2a": false,
+      "D2b": false
+     },
+     "C0.25|Y": {
+      "c": 7,
+      "p_cal": 0.3617021276595745,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.38461538461538464,
+       "bessons": 91,
+       "grup_falla": 0.11505,
+       "grup_falla_binom": 0.132444431566074
+      },
+      "k=-1": {
+       "per_tir": 0.6086956521739131,
+       "bessons": 46,
+       "grup_falla": 0.7719,
+       "grup_falla_binom": 0.6879783364113002
+      },
+      "k=2": {
+       "per_tir": 0.8888888888888888,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9990428841247694
+      },
+      "k=3": {
+       "per_tir": 0.9333333333333333,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999942943433338
+      },
+      "D1": false,
+      "D2a": false,
+      "D2b": false
+     },
+     "C0.25|Y4": {
+      "c": 2,
+      "p_cal": 0.02127659574468085,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.02197802197802198,
+       "bessons": 91,
+       "grup_falla": 0.0149,
+       "grup_falla_binom": 0.027539860933814955
+      },
+      "k=-1": {
+       "per_tir": 0.0,
+       "bessons": 46,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=2": {
+       "per_tir": 0.06666666666666667,
+       "bessons": 45,
+       "grup_falla": 0.1572,
+       "grup_falla_binom": 0.18850353603026987
+      },
+      "k=3": {
+       "per_tir": 0.044444444444444446,
+       "bessons": 45,
+       "grup_falla": 0.0614,
+       "grup_falla_binom": 0.09702100322739018
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     }
+    }
+   },
+   "5": {
+    "45": {
+     "O|Y": {
+      "c": 3,
+      "p_cal": 0.0851063829787234,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.13541666666666666,
+       "bessons": 96,
+       "grup_falla": 0.16815,
+       "grup_falla_binom": 0.2151950794315594
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "O|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 96,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.10416666666666667,
+       "bessons": 96,
+       "grup_falla": 0.3498,
+       "grup_falla_binom": 0.36012463900256597
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.12105,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.1|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.13541666666666666,
+       "bessons": 96,
+       "grup_falla": 0.51805,
+       "grup_falla_binom": 0.4976549575903923
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.1|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.12215,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.13541666666666666,
+       "bessons": 96,
+       "grup_falla": 0.5132,
+       "grup_falla_binom": 0.4976549575903923
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.12825,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y": {
+      "c": 2,
+      "p_cal": 0.0425531914893617,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.10416666666666667,
+       "bessons": 96,
+       "grup_falla": 0.3491,
+       "grup_falla_binom": 0.36012463900256597
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.010416666666666666,
+       "bessons": 96,
+       "grup_falla": 0.12375,
+       "grup_falla_binom": 0.1180814713681652
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 48,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     }
+    },
+    "90": {
+     "O|Y": {
+      "c": 6,
+      "p_cal": 0.2619047619047619,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.2840909090909091,
+       "bessons": 88,
+       "grup_falla": 0.04885,
+       "grup_falla_binom": 0.06155743374548217
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "O|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y": {
+      "c": 4,
+      "p_cal": 0.16666666666666666,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.3181818181818182,
+       "bessons": 88,
+       "grup_falla": 0.49245,
+       "grup_falla_binom": 0.48366586559708463
+      },
+      "k=-1": {
+       "per_tir": 0.9772727272727273,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999889522
+      },
+      "k=2": {
+       "per_tir": 0.9318181818181818,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999361083879
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 0.5227272727272727,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999707293207489
+      },
+      "k=2": {
+       "per_tir": 0.1590909090909091,
+       "bessons": 44,
+       "grup_falla": 0.8783,
+       "grup_falla_binom": 0.8513244604016814
+      },
+      "k=3": {
+       "per_tir": 0.6976744186046512,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999980714812573
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.1|Y": {
+      "c": 4,
+      "p_cal": 0.16666666666666666,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.32954545454545453,
+       "bessons": 88,
+       "grup_falla": 0.52135,
+       "grup_falla_binom": 0.5165751196300551
+      },
+      "k=-1": {
+       "per_tir": 0.9772727272727273,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999889522
+      },
+      "k=2": {
+       "per_tir": 0.9772727272727273,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999889522
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.1|Y4": {
+      "c": 2,
+      "p_cal": 0.023809523809523808,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.011363636363636364,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.006634189989549965
+      },
+      "k=-1": {
+       "per_tir": 0.6590909090909091,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9998390542118265
+      },
+      "k=2": {
+       "per_tir": 0.6818181818181818,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.99991685055438
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y": {
+      "c": 6,
+      "p_cal": 0.2619047619047619,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.3977272727272727,
+       "bessons": 88,
+       "grup_falla": 0.2336,
+       "grup_falla_binom": 0.24150928556622647
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 0.9772727272727273,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999422910871
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.085|Y4": {
+      "c": 2,
+      "p_cal": 0.023809523809523808,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.011363636363636364,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.006634189989549965
+      },
+      "k=-1": {
+       "per_tir": 0.6590909090909091,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9998390542118265
+      },
+      "k=2": {
+       "per_tir": 0.7045454545454546,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999592190495105
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y": {
+      "c": 4,
+      "p_cal": 0.16666666666666666,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.3181818181818182,
+       "bessons": 88,
+       "grup_falla": 0.49095,
+       "grup_falla_binom": 0.48366586559708463
+      },
+      "k=-1": {
+       "per_tir": 0.9772727272727273,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999889522
+      },
+      "k=2": {
+       "per_tir": 0.9318181818181818,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999361083879
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": false,
+      "D2a": true,
+      "D2b": true
+     },
+     "C0.25|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 42,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 88,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 0.5227272727272727,
+       "bessons": 44,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999707293207489
+      },
+      "k=2": {
+       "per_tir": 0.1590909090909091,
+       "bessons": 44,
+       "grup_falla": 0.8797,
+       "grup_falla_binom": 0.8513244604016814
+      },
+      "k=3": {
+       "per_tir": 0.6976744186046512,
+       "bessons": 43,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999980714812573
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     }
+    },
+    "150": {
+     "O|Y": {
+      "c": 9,
+      "p_cal": 0.46808510638297873,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.3956043956043956,
+       "bessons": 91,
+       "grup_falla": 0.00905,
+       "grup_falla_binom": 0.014075206425122524
+      },
+      "k=-1": {
+       "per_tir": 1.0,
+       "bessons": 46,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "O|Y4": {
+      "c": 1,
+      "p_cal": 0.0,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.0,
+       "bessons": 91,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "per_tir": 0.9347826086956522,
+       "bessons": 46,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999941
+      },
+      "k=2": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true
+     },
+     "B0.25|Y": {
+      "c": 10,
+      "p_cal": 0.5319148936170213,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.4175824175824176,
+       "bessons": 91,
+       "grup_falla": 0.00225,
+       "grup_falla_binom": 0.004108034318582177
+      },
+      "k=-1": {
+       "per_tir": 0.717391304347826,
+       "bessons": 46,
+       "grup_falla": 0.2924,
+       "grup_falla_binom": 0.29673581933763105
+      },
+      "k=2": {
+       "per_tir": 0.9555555555555556,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9857233408017556
+      },
+      "k=3": {
+       "per_tir": 0.9777777777777777,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9979232031932874
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.25|Y4": {
+      "c": 3,
+      "p_cal": 0.06382978723404255,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.06593406593406594,
+       "bessons": 91,
+       "grup_falla": 0.0256,
+       "grup_falla_binom": 0.04021774322623302
+      },
+      "k=-1": {
+       "per_tir": 0.13043478260869565,
+       "bessons": 46,
+       "grup_falla": 0.15545,
+       "grup_falla_binom": 0.19910286145013661
+      },
+      "k=2": {
+       "per_tir": 0.2,
+       "bessons": 45,
+       "grup_falla": 0.3988,
+       "grup_falla_binom": 0.44165425152000026
+      },
+      "k=3": {
+       "per_tir": 0.24444444444444444,
+       "bessons": 45,
+       "grup_falla": 0.54955,
+       "grup_falla_binom": 0.5919298187046227
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.1|Y": {
+      "c": 12,
+      "p_cal": 0.723404255319149,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.6593406593406593,
+       "bessons": 91,
+       "grup_falla": 0.00605,
+       "grup_falla_binom": 0.006750225741059422
+      },
+      "k=-1": {
+       "per_tir": 0.8260869565217391,
+       "bessons": 46,
+       "grup_falla": 0.0536,
+       "grup_falla_binom": 0.10099716405964045
+      },
+      "k=2": {
+       "per_tir": 0.9333333333333333,
+       "bessons": 45,
+       "grup_falla": 0.37915,
+       "grup_falla_binom": 0.4369596344452394
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.1|Y4": {
+      "c": 7,
+      "p_cal": 0.3191489361702128,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.3516483516483517,
+       "bessons": 91,
+       "grup_falla": 0.07165,
+       "grup_falla_binom": 0.08659643481238752
+      },
+      "k=-1": {
+       "per_tir": 0.5434782608695652,
+       "bessons": 46,
+       "grup_falla": 0.49825,
+       "grup_falla_binom": 0.5084556606938925
+      },
+      "k=2": {
+       "per_tir": 0.7111111111111111,
+       "bessons": 45,
+       "grup_falla": 0.88225,
+       "grup_falla_binom": 0.8989698517207357
+      },
+      "k=3": {
+       "per_tir": 0.8222222222222222,
+       "bessons": 45,
+       "grup_falla": 0.9873,
+       "grup_falla_binom": 0.9890676897746558
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.085|Y": {
+      "c": 12,
+      "p_cal": 0.7446808510638298,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.6593406593406593,
+       "bessons": 91,
+       "grup_falla": 0.00375,
+       "grup_falla_binom": 0.006750225741059422
+      },
+      "k=-1": {
+       "per_tir": 0.8695652173913043,
+       "bessons": 46,
+       "grup_falla": 0.15875,
+       "grup_falla_binom": 0.1869071501866658
+      },
+      "k=2": {
+       "per_tir": 0.9333333333333333,
+       "bessons": 45,
+       "grup_falla": 0.37685,
+       "grup_falla_binom": 0.4369596344452394
+      },
+      "k=3": {
+       "per_tir": 1.0,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "B0.085|Y4": {
+      "c": 7,
+      "p_cal": 0.3191489361702128,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.3626373626373626,
+       "bessons": 91,
+       "grup_falla": 0.0859,
+       "grup_falla_binom": 0.10047851771787403
+      },
+      "k=-1": {
+       "per_tir": 0.6086956521739131,
+       "bessons": 46,
+       "grup_falla": 0.6933,
+       "grup_falla_binom": 0.6879783364113002
+      },
+      "k=2": {
+       "per_tir": 0.6888888888888889,
+       "bessons": 45,
+       "grup_falla": 0.8199,
+       "grup_falla_binom": 0.8637502150578203
+      },
+      "k=3": {
+       "per_tir": 0.8222222222222222,
+       "bessons": 45,
+       "grup_falla": 0.98735,
+       "grup_falla_binom": 0.9890676897746558
+      },
+      "D1": false,
+      "D2a": false,
+      "D2b": false
+     },
+     "C0.25|Y": {
+      "c": 9,
+      "p_cal": 0.48936170212765956,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.3956043956043956,
+       "bessons": 91,
+       "grup_falla": 0.0092,
+       "grup_falla_binom": 0.014075206425122524
+      },
+      "k=-1": {
+       "per_tir": 0.6956521739130435,
+       "bessons": 46,
+       "grup_falla": 0.51015,
+       "grup_falla_binom": 0.47915997628619555
+      },
+      "k=2": {
+       "per_tir": 0.9555555555555556,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9985519212713906
+      },
+      "k=3": {
+       "per_tir": 0.9555555555555556,
+       "bessons": 45,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9985519212713906
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     },
+     "C0.25|Y4": {
+      "c": 2,
+      "p_cal": 0.02127659574468085,
+      "bons_cal": 47,
+      "bons": {
+       "per_tir": 0.02197802197802198,
+       "bessons": 91,
+       "grup_falla": 0.0161,
+       "grup_falla_binom": 0.027539860933814955
+      },
+      "k=-1": {
+       "per_tir": 0.06521739130434782,
+       "bessons": 46,
+       "grup_falla": 0.15555,
+       "grup_falla_binom": 0.18212652695541265
+      },
+      "k=2": {
+       "per_tir": 0.17777777777777778,
+       "bessons": 45,
+       "grup_falla": 0.645,
+       "grup_falla_binom": 0.6568212086129546
+      },
+      "k=3": {
+       "per_tir": 0.2222222222222222,
+       "bessons": 45,
+       "grup_falla": 0.77605,
+       "grup_falla_binom": 0.7829648775523035
+      },
+      "D1": true,
+      "D2a": false,
+      "D2b": false
+     }
+    }
+   }
+  }
+ },
+ "setena_tanda_confirmacio": {
+  "45": {
+   "B0.085|Y4|X3": {
+    "bons": {
+     "fallen": 3,
+     "bessons": 192,
+     "per_tir": 0.015625,
+     "grup_falla": 0.0076,
+     "grup_falla_binom": 0.014520443082281688
+    },
+    "k=-1": {
+     "fallen": 89,
+     "bessons": 96,
+     "per_tir": 0.9270833333333334,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 0.9999999999965308
+    },
+    "k=2": {
+     "fallen": 96,
+     "bessons": 96,
+     "per_tir": 1.0,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    },
+    "k=3": {
+     "fallen": 96,
+     "bessons": 96,
+     "per_tir": 1.0,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    }
+   },
+   "O|Y4|X3": {
+    "bons": {
+     "fallen": 0,
+     "bessons": 192,
+     "per_tir": 0.0,
+     "grup_falla": 0.0,
+     "grup_falla_binom": 0.0
+    },
+    "k=-1": {
+     "fallen": 95,
+     "bessons": 96,
+     "per_tir": 0.9895833333333334,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    },
+    "k=2": {
+     "fallen": 96,
+     "bessons": 96,
+     "per_tir": 1.0,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    },
+    "k=3": {
+     "fallen": 96,
+     "bessons": 96,
+     "per_tir": 1.0,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    }
+   },
+   "D1": true,
+   "D2a": true
+  },
+  "90": {
+   "B0.085|Y4|X3": {
+    "bons": {
+     "fallen": 3,
+     "bessons": 170,
+     "per_tir": 0.01764705882352941,
+     "grup_falla": 0.00805,
+     "grup_falla_binom": 0.015407389571764216
+    },
+    "k=-1": {
+     "fallen": 40,
+     "bessons": 85,
+     "per_tir": 0.47058823529411764,
+     "grup_falla": 0.9935,
+     "grup_falla_binom": 0.9901313284838087
+    },
+    "k=2": {
+     "fallen": 58,
+     "bessons": 84,
+     "per_tir": 0.6904761904761905,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 0.9999361987169673
+    },
+    "k=3": {
+     "fallen": 86,
+     "bessons": 87,
+     "per_tir": 0.9885057471264368,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    }
+   },
+   "O|Y4|X3": {
+    "bons": {
+     "fallen": 0,
+     "bessons": 170,
+     "per_tir": 0.0,
+     "grup_falla": 0.0,
+     "grup_falla_binom": 0.0
+    },
+    "k=-1": {
+     "fallen": 82,
+     "bessons": 85,
+     "per_tir": 0.9647058823529412,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 0.999999999999968
+    },
+    "k=2": {
+     "fallen": 84,
+     "bessons": 84,
+     "per_tir": 1.0,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    },
+    "k=3": {
+     "fallen": 87,
+     "bessons": 87,
+     "per_tir": 1.0,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 1.0
+    }
+   },
+   "D1": true,
+   "D2a": true
+  }
+ },
+ "vuitena_tanda_biaix_residual": {
+  "biaixos_graus": [
+   0.5,
+   1.0
+  ],
+  "J1": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "0.5": {
+    "45": {
+     "fallen": 153,
+     "bessons": 192,
+     "per_tir": 0.796875,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 0.9999997628095468,
+     "sense_amollada": 0,
+     "D1": false
+    },
+    "90": {
+     "fallen": 4,
+     "bessons": 171,
+     "per_tir": 0.023391812865497075,
+     "grup_falla": 0.0195,
+     "grup_falla_binom": 0.02615474514990024,
+     "sense_amollada": 5,
+     "D1": true
+    }
+   },
+   "1": {
+    "45": {
+     "fallen": 177,
+     "bessons": 192,
+     "per_tir": 0.921875,
+     "grup_falla": 1.0,
+     "grup_falla_binom": 0.9999999999926278,
+     "sense_amollada": 0,
+     "D1": false
+    },
+    "90": {
+     "fallen": 9,
+     "bessons": 171,
+     "per_tir": 0.05263157894736842,
+     "grup_falla": 0.1003,
+     "grup_falla_binom": 0.11113984507009236,
+     "sense_amollada": 5,
+     "D1": false
+    }
+   }
+  }
+ },
+ "novena_tanda_tolerancia_al_biaix": {
+  "biaixos_graus": {
+   "45": [
+    0.1,
+    0.2,
+    0.3
+   ],
+   "90": [
+    0.75
+   ]
+  },
+  "J1": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "0.1": {
+    "45": {
+     "fallen": 2,
+     "bessons": 192,
+     "per_tir": 0.010416666666666666,
+     "grup_falla": 0.00345,
+     "grup_falla_binom": 0.006681236172565067,
+     "sense_amollada": 0,
+     "D1": true
+    }
+   },
+   "0.2": {
+    "45": {
+     "fallen": 14,
+     "bessons": 192,
+     "per_tir": 0.07291666666666667,
+     "grup_falla": 0.2122,
+     "grup_falla_binom": 0.21642354145946574,
+     "sense_amollada": 0,
+     "D1": false
+    }
+   },
+   "0.3": {
+    "45": {
+     "fallen": 55,
+     "bessons": 192,
+     "per_tir": 0.2864583333333333,
+     "grup_falla": 0.9309,
+     "grup_falla_binom": 0.8986625864170846,
+     "sense_amollada": 0,
+     "D1": false
+    }
+   },
+   "0.75": {
+    "90": {
+     "fallen": 6,
+     "bessons": 171,
+     "per_tir": 0.03508771929824561,
+     "grup_falla": 0.04495,
+     "grup_falla_binom": 0.054864213130374526,
+     "sense_amollada": 5,
+     "D1": true
+    }
+   }
+  }
+ },
+ "desena_tanda_repos_encallat_al_feix": {
+  "amplada_graus": [
+   0.15,
+   0.3
+  ],
+  "marge": 1.5,
+  "reps": [
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33
+  ],
+  "J1": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "45": {
+    "B0.085|Y4|X3": {
+     "bons": {
+      "fallen": 3,
+      "bessons": 192,
+      "per_tir": 0.015625,
+      "sense_amollada": 0,
+      "grup_falla": 0.0106,
+      "grup_falla_binom": 0.014520443082281688
+     },
+     "k=-1": {
+      "fallen": 92,
+      "bessons": 96,
+      "per_tir": 0.9583333333333334,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 0.9999999999999925
+     },
+     "k=2": {
+      "fallen": 95,
+      "bessons": 96,
+      "per_tir": 0.9895833333333334,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=3": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "bons marge": {
+      "fallen": 7,
+      "bessons": 192,
+      "per_tir": 0.036458333333333336,
+      "sense_amollada": 0,
+      "grup_falla": 0.063,
+      "grup_falla_binom": 0.06883520508718939
+     }
+    },
+    "O|Y4|X3": {
+     "bons": {
+      "fallen": 1,
+      "bessons": 192,
+      "per_tir": 0.005208333333333333,
+      "sense_amollada": 0,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0017292798482758582
+     },
+     "k=-1": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=2": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=3": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "bons marge": {
+      "fallen": 1,
+      "bessons": 192,
+      "per_tir": 0.005208333333333333,
+      "sense_amollada": 0,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0017292798482758582
+     }
+    },
+    "D1": true,
+    "D2a": true,
+    "D2b": true,
+    "H_mediana_s": 0.48325
+   },
+   "90": {
+    "B0.085|Y4|X3": {
+     "bons": {
+      "fallen": 4,
+      "bessons": 174,
+      "per_tir": 0.022988505747126436,
+      "sense_amollada": 2,
+      "grup_falla": 0.0228,
+      "grup_falla_binom": 0.02532179229039004
+     },
+     "k=-1": {
+      "fallen": 43,
+      "bessons": 87,
+      "per_tir": 0.4942528735632184,
+      "sense_amollada": 1,
+      "grup_falla": 0.99855,
+      "grup_falla_binom": 0.9934941277803483
+     },
+     "k=2": {
+      "fallen": 49,
+      "bessons": 87,
+      "per_tir": 0.5632183908045977,
+      "sense_amollada": 1,
+      "grup_falla": 0.9992,
+      "grup_falla_binom": 0.9983238997127121
+     },
+     "k=3": {
+      "fallen": 85,
+      "bessons": 86,
+      "per_tir": 0.9883720930232558,
+      "sense_amollada": 2,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "bons marge": {
+      "fallen": 2,
+      "bessons": 174,
+      "per_tir": 0.011494252873563218,
+      "sense_amollada": 2,
+      "grup_falla": 0.0039,
+      "grup_falla_binom": 0.006782260111473912
+     }
+    },
+    "O|Y4|X3": {
+     "bons": {
+      "fallen": 0,
+      "bessons": 174,
+      "per_tir": 0.0,
+      "sense_amollada": 2,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0
+     },
+     "k=-1": {
+      "fallen": 85,
+      "bessons": 87,
+      "per_tir": 0.9770114942528736,
+      "sense_amollada": 1,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 0.9999999999999996
+     },
+     "k=2": {
+      "fallen": 87,
+      "bessons": 87,
+      "per_tir": 1.0,
+      "sense_amollada": 1,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=3": {
+      "fallen": 86,
+      "bessons": 86,
+      "per_tir": 1.0,
+      "sense_amollada": 2,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "bons marge": {
+      "fallen": 0,
+      "bessons": 174,
+      "per_tir": 0.0,
+      "sense_amollada": 2,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0
+     }
+    },
+    "D1": true,
+    "D2a": true,
+    "D2b": true,
+    "H_mediana_s": 0.21875
+   }
+  }
+ },
+ "onzena_tanda_correccio_en_dues_parts": {
+  "amplada_graus": [
+   0.15,
+   0.3
+  ],
+  "sigma_centre_px": {
+   "45": [
+    0.05,
+    0.34
+   ],
+   "90": [
+    0.16,
+    0.23
+   ]
+  },
+  "marge": 1.5,
+  "reps": [
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41
+  ],
+  "J1": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "45": {
+    "B0.085|Y4|X3": {
+     "bons": {
+      "fallen": 1,
+      "bessons": 191,
+      "per_tir": 0.005235602094240838,
+      "sense_amollada": 1,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0017471174034179768
+     },
+     "k=-1": {
+      "fallen": 77,
+      "bessons": 96,
+      "per_tir": 0.8020833333333334,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 0.9999998207139468
+     },
+     "k=2": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=3": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "bons marge": {
+      "fallen": 6,
+      "bessons": 191,
+      "per_tir": 0.031413612565445025,
+      "sense_amollada": 1,
+      "grup_falla": 0.04555,
+      "grup_falla_binom": 0.052843533211768774
+     }
+    },
+    "O|Y4|X3": {
+     "bons": {
+      "fallen": 0,
+      "bessons": 191,
+      "per_tir": 0.0,
+      "sense_amollada": 1,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0
+     },
+     "k=-1": {
+      "fallen": 93,
+      "bessons": 96,
+      "per_tir": 0.96875,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 0.9999999999999997
+     },
+     "k=2": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=3": {
+      "fallen": 96,
+      "bessons": 96,
+      "per_tir": 1.0,
+      "sense_amollada": 0,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "bons marge": {
+      "fallen": 6,
+      "bessons": 191,
+      "per_tir": 0.031413612565445025,
+      "sense_amollada": 1,
+      "grup_falla": 0.0459,
+      "grup_falla_binom": 0.052843533211768774
+     }
+    },
+    "D1": true,
+    "D2a": true,
+    "D2b": true,
+    "H_mediana_s": 0.47575
+   },
+   "90": {
+    "B0.085|Y4|X3": {
+     "bons": {
+      "fallen": 3,
+      "bessons": 175,
+      "per_tir": 0.017142857142857144,
+      "sense_amollada": 1,
+      "grup_falla": 0.008,
+      "grup_falla_binom": 0.014583580156243963
+     },
+     "k=-1": {
+      "fallen": 32,
+      "bessons": 86,
+      "per_tir": 0.37209302325581395,
+      "sense_amollada": 2,
+      "grup_falla": 0.9669,
+      "grup_falla_binom": 0.9550240165838242
+     },
+     "k=2": {
+      "fallen": 57,
+      "bessons": 87,
+      "per_tir": 0.6551724137931034,
+      "sense_amollada": 1,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 0.9998204993035491
+     },
+     "k=3": {
+      "fallen": 82,
+      "bessons": 86,
+      "per_tir": 0.9534883720930233,
+      "sense_amollada": 2,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 0.9999999999995008
+     },
+     "bons marge": {
+      "fallen": 1,
+      "bessons": 175,
+      "per_tir": 0.005714285714285714,
+      "sense_amollada": 1,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0017353884042292822
+     }
+    },
+    "O|Y4|X3": {
+     "bons": {
+      "fallen": 0,
+      "bessons": 175,
+      "per_tir": 0.0,
+      "sense_amollada": 1,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0
+     },
+     "k=-1": {
+      "fallen": 85,
+      "bessons": 86,
+      "per_tir": 0.9883720930232558,
+      "sense_amollada": 2,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=2": {
+      "fallen": 87,
+      "bessons": 87,
+      "per_tir": 1.0,
+      "sense_amollada": 1,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "k=3": {
+      "fallen": 86,
+      "bessons": 86,
+      "per_tir": 1.0,
+      "sense_amollada": 2,
+      "grup_falla": 1.0,
+      "grup_falla_binom": 1.0
+     },
+     "bons marge": {
+      "fallen": 0,
+      "bessons": 175,
+      "per_tir": 0.0,
+      "sense_amollada": 1,
+      "grup_falla": 0.0,
+      "grup_falla_binom": 0.0
+     }
+    },
+    "D1": true,
+    "D2a": true,
+    "D2b": true,
+    "H_mediana_s": 0.21825
+   }
+  }
+ },
+ "dotzena_tanda_X3_contra_X5": {
+  "reps": [
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "J13": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "3": {
+    "45": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 1,
+       "bessons": 192,
+       "per_tir": 0.005208333333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0017292798482758582
+      },
+      "k=-1": {
+       "fallen": 82,
+       "bessons": 96,
+       "per_tir": 0.8541666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999999993403947
+      },
+      "k=2": {
+       "fallen": 95,
+       "bessons": 96,
+       "per_tir": 0.9895833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 3,
+       "bessons": 192,
+       "per_tir": 0.015625,
+       "no_avaluables": 0,
+       "grup_falla": 0.0109,
+       "grup_falla_binom": 0.014520443082281688
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 192,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 93,
+       "bessons": 96,
+       "per_tir": 0.96875,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999997
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 1,
+       "bessons": 192,
+       "per_tir": 0.005208333333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0017292798482758582
+      }
+     },
+     "D1": true,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.47575
+    },
+    "90": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 5,
+       "bessons": 171,
+       "per_tir": 0.029239766081871343,
+       "no_avaluables": 0,
+       "grup_falla": 0.041,
+       "grup_falla_binom": 0.03945892782735827
+      },
+      "k=-1": {
+       "fallen": 41,
+       "bessons": 87,
+       "per_tir": 0.47126436781609193,
+       "no_avaluables": 0,
+       "grup_falla": 0.99425,
+       "grup_falla_binom": 0.9902450976402892
+      },
+      "k=2": {
+       "fallen": 62,
+       "bessons": 85,
+       "per_tir": 0.7294117647058823,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999825474337883
+      },
+      "k=3": {
+       "fallen": 85,
+       "bessons": 87,
+       "per_tir": 0.9770114942528736,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999996
+      },
+      "bons marge": {
+       "fallen": 6,
+       "bessons": 171,
+       "per_tir": 0.03508771929824561,
+       "no_avaluables": 0,
+       "grup_falla": 0.05865,
+       "grup_falla_binom": 0.054864213130374526
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 83,
+       "bessons": 87,
+       "per_tir": 0.9540229885057471,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999995551
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      }
+     },
+     "D1": true,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.21825
+    },
+    "valida": true
+   },
+   "5": {
+    "45": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 2,
+       "bessons": 192,
+       "per_tir": 0.010416666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 0.0041,
+       "grup_falla_binom": 0.006681236172565067
+      },
+      "k=-1": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 7,
+       "bessons": 192,
+       "per_tir": 0.036458333333333336,
+       "no_avaluables": 0,
+       "grup_falla": 0.06315,
+       "grup_falla_binom": 0.06883520508718939
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 192,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 3,
+       "bessons": 192,
+       "per_tir": 0.015625,
+       "no_avaluables": 0,
+       "grup_falla": 0.011,
+       "grup_falla_binom": 0.014520443082281688
+      }
+     },
+     "D1": true,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.536
+    },
+    "90": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 5,
+       "bessons": 171,
+       "per_tir": 0.029239766081871343,
+       "no_avaluables": 0,
+       "grup_falla": 0.0438,
+       "grup_falla_binom": 0.03945892782735827
+      },
+      "k=-1": {
+       "fallen": 62,
+       "bessons": 87,
+       "per_tir": 0.7126436781609196,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999688033671554
+      },
+      "k=2": {
+       "fallen": 66,
+       "bessons": 85,
+       "per_tir": 0.7764705882352941,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999972704937102
+      },
+      "k=3": {
+       "fallen": 86,
+       "bessons": 87,
+       "per_tir": 0.9885057471264368,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 6,
+       "bessons": 171,
+       "per_tir": 0.03508771929824561,
+       "no_avaluables": 0,
+       "grup_falla": 0.05695,
+       "grup_falla_binom": 0.054864213130374526
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 84,
+       "bessons": 87,
+       "per_tir": 0.9655172413793104,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999747
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      }
+     },
+     "D1": true,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.43625
+    },
+    "valida": true
+   }
+  },
+  "recomanacio": "totes dues valides; la D2b de X=5 cau com a molt +0.000 respecte de X=3 -> X = 5",
+  "segona_mostra_onzena": {
+   "resum": {
+    "3": {
+     "45": {
+      "B0.085|Y4|X3": {
+       "bons": {
+        "fallen": 1,
+        "bessons": 191,
+        "per_tir": 0.005235602094240838,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0017471174034179768
+       },
+       "k=-1": {
+        "fallen": 77,
+        "bessons": 96,
+        "per_tir": 0.8020833333333334,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 0.9999998207139468
+       },
+       "k=2": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=3": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "bons marge": {
+        "fallen": 6,
+        "bessons": 191,
+        "per_tir": 0.031413612565445025,
+        "no_avaluables": 0,
+        "grup_falla": 0.04555,
+        "grup_falla_binom": 0.052843533211768774
+       }
+      },
+      "O|Y4|X3": {
+       "bons": {
+        "fallen": 0,
+        "bessons": 191,
+        "per_tir": 0.0,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0
+       },
+       "k=-1": {
+        "fallen": 93,
+        "bessons": 96,
+        "per_tir": 0.96875,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 0.9999999999999997
+       },
+       "k=2": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=3": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "bons marge": {
+        "fallen": 6,
+        "bessons": 191,
+        "per_tir": 0.031413612565445025,
+        "no_avaluables": 0,
+        "grup_falla": 0.0459,
+        "grup_falla_binom": 0.052843533211768774
+       }
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true,
+      "H_mediana_s": 0.47575
+     },
+     "90": {
+      "B0.085|Y4|X3": {
+       "bons": {
+        "fallen": 3,
+        "bessons": 175,
+        "per_tir": 0.017142857142857144,
+        "no_avaluables": 0,
+        "grup_falla": 0.008,
+        "grup_falla_binom": 0.014583580156243963
+       },
+       "k=-1": {
+        "fallen": 32,
+        "bessons": 86,
+        "per_tir": 0.37209302325581395,
+        "no_avaluables": 0,
+        "grup_falla": 0.9669,
+        "grup_falla_binom": 0.9550240165838242
+       },
+       "k=2": {
+        "fallen": 57,
+        "bessons": 87,
+        "per_tir": 0.6551724137931034,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 0.9998204993035491
+       },
+       "k=3": {
+        "fallen": 82,
+        "bessons": 86,
+        "per_tir": 0.9534883720930233,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 0.9999999999995008
+       },
+       "bons marge": {
+        "fallen": 1,
+        "bessons": 175,
+        "per_tir": 0.005714285714285714,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0017353884042292822
+       }
+      },
+      "O|Y4|X3": {
+       "bons": {
+        "fallen": 0,
+        "bessons": 175,
+        "per_tir": 0.0,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0
+       },
+       "k=-1": {
+        "fallen": 85,
+        "bessons": 86,
+        "per_tir": 0.9883720930232558,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=2": {
+        "fallen": 87,
+        "bessons": 87,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=3": {
+        "fallen": 86,
+        "bessons": 86,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "bons marge": {
+        "fallen": 0,
+        "bessons": 175,
+        "per_tir": 0.0,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0
+       }
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true,
+      "H_mediana_s": 0.21825
+     },
+     "valida": true
+    },
+    "5": {
+     "45": {
+      "B0.085|Y4|X5": {
+       "bons": {
+        "fallen": 5,
+        "bessons": 191,
+        "per_tir": 0.02617801047120419,
+        "no_avaluables": 0,
+        "grup_falla": 0.0305,
+        "grup_falla_binom": 0.03799553771951123
+       },
+       "k=-1": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=2": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=3": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "bons marge": {
+        "fallen": 9,
+        "bessons": 191,
+        "per_tir": 0.04712041884816754,
+        "no_avaluables": 0,
+        "grup_falla": 0.1084,
+        "grup_falla_binom": 0.10714104502252422
+       }
+      },
+      "O|Y4|X5": {
+       "bons": {
+        "fallen": 1,
+        "bessons": 191,
+        "per_tir": 0.005235602094240838,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0017471174034179768
+       },
+       "k=-1": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=2": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=3": {
+        "fallen": 96,
+        "bessons": 96,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "bons marge": {
+        "fallen": 7,
+        "bessons": 191,
+        "per_tir": 0.03664921465968586,
+        "no_avaluables": 0,
+        "grup_falla": 0.06325,
+        "grup_falla_binom": 0.06946986941043153
+       }
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true,
+      "H_mediana_s": 0.535
+     },
+     "90": {
+      "B0.085|Y4|X5": {
+       "bons": {
+        "fallen": 3,
+        "bessons": 175,
+        "per_tir": 0.017142857142857144,
+        "no_avaluables": 0,
+        "grup_falla": 0.0078,
+        "grup_falla_binom": 0.014583580156243963
+       },
+       "k=-1": {
+        "fallen": 54,
+        "bessons": 86,
+        "per_tir": 0.627906976744186,
+        "no_avaluables": 0,
+        "grup_falla": 0.99985,
+        "grup_falla_binom": 0.99962966807493
+       },
+       "k=2": {
+        "fallen": 60,
+        "bessons": 87,
+        "per_tir": 0.6896551724137931,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 0.9999345540765786
+       },
+       "k=3": {
+        "fallen": 85,
+        "bessons": 86,
+        "per_tir": 0.9883720930232558,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "bons marge": {
+        "fallen": 1,
+        "bessons": 175,
+        "per_tir": 0.005714285714285714,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0017353884042292822
+       }
+      },
+      "O|Y4|X5": {
+       "bons": {
+        "fallen": 0,
+        "bessons": 175,
+        "per_tir": 0.0,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0
+       },
+       "k=-1": {
+        "fallen": 85,
+        "bessons": 86,
+        "per_tir": 0.9883720930232558,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=2": {
+        "fallen": 87,
+        "bessons": 87,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "k=3": {
+        "fallen": 86,
+        "bessons": 86,
+        "per_tir": 1.0,
+        "no_avaluables": 0,
+        "grup_falla": 1.0,
+        "grup_falla_binom": 1.0
+       },
+       "bons marge": {
+        "fallen": 0,
+        "bessons": 175,
+        "per_tir": 0.0,
+        "no_avaluables": 0,
+        "grup_falla": 0.0,
+        "grup_falla_binom": 0.0
+       }
+      },
+      "D1": true,
+      "D2a": true,
+      "D2b": true,
+      "H_mediana_s": 0.436
+     },
+     "valida": true
+    }
+   },
+   "recomanacio": "totes dues valides; la D2b de X=5 cau com a molt +0.000 respecte de X=3 -> X = 5"
+  }
+ },
+ "tretzena_tanda_creu_de_costat": {
+  "sigma_creu_px": {
+   "45": [
+    1.702236093064262,
+    3.212103325687313
+   ],
+   "90": [
+    2.7205315405696107,
+    2.9144913655532383
+   ]
+  },
+  "reps": [
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "C2_graus": 0.00014386100195857662,
+  "J15": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "3": {
+    "45": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 99,
+       "bessons": 192,
+       "per_tir": 0.515625,
+       "no_avaluables": 0,
+       "grup_falla": 0.9989,
+       "grup_falla_binom": 0.9977025460276916
+      },
+      "k=-1": {
+       "fallen": 83,
+       "bessons": 96,
+       "per_tir": 0.8645833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999970487008
+      },
+      "k=2": {
+       "fallen": 94,
+       "bessons": 96,
+       "per_tir": 0.9791666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 129,
+       "bessons": 192,
+       "per_tir": 0.671875,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999601684836462
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 101,
+       "bessons": 192,
+       "per_tir": 0.5260416666666666,
+       "no_avaluables": 0,
+       "grup_falla": 0.9992,
+       "grup_falla_binom": 0.9981601391137588
+      },
+      "k=-1": {
+       "fallen": 92,
+       "bessons": 96,
+       "per_tir": 0.9583333333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999925
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 130,
+       "bessons": 192,
+       "per_tir": 0.6770833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999663686198621
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.47475
+    },
+    "90": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 21,
+       "bessons": 171,
+       "per_tir": 0.12280701754385964,
+       "no_avaluables": 0,
+       "grup_falla": 0.4077,
+       "grup_falla_binom": 0.39899186300175205
+      },
+      "k=-1": {
+       "fallen": 39,
+       "bessons": 87,
+       "per_tir": 0.4482758620689655,
+       "no_avaluables": 0,
+       "grup_falla": 0.98815,
+       "grup_falla_binom": 0.9856708980056073
+      },
+      "k=2": {
+       "fallen": 62,
+       "bessons": 85,
+       "per_tir": 0.7294117647058823,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999825474337883
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 33,
+       "bessons": 171,
+       "per_tir": 0.19298245614035087,
+       "no_avaluables": 0,
+       "grup_falla": 0.6726,
+       "grup_falla_binom": 0.656701919163114
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 11,
+       "bessons": 171,
+       "per_tir": 0.06432748538011696,
+       "no_avaluables": 0,
+       "grup_falla": 0.1433,
+       "grup_falla_binom": 0.15482054370301998
+      },
+      "k=-1": {
+       "fallen": 83,
+       "bessons": 87,
+       "per_tir": 0.9540229885057471,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999995551
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 26,
+       "bessons": 171,
+       "per_tir": 0.15204678362573099,
+       "no_avaluables": 0,
+       "grup_falla": 0.50975,
+       "grup_falla_binom": 0.5156045242344567
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.2185
+    },
+    "valida": false
+   },
+   "5": {
+    "45": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 102,
+       "bessons": 192,
+       "per_tir": 0.53125,
+       "no_avaluables": 0,
+       "grup_falla": 0.99935,
+       "grup_falla_binom": 0.9983569596666956
+      },
+      "k=-1": {
+       "fallen": 95,
+       "bessons": 96,
+       "per_tir": 0.9895833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 95,
+       "bessons": 96,
+       "per_tir": 0.9895833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 131,
+       "bessons": 192,
+       "per_tir": 0.6822916666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999716861044633
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 105,
+       "bessons": 192,
+       "per_tir": 0.546875,
+       "no_avaluables": 0,
+       "grup_falla": 0.9998,
+       "grup_falla_binom": 0.9988399822621405
+      },
+      "k=-1": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 133,
+       "bessons": 192,
+       "per_tir": 0.6927083333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999801136361257
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.536
+    },
+    "90": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 34,
+       "bessons": 171,
+       "per_tir": 0.19883040935672514,
+       "no_avaluables": 0,
+       "grup_falla": 0.69055,
+       "grup_falla_binom": 0.6744112747436308
+      },
+      "k=-1": {
+       "fallen": 70,
+       "bessons": 87,
+       "per_tir": 0.8045977011494253,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999992659051669
+      },
+      "k=2": {
+       "fallen": 65,
+       "bessons": 85,
+       "per_tir": 0.7647058823529411,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999955024177648
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 58,
+       "bessons": 171,
+       "per_tir": 0.3391812865497076,
+       "no_avaluables": 0,
+       "grup_falla": 0.93785,
+       "grup_falla_binom": 0.9302623742514043
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 29,
+       "bessons": 171,
+       "per_tir": 0.1695906432748538,
+       "no_avaluables": 0,
+       "grup_falla": 0.5727,
+       "grup_falla_binom": 0.579634413603482
+      },
+      "k=-1": {
+       "fallen": 83,
+       "bessons": 87,
+       "per_tir": 0.9540229885057471,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999995551
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 52,
+       "bessons": 171,
+       "per_tir": 0.30409356725146197,
+       "no_avaluables": 0,
+       "grup_falla": 0.8967,
+       "grup_falla_binom": 0.8923558464714664
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.435125
+    },
+    "valida": false
+   }
+  },
+  "recomanacio": "cap no es valida: no es firma cap X"
+ },
+ "catorzena_tanda_creu_del_repos": {
+  "sigma_creu_px": {
+   "45": [
+    2.33008569176667,
+    1.9127424454549684
+   ],
+   "90": [
+    1.1386530742023526,
+    0.5920141556594462
+   ]
+  },
+  "sigma_clic_px": [
+   0.22,
+   0.44
+  ],
+  "reps": [
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "C16a": 0.0,
+  "C16b_graus": 1.2722218725854067e-14,
+  "J16": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "3": {
+    "45": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 99,
+       "bessons": 192,
+       "per_tir": 0.515625,
+       "no_avaluables": 0,
+       "grup_falla": 0.99835,
+       "grup_falla_binom": 0.9977025460276916
+      },
+      "k=-1": {
+       "fallen": 74,
+       "bessons": 96,
+       "per_tir": 0.7708333333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999991321671511
+      },
+      "k=2": {
+       "fallen": 92,
+       "bessons": 96,
+       "per_tir": 0.9583333333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999925
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 125,
+       "bessons": 192,
+       "per_tir": 0.6510416666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999237434625176
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 82,
+       "bessons": 192,
+       "per_tir": 0.4270833333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.99325,
+       "grup_falla_binom": 0.9875628144301724
+      },
+      "k=-1": {
+       "fallen": 92,
+       "bessons": 96,
+       "per_tir": 0.9583333333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999925
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 103,
+       "bessons": 192,
+       "per_tir": 0.5364583333333334,
+       "no_avaluables": 0,
+       "grup_falla": 0.99915,
+       "grup_falla_binom": 0.9985348192405868
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.47575
+    },
+    "90": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 11,
+       "bessons": 171,
+       "per_tir": 0.06432748538011696,
+       "no_avaluables": 0,
+       "grup_falla": 0.1634,
+       "grup_falla_binom": 0.15482054370301998
+      },
+      "k=-1": {
+       "fallen": 40,
+       "bessons": 87,
+       "per_tir": 0.45977011494252873,
+       "no_avaluables": 0,
+       "grup_falla": 0.9931,
+       "grup_falla_binom": 0.9881478875920936
+      },
+      "k=2": {
+       "fallen": 48,
+       "bessons": 85,
+       "per_tir": 0.5647058823529412,
+       "no_avaluables": 0,
+       "grup_falla": 0.99885,
+       "grup_falla_binom": 0.998376480513635
+      },
+      "k=3": {
+       "fallen": 82,
+       "bessons": 87,
+       "per_tir": 0.9425287356321839,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999959017
+      },
+      "bons marge": {
+       "fallen": 20,
+       "bessons": 171,
+       "per_tir": 0.11695906432748537,
+       "no_avaluables": 0,
+       "grup_falla": 0.3831,
+       "grup_falla_binom": 0.37455925812457724
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 1,
+       "bessons": 171,
+       "per_tir": 0.005847953216374269,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0018160687087852702
+      },
+      "k=-1": {
+       "fallen": 83,
+       "bessons": 87,
+       "per_tir": 0.9540229885057471,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999995551
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 1,
+       "bessons": 171,
+       "per_tir": 0.005847953216374269,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0018160687087852702
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.21825
+    },
+    "valida": false
+   },
+   "5": {
+    "45": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 103,
+       "bessons": 192,
+       "per_tir": 0.5364583333333334,
+       "no_avaluables": 0,
+       "grup_falla": 0.9992,
+       "grup_falla_binom": 0.9985348192405868
+      },
+      "k=-1": {
+       "fallen": 95,
+       "bessons": 96,
+       "per_tir": 0.9895833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 92,
+       "bessons": 96,
+       "per_tir": 0.9583333333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999925
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 128,
+       "bessons": 192,
+       "per_tir": 0.6666666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999952958089421
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 85,
+       "bessons": 192,
+       "per_tir": 0.4427083333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.99565,
+       "grup_falla_binom": 0.990547847363667
+      },
+      "k=-1": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 106,
+       "bessons": 192,
+       "per_tir": 0.5520833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 0.9995,
+       "grup_falla_binom": 0.9989701641902181
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.536
+    },
+    "90": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 12,
+       "bessons": 171,
+       "per_tir": 0.07017543859649122,
+       "no_avaluables": 0,
+       "grup_falla": 0.1912,
+       "grup_falla_binom": 0.1779333727445514
+      },
+      "k=-1": {
+       "fallen": 64,
+       "bessons": 87,
+       "per_tir": 0.735632183908046,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999860651919024
+      },
+      "k=2": {
+       "fallen": 57,
+       "bessons": 85,
+       "per_tir": 0.6705882352941176,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9998840653032008
+      },
+      "k=3": {
+       "fallen": 86,
+       "bessons": 87,
+       "per_tir": 0.9885057471264368,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 20,
+       "bessons": 171,
+       "per_tir": 0.11695906432748537,
+       "no_avaluables": 0,
+       "grup_falla": 0.3849,
+       "grup_falla_binom": 0.37455925812457724
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 2,
+       "bessons": 171,
+       "per_tir": 0.011695906432748537,
+       "no_avaluables": 0,
+       "grup_falla": 0.00355,
+       "grup_falla_binom": 0.007013831713391341
+      },
+      "k=-1": {
+       "fallen": 84,
+       "bessons": 87,
+       "per_tir": 0.9655172413793104,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999747
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 3,
+       "bessons": 171,
+       "per_tir": 0.017543859649122806,
+       "no_avaluables": 0,
+       "grup_falla": 0.01085,
+       "grup_falla_binom": 0.015237141352345825
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.43625
+    },
+    "valida": false
+   }
+  },
+  "recomanacio": "cap no es valida: no es firma cap X"
+ },
+ "quinzena_tanda_creu_dins_del_feix": {
+  "sigma_creu_px": {
+   "45": [
+    2.33008569176667,
+    1.9127424454549684
+   ],
+   "90": [
+    1.1386530742023526,
+    0.5920141556594462
+   ]
+  },
+  "sigma_clic_px": [
+   0.22,
+   0.44
+  ],
+  "creu_al_feix": true,
+  "reps": [
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "C17a": 0.0,
+  "C17b_graus": 1.2722218725854067e-14,
+  "J17": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "3": {
+    "45": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 26,
+       "bessons": 192,
+       "per_tir": 0.13541666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 0.5059,
+       "grup_falla_binom": 0.4976549575903923
+      },
+      "k=-1": {
+       "fallen": 37,
+       "bessons": 96,
+       "per_tir": 0.3854166666666667,
+       "no_avaluables": 0,
+       "grup_falla": 0.98655,
+       "grup_falla_binom": 0.9752437239553551
+      },
+      "k=2": {
+       "fallen": 58,
+       "bessons": 96,
+       "per_tir": 0.6041666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9997142009201433
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 96,
+       "per_tir": 0.90625,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999460687
+      },
+      "bons marge": {
+       "fallen": 52,
+       "bessons": 192,
+       "per_tir": 0.2708333333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.882,
+       "grup_falla_binom": 0.8767215950472502
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 2,
+       "bessons": 192,
+       "per_tir": 0.010416666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 0.0033,
+       "grup_falla_binom": 0.006681236172565067
+      },
+      "k=-1": {
+       "fallen": 57,
+       "bessons": 96,
+       "per_tir": 0.59375,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9996253772236556
+      },
+      "k=2": {
+       "fallen": 95,
+       "bessons": 96,
+       "per_tir": 0.9895833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 13,
+       "bessons": 192,
+       "per_tir": 0.06770833333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.19305,
+       "grup_falla_binom": 0.19311172750615296
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.47575
+    },
+    "90": {
+     "B0.085|Y4|X3": {
+      "bons": {
+       "fallen": 10,
+       "bessons": 171,
+       "per_tir": 0.05847953216374269,
+       "no_avaluables": 0,
+       "grup_falla": 0.139,
+       "grup_falla_binom": 0.13249729655678802
+      },
+      "k=-1": {
+       "fallen": 32,
+       "bessons": 87,
+       "per_tir": 0.367816091954023,
+       "no_avaluables": 0,
+       "grup_falla": 0.96235,
+       "grup_falla_binom": 0.9523009724187576
+      },
+      "k=2": {
+       "fallen": 41,
+       "bessons": 85,
+       "per_tir": 0.4823529411764706,
+       "no_avaluables": 0,
+       "grup_falla": 0.99405,
+       "grup_falla_binom": 0.9919550420036751
+      },
+      "k=3": {
+       "fallen": 81,
+       "bessons": 87,
+       "per_tir": 0.9310344827586207,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999749046
+      },
+      "bons marge": {
+       "fallen": 16,
+       "bessons": 171,
+       "per_tir": 0.0935672514619883,
+       "no_avaluables": 0,
+       "grup_falla": 0.2822,
+       "grup_falla_binom": 0.27525077242317725
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 79,
+       "bessons": 87,
+       "per_tir": 0.9080459770114943,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999995642999
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.21825
+    },
+    "valida": false
+   },
+   "5": {
+    "45": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 35,
+       "bessons": 192,
+       "per_tir": 0.18229166666666666,
+       "no_avaluables": 0,
+       "grup_falla": 0.6894,
+       "grup_falla_binom": 0.6715590911567654
+      },
+      "k=-1": {
+       "fallen": 93,
+       "bessons": 96,
+       "per_tir": 0.96875,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999997
+      },
+      "k=2": {
+       "fallen": 74,
+       "bessons": 96,
+       "per_tir": 0.7708333333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999991321671511
+      },
+      "k=3": {
+       "fallen": 94,
+       "bessons": 96,
+       "per_tir": 0.9791666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 59,
+       "bessons": 192,
+       "per_tir": 0.3072916666666667,
+       "no_avaluables": 0,
+       "grup_falla": 0.93,
+       "grup_falla_binom": 0.9228120864098422
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 3,
+       "bessons": 192,
+       "per_tir": 0.015625,
+       "no_avaluables": 0,
+       "grup_falla": 0.0117,
+       "grup_falla_binom": 0.014520443082281688
+      },
+      "k=-1": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 16,
+       "bessons": 192,
+       "per_tir": 0.08333333333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.2675,
+       "grup_falla_binom": 0.26400914142498594
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.536
+    },
+    "90": {
+     "B0.085|Y4|X5": {
+      "bons": {
+       "fallen": 10,
+       "bessons": 171,
+       "per_tir": 0.05847953216374269,
+       "no_avaluables": 0,
+       "grup_falla": 0.14095,
+       "grup_falla_binom": 0.13249729655678802
+      },
+      "k=-1": {
+       "fallen": 55,
+       "bessons": 87,
+       "per_tir": 0.632183908045977,
+       "no_avaluables": 0,
+       "grup_falla": 0.99995,
+       "grup_falla_binom": 0.9996681609917714
+      },
+      "k=2": {
+       "fallen": 49,
+       "bessons": 85,
+       "per_tir": 0.5764705882352941,
+       "no_avaluables": 0,
+       "grup_falla": 0.9992,
+       "grup_falla_binom": 0.9987437251384134
+      },
+      "k=3": {
+       "fallen": 86,
+       "bessons": 87,
+       "per_tir": 0.9885057471264368,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 16,
+       "bessons": 171,
+       "per_tir": 0.0935672514619883,
+       "no_avaluables": 0,
+       "grup_falla": 0.2864,
+       "grup_falla_binom": 0.27525077242317725
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 80,
+       "bessons": 87,
+       "per_tir": 0.9195402298850575,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999999999884071
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 1,
+       "bessons": 171,
+       "per_tir": 0.005847953216374269,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0018160687087852702
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.43625
+    },
+    "valida": false
+   }
+  },
+  "recomanacio": "cap no es valida: no es firma cap X"
+ },
+ "setzena_tanda_afinat_amb_desplacament": {
+  "zero": "D0.085",
+  "sigma_creu_px": {
+   "45": [
+    2.33008569176667,
+    1.9127424454549684
+   ],
+   "90": [
+    1.1386530742023526,
+    0.5920141556594462
+   ]
+  },
+  "sigma_clic_px": [
+   0.22,
+   0.44
+  ],
+  "creu_al_feix": true,
+  "reps": [
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49
+  ],
+  "C18a_ms": 0.39999999999995595,
+  "C18b_ms": 0.6569542046632737,
+  "J18": [
+   true,
+   true,
+   true,
+   true
+  ],
+  "resum": {
+   "3": {
+    "45": {
+     "D0.085|Y4|X3": {
+      "bons": {
+       "fallen": 6,
+       "bessons": 192,
+       "per_tir": 0.03125,
+       "no_avaluables": 0,
+       "grup_falla": 0.0509,
+       "grup_falla_binom": 0.05235135073833265
+      },
+      "k=-1": {
+       "fallen": 22,
+       "bessons": 96,
+       "per_tir": 0.22916666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 0.8413,
+       "grup_falla_binom": 0.7989931670822409
+      },
+      "k=2": {
+       "fallen": 32,
+       "bessons": 96,
+       "per_tir": 0.3333333333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.9737,
+       "grup_falla_binom": 0.9460485735951873
+      },
+      "k=3": {
+       "fallen": 82,
+       "bessons": 96,
+       "per_tir": 0.8541666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999999993403947
+      },
+      "bons marge": {
+       "fallen": 19,
+       "bessons": 192,
+       "per_tir": 0.09895833333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.33615,
+       "grup_falla_binom": 0.33620074203171957
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 2,
+       "bessons": 192,
+       "per_tir": 0.010416666666666666,
+       "no_avaluables": 0,
+       "grup_falla": 0.0033,
+       "grup_falla_binom": 0.006681236172565067
+      },
+      "k=-1": {
+       "fallen": 57,
+       "bessons": 96,
+       "per_tir": 0.59375,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9996253772236556
+      },
+      "k=2": {
+       "fallen": 95,
+       "bessons": 96,
+       "per_tir": 0.9895833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 13,
+       "bessons": 192,
+       "per_tir": 0.06770833333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.19305,
+       "grup_falla_binom": 0.19311172750615296
+      }
+     },
+     "D1": true,
+     "D2a": false,
+     "D2b": false,
+     "H_mediana_s": 0.47575
+    },
+    "90": {
+     "D0.085|Y4|X3": {
+      "bons": {
+       "fallen": 7,
+       "bessons": 171,
+       "per_tir": 0.04093567251461988,
+       "no_avaluables": 0,
+       "grup_falla": 0.05925,
+       "grup_falla_binom": 0.07210612335299335
+      },
+      "k=-1": {
+       "fallen": 11,
+       "bessons": 87,
+       "per_tir": 0.12643678160919541,
+       "no_avaluables": 0,
+       "grup_falla": 0.41375,
+       "grup_falla_binom": 0.41400977685612295
+      },
+      "k=2": {
+       "fallen": 14,
+       "bessons": 85,
+       "per_tir": 0.16470588235294117,
+       "no_avaluables": 0,
+       "grup_falla": 0.5567,
+       "grup_falla_binom": 0.5623188705868983
+      },
+      "k=3": {
+       "fallen": 31,
+       "bessons": 87,
+       "per_tir": 0.3563218390804598,
+       "no_avaluables": 0,
+       "grup_falla": 0.96465,
+       "grup_falla_binom": 0.9442866852796403
+      },
+      "bons marge": {
+       "fallen": 10,
+       "bessons": 171,
+       "per_tir": 0.05847953216374269,
+       "no_avaluables": 0,
+       "grup_falla": 0.14205,
+       "grup_falla_binom": 0.13249729655678802
+      }
+     },
+     "O|Y4|X3": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 79,
+       "bessons": 87,
+       "per_tir": 0.9080459770114943,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999995642999
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      }
+     },
+     "D1": true,
+     "D2a": false,
+     "D2b": false,
+     "H_mediana_s": 0.21825
+    },
+    "valida": false
+   },
+   "5": {
+    "45": {
+     "D0.085|Y4|X5": {
+      "bons": {
+       "fallen": 10,
+       "bessons": 192,
+       "per_tir": 0.052083333333333336,
+       "no_avaluables": 0,
+       "grup_falla": 0.1221,
+       "grup_falla_binom": 0.1266718352289984
+      },
+      "k=-1": {
+       "fallen": 92,
+       "bessons": 96,
+       "per_tir": 0.9583333333333334,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999999999999925
+      },
+      "k=2": {
+       "fallen": 53,
+       "bessons": 96,
+       "per_tir": 0.5520833333333334,
+       "no_avaluables": 0,
+       "grup_falla": 0.9999,
+       "grup_falla_binom": 0.9989701641902181
+      },
+      "k=3": {
+       "fallen": 90,
+       "bessons": 96,
+       "per_tir": 0.9375,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999999999999357
+      },
+      "bons marge": {
+       "fallen": 23,
+       "bessons": 192,
+       "per_tir": 0.11979166666666667,
+       "no_avaluables": 0,
+       "grup_falla": 0.43615,
+       "grup_falla_binom": 0.4304930645403159
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 3,
+       "bessons": 192,
+       "per_tir": 0.015625,
+       "no_avaluables": 0,
+       "grup_falla": 0.0117,
+       "grup_falla_binom": 0.014520443082281688
+      },
+      "k=-1": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=2": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 96,
+       "bessons": 96,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 16,
+       "bessons": 192,
+       "per_tir": 0.08333333333333333,
+       "no_avaluables": 0,
+       "grup_falla": 0.2675,
+       "grup_falla_binom": 0.26400914142498594
+      }
+     },
+     "D1": false,
+     "D2a": true,
+     "D2b": true,
+     "H_mediana_s": 0.536
+    },
+    "90": {
+     "D0.085|Y4|X5": {
+      "bons": {
+       "fallen": 7,
+       "bessons": 171,
+       "per_tir": 0.04093567251461988,
+       "no_avaluables": 0,
+       "grup_falla": 0.0589,
+       "grup_falla_binom": 0.07210612335299335
+      },
+      "k=-1": {
+       "fallen": 55,
+       "bessons": 87,
+       "per_tir": 0.632183908045977,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9996681609917714
+      },
+      "k=2": {
+       "fallen": 16,
+       "bessons": 85,
+       "per_tir": 0.18823529411764706,
+       "no_avaluables": 0,
+       "grup_falla": 0.6427,
+       "grup_falla_binom": 0.6418633153950204
+      },
+      "k=3": {
+       "fallen": 61,
+       "bessons": 87,
+       "per_tir": 0.7011494252873564,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.9999544745257124
+      },
+      "bons marge": {
+       "fallen": 11,
+       "bessons": 171,
+       "per_tir": 0.06432748538011696,
+       "no_avaluables": 0,
+       "grup_falla": 0.1657,
+       "grup_falla_binom": 0.15482054370301998
+      }
+     },
+     "O|Y4|X5": {
+      "bons": {
+       "fallen": 0,
+       "bessons": 171,
+       "per_tir": 0.0,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0
+      },
+      "k=-1": {
+       "fallen": 80,
+       "bessons": 87,
+       "per_tir": 0.9195402298850575,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 0.999999999884071
+      },
+      "k=2": {
+       "fallen": 85,
+       "bessons": 85,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "k=3": {
+       "fallen": 87,
+       "bessons": 87,
+       "per_tir": 1.0,
+       "no_avaluables": 0,
+       "grup_falla": 1.0,
+       "grup_falla_binom": 1.0
+      },
+      "bons marge": {
+       "fallen": 1,
+       "bessons": 171,
+       "per_tir": 0.005847953216374269,
+       "no_avaluables": 0,
+       "grup_falla": 0.0,
+       "grup_falla_binom": 0.0018160687087852702
+      }
+     },
+     "D1": true,
+     "D2a": false,
+     "D2b": false,
+     "H_mediana_s": 0.43625
+    },
+    "valida": false
+   }
+  },
+  "recomanacio": "cap no es valida: no es firma cap X"
+ }
+}

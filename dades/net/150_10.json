@@ -1,0 +1,147 @@
+{
+  "origen": "tracker",
+  "fitxer_cru": "dades/video/tracker/150/150_10.trk",
+  "capcalera_original": [
+    "Fix",
+    "Rodament",
+    "Extrem"
+  ],
+  "fps": 239.9000462748727,
+  "durada_s": 86.94037505979664,
+  "n_mostres": 20858,
+  "pivot": [
+    0.0,
+    0.0
+  ],
+  "y_avall": true,
+  "signe_invertit": false,
+  "savgol": {
+    "finestra_mostres": 13,
+    "ordre": 3
+  },
+  "angles_inicials_graus": [
+    153.93436447375635,
+    154.44152345509042
+  ],
+  "angle_nominal_graus": 150.0,
+  "fitxer_trk": "dades/video/tracker/150/150_10.trk",
+  "video_del_trk": "../../conv/150/150_10.mp4",
+  "pistes": [
+    "Fix",
+    "Rodament",
+    "Extrem"
+  ],
+  "delta_t_s": 0.004168402697405985,
+  "angle_de_l_eix_al_trk_graus": 0.0,
+  "articulacio_corregida": false,
+  "geometria": {
+    "gir_graus": 0.6199866893884418,
+    "estabilitat_graus": 0.014663328589699137,
+    "residu_px": 1.108046006012813,
+    "delta_px": -0.5985011876897006,
+    "L1_px": 189.02550651065442,
+    "L2_px": 230.12848427262017,
+    "cua_s": 2.0,
+    "tremolor_del_pivot": {
+      "max_px": 2.395111432675425,
+      "quan_s": 86.89452263012517,
+      "primer_segon_px": 1.0942655412711977,
+      "ultim_segon_px": 2.395111432675425,
+      "cobreix_de_s": 0.7044600558616115,
+      "cobreix_fins_s": 86.94037505979664
+    },
+    "fix_cobreix_la_cua": true,
+    "fix_cobreix_el_principi": false,
+    "quiet_al_principi_s": 0.525218739873154,
+    "velocitat_inicial_px_s": 14.803633079590263,
+    "rigidesa": {
+      "L1_sigma_px": 3.795776315409771,
+      "L1_sigma_relatiu": 0.01985628417666703,
+      "L2_sigma_px": 2.6189635101065973,
+      "L2_sigma_relatiu": 0.011443366200317757,
+      "soroll_angular_graus": [
+        1.1376812801354195,
+        0.6556565867008649
+      ]
+    },
+    "marca_articulacio": {
+      "mesurada": true,
+      "motiu": null,
+      "delta_px": -1.3399442883435502,
+      "incertesa_delta_px": 0.032225671928645006,
+      "de_costat_px": 1.089255137265627,
+      "incertesa_de_costat_px": 0.03971349688505098,
+      "gomet_px": 227.88468054456396,
+      "L1_px": 191.3990526949081,
+      "error_theta2_maxim_graus": 0.3368966914060992,
+      "rao_gomet_L1": 1.2064167076267591,
+      "rao_gomet_L1_a_leix": 1.1906259583625751,
+      "vibracio_px": 2.6189635101065973,
+      "vibracio_a_leix_px": 2.476552968380868,
+      "fotogrames": 20858,
+      "criteri_mm": 1.0,
+      "delta_mm": -0.8400946208314422,
+      "incertesa_delta_mm": 0.020204283025379254,
+      "rao_del_regle": 1.1583333333333334,
+      "a_leix": true,
+      "corregida": false,
+      "motiu_sense_correccio": "ja es a l'eix (|delta| <= 1 mm)"
+    }
+  },
+  "amollada": {
+    "hi_ha_amollada": true,
+    "motiu": null,
+    "amollada_s": 0.60386570423694,
+    "incertesa_s": 0.004284045402588909,
+    "incertesa_fotogrames": 1.0277426903223308,
+    "angles_que_compten": [
+      "theta1"
+    ],
+    "repos_abans_s": 0.60386570423694,
+    "discrepancia_entre_angles_s": NaN,
+    "angles_amollada_graus": [
+      153.9320624420915,
+      154.43605451063382
+    ],
+    "origen_dels_angles": "mitjana del repos",
+    "diferencia_repos_vertex_graus": [
+      1.761451125805013,
+      NaN
+    ],
+    "per_angle": {
+      "theta1": {
+        "instant_s": 0.6038657042369399,
+        "incertesa_s": 0.00419089582475099,
+        "residu": 0.0721964639481736,
+        "mena": "omega",
+        "grau_usat": 3,
+        "incertesa_ajust_s": 0.001676358329900396,
+        "sistematica_s": 0.0008885027841981641,
+        "incertesa_total_s": 0.004284045402588909,
+        "angle_rad": 2.6558781922417416,
+        "recorregut_graus": 22.01161107917122,
+        "rao_senyal_soroll": 19.347783481636576,
+        "finestra_s": [
+          0.6232181395990688,
+          0.7432181395990688
+        ],
+        "compta": true,
+        "llindar_senyal": 6.449261160545525
+      },
+      "theta2": {
+        "compta": false,
+        "motiu": "l'ajust no dona cap instant creible: o no convergeix o cau fora de la franja on pot ser l'amollada, que es de 0.454 a 0.644 s",
+        "rao_senyal_soroll": 1.6109210925570563,
+        "recorregut_graus": 1.8327147707774605
+      }
+    },
+    "finestra_ajust_s": [
+      0.6232181395990688,
+      0.7432181395990688
+    ],
+    "grau_del_polinomi": 3,
+    "finestra_filtre_s": 0.054189235066277805,
+    "fps": 239.90004627431153,
+    "avisos": []
+  }
+}

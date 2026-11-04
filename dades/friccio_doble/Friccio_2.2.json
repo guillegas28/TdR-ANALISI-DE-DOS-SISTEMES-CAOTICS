@@ -1,0 +1,70 @@
+{
+  "entrada": "dades/video/tracker/fricció_doble/Friccio_2.2.trk",
+  "unitat": "px",
+  "lectura": {
+    "origen": "trk",
+    "pista": "Extrem",
+    "trams_continus": 1,
+    "punts_del_tram_triat": 2749,
+    "inclinacio_de_la_camera_graus": 0.647296481393056,
+    "angle_de_l_eix_al_trk_graus": 0.0
+  },
+  "T0_s": 0.6568883717722448,
+  "I_partit_per_M_d_m": 0.107147591691568,
+  "fps": 59.98944219602323,
+  "finestra_savgol_mostres": 7,
+  "finestra_savgol_s": 0.12,
+  "extrems": {
+    "valors": [
+      0.4440334234084909,
+      0.020623018073455877,
+      0.0034185545856556905
+    ],
+    "errors": [
+      0.019220480237176225,
+      0.010704192712967724,
+      0.0012420433306736087
+    ],
+    "residu_graus": 0.20087455432078316,
+    "n_extrems": 63
+  },
+  "energia_mateixa_finestra": {
+    "s_sec_rad_s-2": 0.4487893922000382,
+    "v_viscos_s-1": 0.017039523257914954,
+    "a_aerodinamic_rad-1": 0.002944292871294052,
+    "errors": [
+      0.07267949261609805,
+      0.03688219914605976,
+      0.004030215920637646
+    ],
+    "n_punts": 1241,
+    "durada_s": 20.67030388360906,
+    "amplitud_graus": [
+      8.039177729929403,
+      54.97917880229892
+    ],
+    "w_max_rad_s": 8.760878124216493,
+    "residu_relatiu": 0.029414021378341728,
+    "n_efectiu": 62.933992355023236
+  },
+  "energia_sencera": {
+    "s_sec_rad_s-2": 0.4214210469172802,
+    "v_viscos_s-1": 2.7867734690962765e-20,
+    "a_aerodinamic_rad-1": 0.006416853368871581,
+    "errors": [
+      0.056317314179188026,
+      0.016516905927793094,
+      0.0010103703446652874
+    ],
+    "n_punts": 2088,
+    "durada_s": 34.789455004106536,
+    "amplitud_graus": [
+      8.039177729929403,
+      152.01641231830956
+    ],
+    "w_max_rad_s": 18.53971375505879,
+    "residu_relatiu": 0.03689868902895788,
+    "n_efectiu": 105.92196939107541
+  },
+  "inercia_kg_m2": 0.0003162
+}

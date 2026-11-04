@@ -1,0 +1,21 @@
+punt,tipus,x_cm,y_cm,desti,repeticio,nota
+F11C06,neta,-0.75,-3.0,3,1,en lloc de N (error); els 10 al blau (imant 3)
+F11C06,neta,-0.75,-3.0,3,2,
+F11C06,neta,-0.75,-3.0,3,3,
+F11C06,neta,-0.75,-3.0,3,4,
+F11C06,neta,-0.75,-3.0,3,5,
+F11C06,neta,-0.75,-3.0,3,6,
+F11C06,neta,-0.75,-3.0,3,7,
+F11C06,neta,-0.75,-3.0,3,8,
+F11C06,neta,-0.75,-3.0,3,9,
+F11C06,neta,-0.75,-3.0,3,10,
+pols_12_05,pols,12.0,0.5,0,1,en lloc de P: punt triat per en Guillem; l'ordre dels 10 tirs no es va apuntar (3 centre; 4 blau; 3 vermell)
+pols_12_05,pols,12.0,0.5,0,2,
+pols_12_05,pols,12.0,0.5,0,3,
+pols_12_05,pols,12.0,0.5,3,4,
+pols_12_05,pols,12.0,0.5,3,5,
+pols_12_05,pols,12.0,0.5,3,6,
+pols_12_05,pols,12.0,0.5,3,7,
+pols_12_05,pols,12.0,0.5,2,8,
+pols_12_05,pols,12.0,0.5,2,9,
+pols_12_05,pols,12.0,0.5,2,10,

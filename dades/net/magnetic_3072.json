@@ -1,0 +1,62 @@
+{
+  "origen": "magnetic.tracker",
+  "fitxer_cru": "dades/video/tracker/IMG_3072.trk",
+  "font": "projecte .trk (posicions en pixels)",
+  "capcalera_original": [
+    "del .trk, massa 'masa A'",
+    "x_px",
+    "y_px"
+  ],
+  "massa": "masa A",
+  "primer_fotograma_del_video": 245,
+  "signe_angle": 1,
+  "gir_per_adrecar_la_vertical_graus": 5.216398503648108,
+  "pla": "vertical",
+  "origen_coordenades": "pivot",
+  "que_es": "Presa de calibratge del pendol magnetic amb els imants RETIRATS: un pendol simple vist de costat. x horitzontal, y vertical, origen al pivot. NO son coordenades del pla dels imants.",
+  "fps_mesurats": 239.6878198567042,
+  "fps_esperats": 239.68781985670418,
+  "durada_s": 90.14642468239565,
+  "n_mostres": 21608,
+  "fotogrames_interpolats": 8,
+  "forats": [],
+  "retallat": true,
+  "duplicats": {
+    "total": 2,
+    "movent_se": 0
+  },
+  "pas_de_quantitzacio_m": 2.777866513203886e-10,
+  "tracker": {
+    "fitxer": "dades\\video\\tracker\\IMG_3072.trk",
+    "delta_t_ms": 4.172093519803566,
+    "fps_declarats": 239.68781985670418,
+    "fotogrames": 37466.0,
+    "fotograma_inicial": 0.0,
+    "pas": 1.0,
+    "video": "../conv/IMG_3072.mp4",
+    "origen_px": [
+      672.75,
+      430.25
+    ],
+    "angle_rad": -0.06580538471260933,
+    "angle_graus": -3.7703708132672222,
+    "escala_px_per_m": 1618.016143050247,
+    "escala_y_px_per_m": 1618.016143050247,
+    "vares": [
+      {
+        "nom": "vara de calibración A",
+        "longitud_m": 0.112,
+        "longitud_px": 181.21780802162775,
+        "px_per_m": 1618.0161430502476
+      },
+      {
+        "nom": "vara de calibración B",
+        "longitud_m": 0.08,
+        "longitud_px": 129.44129144401975,
+        "px_per_m": 1618.016143050247
+      }
+    ],
+    "marques_desades": 21601
+  },
+  "video": "IMG_3072.MOV"
+}

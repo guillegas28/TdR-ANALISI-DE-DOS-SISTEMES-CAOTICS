@@ -1,0 +1,42 @@
+{
+ "ci_per_energia": 40,
+ "temps_s": 1000.0,
+ "interval_reescalat_s": 0.05,
+ "pas_integracio_s": 0.05,
+ "d0": 1e-08,
+ "transitori_s": 5.0,
+ "omega0_rad_s": 8.058397913568252,
+ "tolerancia": {
+  "rtol": 1e-13,
+  "atol": 1e-15
+ },
+ "llavor": 20260929,
+ "llavor_per_orbita": "LLAVOR + crc32('<E/E_v2>|<index>')",
+ "friccio": null,
+ "classificacio": {
+  "regular": "|lambda(T)| < 0.05 i |lambda(T)| <= 0.5*|lambda(T/4)| + 1e-3",
+  "caotica": "no regular i |lambda(T)| >= 0.05 (canviat el 29/09/2026, vegeu pendol/caos.py)",
+  "convergida_1pc": "nomes diagnostic"
+ },
+ "parametres": {
+  "m1": 0.067,
+  "d1": 0.06,
+  "R1": 0.18,
+  "ms": 0.046,
+  "rs": 0.12,
+  "m2": 0.058,
+  "d2": 0.051,
+  "R2": 0.18,
+  "L1": 0.12,
+  "L_extrem": 0.149,
+  "r_gomet": 0.139,
+  "g": 9.802,
+  "_derivats": {
+   "I1": 0.0019196999999999999,
+   "I2": 0.000307458,
+   "K": 0.00035496,
+   "A": 0.0165,
+   "B": 0.002958
+  }
+ }
+}

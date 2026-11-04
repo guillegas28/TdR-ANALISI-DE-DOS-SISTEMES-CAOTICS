@@ -1,0 +1,515 @@
+{
+ "_que_es": "L'experiment 1: la Y de la dotzena, llegida en un sol sentit (eines/experiment1.py).",
+ "firma": {
+  "data": "2026-10-27",
+  "X": 5.0,
+  "Y": {
+   "regla": "la de la dotzena tanda (B0.085|Y4): amollada afinada amb una finestra de 0,085 s, el soroll del tir dins del feix, fora 0,2 s seguits abans de l'horitzo, c = 2",
+   "lectura": "en un sol sentit: un grup que passa es un resultat; un que falla no ho es (la creu del Tracker fa fallar pendols bons, pero no amaga els defectes; catorzena tanda)",
+   "zero": "amollada afinada, finestra de 0,085 s",
+   "finestra_s": 0.085,
+   "soroll_del_tir_dins_del_feix": true,
+   "fora_s": 0.2,
+   "c": 2,
+   "en_un_sol_sentit": [
+    "45",
+    "90"
+   ],
+   "no_avaluables": [
+    "150"
+   ],
+   "codi": "eines/experiment1.py (la D4: la E1 dona la dotzena bit a bit)",
+   "per_que": "documentacio/per-firmar-24-10.md, seccio 3e"
+  }
+ },
+ "x_graus": 5.0,
+ "per_grup": {
+  "45": {
+   "lectura": {
+    "falla": true,
+    "c": 2,
+    "fallen": [
+     "45_1",
+     "45_10",
+     "45_11",
+     "45_13",
+     "45_2",
+     "45_3",
+     "45_4",
+     "45_5",
+     "45_6",
+     "45_8",
+     "45_9"
+    ],
+    "avaluables": 12,
+    "no_avaluables": [],
+    "lectura": "falla: no concloent"
+   },
+   "per_tir": {
+    "45_1": {
+     "nom": "45_1",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      46.080167707022795,
+      43.14806831442906
+     ],
+     "zero_video_s": 1.1012196362011175,
+     "zero_s": 1.0823523610869612,
+     "zero_afinat": true,
+     "H_s": 0.5275,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.07086614173228345,
+      "t_sortida_s": 0.0014348199130387318,
+      "angle": "theta1"
+     }
+    },
+    "45_2": {
+     "nom": "45_2",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      44.4452256295243,
+      42.04836381031244
+     ],
+     "zero_video_s": 2.400127701803219,
+     "zero_s": 2.40248730518836,
+     "zero_afinat": true,
+     "H_s": 0.55225,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.030303030303030276,
+      "t_sortida_s": 0.002678849811639683,
+      "angle": "theta1"
+     }
+    },
+    "45_3": {
+     "nom": "45_3",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      44.30945604979774,
+      44.1617731537514
+     ],
+     "zero_video_s": 1.4120968367691165,
+     "zero_s": 1.4171058563504086,
+     "zero_afinat": true,
+     "H_s": 0.5245,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.17460317460317465,
+      "t_sortida_s": 0.3044436876495913,
+      "angle": "theta2"
+     }
+    },
+    "45_4": {
+     "nom": "45_4",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      44.15073608139118,
+      43.08665349969144
+     ],
+     "zero_video_s": 2.5288508266727128,
+     "zero_s": 2.5252220804878127,
+     "zero_afinat": true,
+     "H_s": 0.54625,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.17557251908396942,
+      "t_sortida_s": 0.3009257815121873,
+      "angle": "theta1"
+     }
+    },
+    "45_5": {
+     "nom": "45_5",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      44.30518947568242,
+      43.57930854751386
+     ],
+     "zero_video_s": 1.9389464754074577,
+     "zero_s": 1.9276812193285788,
+     "zero_afinat": true,
+     "H_s": 0.5375,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.023255813953488413,
+      "t_sortida_s": 0.0022872926714212483,
+      "angle": "theta1"
+     }
+    },
+    "45_6": {
+     "nom": "45_6",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      45.569147743491435,
+      43.37829362043176
+     ],
+     "zero_video_s": 1.3027579557798528,
+     "zero_s": 1.2842669881844362,
+     "zero_afinat": true,
+     "H_s": 0.544,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.05384615384615388,
+      "t_sortida_s": 0.003738028815563732,
+      "angle": "theta1"
+     }
+    },
+    "45_8": {
+     "nom": "45_8",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      43.423142495769724,
+      42.80968469334446
+     ],
+     "zero_video_s": 2.4808361633789096,
+     "zero_s": 2.472689880482195,
+     "zero_afinat": true,
+     "H_s": 0.533,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.140625,
+      "t_sortida_s": 0.31179998351780513,
+      "angle": "theta2"
+     }
+    },
+    "45_9": {
+     "nom": "45_9",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      43.22383665958517,
+      44.085383853847006
+     ],
+     "zero_video_s": 0.1500799581117171,
+     "zero_s": 0.14712856428558146,
+     "zero_afinat": true,
+     "H_s": 0.53075,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.1889763779527559,
+      "t_sortida_s": 0.011270360114418537,
+      "angle": "theta2"
+     }
+    },
+    "45_10": {
+     "nom": "45_10",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      45.23834430134772,
+      43.22747487887946
+     ],
+     "zero_video_s": 1.8787793924423524,
+     "zero_s": 1.866837258426889,
+     "zero_afinat": true,
+     "H_s": 0.554,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.0,
+      "t_sortida_s": 0.0006121555731108952,
+      "angle": "theta1"
+     }
+    },
+    "45_11": {
+     "nom": "45_11",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      44.868568036181905,
+      43.14012648506517
+     ],
+     "zero_video_s": 2.749765307760784,
+     "zero_s": 2.7491233802614774,
+     "zero_afinat": true,
+     "H_s": 0.5255,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.06349206349206349,
+      "t_sortida_s": 0.0002858077385226032,
+      "angle": "tots dos"
+     }
+    },
+    "45_12": {
+     "nom": "45_12",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      44.12803665997314,
+      44.50788631339717
+     ],
+     "zero_video_s": 0.2188629130977536,
+     "zero_s": 0.2230266601193224,
+     "zero_afinat": true,
+     "H_s": 0.5335,
+     "y": {
+      "avaluable": true,
+      "falla": false,
+      "fraccio_dins": 0.3671875
+     }
+    },
+    "45_13": {
+     "nom": "45_13",
+     "grup": "45",
+     "condicions_inicials_graus": [
+      45.14394641215944,
+      42.6268190988403
+     ],
+     "zero_video_s": 1.0278746890397792,
+     "zero_s": 1.027330235235462,
+     "zero_afinat": true,
+     "H_s": 0.5385,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.2713178294573644,
+      "t_sortida_s": 0.32860251776453797,
+      "angle": "theta2"
+     }
+    }
+   }
+  },
+  "90": {
+   "lectura": {
+    "falla": true,
+    "c": 2,
+    "fallen": [
+     "90_1",
+     "90_10",
+     "90_11",
+     "90_2",
+     "90_3",
+     "90_4",
+     "90_5",
+     "90_6",
+     "90_7",
+     "90_8",
+     "90_9"
+    ],
+    "avaluables": 11,
+    "no_avaluables": [],
+    "lectura": "falla: no concloent"
+   },
+   "per_tir": {
+    "90_1": {
+     "nom": "90_1",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      91.7037859025415,
+      90.42658216275515
+     ],
+     "zero_video_s": 0.4556015031605531,
+     "zero_s": 0.45405250253388263,
+     "zero_afinat": true,
+     "H_s": 0.43025,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.29807692307692313,
+      "t_sortida_s": 0.2920923012661174,
+      "angle": "theta2"
+     }
+    },
+    "90_2": {
+     "nom": "90_2",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      93.16637366705493,
+      90.58092590053919
+     ],
+     "zero_video_s": 0.03013814047046741,
+     "zero_s": 0.03204333893710093,
+     "zero_afinat": true,
+     "H_s": 0.43925000000000003,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.2075471698113207,
+      "t_sortida_s": 0.042987851862899065,
+      "angle": "theta2"
+     }
+    },
+    "90_3": {
+     "nom": "90_3",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      93.4935544630136,
+      89.85675942808217
+     ],
+     "zero_video_s": 0.4750483640936779,
+     "zero_s": 0.4753848080518901,
+     "zero_afinat": true,
+     "H_s": 0.4365,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.21153846153846156,
+      "t_sortida_s": 0.028993706848109868,
+      "angle": "theta2"
+     }
+    },
+    "90_4": {
+     "nom": "90_4",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      92.36924819085334,
+      90.07366437902715
+     ],
+     "zero_video_s": 0.0746775277157522,
+     "zero_s": 0.07378275327476824,
+     "zero_afinat": true,
+     "H_s": 0.44075000000000003,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.12264150943396224,
+      "t_sortida_s": 0.022090642675231753,
+      "angle": "theta2"
+     }
+    },
+    "90_5": {
+     "nom": "90_5",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      93.27206251658562,
+      90.3922188927402
+     ],
+     "zero_video_s": 0.37345915780434685,
+     "zero_s": 0.36796439311069407,
+     "zero_afinat": true,
+     "H_s": 0.431,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.07766990291262132,
+      "t_sortida_s": 0.00719266608930591,
+      "angle": "theta1"
+     }
+    },
+    "90_6": {
+     "nom": "90_6",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      92.17884741968109,
+      89.44808236706217
+     ],
+     "zero_video_s": 2.070387628518672,
+     "zero_s": 2.0715668660069206,
+     "zero_afinat": true,
+     "H_s": 0.4315,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.1826923076923077,
+      "t_sortida_s": 0.025140999993079394,
+      "angle": "theta2"
+     }
+    },
+    "90_7": {
+     "nom": "90_7",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      93.97131348050183,
+      90.57316167841617
+     ],
+     "zero_video_s": 0.2671362765530112,
+     "zero_s": 0.2654101523760267,
+     "zero_afinat": true,
+     "H_s": 0.4375,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.01904761904761909,
+      "t_sortida_s": 0.009703366623973253,
+      "angle": "theta2"
+     }
+    },
+    "90_8": {
+     "nom": "90_8",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      91.85345587269924,
+      90.67525866603792
+     ],
+     "zero_video_s": 0.8592188445034067,
+     "zero_s": 0.8588637949078205,
+     "zero_afinat": true,
+     "H_s": 0.42775,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.07843137254901966,
+      "t_sortida_s": 0.016493008092179462,
+      "angle": "theta2"
+     }
+    },
+    "90_9": {
+     "nom": "90_9",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      92.82648272255952,
+      90.47966207762846
+     ],
+     "zero_video_s": 0.16588715391029657,
+     "zero_s": 0.16626442639373132,
+     "zero_afinat": true,
+     "H_s": 0.438,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.02857142857142858,
+      "t_sortida_s": 0.004640169606268674,
+      "angle": "theta2"
+     }
+    },
+    "90_10": {
+     "nom": "90_10",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      92.68906209057184,
+      91.22646839184064
+     ],
+     "zero_video_s": 0.5299353748456317,
+     "zero_s": 0.5388595416589674,
+     "zero_afinat": true,
+     "H_s": 0.4225,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.13861386138613863,
+      "t_sortida_s": 0.03220154804103259,
+      "angle": "theta2"
+     }
+    },
+    "90_11": {
+     "nom": "90_11",
+     "grup": "90",
+     "condicions_inicials_graus": [
+      91.67738927860803,
+      90.86007131010581
+     ],
+     "zero_video_s": 0.23938384515336317,
+     "zero_s": 0.24424539818873503,
+     "zero_afinat": true,
+     "H_s": 0.44175000000000003,
+     "y": {
+      "avaluable": true,
+      "falla": true,
+      "fraccio_dins": 0.047169811320754707,
+      "t_sortida_s": 0.02253204891126498,
+      "angle": "theta2"
+     }
+    }
+   }
+  }
+ },
+ "150": {
+  "lectura": "no avaluable",
+  "per_que": "els 150 graus no es van poder avaluar a cap tanda"
+ }
+}

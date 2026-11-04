@@ -1,0 +1,100 @@
+{
+ "eina": "eines/lyapunov_real.py z_costat_simulat",
+ "pla": "documentacio/pla-analisi-caos.md (27/10, la Z amb la regla canviada)",
+ "que_es": "NOMES SIMULACIO: l'error relatiu del costat simulat de la Z (cap lambda absoluta), amb la sigma_sim del 04/10 i amb la de l'opcio 2 (nomes la dispersio entre realitzacions)",
+ "casos": {
+  "C0a": {
+   "reals": "dades/divergencia/lyapunov_real_reals_2026-10-24.json",
+   "condicions_inicials_de": "pas0.angles_repos_graus (sense corregir)",
+   "sigma_ci_graus": [
+    0.0,
+    0.0
+   ],
+   "realitzacions": 20,
+   "parelles": 45,
+   "error_relatiu": {
+    "bootstrap": 0.272046486507654,
+    "dispersio": 0.07816067349690525,
+    "regla_04_10": 0.28305190637522476,
+    "opcio_2": 0.07816067349690525
+   }
+  },
+  "C0b": {
+   "reals": "dades/divergencia/lyapunov_real_reals_2026-10-24.json",
+   "condicions_inicials_de": "pas0.angles_repos_graus (sense corregir)",
+   "sigma_ci_graus": [
+    1.45,
+    1.53
+   ],
+   "realitzacions": 20,
+   "parelles": 45,
+   "error_relatiu": {
+    "bootstrap": 0.23939760906306617,
+    "dispersio": 0.23290602522058249,
+    "regla_04_10": 0.3340006464202775,
+    "opcio_2": 0.23290602522058249
+   }
+  },
+  "C3": {
+   "reals": "dades/divergencia/lyapunov_real_dues_parts_2026-10-27.json",
+   "condicions_inicials_de": "per_presa.amollada_despres_graus del JSON real (corregides)",
+   "sigma_ci_graus": [
+    1.045,
+    1.127
+   ],
+   "realitzacions": 20,
+   "parelles": 45,
+   "error_relatiu": {
+    "bootstrap": 0.1698018198527607,
+    "dispersio": 0.1641713115774447,
+    "regla_04_10": 0.23618822487661786,
+    "opcio_2": 0.1641713115774447
+   }
+  }
+ },
+ "criteris": {
+  "ZS1": {
+   "passa": true,
+   "ara": {
+    "C0a": [
+     28.3,
+     27.2,
+     7.8
+    ],
+    "C0b": [
+     33.4,
+     23.9,
+     23.3
+    ]
+   },
+   "autoprova_26_10": {
+    "C0a": [
+     28.3,
+     27.2,
+     7.8
+    ],
+    "C0b": [
+     33.4,
+     23.9,
+     23.3
+    ]
+   }
+  },
+  "ZS2": {
+   "passa": true,
+   "fitxers_oberts_de_dades": [
+    "divergencia/lyapunov_real_dues_parts_2026-10-27.json",
+    "divergencia/lyapunov_real_pas0_2026-10-17.json",
+    "divergencia/lyapunov_real_pas0b_2026-10-17.json",
+    "divergencia/lyapunov_real_reals_2026-10-24.json"
+   ]
+  },
+  "ZS3": {
+   "passa": true
+  }
+ },
+ "C3_opcio_2": {
+  "error_relatiu": 0.1641713115774447,
+  "resultat": "avaluable: abans de fer-la servir, una ZR3' i una ZR4' amb criteris escrits abans"
+ }
+}

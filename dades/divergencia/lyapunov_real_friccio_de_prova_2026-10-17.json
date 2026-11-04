@@ -1,0 +1,165 @@
+{
+ "que_es": "SENSIBILITAT a la friccio DE PROVA (C = 0,00794, eps = 1e-3): NOMES SIMULACIO, no per a la memoria",
+ "franja": "1,7-3,5",
+ "tirs": [
+  "90_1",
+  "90_2",
+  "90_3",
+  "90_4",
+  "90_5",
+  "90_6",
+  "90_7",
+  "90_8",
+  "90_9",
+  "90_10",
+  "90_11",
+  "150_1",
+  "150_2",
+  "150_3",
+  "150_4",
+  "150_5",
+  "150_6",
+  "150_7",
+  "150_8",
+  "150_9",
+  "150_10",
+  "150_11",
+  "150_12"
+ ],
+ "temps_a_la_franja_s": [
+  4.779166666666667,
+  7.033333333333333,
+  5.954166666666667,
+  6.920833333333333,
+  6.983333333333333,
+  7.004166666666666,
+  7.295833333333333,
+  7.545833333333333,
+  6.858333333333333,
+  7.104166666666667,
+  5.866666666666666,
+  7.979166666666667,
+  7.466666666666667,
+  8.158333333333333,
+  6.845833333333333,
+  7.75,
+  6.991666666666666,
+  7.241666666666666,
+  7.029166666666667,
+  7.7875,
+  7.341666666666667,
+  6.570833333333333,
+  6.716666666666667
+ ],
+ "ideal": {
+  "parelles": 800,
+  "tirs": 23,
+  "ok": true,
+  "lambda": 2.1135678057773535,
+  "creixement_ln": 1.514628553647122,
+  "finestra_s": [
+   0.1,
+   0.775
+  ],
+  "motiu": null,
+  "bootstrap": {
+   "remostrejos": 1000,
+   "sigma": 0.8713036010150191,
+   "sense_lambda": 0
+  }
+ },
+ "amb_soroll": [
+  {
+   "parelles": 848,
+   "tirs": 23,
+   "ok": true,
+   "lambda": 1.9203715657837346,
+   "creixement_ln": 1.3771086389707028,
+   "finestra_s": [
+    0.1,
+    0.7416666666666667
+   ],
+   "motiu": null,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma": 0.6771848852866146,
+    "sense_lambda": 0
+   }
+  },
+  {
+   "parelles": 898,
+   "tirs": 23,
+   "ok": true,
+   "lambda": 2.1651409971784914,
+   "creixement_ln": 1.394602378849414,
+   "finestra_s": [
+    0.1,
+    0.7041666666666666
+   ],
+   "motiu": null,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma": 0.6813068167644931,
+    "sense_lambda": 0
+   }
+  },
+  {
+   "parelles": 835,
+   "tirs": 23,
+   "ok": true,
+   "lambda": 1.8441687282916033,
+   "creixement_ln": 1.390875634331437,
+   "finestra_s": [
+    0.1,
+    0.7625
+   ],
+   "motiu": null,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma": 0.492537187557779,
+    "sense_lambda": 0
+   }
+  },
+  {
+   "parelles": 866,
+   "tirs": 23,
+   "ok": true,
+   "lambda": 1.973160050792934,
+   "creixement_ln": 1.377356624433791,
+   "finestra_s": [
+    0.1,
+    0.7333333333333333
+   ],
+   "motiu": null,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma": 0.4778058199084761,
+    "sense_lambda": 0
+   }
+  },
+  {
+   "parelles": 858,
+   "tirs": 23,
+   "ok": true,
+   "lambda": 1.8259070864526679,
+   "creixement_ln": 1.3613953454923506,
+   "finestra_s": [
+    0.1,
+    0.7583333333333333
+   ],
+   "motiu": null,
+   "bootstrap": {
+    "remostrejos": 1000,
+    "sigma": 0.5927059330444803,
+    "sense_lambda": 0
+   }
+  }
+ ],
+ "sense_friccio_validacio": 2.161006917354457,
+ "canvi_relatiu": -0.021952318243931956,
+ "criteri": {
+  "criteri": "FR1",
+  "passa": true,
+  "detall": "sense soroll 2.114 amb friccio de prova contra 2.161 sense friccio (-2.2 %); cal +-15 %"
+ }
+}

@@ -1,0 +1,334 @@
+/* Estil de la pagina interactiva.
+ *
+ * ELS COLORS NO ES TRIEN AQUI. Surten de magnetic/estil.py, i construeix.py
+ * els hi va a buscar i els escriu a les variables de sota. Si algun dia canvia
+ * un color de les figures, canvia tambe aqui sense tocar aquest fitxer.
+ * Vegeu el capcal de magnetic/estil.py per que la paleta es com es: els cinc
+ * destins s'han de distingir tambe pel clar-fosc, no nomes pel to.
+ */
+
+:root {
+  --superficie: {{SUPERFICIE}};
+  --tinta: {{TINTA}};
+  --tinta-2: {{TINTA_2}};
+  --tinta-suau: {{TINTA_SUAU}};
+  --graella: {{GRAELLA}};
+  --eix: {{EIX}};
+}
+
+body {
+  margin: 0;
+  padding: 1.6rem;
+  background: var(--superficie);
+  color: var(--tinta);
+  font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+main { max-width: 1180px; margin: 0 auto; }
+
+.capcalera h1 { font-size: 1.5rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+.subtitol { margin: 0; color: var(--tinta-2); max-width: 62ch; }
+
+/* L'avis de valors inventats. Ha de cridar l'atencio sense semblar un error:
+   el que hi ha calculat es correcte, el que passa es que les entrades no son
+   mesures. */
+.avis {
+  margin: 1.1rem 0;
+  padding: .7rem .9rem;
+  border-left: 4px solid #c85a28;
+  background: #fdf3ec;
+  color: #7a3413;
+  font-size: 13.5px;
+  white-space: pre-line;
+}
+
+/* La pagina construida amb --b/--n/--K. Aqui NO s'esta ni als valors
+   provisionals del parametres.json: el mapa es d'un muntatge que no existeix, i
+   s'ha de veure d'una hora lluny que no es el de sempre. Per aixo canvia de
+   color i no nomes de text -- un avis que sempre te el mateix aspecte deixa de
+   llegir-se al tercer cop. */
+.avis.arbitrari {
+  border-left-width: 6px;
+  border-left-color: #8f1c1c;
+  background: #fbeaea;
+  color: #6d1414;
+  font-weight: 600;
+}
+
+.taulell { display: flex; gap: 1.6rem; align-items: flex-start; flex-wrap: wrap; }
+/* La columna del mapa ocupa tot l'espai que queda fins als controls, pero el
+   llenc nomes fa 601 px: sense aixo tot quedava enganxat a l'esquerra amb un
+   forat al mig. En columna i centrat, el mapa, la barra de progres, l'ajuda i
+   les figures queden alineats entre ells i centrats a l'espai disponible. */
+.columna-mapa {
+  flex: 1 1 601px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Tot el que va a la columna es limita als 601 px del llenc, excepte la
+   GALERIA: aquelles son figures amples i han d'omplir la columna sencera. */
+.columna-mapa > :not(.galeria) { width: 100%; max-width: 601px; }
+.columna-controls { flex: 0 0 275px; min-width: 240px; }
+
+/* El llenc. image-rendering: pixelated es IMPRESCINDIBLE: cada pixel es un
+   punt de sortida calculat, i deixar que el navegador els suavitzi seria
+   inventar-se colors que no ha calculat ningu, precisament a la frontera. */
+.llenc { position: relative; display: block; line-height: 0; }
+#mapa {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  max-width: 601px;
+  border: 1px solid var(--eix);
+  background: var(--graella);
+  cursor: crosshair;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  touch-action: none;
+}
+
+/* El llenc dels anells dels imants, a sobre del mapa.
+   Va exactament damunt de la CAIXA DE CONTINGUT de #mapa: aquell te un border
+   d'1 px que no forma part del dibuix, i per aixo aqui hi ha l'1 px de
+   desplacament i els 2 de menys d'amplada. Si no, els anells quedarien un pixel
+   desplacats respecte del mapa -- poc, pero prou per no caure on toca.
+
+   SENSE image-rendering: pixelated, a posta i al reves que el mapa. Alla cada
+   pixel es un punt calculat i suavitzar-lo seria inventar-se colors; aixo son
+   cercles dibuixats, i alla el suavitzat es el que toca.
+
+   pointer-events: none es imprescindible: sense aixo el llenc de sobre es
+   menjaria els clics i no es podria arrossegar per ampliar. */
+#imants {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  pointer-events: none;
+}
+
+.requadre {
+  position: absolute;
+  border: 1.5px dashed var(--tinta);
+  background: rgba(11, 11, 11, .08);
+  pointer-events: none;
+}
+
+.progres { height: 3px; background: var(--graella); margin-top: .5rem; }
+#barra { height: 100%; width: 0; background: #1c4a8f; transition: width .12s linear; }
+
+.ajuda { margin: .5rem 0 0; color: var(--tinta-suau); font-size: 13px; }
+
+.bloc { margin-bottom: 1.35rem; }
+.bloc h2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--tinta-suau);
+  margin: 0 0 .45rem;
+  font-weight: 600;
+}
+
+.botonera { display: flex; gap: .35rem; flex-wrap: wrap; }
+.botonera button {
+  flex: 1 1 auto;
+  padding: .4rem .6rem;
+  font: inherit;
+  font-size: 13px;
+  color: var(--tinta);
+  background: var(--superficie);
+  border: 1px solid var(--eix);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.botonera button:hover:not(:disabled) { background: var(--graella); }
+.botonera button[aria-pressed="true"] {
+  background: var(--tinta);
+  border-color: var(--tinta);
+  color: var(--superficie);
+}
+.botonera button:disabled { opacity: .4; cursor: default; }
+
+.nota { margin: .45rem 0 0; font-size: 12.5px; color: var(--tinta-suau); }
+.nota.malament { color: #a33; font-weight: 600; }
+.nota.be { color: #2c6e49; }
+
+.lectura { width: 100%; border-collapse: collapse; font-size: 13px; }
+.lectura td { padding: .16rem 0; vertical-align: baseline; }
+.lectura td:first-child { color: var(--tinta-2); padding-right: .6rem; }
+.lectura td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Tres columnes, per a la taula del que ja esta calculat: l'etiqueta a
+   l'esquerra i els dos numeros a la dreta. */
+.lectura.tres td:nth-child(2) {
+  text-align: right;
+  padding-right: .55rem;
+  color: var(--tinta);
+  font-variant-numeric: tabular-nums;
+}
+.lectura.tres tr:first-child td {
+  color: var(--tinta-suau);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+/* Els parametres del muntatge. El simbol i el valor en una linia i que vol dir
+   a sota, en gris petit: en una columna de 275 px no hi cap cap taula de tres
+   columnes amb explicacions al costat. */
+.parametres { margin: 0; font-size: 13px; }
+.parametres dt {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .5rem;
+  margin-top: .6rem;
+}
+.parametres dt:first-child { margin-top: 0; }
+.parametres .simbol { color: var(--tinta-2); }
+.parametres .valor { text-align: right; font-variant-numeric: tabular-nums; }
+.parametres dd {
+  margin: .1rem 0 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--tinta-suau);
+}
+
+/* La marca de valor inventat, del color de l'avis de dalt de tot i no d'un
+   altre: es la mateixa cosa dita dues vegades, i s'ha de veure que ho es. */
+.inventat { color: #c85a28; font-weight: 700; }
+
+/* La pastilla de color de cada desti, perque la llista de "que hi ha" es
+   pugui llegir sense haver d'anar a mirar el mapa. */
+.pastilla {
+  display: inline-block;
+  width: .62rem;
+  height: .62rem;
+  border: 1px solid rgba(0, 0, 0, .25);
+  margin-right: .4rem;
+  vertical-align: -1px;
+}
+
+.peu {
+  margin-top: 2rem;
+  padding-top: .9rem;
+  border-top: 1px solid var(--graella);
+  color: var(--tinta-suau);
+  font-size: 12px;
+  max-width: 80ch;
+}
+.peu code { font-size: 11.5px; background: var(--graella); padding: .05rem .25rem; }
+
+/* ------------------------------------------------------------------------
+   La llegenda de colors del temps de caiguda.
+   Els colors NO es trien aqui: la barra la pinta pagina.js amb la mateixa
+   funcio que pinta els pixels del mapa (colorDeTemps), o sigui que la llegenda
+   no pot dir un color diferent del que hi ha al llenc. Aqui nomes hi ha la
+   forma.
+   ------------------------------------------------------------------------ */
+.barra-temps {
+  height: .7rem;
+  border: 1px solid var(--eix);
+  margin: .1rem 0 .3rem;
+}
+.extrems-temps {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11.5px;
+  color: var(--tinta-2);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------------------------------------------------------
+   La galeria, sota el mapa. Nomes hi ha les figures que la pagina no sap fer
+   sola; les que sap fer, les fa en viu aqui dalt.
+   ------------------------------------------------------------------------ */
+/* Les figures van DINS de la columna del mapa i sota seu, i n'omplen tota
+   l'amplada: del marge fins al requadre dels controls, separades d'ell pel gap
+   de 1,6 rem del taulell. Queden mes estretes que quan sortien de main (879 px
+   en comptes de 1500) i qui ho paga es l'autosemblanca, que son quatre mapes
+   de costat; a canvi van enganxades al mapa de que parlen, en comptes de
+   flotar a sota de tot.
+   Es clica una figura i es posa a mida completa dins del seu marc, o sigui que
+   la resolucio sencera no es perd.
+
+   L'AMPLADA VA EXPLICITA. La columna es un flex amb align-items: center, o
+   sigui que els fills NO s'estiren sols: fins aqui els la donava
+   .columna-mapa > *, i la galeria n'esta exclosa per treure's el topall de
+   601 px. Sense aquest 100 % l'amplada sortiria de resoldre fit-content
+   contra la columna, i no es cosa que hagi de dependre d'aixo. */
+.galeria {
+  margin-top: 2.6rem;
+  width: 100%;
+}
+.galeria h2 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--tinta-suau);
+  margin: 0 0 .8rem;
+  font-weight: 600;
+}
+
+.figura { margin-bottom: 1.8rem; }
+.figura h3 { font-size: 14px; margin: 0 0 .3rem; font-weight: 600; }
+/* Sense image-rendering: pixelated, i a posta. Al llenc cada pixel es un punt
+   calculat i suavitzar-lo seria inventar-se colors; aixo son figures de
+   matplotlib amb text i eixos, i alla el suavitzat es el que toca. */
+/* CADA FIGURA A LA SEVA MIDA NATURAL, amb el topall de l'amplada disponible.
+   Les quatre figures no fan la mateixa mida -- l'autosemblanca fa 3087 px
+   d'ample i la de friccio 1136 --, o sigui que forcar-les totes al 100 %
+   estiraria les petites i sortirien borroses. Amb width: auto, cap no
+   s'amplia mai per sobre del que te. */
+.marc-figura {
+  border: 1px solid var(--graella);
+  cursor: zoom-in;
+  overflow-x: auto;
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+}
+.marc-figura img { width: auto; max-width: 100%; height: auto; display: block; }
+
+/* Clicada: a mida completa dins del mateix marc, que es pot desplacar. No
+   s'obre en una pestanya nova perque des d'un fitxer local el navegador sol
+   bloquejar els data: URI. */
+.marc-figura.plena { cursor: zoom-out; }
+.marc-figura.plena img { width: auto; max-width: none; }
+.figura h3, .figura .peu-figura, .figura .altre-muntatge, .figura .ordre {
+  max-width: 88ch;
+  margin-inline: auto;
+}
+.figura .peu-figura { margin: .4rem auto 0; font-size: 12.5px; color: var(--tinta-2); }
+.figura .ordre {
+  margin: .25rem 0 0;
+  font-size: 11px;
+  color: var(--tinta-suau);
+  font-family: Consolas, "SF Mono", Menlo, monospace;
+  overflow-wrap: anywhere;
+}
+
+/* Una figura d'un muntatge que no es el que la pagina esta ensenyant. No es
+   cap error -- la de b = 0,8 hi es justament per comparar-la -- pero s'ha de
+   veure que els seus numeros no son els del mapa de dalt. */
+.figura .altre-muntatge {
+  margin: .3rem 0 0;
+  padding: .3rem .5rem;
+  border-left: 3px solid #c85a28;
+  background: #fdf3ec;
+  color: #7a3413;
+  font-size: 12px;
+}
+
+.falta {
+  padding: .5rem .7rem;
+  border-left: 3px solid var(--eix);
+  background: var(--graella);
+  color: var(--tinta-2);
+  font-size: 12.5px;
+  white-space: pre-line;
+}

@@ -1,0 +1,160 @@
+{
+  "origen": "tracker",
+  "fitxer_cru": "dades/video/tracker/150/150_7.trk",
+  "capcalera_original": [
+    "Fix",
+    "Rodament",
+    "Extrem"
+  ],
+  "fps": 239.9007194244604,
+  "durada_s": 67.01522212426005,
+  "n_mostres": 16078,
+  "pivot": [
+    0.0,
+    0.0
+  ],
+  "y_avall": true,
+  "signe_invertit": false,
+  "savgol": {
+    "finestra_mostres": 13,
+    "ordre": 3
+  },
+  "angles_inicials_graus": [
+    152.1913663320606,
+    155.80125477233003
+  ],
+  "angle_nominal_graus": 150.0,
+  "fitxer_trk": "dades/video/tracker/150/150_7.trk",
+  "video_del_trk": "../../conv/150/150_7.mp4",
+  "pistes": [
+    "Fix",
+    "Rodament",
+    "Extrem"
+  ],
+  "delta_t_s": 0.004168391001073586,
+  "angle_de_l_eix_al_trk_graus": 0.0,
+  "articulacio_corregida": false,
+  "geometria": {
+    "gir_graus": 1.1386220718965463,
+    "estabilitat_graus": 0.0009880858875907172,
+    "residu_px": 0.4907876545118038,
+    "delta_px": 6.174257880495775,
+    "L1_px": 190.71561489098127,
+    "L2_px": 227.43980613474108,
+    "cua_s": 2.0,
+    "tremolor_del_pivot": {
+      "max_px": 7.798095241282387,
+      "quan_s": 12.888664975319529,
+      "primer_segon_px": 0.2108182308232795,
+      "ultim_segon_px": 1.142670679331625,
+      "cobreix_de_s": 0.0,
+      "cobreix_fins_s": 67.01522212426005
+    },
+    "fix_cobreix_la_cua": true,
+    "fix_cobreix_el_principi": true,
+    "quiet_al_principi_s": 0.17507242204509063,
+    "velocitat_inicial_px_s": 0.0,
+    "rigidesa": {
+      "L1_sigma_px": 4.0649745072007235,
+      "L1_sigma_relatiu": 0.02101419196966444,
+      "L2_sigma_px": 4.227114933975246,
+      "L2_sigma_relatiu": 0.018635696469037052,
+      "soroll_angular_graus": [
+        1.2040245097394788,
+        1.0677467559626737
+      ]
+    },
+    "marca_articulacio": {
+      "mesurada": true,
+      "motiu": null,
+      "delta_px": 1.3656594915352553,
+      "incertesa_delta_px": 0.051150812001280695,
+      "de_costat_px": -4.135977276710954,
+      "incertesa_de_costat_px": 0.05073469085381548,
+      "gomet_px": 227.5317620960099,
+      "L1_px": 190.6195644798463,
+      "error_theta2_maxim_graus": 0.34389482244361436,
+      "rao_gomet_L1": 1.1845679195660546,
+      "rao_gomet_L1_a_leix": 1.1936432795704255,
+      "vibracio_px": 4.227114933975246,
+      "vibracio_a_leix_px": 3.4918940489731636,
+      "fotogrames": 16078,
+      "criteri_mm": 1.0,
+      "delta_mm": 0.8597183580364183,
+      "incertesa_delta_mm": 0.03220077360318724,
+      "rao_del_regle": 1.1583333333333334,
+      "a_leix": true,
+      "corregida": false,
+      "motiu_sense_correccio": "ja es a l'eix (|delta| <= 1 mm)"
+    }
+  },
+  "amollada": {
+    "hi_ha_amollada": true,
+    "motiu": null,
+    "amollada_s": 0.16744805624475095,
+    "incertesa_s": 0.008479506408432026,
+    "incertesa_fotogrames": 2.0342396878764784,
+    "angles_que_compten": [
+      "theta1"
+    ],
+    "repos_abans_s": 0.16744805624475095,
+    "discrepancia_entre_angles_s": 0.06318219340884657,
+    "angles_amollada_graus": [
+      152.18842954501915,
+      155.7937817115572
+    ],
+    "origen_dels_angles": "mitjana del repos",
+    "diferencia_repos_vertex_graus": [
+      0.8403160256163669,
+      1.2249331923453826
+    ],
+    "per_angle": {
+      "theta1": {
+        "instant_s": 0.16744805624475095,
+        "incertesa_s": 0.008450177976551817,
+        "residu": 0.18321986001320328,
+        "mena": "omega",
+        "grau_usat": 3,
+        "incertesa_ajust_s": 0.003380071190620727,
+        "sistematica_s": 0.0007046425301090176,
+        "incertesa_total_s": 0.008479506408432026,
+        "angle_rad": 2.6415228975957215,
+        "recorregut_graus": 21.08201169375666,
+        "rao_senyal_soroll": 17.50962004778315,
+        "finestra_s": [
+          0.17932664482936175,
+          0.2993266448293618
+        ],
+        "compta": true,
+        "llindar_senyal": 5.836540015927717
+      },
+      "theta2": {
+        "instant_s": 0.23063024965359752,
+        "incertesa_s": 0.011719572946194436,
+        "residu": 0.2254676926309112,
+        "mena": "omega",
+        "grau_usat": 1,
+        "incertesa_ajust_s": 0.004687829178477774,
+        "sistematica_s": 0.04387127820745518,
+        "incertesa_total_s": 0.045409662425491604,
+        "angle_rad": 2.697735327676608,
+        "recorregut_graus": 1.4606913836382973,
+        "rao_senyal_soroll": 1.213174127123338,
+        "finestra_s": [
+          0.17932664482936175,
+          0.2993266448293618
+        ],
+        "compta": false,
+        "llindar_senyal": 5.836540015927717
+      }
+    },
+    "finestra_ajust_s": [
+      0.17932664482936175,
+      0.2993266448293618
+    ],
+    "grau_del_polinomi": 3,
+    "finestra_filtre_s": 0.05418908301395662,
+    "fps": 239.90071943971046,
+    "avisos": []
+  }
+}
